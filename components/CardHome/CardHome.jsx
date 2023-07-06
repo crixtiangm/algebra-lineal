@@ -2,6 +2,13 @@ import { TouchableOpacity, Text, Image} from "react-native";
 import { s } from "./CardHome.style";
 import checkImg from "../../assets/check.png";
 
+/**
+ * 
+ * @topic prop del componente que contiene un objeto con la informació del tema ej: {id:1, title: "Grupos y Campos", isCompleted: false}
+ * @onLongPress prop del componente para cambiar el estado boolean del tema ej: {isCompleted: true}
+ * 
+ */
+
 const CardHome = ({ topic, onLongPress }) => {
 
     return(

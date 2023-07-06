@@ -1,8 +1,16 @@
 import { View, Text, TouchableOpacity } from "react-native";
 import { s } from "./TabBottomMenuHome.style";
 
+/**
+ * 
+ * @selectedTabName prop del componente para seleccionar el tab y filtrar los temas a mostrar 
+ * @onPress prop  del componente para seleccionar el tab "all", "inProgress" y "done"
+ * @topicList prop del componente que pasa un arreglo de objetos que contienen la informacion de los temas a mostar
+ */
+
 const TabBottomMenuHome = ({ selectedTabName, onPress, topicList }) => {
 
+    // Función countByStatus para mostar la cuenta en las opciones del footer en la aplicación
     const countByStatus = topicList.reduce((acc, topic) => {
         topic.isCompleted ? acc.done++ : acc.inProgress++
         return acc
@@ -11,7 +19,8 @@ const TabBottomMenuHome = ({ selectedTabName, onPress, topicList }) => {
         inProgress: 0,
         done: 0,
     })
-
+    
+    // Función getTextStyle que resalta en azul el tab seleccionado
     const getTextStyle = ( tabName ) => {
         return{
             fontWeight: "bold",

@@ -6,15 +6,18 @@ import { useState } from "react";
 
 const Home = () => {
 
+    //Data con el id y título de los temas inicializados en un hook useState
     const [ topicList, setTopicList ] = useState([
         { id: 1, title: "Grupos y Campos", isCompleted: false },
         { id: 2, title: "Espacios vectoriales", isCompleted:false },
-        { id: 3, title: "Transformaciones linelaes", isCompleted: false },
+        { id: 3, title: "Transformaciones lineales", isCompleted: false },
         { id: 4, title: "Espacios con producto interno", isCompleted: false },
         { id: 5, title: "Operadores lineales en espacios con producto interno", isCompleted: false }
     ]);
+    // Inicializamos siempre el tab en "all" mediante un hook useState
     const [ selectedTabName, setSelectedTabName ] = useState("all");
 
+    // Funcion que filtra el contenido de cards dependiendo el tab seleccionado
     const getFilteredList = () => {
         switch(selectedTabName){
             case "all":
@@ -26,6 +29,7 @@ const Home = () => {
         }
     }
 
+    //Función que renderiza las cards dependiendo el tab seleccionado
     const renderTopicList = () => {
         return getFilteredList().map((topic) => 
             <View key={topic.id} style={s.cardItem} >
@@ -34,6 +38,7 @@ const Home = () => {
         );
     };
 
+    //Función que actualiza la bandera isCompleted despues de presioonar la card por mas de tres segundos
     const updateTopic = (topic) => {
         const updatedTopic = { 
             ...topic, 
@@ -43,7 +48,7 @@ const Home = () => {
         const indexToUpdate = updateTopicList.findIndex( (t) => t.id === updatedTopic.id );
         updateTopicList[indexToUpdate] = updatedTopic;
         setTopicList(updateTopicList);
-    }   
+    }
 
     return(
         <>

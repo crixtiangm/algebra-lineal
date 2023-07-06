@@ -2,20 +2,57 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaProvider, SafeAreaView } from "react-native-safe-area-context";
 import { s } from "./Home.style";
 import { CardHome, Header, TabBottomMenuHome } from "../../components";
-import { useState } from "react";
+import { useEffect, useState } from "react";
+import AsyncStorage from "@react-native-async-storage/async-storage";
+import TopicData from "../../data/topics.json"; 
+
+let isFirstRender = true; //Bandera para controlar la carga de los datos
+let isLoadUpdate = false; //Bandera para controlar cuando se actualizan los datos y guardarlo
 
 const Home = () => {
 
     //Data con el id y título de los temas inicializados en un hook useState
-    const [ topicList, setTopicList ] = useState([
-        { id: 1, title: "Grupos y Campos", isCompleted: false },
-        { id: 2, title: "Espacios vectoriales", isCompleted:false },
-        { id: 3, title: "Transformaciones lineales", isCompleted: false },
-        { id: 4, title: "Espacios con producto interno", isCompleted: false },
-        { id: 5, title: "Operadores lineales en espacios con producto interno", isCompleted: false }
-    ]);
+    const [ topicList, setTopicList ] = useState([]);
+
     // Inicializamos siempre el tab en "all" mediante un hook useState
     const [ selectedTabName, setSelectedTabName ] = useState("all");
+
+    //Cargar los datos guardados cuando se inicia la aplicación
+    useEffect(() => {
+        loadTopicList();
+    },[]);
+
+    //Ejecuta la función saveTopicList para guardar cambios en la data cada que se actualiza topicList
+    useEffect(() => {
+        if(!isLoadUpdate){
+            !isFirstRender ? saveTopicList() : isFirstRender = false;
+        }else{
+            isLoadUpdate = false;
+        }
+    },[topicList]);
+
+    //Función que se encarga de pasar los datos de string a un objeto de JSON y así poder cargarlos de inicio
+    const loadTopicList = async () => {
+        console.log("LOAD");
+        try {
+            const topicListString = await AsyncStorage.getItem("@topicList");
+            const parsedTopicList = JSON.parse(topicListString);
+            isLoadUpdate = true;
+            setTopicList(parsedTopicList || TopicData);
+        } catch (error) {
+            alert(error)
+        };
+    };
+
+    //Función que guarda los cambios que el usuario va realizando en la aplicación ej: cuando se actualiza el boolean isComplete 
+    const saveTopicList = async () => {
+        console.log("SAVE")
+        try {
+            await AsyncStorage.setItem("@topicList", JSON.stringify(topicList));
+        } catch (error) {
+            alert(error);
+        };
+    };
 
     // Funcion que filtra el contenido de cards dependiendo el tab seleccionado
     const getFilteredList = () => {
@@ -26,8 +63,8 @@ const Home = () => {
                 return topicList.filter((topic) => topic.isCompleted === false);
             case "done": 
                 return topicList.filter((topic) => topic.isCompleted === true);
-        }
-    }
+        };
+    };
 
     //Función que renderiza las cards dependiendo el tab seleccionado
     const renderTopicList = () => {
@@ -48,7 +85,7 @@ const Home = () => {
         const indexToUpdate = updateTopicList.findIndex( (t) => t.id === updatedTopic.id );
         updateTopicList[indexToUpdate] = updatedTopic;
         setTopicList(updateTopicList);
-    }
+    };
 
     return(
         <>

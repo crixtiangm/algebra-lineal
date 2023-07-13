@@ -1,5 +1,6 @@
 import { TouchableOpacity, Text, Image} from "react-native";
 import { s } from "./CardHome.style";
+import { useNavigation } from "@react-navigation/native";
 import checkImg from "../../assets/check.png";
 
 /**
@@ -10,9 +11,10 @@ import checkImg from "../../assets/check.png";
  */
 
 const CardHome = ({ topic, onLongPress }) => {
+    const nav = useNavigation();
 
     return(
-        <TouchableOpacity onLongPress={() => onLongPress(topic)} style={s.card} >
+        <TouchableOpacity onPress={() => nav.navigate(`${topic.page}`,{...topic})} onLongPress={() => onLongPress(topic)} style={s.card} >
             <Text style={[s.topic, topic.isCompleted && {textDecorationLine: "line-through"}]} >{topic.title}</Text>
             {topic.isCompleted && <Image style={s.img} source={checkImg} />}
         </TouchableOpacity>

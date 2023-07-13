@@ -20,6 +20,7 @@ export const s = StyleSheet.create({
     },
     topic: {
         fontSize: 25,
+        textAlign: "center" 
     },
     imgTopic: {
         height: 70,

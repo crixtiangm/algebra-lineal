@@ -1,4 +1,4 @@
-import { ScrollView, Text, View } from "react-native";
+import { ScrollView, View } from "react-native";
 import { SafeAreaProvider, SafeAreaView } from "react-native-safe-area-context";
 import { s } from "./Home.style";
 import { CardHome, Header, TabBottomMenuHome } from "../../components";
@@ -11,7 +11,7 @@ let isLoadUpdate = false; //Bandera para controlar cuando se actualizan los dato
 
 const Home = () => {
 
-    //Data con el id y título de los temas inicializados en un hook useState
+    //hook para inicializar la data de los temas 
     const [ topicList, setTopicList ] = useState([]);
 
     // Inicializamos siempre el tab en "all" mediante un hook useState
@@ -38,7 +38,7 @@ const Home = () => {
             const topicListString = await AsyncStorage.getItem("@topicList");
             const parsedTopicList = JSON.parse(topicListString);
             isLoadUpdate = true;
-            setTopicList(parsedTopicList || TopicData);
+            parsedTopicList.length === 0 ? setTopicList(TopicData) : setTopicList(parsedTopicList);
         } catch (error) {
             alert(error)
         };
@@ -86,7 +86,7 @@ const Home = () => {
         updateTopicList[indexToUpdate] = updatedTopic;
         setTopicList(updateTopicList);
     };
-
+    
     return(
         <>
             <SafeAreaProvider>

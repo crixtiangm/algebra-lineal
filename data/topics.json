@@ -2,26 +2,31 @@
     { 
         "id": 1, 
         "title": "Grupos y Campos", 
-        "isCompleted": false 
+        "isCompleted": false,
+        "page": "GruposCampos"
     },
     { 
         "id": 2, 
         "title": "Espacios vectoriales", 
-        "isCompleted":false 
+        "isCompleted":false,
+        "page": "EspaciosVectoriales"
     },
     { 
         "id": 3, 
         "title": "Transformaciones lineales", 
-        "isCompleted": false 
+        "isCompleted": false,
+        "page": "TransformacionesLineales"
     },
     { 
         "id": 4, 
         "title": "Espacios con producto interno", 
-        "isCompleted": false 
+        "isCompleted": false,
+        "page": "EspaciosConProductoInterno"
     },
     { 
         "id": 5, 
         "title": "Operadores lineales en espacios con producto interno", 
-        "isCompleted": false 
+        "isCompleted": false,
+        "page": "OperadoresLineales"
     }
 ]

@@ -29,7 +29,7 @@ export default function App() {
         >
           <Stack.Screen name="Home" component={Home} />
           <Stack.Screen name="GruposCampos" >
-            {() => <GruposCampos onPress={() => setIsHelpDialogDisplay(true)} />}
+            {() => <GruposCampos onPressHelp={() => setIsHelpDialogDisplay(true)} />}
           </Stack.Screen>
         </Stack.Navigator>
       </NavigationContainer>

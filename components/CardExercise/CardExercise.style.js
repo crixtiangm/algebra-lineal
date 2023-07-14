@@ -15,15 +15,20 @@ export const s = StyleSheet.create({
         borderRadius: 15,
         flexDirection: "row",
         alignItems: "center",
-        justifyContent: "space-around",
+        justifyContent: "space-evenly",
         paddingHorizontal: 20,
     },
-    topic: {
+    exercise: {
         fontSize: 25,
-        textAlign: "center" 
+        textAlign: "center",
+    },
+    imgExercise: {
+        width: 65,
+        height: 65,
+        borderRadius: 10,
     },
     img: {
-        height: 25,
         width: 25,
+        height: 25,
     }
-});
+})

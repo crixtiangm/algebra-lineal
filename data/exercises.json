@@ -1,0 +1,72 @@
+[
+    {
+        "id": 1,
+        "statement": "Si G es un grupo de orden par, demostrar que el número de sus elementos de orden 2 es impar.",
+        "answer": "G contiene un número impar de elementos de orden 2",
+        "resolved": false,
+        "_topic": [
+            { 
+                "id": 1, 
+                "title": "Grupos y Campos", 
+                "isCompleted": false,
+                "page": "GruposCampos"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "statement": "Sea G un grupo de orden impar. Demostrar que para cada x € N existe y € G tal que y^2 = x.",
+        "answer": "y = x^n",
+        "resolved": false,
+        "_topic":[
+            { 
+                "id": 1, 
+                "title": "Grupos y Campos", 
+                "isCompleted": false,
+                "page": "GruposCampos"
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "statement": "Sea G un grupo y H, K ≤ G tales que |H| = 38 y |K| = 55. Demostrar que H ∩ K = {e}.",
+        "answer": "|H ∩ K| = 1, es decir H ∩ K = {e}",
+        "resolved": false,
+        "_topic":[
+            { 
+                "id": 1, 
+                "title": "Grupos y Campos", 
+                "isCompleted": false,
+                "page": "GruposCampos"
+            }
+        ]
+    },    
+    {
+        "id": 4,
+        "statement": "Demostrar que si G no es abeliano y tiene orden p^3 (p es un número primo), entonces Z(G) tiene orden p.",
+        "answer": "El único caso posible es |Z(G)| = p",
+        "resolved": false,
+        "_topic":[
+            { 
+                "id": 1, 
+                "title": "Grupos y Campos", 
+                "isCompleted": false,
+                "page": "GruposCampos"
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "statement": "Sea G un grupo finito y H un subgrupo normal de G con |H| = p^k. Demostrar que H ⊂ P para todo P p-subgrupo de Sylow de G.",
+        "answer": "Se cumple g^-1Hg = H y , por tanto, H ⊂ P.",
+        "resolved": false,
+        "_topic":[
+            { 
+                "id": 1, 
+                "title": "Grupos y Campos", 
+                "isCompleted": false,
+                "page": "GruposCampos"
+            }
+        ]
+    }
+]

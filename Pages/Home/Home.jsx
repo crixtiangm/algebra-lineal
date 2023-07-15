@@ -5,11 +5,13 @@ import { CardHome, Header, TabBottomMenuHome } from "../../components";
 import { useEffect, useState } from "react";
 import AsyncStorage from "@react-native-async-storage/async-storage";
 import TopicData from "../../data/topics.json"; 
+import { useNavigation } from "@react-navigation/native";
 
 let isFirstRender = true; //Bandera para controlar la carga de los datos
 let isLoadUpdate = false; //Bandera para controlar cuando se actualizan los datos y guardarlo
 
 const Home = () => {
+    const nav = useNavigation();
 
     //hook para inicializar la data de los temas 
     const [ topicList, setTopicList ] = useState([]);

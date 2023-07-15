@@ -14,7 +14,7 @@ const CardHome = ({ topic, onLongPress }) => {
     const nav = useNavigation();
 
     return(
-        <TouchableOpacity onPress={() => nav.navigate(`${topic.page}`,{...topic})} onLongPress={() => onLongPress(topic)} style={s.card} >
+        <TouchableOpacity onPress={() => nav.navigate("Exercise", {...topic})} onLongPress={() => onLongPress(topic)} style={s.card} >
             <Text style={[s.topic, topic.isCompleted && {textDecorationLine: "line-through"}]} >{topic.title}</Text>
             {topic.isCompleted && <Image style={s.img} source={checkImg} />}
         </TouchableOpacity>

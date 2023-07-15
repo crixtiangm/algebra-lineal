@@ -1,4 +1,4 @@
-import { GruposCampos, Home } from "./Pages";
+import { Exercise, GruposCampos, Home } from "./Pages";
 import { NavigationContainer } from "@react-navigation/native";
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
 import Dialog from "react-native-dialog";
@@ -30,6 +30,9 @@ export default function App() {
           <Stack.Screen name="Home" component={Home} />
           <Stack.Screen name="GruposCampos" >
             {() => <GruposCampos onPressHelp={() => setIsHelpDialogDisplay(true)} />}
+          </Stack.Screen>
+          <Stack.Screen name="Exercise" >
+            {() => <Exercise onPressHelp={() => setIsHelpDialogDisplay(true)} />}
           </Stack.Screen>
         </Stack.Navigator>
       </NavigationContainer>

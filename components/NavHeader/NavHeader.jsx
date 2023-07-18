@@ -16,11 +16,13 @@ const NavHeader = ({title, onPress}) => {
             </TouchableOpacity>
             <View>
                 <Image style={s.img} source={imgLogo} resizeMode="contain" ></Image>
-                <Text style={s.subtitle} >{title}</Text>
             </View>
             <TouchableOpacity onPress={onPress} >
                 <Image style={s.help_img} source={imgHelp} />
             </TouchableOpacity>
+        </View>
+        <View>
+            <Text style={s.subtitle} >{title}</Text>
         </View>
         </>
     );

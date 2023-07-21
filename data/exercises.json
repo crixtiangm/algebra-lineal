@@ -9,8 +9,7 @@
             { 
                 "id": 1, 
                 "title": "Grupos y Campos", 
-                "isCompleted": false,
-                "page": "GruposCampos"
+                "isCompleted": false
             }
         ]
     },
@@ -24,8 +23,7 @@
             { 
                 "id": 1, 
                 "title": "Grupos y Campos", 
-                "isCompleted": false,
-                "page": "GruposCampos"
+                "isCompleted": false
             }
         ]
     },
@@ -39,8 +37,7 @@
             { 
                 "id": 1, 
                 "title": "Grupos y Campos", 
-                "isCompleted": false,
-                "page": "GruposCampos"
+                "isCompleted": false
             }
         ]
     },    
@@ -54,8 +51,7 @@
             { 
                 "id": 1, 
                 "title": "Grupos y Campos", 
-                "isCompleted": false,
-                "page": "GruposCampos"
+                "isCompleted": false
             }
         ]
     },
@@ -69,8 +65,7 @@
             { 
                 "id": 1, 
                 "title": "Grupos y Campos", 
-                "isCompleted": false,
-                "page": "GruposCampos"
+                "isCompleted": false
             }
         ]
     },
@@ -84,8 +79,7 @@
             { 
                 "id": 2, 
                 "title": "Espacios vectoriales", 
-                "isCompleted":false,
-                "page": "EspaciosVectoriales"
+                "isCompleted":false
             }
         ]
     }

@@ -121,9 +121,9 @@ const Exercise = ({onPressHelp}) => {
             <SafeAreaProvider>
                 <SafeAreaView style={s.root} >
                     <View style={s.nav_header} >
-                        <NavHeader 
+                        <NavHeader
                             title={params.title} 
-                            onPress={onPressHelp} 
+                            onPress={onPressHelp}
                         />
                     </View>
                     <View style={s.body} >

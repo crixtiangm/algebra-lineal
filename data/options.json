@@ -1,0 +1,78 @@
+[
+    {
+        "id": 1,
+        "choice": "G contiene un número impar de elementos de orden 2",
+        "correctAnswer": true,
+        "_exercise": [
+            {
+                "id": 1,
+                "exercise": "1",
+                "statement": "Si G es un grupo de orden par, demostrar que el número de sus elementos de orden 2 es impar.",
+                "answer": "G contiene un número impar de elementos de orden 2",
+                "_topic": [
+                    { 
+                        "id": 1, 
+                        "title": "Grupos y Campos"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "choice": "G contiene un número par de elementos de orden 2",
+        "correctAnswer": false,
+        "_exercise": [
+            {
+                "id": 1,
+                "exercise": "1",
+                "statement": "Si G es un grupo de orden par, demostrar que el número de sus elementos de orden 2 es impar.",
+                "answer": "G contiene un número impar de elementos de orden 2",
+                "_topic": [
+                    { 
+                        "id": 1, 
+                        "title": "Grupos y Campos"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "choice": "G contiene un número impar de elementos de orden 3",
+        "correctAnswer": false,
+        "_exercise": [
+            {
+                "id": 1,
+                "exercise": "1",
+                "statement": "Si G es un grupo de orden par, demostrar que el número de sus elementos de orden 2 es impar.",
+                "answer": "G contiene un número impar de elementos de orden 2",
+                "_topic": [
+                    { 
+                        "id": 1, 
+                        "title": "Grupos y Campos"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "choice": "G contiene un número impar de elementos de orden 1",
+        "correctAnswer": false,
+        "_exercise": [
+            {
+                "id": 1,
+                "exercise": "1",
+                "statement": "Si G es un grupo de orden par, demostrar que el número de sus elementos de orden 2 es impar.",
+                "answer": "G contiene un número impar de elementos de orden 2",
+                "_topic": [
+                    { 
+                        "id": 1, 
+                        "title": "Grupos y Campos"
+                    }
+                ]
+            }
+        ]
+    }
+]

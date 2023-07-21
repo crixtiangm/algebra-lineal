@@ -4,3 +4,7 @@ export { default as TabBottomMenuHome } from "./TabBottomMenuHome/TabBottomMenuH
 export { default as NavHeader } from "./NavHeader/NavHeader";
 export { default as CardExercise } from "./CardExercise/CardExercise";
 export { default as TabBottomMenuExercise } from "./TabBottomMenuExercise/TabBottomMenuExercise";
+export { default as NavHeaderQuestion } from "./NavHeaderQuestion/NavHeaderQuestion";
+export { default as Ask } from "./Ask/Ask";
+export { default as CardAnswer } from "./CardAnswer/CardAnswer";
+export { default as TabBottomMenuAnswer } from "./TabBottomMenuAnswer/TabBottomMenuAnswer";

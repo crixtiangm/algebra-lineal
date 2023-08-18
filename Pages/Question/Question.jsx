@@ -3,27 +3,36 @@ import { s } from "./Question.style";
 import { ScrollView, Text, View} from "react-native";
 import { Ask, CardAnswer, NavHeaderQuestion, TabBottomMenuAnswer } from "../../components";
 import optionData from "../../data/options.json";
-import { useRoute } from "@react-navigation/native";
+import { useNavigation, useRoute } from "@react-navigation/native";
 import CheckBox from "expo-checkbox";
 import { useEffect, useState } from "react";
+import Dialog from "react-native-dialog";
 
 // Arrego donde se agregaran las respuestas de forma aleatoría del ejercicio seleccionado
 let options = [
-    {option: "a)",isChecked: false},
-    {option: "b)",isChecked: false},
-    {option: "c)",isChecked: false},
-    {option: "d)",isChecked: false}
+    {option: "a)",isChecked: false, viewAnswer: false},
+    {option: "b)",isChecked: false, viewAnswer: false},
+    {option: "c)",isChecked: false, viewAnswer: false},
+    {option: "d)",isChecked: false, viewAnswer: false}
 ]
 
 const Question = ({onPressHelp}) => {
+    const nav = useNavigation();
+
     // Datos del ejercicio seleccionado que se pasan mediante nav en param 
     const { params } = useRoute();
-
+    //console.log(params)
     // Hook para inicializar la lista de respuestas opcionales
     const [answerList, setAnswerList] = useState([]);
 
     // Hook para inicializar el tab siempre en Exercise
     const [selectedTabName, setSelectedTabName] = useState("Exercise");
+
+    // Hook para ocultar y mostrar el dialogo de respuesta erronea
+    const [isWrongAnswerDialogDisplay, setIsWrongAnswerDialogDisplay] = useState(false);
+
+    // Hook para ocultar y mostrar el dialogo de respuesta correcta
+    const [isCorrectAnswerDialogDisplay, setIsCorrectAnswerDialogDisplay] = useState(false);
 
     // Hook para cargar la lista de respuestas asociadas al Ejercicio seleccionado
     useEffect(() => {
@@ -91,7 +100,44 @@ const Question = ({onPressHelp}) => {
         })
         updatedAnswerList[indexToUpdate] = updatedAnswer;
         setAnswerList(updatedAnswerList);
+        updatedAnswer.correctAnswer ? setIsCorrectAnswerDialogDisplay(true) : setIsWrongAnswerDialogDisplay(true);
     }
+
+    //Diálogo de respuesta incorrecta seleccionada
+    const renderWrongAnswerDialog = () => {
+        return(
+        <Dialog.Container visible={isWrongAnswerDialogDisplay} onBackdropPress={() => setIsWrongAnswerDialogDisplay(false)} >
+            <Dialog.Title >Respuesta incorrecta</Dialog.Title>
+            <Dialog.Description>Si deseas ver la solución selecciona el botón correspondiente, de lo contrario puedes volver a intentarlo.</Dialog.Description>
+            <Dialog.Button label="Intentar" color="grey" onPress={() => setIsWrongAnswerDialogDisplay(false) } />
+            <Dialog.Button 
+                label="Solución" 
+                onPress={() => {
+                    nav.navigate("Solution",{...params});
+                    setIsWrongAnswerDialogDisplay(false);
+                }}
+            />
+        </Dialog.Container>
+        );
+    };
+
+    //Dialogo de respuesta correcta seleccionada
+    const renderCorrectAnswerDialog = () => {
+        return(
+            <Dialog.Container visible={isCorrectAnswerDialogDisplay} onBackdropPress={() => nav.goBack()} >
+                <Dialog.Title >Respuesta correcta</Dialog.Title>
+                <Dialog.Description>Muchas felicidades tu respuesta es correcta, si deseas ver la solución oprime el botón correspondiente.</Dialog.Description>
+                <Dialog.Button label="Ejercicios" color="grey" onPress={() => nav.goBack() } />
+                <Dialog.Button 
+                    label="Solución" 
+                    onPress={() => {
+                        nav.navigate("Solution",{...params});
+                        setIsCorrectAnswerDialogDisplay(false);
+                    }}
+                />
+            </Dialog.Container>
+        );
+    };
     
     return(
         <>
@@ -117,6 +163,8 @@ const Question = ({onPressHelp}) => {
                     exerciseNum={params.exercise}
                 />
             </View>
+            {renderCorrectAnswerDialog()}
+            {renderWrongAnswerDialog()}
         </>
     );
 };

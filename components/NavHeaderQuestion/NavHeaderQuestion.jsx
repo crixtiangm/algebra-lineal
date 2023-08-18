@@ -1,7 +1,7 @@
 import { Image, Text, TouchableOpacity, View } from "react-native";
 import { s } from "./NavHeaderQuestion.style";
 import { useNavigation } from "@react-navigation/native";
-import imgLogo from "../../assets/logo.png"
+import imgLogo from "../../assets/logo.png";
 import imgBack from "../../assets/arrow_back.png";
 import imgHelp from "../../assets/help.png";
 

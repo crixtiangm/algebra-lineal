@@ -4,6 +4,7 @@
         "exercise": "1",
         "statement": "Si G es un grupo de orden par, demostrar que el número de sus elementos de orden 2 es impar.",
         "answer": "G contiene un número impar de elementos de orden 2",
+        "solution": "Los elementos de G pueden dividirse en dos clases disjuntas: Q = {x ∈ G : x^2 ≠ e } y G\/Q. Si x ∈ Q, entonces x ≠ x^-1 y o(x^-1) ≠ 2. Por lo tanto, los elemento de Q van emparejados: cada x con su inverso x^-1; es decir, hay un numero par de ellos. Se sigue que el número de elementos en x ∈ G\/Q (para los cuales x^2 = e) tambien es par. De todos ellos solamente x = e no es de orden 2. Conclusión: G contiene un número impar de elementos de orden 2",
         "resolved": false,
         "_topic": [
             { 
@@ -18,6 +19,7 @@
         "exercise": "2",
         "statement": "Sea G un grupo de orden impar. Demostrar que para cada x € N existe y € G tal que y^2 = x.",
         "answer": "y = x^n",
+        "solution": "",
         "resolved": false,
         "_topic":[
             { 
@@ -32,6 +34,7 @@
         "exercise": "3",
         "statement": "Sea G un grupo y H, K ≤ G tales que |H| = 38 y |K| = 55. Demostrar que H ∩ K = {e}.",
         "answer": "|H ∩ K| = 1, es decir H ∩ K = {e}",
+        "solution": "",
         "resolved": false,
         "_topic":[
             { 
@@ -46,6 +49,7 @@
         "exercise": "4",
         "statement": "Demostrar que si G no es abeliano y tiene orden p^3 (p es un número primo), entonces Z(G) tiene orden p.",
         "answer": "El único caso posible es |Z(G)| = p",
+        "solution": "",
         "resolved": false,
         "_topic":[
             { 
@@ -60,10 +64,11 @@
         "exercise": "5",
         "statement": "Sea G un grupo finito y H un subgrupo normal de G con |H| = p^k. Demostrar que H ⊂ P para todo P p-subgrupo de Sylow de G.",
         "answer": "Se cumple g^-1Hg = H y , por tanto, H ⊂ P.",
+        "solution": "",
         "resolved": false,
         "_topic":[
             { 
-                "id": 1, 
+                "id": 1,
                 "title": "Grupos y Campos", 
                 "isCompleted": false
             }
@@ -74,6 +79,7 @@
         "exercise": "1",
         "statement": "Si V es un espacio vectorial de dimension 1, ¿cómo son sus bases?",
         "answer": "Las bases de V constan de un único vector no nulo.",
+        "solution": "",
         "resolved": false,
         "_topic": [
             { 

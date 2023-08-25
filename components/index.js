@@ -10,3 +10,5 @@ export { default as CardAnswer } from "./CardAnswer/CardAnswer";
 export { default as TabBottomMenuAnswer } from "./TabBottomMenuAnswer/TabBottomMenuAnswer";
 export { default as NavHeaderSolution } from "./NavHeaderSolution/NavHeaderSolution";
 export { default as ExerciseSolution } from "./ExerciseSolution/ExerciseSolution";
+export { default as NavHeaderTheory } from "./NavHeaderTheory/NavHeaderTheory";
+export { default as TabBottomMenuTheory } from "./TabBottomMenuTheory/TabBottomMenuTheory";

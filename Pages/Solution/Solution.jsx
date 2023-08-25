@@ -6,7 +6,7 @@ import { useRoute } from "@react-navigation/native";
 
 const Solution = () => {
     const { params } = useRoute();
-    console.log(params)
+    
     return(
         <>
             <SafeAreaProvider>

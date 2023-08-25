@@ -1,4 +1,4 @@
-import { Exercise, Home, Question, Solution } from "./Pages";
+import { Exercise, Home, Question, Solution, Theory } from "./Pages";
 import { NavigationContainer } from "@react-navigation/native";
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
 import Dialog from "react-native-dialog";
@@ -9,7 +9,6 @@ export default function App() {
   
   const [isHelpDialogDisplay, setIsHelpDialogDisplay] = useState(false);
   const [isHelpDialogQuestionDisplay, setIsHelpDialogQuestionDisplay] = useState(false);
-  //const [isWrongAnswerDialogDisplay, setIsWrongAnswerDialogDisplay] = useState(false);
 
   //Diálogo de ayuda para selección de ejercicios
   const renderHelpDialog = () => {
@@ -32,17 +31,6 @@ export default function App() {
       </Dialog.Container>
     );
   };
-/* 
-  //Diálogo de respuesta seleccionada
-  const renderWrongAnswerDialog = () => {
-    return(
-      <Dialog.Container visible={isWrongAnswerDialogDisplay} onBackdropPress={() => setIsWrongAnswerDialogDisplay(false)} >
-        <Dialog.Title >Respuesta seleccionada</Dialog.Title>
-        <Dialog.Description>Resuelve el ejercicio y elige la respuesta correcta entre los incisios mostrados</Dialog.Description>
-        <Dialog.Button label="Cancelar" onPress={() => setIsWrongAnswerDialogDisplay(false)}/>
-      </Dialog.Container>
-    );
-  }; */
 
   return (
     <>
@@ -60,6 +48,7 @@ export default function App() {
             {() => <Question onPressHelp={() => setIsHelpDialogQuestionDisplay(true)} />}
           </Stack.Screen>
           <Stack.Screen name="Solution" component={Solution} />
+          <Stack.Screen name="Theory" component={Theory} />
         </Stack.Navigator>
       </NavigationContainer>
       {renderHelpDialog()}

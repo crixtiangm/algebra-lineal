@@ -1,7 +1,10 @@
 import { Text, TouchableOpacity, View } from "react-native";
 import { s } from "./TabBottomMenuAnswer.style";
+import { useNavigation } from "@react-navigation/native";
 
-const TabBottomMenuAnswer = ({selectedTabName, onPress, exerciseNum}) => {
+const TabBottomMenuAnswer = ({selectedTabName, onPress, exerciseNum, title}) => {
+
+    const nav = useNavigation();
 
     // Función getTextStyle que resalta en azul el tab seleccionado
     const getTabName = (tabName) => {
@@ -10,13 +13,13 @@ const TabBottomMenuAnswer = ({selectedTabName, onPress, exerciseNum}) => {
             color: selectedTabName === tabName ? "#2F76E5" : "black"
         }
     }
-
+    
     return(
         <View style={s.root}>
             <TouchableOpacity onPress={() => onPress("Exercise")} >
                 <Text style={getTabName("Exercise")}>Ejercicio {exerciseNum}</Text>
             </TouchableOpacity>
-            <TouchableOpacity onPress={() => onPress("Theory")} >
+            <TouchableOpacity onPress={() => nav.navigate("Theory",{exerciseNum, title})} >
                 <Text style={getTabName("Theory")} >Teoría</Text>
             </TouchableOpacity>
         </View>

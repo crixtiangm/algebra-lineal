@@ -65,7 +65,7 @@ const Exercise = ({onPressHelp}) => {
             isLoadUpdate = true;
             parsedExerciseList === null || parsedExerciseList.length === 0 ? setExerciseList(exerciseData): setExerciseList(parsedExerciseList);
             setFilterExerciseList(listFiltered);
-            //removeData();   
+            removeData();   
         } catch (error) {
             alert(error);
         };

@@ -74,5 +74,81 @@
                 ]
             }
         ]
+    },
+    {
+        "id":41,
+        "choice": "$\\begin{Bmatrix}\\begin{bmatrix}0 & 0\\\\ 0 & 0 \\end{bmatrix} , \\begin{bmatrix}1 & 0\\\\ 1 & 2 \\end{bmatrix} , \\begin{bmatrix}0 & 0\\\\ 1 & 2 \\end{bmatrix}\\end{Bmatrix}",
+        "correctAnswer": false,
+        "_exercise": [
+            {
+                "id": 11,
+                "exercise": "1",
+                "statement": "Sea el espacio vectorial $$M = \\begin{Bmatrix}\\begin{bmatrix}m & 0\\\\ n & 2p \\end{bmatrix} \\mid m,n,p\\in \\mathbb R \\end{Bmatrix}$$ Una base de M es:",
+                "answer": "$\\begin{Bmatrix}\\begin{bmatrix}1 & 0\\\\ 0 & 0 \\end{bmatrix} , \\begin{bmatrix}0 & 0\\\\ 1 & 0 \\end{bmatrix} , \\begin{bmatrix}0 & 0\\\\ 0 & 2 \\end{bmatrix}\\end{Bmatrix}",
+                "_topic": [
+                    { 
+                        "id": 2, 
+                        "title": "Espacios vectoriales"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":42,
+        "choice": "$\\begin{Bmatrix}\\begin{bmatrix}1 & 0\\\\ 1 & 2 \\end{bmatrix} , \\begin{bmatrix}0 & 0\\\\ 1 & 0 \\end{bmatrix} , \\begin{bmatrix}1 & 0\\\\ 2 & 2 \\end{bmatrix}\\end{Bmatrix}",
+        "correctAnswer": false,
+        "_exercise": [
+            {
+                "id": 11,
+                "exercise": "1",
+                "statement": "Sea el espacio vectorial $$M = \\begin{Bmatrix}\\begin{bmatrix}m & 0\\\\ n & 2p \\end{bmatrix} \\mid m,n,p\\in \\mathbb R \\end{Bmatrix}$$ Una base de M es:",
+                "answer": "$\\begin{Bmatrix}\\begin{bmatrix}1 & 0\\\\ 0 & 0 \\end{bmatrix} , \\begin{bmatrix}0 & 0\\\\ 1 & 0 \\end{bmatrix} , \\begin{bmatrix}0 & 0\\\\ 0 & 2 \\end{bmatrix}\\end{Bmatrix}",
+                "_topic": [
+                    { 
+                        "id": 2, 
+                        "title": "Espacios vectoriales"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":43,
+        "choice": "$\\begin{Bmatrix}\\begin{bmatrix}1 & 0\\\\ 0 & 0 \\end{bmatrix} , \\begin{bmatrix}0 & 0\\\\ 1 & 0 \\end{bmatrix} , \\begin{bmatrix}0 & 0\\\\ 0 & 2 \\end{bmatrix}\\end{Bmatrix}",
+        "correctAnswer": true,
+        "_exercise": [
+            {
+                "id": 11,
+                "exercise": "1",
+                "statement": "Sea el espacio vectorial $$M = \\begin{Bmatrix}\\begin{bmatrix}m & 0\\\\ n & 2p \\end{bmatrix} \\mid m,n,p\\in \\mathbb R \\end{Bmatrix}$$ Una base de M es:",
+                "answer": "$\\begin{Bmatrix}\\begin{bmatrix}1 & 0\\\\ 0 & 0 \\end{bmatrix} , \\begin{bmatrix}0 & 0\\\\ 1 & 0 \\end{bmatrix} , \\begin{bmatrix}0 & 0\\\\ 0 & 2 \\end{bmatrix}\\end{Bmatrix}",
+                "_topic": [
+                    { 
+                        "id": 2, 
+                        "title": "Espacios vectoriales"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":44,
+        "choice": "$\\begin{Bmatrix}\\begin{bmatrix}0 & 0\\\\ 1 & 0 \\end{bmatrix} , \\begin{bmatrix}0 & 0\\\\ 2 & 0 \\end{bmatrix} , \\begin{bmatrix}0 & 0\\\\ 2 & 0 \\end{bmatrix}\\end{Bmatrix}",
+        "correctAnswer": true,
+        "_exercise": [
+            {
+                "id": 11,
+                "exercise": "1",
+                "statement": "Sea el espacio vectorial $$M = \\begin{Bmatrix}\\begin{bmatrix}m & 0\\\\ n & 2p \\end{bmatrix} \\mid m,n,p\\in \\mathbb R \\end{Bmatrix}$$ Una base de M es:",
+                "answer": "$\\begin{Bmatrix}\\begin{bmatrix}1 & 0\\\\ 0 & 0 \\end{bmatrix} , \\begin{bmatrix}0 & 0\\\\ 1 & 0 \\end{bmatrix} , \\begin{bmatrix}0 & 0\\\\ 0 & 2 \\end{bmatrix}\\end{Bmatrix}",
+                "_topic": [
+                    { 
+                        "id": 2, 
+                        "title": "Espacios vectoriales"
+                    }
+                ]
+            }
+        ]
     }
 ]

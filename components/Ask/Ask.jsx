@@ -1,10 +1,14 @@
 import { Text, View } from "react-native";
 import { s } from "./Ask.style";
+import { MathText } from 'react-native-math-view';
 
 const Ask = ({ exerciseNum, statement }) => {
     return(
         <View style={s.container} >
-            <Text style={s.statement}  >{`${exerciseNum}.- ${statement}`}</Text>
+            <MathText
+                value={`${exerciseNum}.- ${statement}`}
+                CellRendererComponent={<Text style={s.statement} />}
+            />
         </View>
     );
 };

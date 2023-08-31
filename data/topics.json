@@ -1,10 +1,5 @@
 [
     { 
-        "id": 1, 
-        "title": "Grupos y Campos", 
-        "isCompleted": false
-    },
-    { 
         "id": 2, 
         "title": "Espacios vectoriales", 
         "isCompleted":false

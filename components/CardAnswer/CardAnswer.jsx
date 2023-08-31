@@ -1,6 +1,7 @@
 import { Text, TouchableOpacity, View } from "react-native";
 import CheckBox from "expo-checkbox";
 import { s } from "./CardAnswer.style";
+import { MathText } from 'react-native-math-view';
 
 const CardAnswer = ({answer, onPress}) => {
     // Destructuramos answer 
@@ -14,7 +15,10 @@ const CardAnswer = ({answer, onPress}) => {
                     value={isChecked}
                     color={isChecked && correctAnswer ? "#77DD77" : undefined}
                 />
-                <Text style={s.txtAnswer} >{`${option} ${statement}`}</Text>
+                <MathText
+                    value={`${option} ${statement}`}
+                    CellRendererComponent={<Text style={s.txtAnswer} />}
+                />
             </View>
         </TouchableOpacity>
     );

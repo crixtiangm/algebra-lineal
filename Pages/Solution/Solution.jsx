@@ -1,4 +1,4 @@
-import { Text, View } from "react-native";
+import { ScrollView, Text, View } from "react-native";
 import { s } from "./Solution.style";
 import { SafeAreaProvider, SafeAreaView } from "react-native-safe-area-context";
 import { ExerciseSolution, NavHeaderSolution } from "../../components";
@@ -15,7 +15,9 @@ const Solution = () => {
                         <NavHeaderSolution title={params._topic[0].title} />
                     </View>
                     <View style={s.body} >
-                        <ExerciseSolution solution={params.solution} />
+                        <ScrollView>
+                            <ExerciseSolution solution={params.solution} />
+                        </ScrollView>
                     </View>
                 </SafeAreaView>
             </SafeAreaProvider>

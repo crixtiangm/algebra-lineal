@@ -150,5 +150,689 @@
                 ]
             }
         ]
+    },
+    {
+        "id":45,
+        "choice": "$4",
+        "correctAnswer": true,
+        "_exercise": [
+            {
+                "id": 12,
+                "exercise": "2",
+                "statement": "La dimensión del espacio $$M = \\begin{Bmatrix}\\begin{bmatrix}-z_1 & z_1\\\\ z_2 & 0 \\end{bmatrix} \\mid z_,z_2\\in \\mathbb C \\end{Bmatrix}$$ definido sobre el campo de los números reales, es:",
+                "answer": "$4",
+                "_topic": [
+                    { 
+                        "id": 2, 
+                        "title": "Espacios vectoriales"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":46,
+        "choice": "$2",
+        "correctAnswer": false,
+        "_exercise": [
+            {
+                "id": 12,
+                "exercise": "2",
+                "statement": "La dimensión del espacio $$M = \\begin{Bmatrix}\\begin{bmatrix}-z_1 & z_1\\\\ z_2 & 0 \\end{bmatrix} \\mid z_,z_2\\in \\mathbb C \\end{Bmatrix}$$ definido sobre el campo de los números reales, es:",
+                "answer": "$4",
+                "_topic": [
+                    { 
+                        "id": 2, 
+                        "title": "Espacios vectoriales"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":47,
+        "choice": "$0",
+        "correctAnswer": false,
+        "_exercise": [
+            {
+                "id": 12,
+                "exercise": "2",
+                "statement": "La dimensión del espacio $$M = \\begin{Bmatrix}\\begin{bmatrix}-z_1 & z_1\\\\ z_2 & 0 \\end{bmatrix} \\mid z_,z_2\\in \\mathbb C \\end{Bmatrix}$$ definido sobre el campo de los números reales, es:",
+                "answer": "$4",
+                "_topic": [
+                    { 
+                        "id": 2, 
+                        "title": "Espacios vectoriales"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":48,
+        "choice": "$1",
+        "correctAnswer": false,
+        "_exercise": [
+            {
+                "id": 12,
+                "exercise": "2",
+                "statement": "La dimensión del espacio $$M = \\begin{Bmatrix}\\begin{bmatrix}-z_1 & z_1\\\\ z_2 & 0 \\end{bmatrix} \\mid z_,z_2\\in \\mathbb C \\end{Bmatrix}$$ definido sobre el campo de los números reales, es:",
+                "answer": "$4",
+                "_topic": [
+                    { 
+                        "id": 2, 
+                        "title": "Espacios vectoriales"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":49,
+        "choice":"$\\{ax^2 + bx + c \\mid a,b,c \\in \\mathbb R\\}",
+        "correctAnswer": true,
+        "_exercise": [
+            {
+                "id": 13,
+                "exercise": "3",
+                "statement": "Sea el conjunto $$A = \\{ x^2 + x + 3, x^2 - 2x + 7, 1, -x^2 + 1\\}$$. El espacio generado por A, sobre el campo real, es:",
+                "answer": "$\\{ax^2 + bx + c \\mid a,b,c \\in \\mathbb R\\}",
+                "_topic": [
+                    {
+                        "id": 2, 
+                        "title": "Espacios vectoriales"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":50,
+        "choice":"$\\{ax^2 + bx \\mid a,b \\in \\mathbb R\\}",
+        "correctAnswer": false,
+        "_exercise": [
+            {
+                "id": 13,
+                "exercise": "3",
+                "statement": "Sea el conjunto $$A = \\{ x^2 + x + 3, x^2 - 2x + 7, 1, -x^2 + 1\\}$$. El espacio generado por A, sobre el campo real, es:",
+                "answer": "$\\{ax^2 + bx + c \\mid a,b,c \\in \\mathbb R\\}",
+                "_topic": [
+                    {
+                        "id": 2, 
+                        "title": "Espacios vectoriales"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":51,
+        "choice":"$\\{0x^2 + 0x + 0\\}",
+        "correctAnswer": false,
+        "_exercise": [
+            {
+                "id": 13,
+                "exercise": "3",
+                "statement": "Sea el conjunto $$A = \\{ x^2 + x + 3, x^2 - 2x + 7, 1, -x^2 + 1\\}$$. El espacio generado por A, sobre el campo real, es:",
+                "answer": "$\\{ax^2 + bx + c \\mid a,b,c \\in \\mathbb R\\}",
+                "_topic": [
+                    {
+                        "id": 2, 
+                        "title": "Espacios vectoriales"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":52,
+        "choice":"$\\{0x^2 + 0x + c \\mid c \\in \\mathbb R\\}",
+        "correctAnswer": false,
+        "_exercise": [
+            {
+                "id": 13,
+                "exercise": "3",
+                "statement": "Sea el conjunto $$A = \\{ x^2 + x + 3, x^2 - 2x + 7, 1, -x^2 + 1\\}$$. El espacio generado por A, sobre el campo real, es:",
+                "answer": "$\\{ax^2 + bx + c \\mid a,b,c \\in \\mathbb R\\}",
+                "_topic": [
+                    {
+                        "id": 2, 
+                        "title": "Espacios vectoriales"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 53,
+        "choice": "$E(S) = \\{(-\\frac{8}{7}z,\\frac{5}{7}z,z) \\mid z \\in \\mathbb R \\}; dim E(S) = 1",
+        "correctAnswer": true,
+        "_exercise": [
+            {
+                "id": 14,
+                "exercise": "4",
+                "statement": "Sea el sistema de ecuaciones lineales $$\\begin{matrix}x + 3y -z = 0 \\\\x - 4y + 4z = 0\\\\3x + 2y + 2z = 0 \\end{matrix}$$ \nEl espacio solución y la dimensión de dicho espacio, es:",
+                "answer": "$E(S) = \\{(-\\frac{8}{7}z,\\frac{5}{7}z,z) \\mid z \\in \\mathbb R \\}; dim E(S) = 1",
+                "_topic": [
+                    {
+                        "id": 2, 
+                        "title": "Espacios vectoriales"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 54,
+        "choice": "$E(S) = \\{(0,0,0)\\};dim E(S) = 0",
+        "correctAnswer": false,
+        "_exercise": [
+            {
+                "id": 14,
+                "exercise": "4",
+                "statement": "Sea el sistema de ecuaciones lineales $$\\begin{matrix}x + 3y -z = 0 \\\\x - 4y + 4z = 0\\\\3x + 2y + 2z = 0 \\end{matrix}$$ \nEl espacio solución y la dimensión de dicho espacio, es:",
+                "answer": "$E(S) = \\{(-\\frac{8}{7}z,\\frac{5}{7}z,z) \\mid z \\in \\mathbb R \\}; dim E(S) = 1",
+                "_topic": [
+                    {
+                        "id": 2, 
+                        "title": "Espacios vectoriales"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 55,
+        "choice": "$E(S) = \\{(x,y,z) \\mid x,y,z \\in \\mathbb R\\}; dim E(S) = 3",
+        "correctAnswer": false,
+        "_exercise": [
+            {
+                "id": 14,
+                "exercise": "4",
+                "statement": "Sea el sistema de ecuaciones lineales $$\\begin{matrix}x + 3y -z = 0 \\\\x - 4y + 4z = 0\\\\3x + 2y + 2z = 0 \\end{matrix}$$ \nEl espacio solución y la dimensión de dicho espacio, es:",
+                "answer": "$E(S) = \\{(-\\frac{8}{7}z,\\frac{5}{7}z,z) \\mid z \\in \\mathbb R \\}; dim E(S) = 1",
+                "_topic": [
+                    {
+                        "id": 2, 
+                        "title": "Espacios vectoriales"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 56,
+        "choice": "$E(S) = \\{(x-z,z,z) \\mid z \\in \\mathbb R\\};dim E(S) = 2",
+        "correctAnswer": false,
+        "_exercise": [
+            {
+                "id": 14,
+                "exercise": "4",
+                "statement": "Sea el sistema de ecuaciones lineales $$\\begin{matrix}x + 3y -z = 0 \\\\x - 4y + 4z = 0\\\\3x + 2y + 2z = 0 \\end{matrix}$$ \nEl espacio solución y la dimensión de dicho espacio, es:",
+                "answer": "$E(S) = \\{(-\\frac{8}{7}z,\\frac{5}{7}z,z) \\mid z \\in \\mathbb R \\}; dim E(S) = 1",
+                "_topic": [
+                    {
+                        "id": 2, 
+                        "title": "Espacios vectoriales"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 57,
+        "choice": "$(-1,-3-i)",
+        "correctAnswer": true,
+        "_exercise": [
+            {
+                "id": 15,
+                "exercise": "5",
+                "statement": "Sea  $M^A_B = \\begin{bmatrix}1 & 1 & 0 \\\\-2 & -1 & 0 \\\\0 & 0 & 1\\end{bmatrix}$ la matriz de transición de la base A, a la base B, una base $$ A = \\{(1,i),(0,i),(-1,-1)\\}.$$ \nEl vector de coordenadas de $\\vec{u}$ en la base B es $$[\\vec{u}]_B = \\begin{bmatrix}2 \\\\ -1 \\\\ 0\\end{bmatrix}.$$ \nEl vector $\\vec{u}$, es:",
+                "answer": "$(-1,-3-i)",
+                "_topic": [
+                    {
+                        "id": 2, 
+                        "title": "Espacios vectoriales"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 58,
+        "choice": "$(-2,3i)",
+        "correctAnswer": false,
+        "_exercise": [
+            {
+                "id": 15,
+                "exercise": "5",
+                "statement": "Sea  $M^A_B = \\begin{bmatrix}1 & 1 & 0 \\\\-2 & -1 & 0 \\\\0 & 0 & 1\\end{bmatrix}$ la matriz de transición de la base A, a la base B, una base $$ A = \\{(1,i),(0,i),(-1,-1)\\}.$$ \nEl vector de coordenadas de $\\vec{u}$ en la base B es $$[\\vec{u}]_B = \\begin{bmatrix}2 \\\\ -1 \\\\ 0\\end{bmatrix}.$$ \nEl vector $\\vec{u}$, es:",
+                "answer": "$(-1,-3-i)",
+                "_topic": [
+                    {
+                        "id": 2, 
+                        "title": "Espacios vectoriales"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 59,
+        "choice": "$(2,3i)",
+        "correctAnswer": false,
+        "_exercise": [
+            {
+                "id": 15,
+                "exercise": "5",
+                "statement": "Sea  $M^A_B = \\begin{bmatrix}1 & 1 & 0 \\\\-2 & -1 & 0 \\\\0 & 0 & 1\\end{bmatrix}$ la matriz de transición de la base A, a la base B, una base $$ A = \\{(1,i),(0,i),(-1,-1)\\}.$$ \nEl vector de coordenadas de $\\vec{u}$ en la base B es $$[\\vec{u}]_B = \\begin{bmatrix}2 \\\\ -1 \\\\ 0\\end{bmatrix}.$$ \nEl vector $\\vec{u}$, es:",
+                "answer": "$(-1,-3-i)",
+                "_topic": [
+                    {
+                        "id": 2, 
+                        "title": "Espacios vectoriales"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 60,
+        "choice": "$(-3,-3 + 4i)",
+        "correctAnswer": false,
+        "_exercise": [
+            {
+                "id": 15,
+                "exercise": "5",
+                "statement": "Sea  $M^A_B = \\begin{bmatrix}1 & 1 & 0 \\\\-2 & -1 & 0 \\\\0 & 0 & 1\\end{bmatrix}$ la matriz de transición de la base A, a la base B, una base $$ A = \\{(1,i),(0,i),(-1,-1)\\}.$$ \nEl vector de coordenadas de $\\vec{u}$ en la base B es $$[\\vec{u}]_B = \\begin{bmatrix}2 \\\\ -1 \\\\ 0\\end{bmatrix}.$$ \nEl vector $\\vec{u}$, es:",
+                "answer": "$(-1,-3-i)",
+                "_topic": [
+                    {
+                        "id": 2, 
+                        "title": "Espacios vectoriales"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 61,
+        "choice": "$\\begin{pmatrix}0 \\\\2 \\\\-1 \\end{pmatrix}",
+        "correctAnswer": true,
+        "_exercise": [
+            {
+                "id": 16,
+                "exercise": "6",
+                "statement": "Sean las bases $A = \\{\\vec{u},\\vec{v},\\vec{w}\\}$ y $B = \\{\\vec{a},\\vec{b},\\vec{c}\\}$ \nSi $\\vec{u} = -1\\vec{a} + 2\\vec{b} - \\vec{c}$ y $\\vec{w} = -\\vec{a} - 2\\vec{b}$ \nEl vector $\\vec{v}$ en la base A, si $[\\vec{v}]_B = \\begin{bmatrix}1 \\\\0 \\\\2 \\end{bmatrix},$ es:",
+                "answer": "$\\begin{pmatrix}0 \\\\2 \\\\-1 \\end{pmatrix}",
+                "_topic": [
+                    {
+                        "id": 2, 
+                        "title": "Espacios vectoriales"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 62,
+        "choice": "$\\begin{pmatrix}-1 \\\\0 \\\\2 \\end{pmatrix}",
+        "correctAnswer": false,
+        "_exercise": [
+            {
+                "id": 16,
+                "exercise": "6",
+                "statement": "Sean las bases $A = \\{\\vec{u},\\vec{v},\\vec{w}\\}$ y $B = \\{\\vec{a},\\vec{b},\\vec{c}\\}$ \nSi $\\vec{u} = -1\\vec{a} + 2\\vec{b} - \\vec{c}$ y $\\vec{w} = -\\vec{a} - 2\\vec{b}$ \nEl vector $\\vec{v}$ en la base A, si $[\\vec{v}]_B = \\begin{bmatrix}1 \\\\0 \\\\2 \\end{bmatrix},$ es:",
+                "answer": "$\\begin{pmatrix}0 \\\\2 \\\\-1 \\end{pmatrix}",
+                "_topic": [
+                    {
+                        "id": 2, 
+                        "title": "Espacios vectoriales"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 63,
+        "choice": "$\\begin{pmatrix}0 \\\\6 \\\\-3 \\end{pmatrix}",
+        "correctAnswer": false,
+        "_exercise": [
+            {
+                "id": 16,
+                "exercise": "6",
+                "statement": "Sean las bases $A = \\{\\vec{u},\\vec{v},\\vec{w}\\}$ y $B = \\{\\vec{a},\\vec{b},\\vec{c}\\}$ \nSi $\\vec{u} = -1\\vec{a} + 2\\vec{b} - \\vec{c}$ y $\\vec{w} = -\\vec{a} - 2\\vec{b}$ \nEl vector $\\vec{v}$ en la base A, si $[\\vec{v}]_B = \\begin{bmatrix}1 \\\\0 \\\\2 \\end{bmatrix},$ es:",
+                "answer": "$\\begin{pmatrix}0 \\\\2 \\\\-1 \\end{pmatrix}",
+                "_topic": [
+                    {
+                        "id": 2, 
+                        "title": "Espacios vectoriales"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 64,
+        "choice": "$\\begin{pmatrix}-3 \\\\-2 \\\\-1 \\end{pmatrix}",
+        "correctAnswer": false,
+        "_exercise": [
+            {
+                "id": 16,
+                "exercise": "6",
+                "statement": "Sean las bases $A = \\{\\vec{u},\\vec{v},\\vec{w}\\}$ y $B = \\{\\vec{a},\\vec{b},\\vec{c}\\}$ \nSi $\\vec{u} = -1\\vec{a} + 2\\vec{b} - \\vec{c}$ y $\\vec{w} = -\\vec{a} - 2\\vec{b}$ \nEl vector $\\vec{v}$ en la base A, si $[\\vec{v}]_B = \\begin{bmatrix}1 \\\\0 \\\\2 \\end{bmatrix},$ es:",
+                "answer": "$\\begin{pmatrix}0 \\\\2 \\\\-1 \\end{pmatrix}",
+                "_topic": [
+                    {
+                        "id": 2, 
+                        "title": "Espacios vectoriales"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 65,
+        "choice": "$\\mathbb R^5",
+        "correctAnswer": true,
+        "_exercise": [
+            {
+                "id": 17,
+                "exercise": "7",
+                "statement": "El espacio de los polinomios de grado 4 sobre el campo $\\mathbb R$ es isomorfo al espacio, de:",
+                "answer": "$\\mathbb R^5",
+                "_topic": [
+                    {
+                        "id": 2, 
+                        "title": "Espacios vectoriales"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 66,
+        "choice": "$\\mathbb R^3",
+        "correctAnswer": false,
+        "_exercise": [
+            {
+                "id": 17,
+                "exercise": "7",
+                "statement": "El espacio de los polinomios de grado 4 sobre el campo $\\mathbb R$ es isomorfo al espacio, de:",
+                "answer": "$\\mathbb R^5",
+                "_topic": [
+                    {
+                        "id": 2, 
+                        "title": "Espacios vectoriales"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 67,
+        "choice": "$\\mathbb R^4",
+        "correctAnswer": false,
+        "_exercise": [
+            {
+                "id": 17,
+                "exercise": "7",
+                "statement": "El espacio de los polinomios de grado 4 sobre el campo $\\mathbb R$ es isomorfo al espacio, de:",
+                "answer": "$\\mathbb R^5",
+                "_topic": [
+                    {
+                        "id": 2, 
+                        "title": "Espacios vectoriales"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 68,
+        "choice": "$\\mathbb R",
+        "correctAnswer": false,
+        "_exercise": [
+            {
+                "id": 17,
+                "exercise": "7",
+                "statement": "El espacio de los polinomios de grado 4 sobre el campo $\\mathbb R$ es isomorfo al espacio, de:",
+                "answer": "$\\mathbb R^5",
+                "_topic": [
+                    {
+                        "id": 2, 
+                        "title": "Espacios vectoriales"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 69,
+        "choice": "$-1-i",
+        "correctAnswer": true,
+        "_exercise": [
+            {
+                "id": 18,
+                "exercise": "8",
+                "statement": "El valor de $k \\in \\mathbb C$ para que el vector $\\vec{m} = (1 + 2i,k,3 + i)$ sea combinación lineal de $A = \\{(1,-i,0),(2i,-1,3),(0,0,i)\\},$ es:",
+                "answer": "$-1-i",
+                "_topic": [
+                    {
+                        "id": 2, 
+                        "title": "Espacios vectoriales"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 70,
+        "choice": "$1+i",
+        "correctAnswer": false,
+        "_exercise": [
+            {
+                "id": 18,
+                "exercise": "8",
+                "statement": "El valor de $k \\in \\mathbb C$ para que el vector $\\vec{m} = (1 + 2i,k,3 + i)$ sea combinación lineal de $A = \\{(1,-i,0),(2i,-1,3),(0,0,i)\\},$ es:",
+                "answer": "$-1-i",
+                "_topic": [
+                    {
+                        "id": 2, 
+                        "title": "Espacios vectoriales"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 71,
+        "choice": "$-2",
+        "correctAnswer": false,
+        "_exercise": [
+            {
+                "id": 18,
+                "exercise": "8",
+                "statement": "El valor de $k \\in \\mathbb C$ para que el vector $\\vec{m} = (1 + 2i,k,3 + i)$ sea combinación lineal de $A = \\{(1,-i,0),(2i,-1,3),(0,0,i)\\},$ es:",
+                "answer": "$-1-i",
+                "_topic": [
+                    {
+                        "id": 2, 
+                        "title": "Espacios vectoriales"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 72,
+        "choice": "$2",
+        "correctAnswer": false,
+        "_exercise": [
+            {
+                "id": 18,
+                "exercise": "8",
+                "statement": "El valor de $k \\in \\mathbb C$ para que el vector $\\vec{m} = (1 + 2i,k,3 + i)$ sea combinación lineal de $A = \\{(1,-i,0),(2i,-1,3),(0,0,i)\\},$ es:",
+                "answer": "$-1-i",
+                "_topic": [
+                    {
+                        "id": 2, 
+                        "title": "Espacios vectoriales"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 73,
+        "choice": "Linealmente dependiente",
+        "correctAnswer": true,
+        "_exercise": [
+            {
+                "id": 19,
+                "exercise": "9",
+                "statement": "El conjunto de funciones $A = \\{3lnx^2, 5lnx, lnx^3\\}$ es:",
+                "answer": "Linealmente independiente",
+                "_topic": [
+                    {
+                        "id": 2, 
+                        "title": "Espacios vectoriales"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 74,
+        "choice": "Linealmente independiente",
+        "correctAnswer": false,
+        "_exercise": [
+            {
+                "id": 19,
+                "exercise": "9",
+                "statement": "El conjunto de funciones $A = \\{3lnx^2, 5lnx, lnx^3\\}$ es:",
+                "answer": "Linealmente independiente",
+                "_topic": [
+                    {
+                        "id": 2, 
+                        "title": "Espacios vectoriales"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 75,
+        "choice": "Indeterminado",
+        "correctAnswer": false,
+        "_exercise": [
+            {
+                "id": 19,
+                "exercise": "9",
+                "statement": "El conjunto de funciones $A = \\{3lnx^2, 5lnx, lnx^3\\}$ es:",
+                "answer": "Linealmente independiente",
+                "_topic": [
+                    {
+                        "id": 2, 
+                        "title": "Espacios vectoriales"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 76,
+        "choice": "Linealmente indeterminado",
+        "correctAnswer": false,
+        "_exercise": [
+            {
+                "id": 19,
+                "exercise": "9",
+                "statement": "El conjunto de funciones $A = \\{3lnx^2, 5lnx, lnx^3\\}$ es:",
+                "answer": "Linealmente independiente",
+                "_topic": [
+                    {
+                        "id": 2, 
+                        "title": "Espacios vectoriales"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 77,
+        "choice": "$L(A) = \\{(a,b,-2a-3b) \\mid a,b \\in \\mathbb R\\}",
+        "correctAnswer": true,
+        "_exercise": [
+            {
+                "id": 20,
+                "exercise": "10",
+                "statement": "EL espacio renglon de la matriz $$A = \\begin{bmatrix}1 & 0 & -2 \\\\-4 & 3 & -1 \\\\0 & 6 & -18\\end{bmatrix},$$ \n es el conjunto:",
+                "answer": "$L(A) = \\{(a,b,-2a-3b) \\mid a,b \\in \\mathbb R\\}",
+                "_topic": [
+                    {
+                        "id": 2, 
+                        "title": "Espacios vectoriales"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 78,
+        "choice": "$L(A) = \\{(-2a-3b,a) \\mid a,b \\in \\mathbb R\\}",
+        "correctAnswer": false,
+        "_exercise": [
+            {
+                "id": 20,
+                "exercise": "10",
+                "statement": "EL espacio renglon de la matriz $$A = \\begin{bmatrix}1 & 0 & -2 \\\\-4 & 3 & -1 \\\\0 & 6 & -18\\end{bmatrix},$$ \n es el conjunto:",
+                "answer": "$L(A) = \\{(a,b,-2a-3b) \\mid a,b \\in \\mathbb R\\}",
+                "_topic": [
+                    {
+                        "id": 2, 
+                        "title": "Espacios vectoriales"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 79,
+        "choice": "$L(A) = \\{(a,a-b) \\mid a,b \\in \\mathbb R\\}",
+        "correctAnswer": false,
+        "_exercise": [
+            {
+                "id": 20,
+                "exercise": "10",
+                "statement": "EL espacio renglon de la matriz $$A = \\begin{bmatrix}1 & 0 & -2 \\\\-4 & 3 & -1 \\\\0 & 6 & -18\\end{bmatrix},$$ \n es el conjunto:",
+                "answer": "$L(A) = \\{(a,b,-2a-3b) \\mid a,b \\in \\mathbb R\\}",
+                "_topic": [
+                    {
+                        "id": 2, 
+                        "title": "Espacios vectoriales"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 80,
+        "choice": "$L(A) = \\{(a,b,-2a + 3b) \\mid a,b \\in \\mathbb R\\}",
+        "correctAnswer": false,
+        "_exercise": [
+            {
+                "id": 20,
+                "exercise": "10",
+                "statement": "EL espacio renglon de la matriz $$A = \\begin{bmatrix}1 & 0 & -2 \\\\-4 & 3 & -1 \\\\0 & 6 & -18\\end{bmatrix},$$ \n es el conjunto:",
+                "answer": "$L(A) = \\{(a,b,-2a-3b) \\mid a,b \\in \\mathbb R\\}",
+                "_topic": [
+                    {
+                        "id": 2, 
+                        "title": "Espacios vectoriales"
+                    }
+                ]
+            }
+        ]
     }
 ]

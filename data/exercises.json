@@ -88,5 +88,140 @@
                 "isCompleted":false
             }
         ]
+    },
+    {
+        "id": 12,
+        "exercise": "2",
+        "statement": "La dimensión del espacio $$M = \\begin{Bmatrix}\\begin{bmatrix}-z_1 & z_1\\\\ z_2 & 0 \\end{bmatrix} \\mid z_,z_2\\in \\mathbb C \\end{Bmatrix}$$ definido sobre el campo de los números reales, es:",
+        "answer": "$4",
+        "solution": "Como $z_1 = a + bi$ y $z_2 = c +di$ y $ a,b,c,d \\in \\mathbb R$ \nEl número de vectores se duplica. \nEs decir: $$M = \\begin{Bmatrix}\\begin{bmatrix}-a-bi & a+bi\\\\c+di & 0 \\end{bmatrix} \\mid a,b,c,d \\in \\mathbb R\\end{Bmatrix}$$ \nUna base es $$\\begin{Bmatrix}\\begin{bmatrix}-1 & 1\\\\0 & 0\\end{bmatrix},\\begin{bmatrix}-i & i\\\\0 & 0\\end{bmatrix},\\begin{bmatrix}0 & 0\\\\1 & 0\\end{bmatrix},\\begin{bmatrix}0 & 0\\\\i & 0\\end{bmatrix}\\end{Bmatrix}",
+        "resolved": false,
+        "_topic": [
+            { 
+                "id": 2, 
+                "title": "Espacios vectoriales", 
+                "isCompleted":false
+            }
+        ]
+    },
+    {
+        "id": 13,
+        "exercise": "3",
+        "statement": "Sea el conjunto $$A = \\{ x^2 + x + 3, x^2 - 2x + 7, 1, -x^2 + 1\\}$$ El espacio generado por A, sobre el campo real, es:",
+        "answer": "$\\{ax^2 + bx + c \\mid a,b,c \\in \\mathbb R\\}",
+        "solution": "Todo vector se puede expresar como combinación lineal $$ax^2 + bx +c = \\alpha(x^2 + x + 3) + \\beta(x^2 - 2x + 7) + \\gamma(1) + \\delta(-x^2 + 1) \nax^2 + bx + c = (\\alpha + \\beta - \\delta)x^2 + (\\alpha - 2\\beta)x + (3\\alpha + 7\\beta + \\gamma + \\delta)$$ \nHaciendo la igualación de polinomios, queda el sistema $$\\begin{matrix}\\alpha+\\beta-\\delta = a \\\\ \\alpha - 2\\beta = b \\\\ 3\\alpha + 7\\beta + \\gamma + \\delta = c \\end{matrix} \n\\begin{matrix}\\begin{pmatrix}1 & 1 & 0 & -1 & \\mid & a \\\\1 & -2 & 0 & 0 & \\mid & b \\\\3 & 7 & 1 & 1 & \\mid & c \\end{pmatrix} & \\begin{matrix}R_1(-1) + R_2 \\rightarrow R_2 \\\\ R_1(-3) + R_3 \\rightarrow R_3\\end{matrix}\\end{matrix} \n\\begin{matrix}\\begin{pmatrix}1 & 1 & 0 & -1 & \\mid & a \\\\0 & -3 & 0 & 1 & \\mid & -a + b \\\\0 & 4 & 1 & 4 & \\mid & -3a + c \\end{pmatrix} & R_2(-\\frac{1}{3}) \\rightarrow R_2\\end{matrix} \n\\begin{matrix}\\begin{pmatrix}1 & 1 & 0 & -1 & \\mid & a \\\\0 & 1 & 0 & -\\frac{1}{3} & \\mid & \\frac{-a + b}{-3}\\\\0 & 4 & 1 & 4 & \\mid & -3a + c \\end{pmatrix} & R_2(-4) + R_3 \\rightarrow R_3\\end{matrix} \n\\begin{pmatrix}1 & 1 & 0 & -1 & \\mid & a \\\\0 & 1 & 0 & -\\frac{1}{3} & \\mid & \\frac{a-b}{3} \\\\0 & 0 & 1 & \\frac{16}{3} & \\mid & -\\frac{13}{3}a + \\frac{4}{3}b + c \\end{pmatrix} \n\\begin{matrix}R_2(-1) + R_1 \\rightarrow R_1 \\begin{pmatrix}1 & 0 & 0 & -\\frac{2}{3} & \\mid & \\frac{2}{3}a + \\frac{b}{3} \\\\ 0 & 1 & 0 & -\\frac{1}{3} & \\mid & \\frac{a-b}{3} \\\\0 & 0 & 1 & \\frac{16}{3} & \\mid & -\\frac{13}{3}a + \\frac{4}{3}b + c \\end{pmatrix}\\end{matrix}$$ \nPor lo que $$\\alpha = \\frac{2}{3}\\delta + \\frac{2}{3}a + \\frac{b}{3} \n\\beta = \\frac{1}{3}\\delta + \\frac{a}{3} - \\frac{b}{3} \n\\gamma = -\\frac{16}{3}\\delta - \\frac{13}{3}a + \\frac{4}{3}b + c$$ \nExisten todos los escalares definidos, por lo que el espacio vectorial es $P_2$.$$\\{ax^2 + bx + c \\mid a,b,c \\in \\mathbb R \\}$$ \nOtra forma:\nUtilizando isomosfirmo: $$x^2 + x + 3 \\rightarrow (1,1,3) \nx^2 - 2x + 7 \\rightarrow (1,-2,7) \n1 \\rightarrow (0,0,1) \n-x^2 + 1 \\rightarrow (-1,0,1)$$ \nDichos vectores, los incluimos en la matriz. $$\\begin{matrix}\\begin{pmatrix}1 & 1 & 3 \\\\1 & -2 & 7 \\\\-1 & 0 & 1 \\\\0 & 0 & 1\\end{pmatrix}\\begin{matrix}R_1(-1) + R_2 \\rightarrow R_2 \\\\\\sim \\end{matrix}\\begin{pmatrix}1 & 1 & 3 \\\\0 & -3 & 4 \\\\ 0 & 1 & 4 \\\\0 & 0 & 1 \\end{pmatrix}\\begin{matrix}R_2 \\leftrightarrow R_3 \\\\ \\sim \\end{matrix}\\begin{pmatrix}1 & 1 & 3 \\\\0 & 1 & 4 \\\\0 & -3 & 4 \\\\0 & 0 & 1 \\end{pmatrix}\\begin{matrix}R_2(3) + R_3 \\rightarrow R_3 \\\\ \\sim \\end{matrix}\\end{matrix} \n\\begin{matrix}\\begin{pmatrix}1 & 1 & 3 \\\\0 & 1 & 4 \\\\0 & 0 & 16 \\\\0 & 0 & 1\\end{pmatrix}\\begin{matrix}R_3(\\frac{1}{16}) \\rightarrow R_3\\\\ \\sim\\end{matrix}\\begin{pmatrix}1 & 1 & 3 \\\\0 & 1 & 4 \\\\0 & 0 & 1 \\\\0 & 0 & 1\\end{pmatrix}\\begin{matrix}R_3(-1) + R_4 \\rightarrow R_4 \\\\ \\sim \\end{matrix}\\begin{pmatrix}1 & 1 & 3 \\\\ 0 & 1 & 4 \\\\ 0 & 0 & 1 \\\\ 0 & 0 & 0\\end{pmatrix}\\begin{matrix}R_3(-4) + R_2 \\rightarrow R_2 \\\\R_3(-3) + R_1 \\rightarrow R_1 \\\\ \\sim \\end{matrix}\\end{matrix} \n\\begin{matrix}\\begin{pmatrix}1 & 1 & 0 \\\\0 & 1 & 0 \\\\0 & 0 & 1 \\\\0 & 0 & 0\\end{pmatrix}\\begin{matrix}R_2(-1) + R_1 \\rightarrow R_1 \\\\ \\sim\\end{matrix}\\begin{pmatrix}1 & 0 & 0 \\\\0 & 1 & 0 \\\\0 & 0 & 1 \\\\0 & 0 & 0\\end{pmatrix}\\end{matrix}$$ \nCada vector lo extraemos y regresamos el isomorfismo $$(1,0,0) \\rightarrow x^2 \n(0,1,0) \\rightarrow x \n(0,0,1) \\rightarrow 1$$ \nUn vector genérico $$\\vec{x} = a(x^2) + b(x) + c(1) \n\\vec{x} = ax^2 + bx + c \nL(G) = \\{ax^2 + bx + c \\mid a,b,c \\in \\mathbb R\\}",
+        "resolved": false,
+        "_topic": [
+            {
+                "id": 2, 
+                "title": "Espacios vectoriales", 
+                "isCompleted":false
+            }
+        ]
+    },
+    {
+        "id": 14,
+        "exercise": "4",
+        "statement": "Sea el sistema de ecuaciones lineales $$\\begin{matrix}x + 3y -z = 0 \\\\x - 4y + 4z = 0\\\\3x + 2y + 2z = 0 \\end{matrix}$$ \nEl espacio solución y la dimensión de dicho espacio, es:",
+        "answer": "$E(S) = \\{(-\\frac{8}{7}z,\\frac{5}{7}z,z) \\mid z \\in \\mathbb R \\}; dim E(S) = 1",
+        "solution": "Reduciendo el sistema de ecuaciones homogenéneo, dichos sistemas siempre son compatibles $$\\begin{matrix}\\begin{pmatrix}1 & 3 & -1 \\\\1 & -4 & 4 \\\\3 & 2 & 2\\end{pmatrix}\\begin{matrix}R_1(-1) + R_2 \\rightarrow R_2 \\\\R_1(-3) + R_3 \\rightarrow R_3 \\\\ \\sim\\end{matrix}\\begin{pmatrix}1 & 3 & -1 \\\\0 & -7 & 5 \\\\0 & -7 & 5\\end{pmatrix}\\begin{matrix}R_2(-1) + R_3 \\rightarrow R_3 \\\\ \\sim\\end{matrix}\\end{matrix} \n\\begin{matrix}\\begin{pmatrix}1 & 3 & -1 \\\\0 & -7 & 5 \\\\0 & 0 & 0\\end{pmatrix}\\begin{matrix}R_2(-\\frac{1}{7}) \\rightarrow R_3 \\\\ \\sim\\end{matrix}\\end{matrix} \n\\begin{matrix}\\begin{pmatrix}1 & 3 & -1 \\\\0 & 1 & -\\frac{5}{7} \\\\0 & 0 & 0 \\end{pmatrix}\\begin{matrix}R_2(-3) + R_1 \\rightarrow R_1 \\\\ \\sim\\end{matrix}\\begin{pmatrix}1 & 0 & \\frac{8}{7} \\\\0 & 1 & -\\frac{5}{7} \\\\0 & 0 & 0\\end{pmatrix}\\end{matrix} \n x = -\\frac{8}{7}z \n y = \\frac{5}{7}z \n z \\in \\mathbb R \n E(S) = \\{(-\\frac{8}{7}z,\\frac{5}{7}z,z) \\mid z \\in \\mathbb R\\}$$ \n La dimensión $$dim E(S) = 1",
+        "resolved": false,
+        "_topic": [
+            {
+                "id": 2, 
+                "title": "Espacios vectoriales", 
+                "isCompleted":false
+            }
+        ]
+    },
+    {
+        "id": 15,
+        "exercise": "5",
+        "statement": "Sea  $M^A_B = \\begin{bmatrix}1 & 1 & 0 \\\\-2 & -1 & 0 \\\\0 & 0 & 1\\end{bmatrix}$ la matriz de transición de la base A, a la base B, una base $$ A = \\{(1,i),(0,i),(-1,-1)\\}.$$ \nEl vector de coordenadas de $\\vec{u}$ en la base B es $$[\\vec{u}]_B = \\begin{bmatrix}2 \\\\ -1 \\\\ 0\\end{bmatrix}.$$ \nEl vector $\\vec{u}$, es:",
+        "answer": "$(-1,-3-i)",
+        "solution": "$$\\begin{matrix}\\vec{u} = \\alpha\\vec{b_1} + \\beta\\vec{b_2} + \\gamma\\vec{b_3} \\\\ \\vec{u} = 2\\vec{b_1} + -1\\vec{b_2} + 0\\vec{b_3} \\end{matrix}$$ \nPara obtener los vectores $\\{\\vec{b_1},\\vec{b_2},\\vec{b_3}\\}$ de la base $B$, se tiene que: $$\\begin{matrix}\\vec{b_1} = \\alpha\\vec{a_1} + \\beta\\vec{a_2} + \\gamma\\vec{a_3} \\\\ \\vec{b_2} = \\alpha_1\\vec{a_1} + \\beta_1\\vec{a_2} + \\gamma_1\\vec{a_3} \\\\ \\vec{b_3} = \\alpha_2\\vec{a_1} + \\beta_2\\vec{a_2} + \\gamma_2\\vec{a_3}\\end{matrix}$$ \nLa matriz $M^B_A = \\begin{pmatrix}\\alpha & \\alpha_1 & \\alpha_2 \\\\ \\beta & \\beta_1 & \\beta_2 \\\\ \\gamma & \\gamma_1 & \\gamma_2 \\end{pmatrix}$ \nSe obtiene la matriz inversa de $M^A_B$ a través del método de la matriz adjunta $$M^B_A = \\frac{1}{detM^A_B}adj(M^A_B)$$ \nEl determinante de $M^A_B$ se puede calcular como: $$detM^A_BI = M^A_B adj(M^A_B),$$ \n$I$ es la matriz identidad. $$\nadj M^A_B = \\begin{pmatrix}+M_{11} & -M_{21} & +M_{31} \\\\-M_{12} & +M_{22} & -M_{32} \\\\+M_{13} & -M_{23} & +M_{33} \\end{pmatrix}$$ donde $M_{ij}$ son matrices llamadas menores. $$adj M^A_B = \\begin{pmatrix}+\\begin{bmatrix}-1 & 0 \\\\ 0 & 1\\end{bmatrix} & -\\begin{bmatrix}1 & 0 \\\\0 & 1\\end{bmatrix} & +\\begin{bmatrix}1 & 0\\\\-1 & 0\\end{bmatrix} \\\\ -\\begin{bmatrix}-2 & 0 \\\\ 0 & 1\\end{bmatrix} & +\\begin{bmatrix}1 & 0 \\\\ 0 & 1\\end{bmatrix} & -\\begin{bmatrix}1 & 0 \\\\ -2 & 0\\end{bmatrix} \\\\ +\\begin{bmatrix}-2 & -1 \\\\ 0 & 0\\end{bmatrix} & -\\begin{bmatrix}1 & 1 \\\\0 & 0\\end{bmatrix} & +\\begin{bmatrix}1 & 1 \\\\-2 & -1\\end{bmatrix}\\end{pmatrix} \nadjM^A_B = \\begin{pmatrix}-1 & -1 & 0 \\\\2 & 1 & 0 \\\\0 & 0 & 1\\end{pmatrix}$$ \nPara el cálculo de la determinante, se puede utilizar el Teorema \n$detM^A_BI = M^A_B adj(M^A_B),$ $I$ $es$ $la$ $matriz$ $de$ $identidad.$ $$M^A_B adj(M^A_B) = \\begin{matrix}\\begin{pmatrix}1 & 1 & 0 \\\\-2 & -1 & 0 \\\\0 & 0 & 1\\end{pmatrix}\\begin{pmatrix}-1 & -1 & 0 \\\\2 & 1 & 0 \\\\0 & 0 & 1\\end{pmatrix}\\end{matrix} = \\begin{pmatrix}1 & 0 & 0 \\\\0 & 1 & 0\\\\0 & 0 & 1\\end{pmatrix} = \\frac{1}{3}$$ \nDonde $$ 1 = detM^A_B$$ $e$ $I_3$ $es$ $la$ $matriz$ $identidad.$ \nQuedando $M^B_A = \\begin{pmatrix}-1 & -1 & 0 \\\\2 & 1 & 0 \\\\0 & 0 & 1\\end{pmatrix}$ \nPor lo que se tienen las coordenadas para el cálculo de los vectores de la base B. $$\\begin{matrix}\\vec{b_1} = -1(1,i) + 2(0,-1) + 0(-1,-1) = (-1,-2-i) \\\\ \\vec{b_2} = -1(1,i) + 1(0,-1) + 0(-1,-1) = (-1,-1-i) \\\\ \\vec{b_3} = 0(1,i) + 0(0,-1) + 1(-1,-1) = (-1,-1)\\end{matrix}$$ \nLa base $$B = \\{(-1,-2-i),(-1,-1-i),(-1,-1)\\}$$ \nEl vector $\\vec{u}$ en la base de b es: $$\\vec{u} = \\alpha\\vec{b_1} + \\beta\\vec{b_2} + \\gamma\\vec{b_3} \n\\vec{u} = 2(-1,-2-i) + (-1)(-1,-1-i) + 0(-1,-1) \n\\vec{u} = (-2 + 1, -4-2i + 1 + i) \n\\vec{u} = (-1,-3-i)",
+        "resolved": false,
+        "_topic": [
+            {
+                "id": 2, 
+                "title": "Espacios vectoriales", 
+                "isCompleted":false
+            }
+        ]
+    },
+    {
+        "id": 16,
+        "exercise": "6",
+        "statement": "Sean las bases $A = \\{\\vec{u},\\vec{v},\\vec{w}\\}$ y $B = \\{\\vec{a},\\vec{b},\\vec{c}\\}$ \nSi $\\vec{u} = -1\\vec{a} + 2\\vec{b} - \\vec{c}$ y $\\vec{w} = -\\vec{a} - 2\\vec{b}$ \nEl vector $\\vec{v}$ en la base A, si $[\\vec{v}]_B = \\begin{bmatrix}1 \\\\0 \\\\2 \\end{bmatrix},$ es:",
+        "answer": "$\\begin{pmatrix}0 \\\\2 \\\\-1 \\end{pmatrix}",
+        "solution": "La matriz de transición $$M^A_B = \\begin{bmatrix}-1 & 0 & -1 \\\\2 & -1 & -2 \\\\-1 & 1 & 0\\end{bmatrix}$$ \nObteniendo la matriz de transición $M^B_A$ por el método de matriz adjunta. $$M^B_A = \\frac{1}{detM^A_B}adj(M^A_B) \nadjM^A_B = \\begin{pmatrix}+M_{11} & -M_{21} & +M_{31} \\\\-M_{12} & +M_{22} & -M_{32} \\\\+M_{13} & -M_{23} & +M_{33}\\end{pmatrix} \nadjM^A_B = \\begin{pmatrix}+\\begin{bmatrix}-1 & -2 \\\\ 1 & 0\\end{bmatrix} & -\\begin{bmatrix}0 & -1 \\\\1 & 0\\end{bmatrix} & +\\begin{bmatrix}0 & -1 \\\\-1 & -2\\end{bmatrix} \\\\-\\begin{bmatrix}2 & -2 \\\\-1 & 0\\end{bmatrix} & +\\begin{bmatrix}-1 & -1 \\\\-1 & 0\\end{bmatrix} & -\\begin{bmatrix}-1 & -1 \\\\2 & -2\\end{bmatrix} \\\\+\\begin{bmatrix}2 & -1 \\\\-1 & 1\\end{bmatrix} & -\\begin{bmatrix}-1 & 0 \\\\-1 & 1\\end{bmatrix} & +\\begin{bmatrix}-1 & 0 \\\\2 & -1\\end{bmatrix}\\end{pmatrix} \nadjM^A_B = \\begin{pmatrix}2 & -1 & -1 \\\\2 & -1 & -4 \\\\1 & 1 & 1\\end{pmatrix}$$ Calculando el determinante de $M^A_B$ utilizando el Teorema: $$detM^A_B = M^A_B adj M^A_B \n\\begin{matrix}\\begin{pmatrix}-1 & 0 & -1 \\\\2 & -1 & -2 \\\\-1 & 1 & 0\\end{pmatrix}\\begin{pmatrix}2 & -1 & -1 \\\\2 & -1 & -4 \\\\1 & 1 & 1\\end{pmatrix} = \\begin{pmatrix}-3 & 0 & 0 \\\\0 & -3 & 0 \\\\0 & 0 & -3\\end{pmatrix} = -3I_3\\end{matrix} \ndet M^A_B = -3 \n\\begin{matrix}[\\vec{v}]_A = M^B_A(\\vec{v})_B = -\\frac{1}{3}\\begin{pmatrix}2 & -1 & -1 \\\\2 & -1 & -4 \\\\1 & 1 & 1\\end{pmatrix}\\begin{pmatrix}1 \\\\0 \\\\2 \\end{pmatrix} = -\\frac{1}{3}\\begin{pmatrix}0 \\\\-6 \\\\3 \\end{pmatrix} = \\begin{pmatrix}0 \\\\2 \\\\-1 \\end{pmatrix}\\end{matrix}",
+        "resolved": false,
+        "_topic": [
+            {
+                "id": 2, 
+                "title": "Espacios vectoriales", 
+                "isCompleted":false
+            }
+        ]
+    },
+    {
+        "id": 17,
+        "exercise": "7",
+        "statement": "El espacio de los polinomios de grado 4 sobre el campo $\\mathbb R$ es isomorfo al espacio, de:",
+        "answer": "$\\mathbb R^5",
+        "solution": "Como $$P_4 = \\{ax^4 + bx^3 + cx^2 + dx + f \\mid a,b,c,d,f \\in \\mathbb R\\} \n ax^4 + bx^3 + cx^2 + dx + f \\rightarrow (a,b,c,d,f)",
+        "resolved": false,
+        "_topic": [
+            {
+                "id": 2, 
+                "title": "Espacios vectoriales", 
+                "isCompleted":false
+            }
+        ]
+    },
+    {
+        "id": 18,
+        "exercise": "8",
+        "statement": "El valor de $k \\in \\mathbb C$ para que el vector $\\vec{m} = (1 + 2i,k,3 + i)$ sea combinación lineal de $A = \\{(1,-i,0),(2i,-1,3),(0,0,i)\\},$ es:",
+        "answer": "$-1-i",
+        "solution": "$$(1 + 2i,k,3 + i) = \\alpha(1, -i, 0) + \\beta(2i, -1, 3) + \\gamma(0,0,i) \n(1 + 2i, k ,3 + i) = (\\alpha + 2\\beta i, -\\alpha i - \\beta, 3\\beta + \\gamma i)$$ \nIgualando vectores: $$\\alpha + 2\\beta i = 1 + 2i \\rightarrow \\alpha = 1, \\beta = 1 \n -\\alpha i - \\beta = k \n3\\beta + \\gamma i = 3 + i \\rightarrow 3\\beta = 3, \\beta = 1 \n \\gamma = 1$$ \nPor lo que: $$ k = -1 -i",
+        "resolved": false,
+        "_topic": [
+            {
+                "id": 2, 
+                "title": "Espacios vectoriales", 
+                "isCompleted":false
+            }
+        ]
+    },
+    {
+        "id": 19,
+        "exercise": "9",
+        "statement": "El conjunto de funciones $A = \\{3lnx^2, 5lnx, lnx^3\\}$ es:",
+        "answer": "Linealmente independiente",
+        "solution": "Planteando la ecuación de dependecia lineal $$\\alpha\\vec{a_1} + \\beta\\vec{a_2} + \\gamma\\vec{a_3} = \\vec{0}$$ \n Se aplica la propiedad de logaritmos $$ln r^n = nlnr; \n(3(2lnx)\\alpha + (5lnx)\\beta + (3lnx)\\gamma) = 0lnx \n((6lnx)\\alpha + (5lnx)\\beta + (3lnx)\\gamma) = 0lnx \n(6\\alpha + 5\\beta + 3\\gamma)lnx = 0lnx \n6\\alpha + 5\\beta + 3\\gamma = 0$$ \nSe puede despejar $\\alpha$ o $\\beta$ o $\\gamma$. $$3\\gamma = -6\\alpha -5\\beta \n\\gamma = \\frac{-6\\alpha-5\\beta}{3} \n\\gamma = -2\\alpha-\\frac{5}{3}\\beta,\\alpha,\\beta \\in \\mathbb R$$ \n$\\therefore$ EL conjunto es linealmente dependiente.",
+        "resolved": false,
+        "_topic": [
+            {
+                "id": 2, 
+                "title": "Espacios vectoriales", 
+                "isCompleted":false
+            }
+        ]
+    },
+    {
+        "id": 20,
+        "exercise": "10",
+        "statement": "EL espacio renglon de la matriz $$A = \\begin{bmatrix}1 & 0 & -2 \\\\-4 & 3 & -1 \\\\0 & 6 & -18\\end{bmatrix},$$ \n es el conjunto:",
+        "answer": "$L(A) = \\{(a,b,-2a-3b) \\mid a,b \\in \\mathbb R\\}",
+        "solution": "Escalonando la matriz hasta llegar a la matriz canónica escalonada. $$\\begin{matrix}\\begin{pmatrix}1 & 0 & -2 \\\\-4 & 3 & -1 \\\\0 & 6 & -18\\end{pmatrix}\\begin{matrix}R_1(4)+R_2 \\rightarrow R_2 \\\\ \\sim\\end{matrix}\\begin{pmatrix}1 & 0 & -2 \\\\0 & 3 & -9 \\\\0 & 6 & -18\\end{pmatrix}\\begin{matrix}R_2(-2)+R_3 \\rightarrow R_3 \\\\ \\sim \\end{matrix}\\end{matrix} \n\\begin{matrix}\\begin{pmatrix}1 & 0 & -2 \\\\0 & 3 & -9 \\\\0 & 0 & 0\\end{pmatrix}\\begin{matrix}R_2(\\frac{1}{3}) \\rightarrow R_3 \\\\ \\sim\\end{matrix}\\begin{pmatrix}1 & 0 & -2 \\\\0 & 1 & -3 \\\\0 & 0 & 0\\end{pmatrix}\\end{matrix}$$ Un vector genérico es: $$\\vec{x} = a(1,0,-2) + b(0,1,-3) \n\\vec{x} = (a,b,-2a-3b) \nL(A) = \\{(a,b,-2a-3b) \\mid a,b \\in \\mathbb R\\}",
+        "resolved": false,
+        "_topic": [
+            {
+                "id": 2, 
+                "title": "Espacios vectoriales", 
+                "isCompleted":false
+            }
+        ]
     }
 ]

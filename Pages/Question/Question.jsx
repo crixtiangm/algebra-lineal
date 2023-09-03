@@ -150,8 +150,10 @@ const Question = ({onPressHelp}) => {
                         />
                     </View>
                     <View style={s.body} >
-                        <Ask exerciseNum={params.exercise} statement={params.statement} />
-                        <ScrollView>{renderAnswerList()}</ScrollView>
+                        <ScrollView>
+                            <Ask exerciseNum={params.exercise} statement={params.statement} />
+                            {renderAnswerList()}
+                        </ScrollView>
                     </View>
                     
                 </SafeAreaView>

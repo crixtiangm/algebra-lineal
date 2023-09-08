@@ -19,6 +19,11 @@ export const s = StyleSheet.create({
     footer: {
         height: 80,
         backgroundColor: "white",
+    },
+    check_option: {
+        flexDirection: "row",
+        justifyContent: "space-around",
+        paddingTop: 50,
     }
 });
 

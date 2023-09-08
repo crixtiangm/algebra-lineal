@@ -15,7 +15,7 @@ const Solution = () => {
                         <NavHeaderSolution title={params._topic[0].title} />
                     </View>
                     <View style={s.body} >
-                        <ScrollView>
+                        <ScrollView >
                             <ExerciseSolution solution={params.solution} />
                         </ScrollView>
                     </View>

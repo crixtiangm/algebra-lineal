@@ -40,7 +40,11 @@ const Home = () => {
             const topicListString = await AsyncStorage.getItem("@topicList");
             const parsedTopicList = JSON.parse(topicListString);
             isLoadUpdate = true;
-            parsedTopicList.length === 0 ? setTopicList(TopicData) : setTopicList(parsedTopicList);
+            if(parsedTopicList === null) {
+                setTopicList(TopicData);
+            } else {
+                parsedTopicList.length === 0 ? setTopicList(TopicData) : setTopicList(parsedTopicList);
+            }
         } catch (error) {
             alert(error)
         };

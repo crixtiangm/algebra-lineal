@@ -1,3 +1,4 @@
+//Esta CardAnswer se ocupa para IOS
 import { Text, TouchableOpacity, View } from "react-native";
 import CheckBox from "expo-checkbox";
 import { s } from "./CardAnswer.style";

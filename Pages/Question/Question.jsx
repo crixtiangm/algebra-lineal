@@ -1,7 +1,7 @@
 import { SafeAreaProvider, SafeAreaView } from "react-native-safe-area-context";
 import { s } from "./Question.style";
-import { ScrollView, Text, View} from "react-native";
-import { Ask, CardAnswer, NavHeaderQuestion, TabBottomMenuAnswer } from "../../components";
+import { ScrollView, Text, TouchableOpacity, View} from "react-native";
+import { Ask, CardAnswer, CheckBoxAnswer, NavHeaderQuestion, TabBottomMenuAnswer } from "../../components";
 import optionData from "../../data/options.json";
 import { useNavigation, useRoute } from "@react-navigation/native";
 import CheckBox from "expo-checkbox";
@@ -15,6 +15,33 @@ let options = [
     {option: "c)",isChecked: false, viewAnswer: false},
     {option: "d)",isChecked: false, viewAnswer: false}
 ]
+
+import MathJax from "react-native-mathjax";
+
+const mmlOptions = {
+    messageStyle: "none",
+    extensions: ["tex2jax.js"],
+    jax: ["input/TeX", "output/HTML-CSS"],
+    tex2jax: {
+      inlineMath: [
+        ["$", "$"],
+        ["\\(", "\\)"],
+      ],
+      displayMath: [
+        ["$$", "$$"],
+        ["\\[", "\\]"],
+      ],
+      processEscapes: true,
+    },
+    TeX: {
+      extensions: [
+        "AMSmath.js",
+        "AMSsymbols.js",
+        "noErrors.js",
+        "noUndefined.js",
+      ],
+    },
+};
 
 const Question = ({onPressHelp}) => {
     const nav = useNavigation();
@@ -71,7 +98,8 @@ const Question = ({onPressHelp}) => {
             alert(error);
         };
     };
-
+    /*
+    Esta función la ocupamos para IOS
     // Función que renderiza las lista de respuestas dependiendo del ejercicio seleccionado
     const renderAnswerList = () => {
         return answerList.map((answer, index) =>
@@ -81,6 +109,29 @@ const Question = ({onPressHelp}) => {
                     onPress = {updateAnswer}
                 />
             </View>
+        )
+    }
+    */
+
+    // Función que renderiza las lista de respuestas dependiendo del ejercicio seleccionado, funciona para android
+    const renderAnswerList = () => {
+        return answerList.map((answer, index) =>
+            <MathJax 
+                key={index}
+                mathJaxOptions={mmlOptions}
+                html={`<font size=4>${answer.option} ${answer.statement}</font>`}
+            />
+        )
+    }
+
+    //Función para renderizar las opciones y poder seleccionar mediante un CheckBox
+    const renderOptionAnswerList = () => {
+        return answerList.map((answer, index) =>
+                <CheckBoxAnswer 
+                    key={index}
+                    answer = {answer}
+                    onPress = {updateAnswer}
+                />
         )
     }
 
@@ -153,6 +204,9 @@ const Question = ({onPressHelp}) => {
                         <ScrollView>
                             <Ask exerciseNum={params.exercise} statement={params.statement} />
                             {renderAnswerList()}
+                            <View style={s.check_option}>
+                                {renderOptionAnswerList()}
+                            </View>
                         </ScrollView>
                     </View>
                     

@@ -11,6 +11,7 @@ export const s = StyleSheet.create({
     },
     nav_header: {
         flex: 1,
+        marginBottom: 25
     },
     body: {
         flex: 5,

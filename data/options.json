@@ -834,5 +834,765 @@
                 ]
             }
         ]
+    },
+    {
+        "id": 81,
+        "choice": "$M \\rightarrow W$",
+        "correctAnswer": true,
+        "_exercise": [
+            {
+                "id": 21,
+                "exercise": "1",
+                "statement": "Sean los espacios vectoriales $W$ y $M$ sobre un campo $K$, $T:M \\rightarrow W,S:M \\rightarrow M,P:M \\rightarrowW,R:M \\rightarrow W y F:M \\rightarrow M$ son transformaciones lineales. Las matrices asociadas a dichos espacios son no singulares. La regla de correspondencia de $T \\circ S + F^-1 + R +P,$ es:",
+                "answer": "$M \\rightarrow W$",
+                "_topic": [
+                    {
+                        "id": 3,
+                        "title": "Transformaciones lineales"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 82,
+        "choice": "$W \\rightarrow M$",
+        "correctAnswer": false,
+        "_exercise": [
+            {
+                "id": 21,
+                "exercise": "1",
+                "statement": "Sean los espacios vectoriales $W$ y $M$ sobre un campo $K$, $T:M \\rightarrow W,S:M \\rightarrow M,P:M \\rightarrowW,R:M \\rightarrow W y F:M \\rightarrow M$ son transformaciones lineales. Las matrices asociadas a dichos espacios son no singulares. La regla de correspondencia de $T \\circ S + F^-1 + R +P,$ es:",
+                "answer": "$M \\rightarrow W$",
+                "_topic": [
+                    {
+                        "id": 3,
+                        "title": "Transformaciones lineales"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 83,
+        "choice": "$M \\rightarrow M$",
+        "correctAnswer": false,
+        "_exercise": [
+            {
+                "id": 21,
+                "exercise": "1",
+                "statement": "Sean los espacios vectoriales $W$ y $M$ sobre un campo $K$, $T:M \\rightarrow W,S:M \\rightarrow M,P:M \\rightarrowW,R:M \\rightarrow W y F:M \\rightarrow M$ son transformaciones lineales. Las matrices asociadas a dichos espacios son no singulares. La regla de correspondencia de $T \\circ S + F^-1 + R +P,$ es:",
+                "answer": "$M \\rightarrow W$",
+                "_topic": [
+                    {
+                        "id": 3,
+                        "title": "Transformaciones lineales"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 84,
+        "choice": "$W \\rightarrow W$",
+        "correctAnswer": false,
+        "_exercise": [
+            {
+                "id": 21,
+                "exercise": "1",
+                "statement": "Sean los espacios vectoriales $W$ y $M$ sobre un campo $K$, $T:M \\rightarrow W,S:M \\rightarrow M,P:M \\rightarrowW,R:M \\rightarrow W y F:M \\rightarrow M$ son transformaciones lineales. Las matrices asociadas a dichos espacios son no singulares. La regla de correspondencia de $T \\circ S + F^-1 + R +P,$ es:",
+                "answer": "$M \\rightarrow W$",
+                "_topic": [
+                    {
+                        "id": 3,
+                        "title": "Transformaciones lineales"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 85,
+        "choice": "$detA = detD$",
+        "correctAnswer": true,
+        "_exercise": [
+            {
+                "id": 22,
+                "exercise": "2",
+                "statement": "Si $A$ y $D$ son dos matrices similares, se cumple siempre que:",
+                "answer": "$detA = detD$",
+                "_topic": [
+                    {
+                        "id": 3,
+                        "title": "Transformaciones lineales"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 85,
+        "choice": "$(A) = (D)$",
+        "correctAnswer": false,
+        "_exercise": [
+            {
+                "id": 22,
+                "exercise": "2",
+                "statement": "Si $A$ y $D$ son dos matrices similares, se cumple siempre que:",
+                "answer": "$detA = detD$",
+                "_topic": [
+                    {
+                        "id": 3,
+                        "title": "Transformaciones lineales"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 85,
+        "choice": "$A^T = D^T$",
+        "correctAnswer": false,
+        "_exercise": [
+            {
+                "id": 22,
+                "exercise": "2",
+                "statement": "Si $A$ y $D$ son dos matrices similares, se cumple siempre que:",
+                "answer": "$detA = detD$",
+                "_topic": [
+                    {
+                        "id": 3,
+                        "title": "Transformaciones lineales"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 85,
+        "choice": "$A^{-1} = D^{-1}$",
+        "correctAnswer": false,
+        "_exercise": [
+            {
+                "id": 22,
+                "exercise": "2",
+                "statement": "Si $A$ y $D$ son dos matrices similares, se cumple siempre que:",
+                "answer": "$detA = detD$",
+                "_topic": [
+                    {
+                        "id": 3,
+                        "title": "Transformaciones lineales"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 86,
+        "choice": "$\\{\\begin{matrix} 2 \\\\ 1\\end{matrix}$",
+        "correctAnswer": true,
+        "_exercise": [
+            {
+                "id": 23,
+                "exercise": "3",
+                "statement": "Sea la transformación lineal $T: \\mathbb ^3 \\rightarrow \\mathbb ^3$ definida por: $$T(x,y,z) = (2x - 4y,x - 4y - z,3x + 3z)$$ La dimensión del recorrido y el núcleo son respectivamente:",
+                "answer": "$\\{\\begin{matrix} 2 \\\\ 1\\end{matrix}$",
+                "_topic": [
+                    {
+                        "id": 3,
+                        "title": "Transformaciones lineales"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 87,
+        "choice": "$\\{\\begin{matrix} 0 \\\\ 3\\end{matrix}$",
+        "correctAnswer": false,
+        "_exercise": [
+            {
+                "id": 23,
+                "exercise": "3",
+                "statement": "Sea la transformación lineal $T: \\mathbb ^3 \\rightarrow \\mathbb ^3$ definida por: $$T(x,y,z) = (2x - 4y,x - 4y - z,3x + 3z)$$ La dimensión del recorrido y el núcleo son respectivamente:",
+                "answer": "$\\{\\begin{matrix} 2 \\\\ 1\\end{matrix}$",
+                "_topic": [
+                    {
+                        "id": 3,
+                        "title": "Transformaciones lineales"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 88,
+        "choice": "$\\{\\begin{matrix} 1 \\\\ 2\\end{matrix}$",
+        "correctAnswer": false,
+        "_exercise": [
+            {
+                "id": 23,
+                "exercise": "3",
+                "statement": "Sea la transformación lineal $T: \\mathbb ^3 \\rightarrow \\mathbb ^3$ definida por: $$T(x,y,z) = (2x - 4y,x - 4y - z,3x + 3z)$$ La dimensión del recorrido y el núcleo son respectivamente:",
+                "answer": "$\\{\\begin{matrix} 2 \\\\ 1\\end{matrix}$",
+                "_topic": [
+                    {
+                        "id": 3,
+                        "title": "Transformaciones lineales"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 89,
+        "choice": "$\\{\\begin{matrix} 3 \\\\ 0\\end{matrix}$",
+        "correctAnswer": false,
+        "_exercise": [
+            {
+                "id": 23,
+                "exercise": "3",
+                "statement": "Sea la transformación lineal $T: \\mathbb ^3 \\rightarrow \\mathbb ^3$ definida por: $$T(x,y,z) = (2x - 4y,x - 4y - z,3x + 3z)$$ La dimensión del recorrido y el núcleo son respectivamente:",
+                "answer": "$\\{\\begin{matrix} 2 \\\\ 1\\end{matrix}$",
+                "_topic": [
+                    {
+                        "id": 3,
+                        "title": "Transformaciones lineales"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 90,
+        "choice": "$\\{(a,b,-2a + b) \\mid a,b \\in \\mathbb R\\}$",
+        "correctAnswer": true,
+        "_exercise": [
+            {
+                "id": 24,
+                "exercise": "4",
+                "statement": "Sean las transformaciones lineales $T: \\mathbb R^3 \\rightarrow \\mathbb R^3 definida por: $$T(x,y,z) = (-2x - z, y - z, 4x + y + z)$$ $$S: \\mathbb R^3 rightarrow R^3 definida por:$$ $$ S(x,y,z) = (-x -z, -y - z, 2x - y + z)$$ El recorrido de $T \\circ S$, es:",
+                "answer": "$\\{(a,b,-2a + b) \\mid a,b \\in \\mathbb R\\}$",
+                "_topic": [
+                    {
+                        "id": 3,
+                        "title": "Transformaciones lineales"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 91,
+        "choice": "$\\{(a,b,c + b) \\mid a,b \\in \\mathbb R\\}$",
+        "correctAnswer": false,
+        "_exercise": [
+            {
+                "id": 24,
+                "exercise": "4",
+                "statement": "Sean las transformaciones lineales $T: \\mathbb R^3 \\rightarrow \\mathbb R^3 definida por: $$T(x,y,z) = (-2x - z, y - z, 4x + y + z)$$ $$S: \\mathbb R^3 rightarrow R^3 definida por:$$ $$ S(x,y,z) = (-x -z, -y - z, 2x - y + z)$$ El recorrido de $T \\circ S$, es:",
+                "answer": "$\\{(a,b,-2a + b) \\mid a,b \\in \\mathbb R\\}$",
+                "_topic": [
+                    {
+                        "id": 3,
+                        "title": "Transformaciones lineales"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 92,
+        "choice": "$\\{(a,b,2a + b) \\mid a,b \\in \\mathbb R\\}$",
+        "correctAnswer": false,
+        "_exercise": [
+            {
+                "id": 24,
+                "exercise": "4",
+                "statement": "Sean las transformaciones lineales $T: \\mathbb R^3 \\rightarrow \\mathbb R^3 definida por: $$T(x,y,z) = (-2x - z, y - z, 4x + y + z)$$ $$S: \\mathbb R^3 rightarrow R^3 definida por:$$ $$ S(x,y,z) = (-x -z, -y - z, 2x - y + z)$$ El recorrido de $T \\circ S$, es:",
+                "answer": "$\\{(a,b,-2a + b) \\mid a,b \\in \\mathbb R\\}$",
+                "_topic": [
+                    {
+                        "id": 3,
+                        "title": "Transformaciones lineales"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 93,
+        "choice": "$\\{(a,b,-2a - b) \\mid a,b \\in \\mathbb R\\}$",
+        "correctAnswer": false,
+        "_exercise": [
+            {
+                "id": 24,
+                "exercise": "4",
+                "statement": "Sean las transformaciones lineales $T: \\mathbb R^3 \\rightarrow \\mathbb R^3 definida por: $$T(x,y,z) = (-2x - z, y - z, 4x + y + z)$$ $$S: \\mathbb R^3 rightarrow R^3 definida por:$$ $$ S(x,y,z) = (-x -z, -y - z, 2x - y + z)$$ El recorrido de $T \\circ S$, es:",
+                "answer": "$\\{(a,b,-2a + b) \\mid a,b \\in \\mathbb R\\}$",
+                "_topic": [
+                    {
+                        "id": 3,
+                        "title": "Transformaciones lineales"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 94,
+        "choice": "$\\begin{bmatrix}-2 & 0 & 0 \\\\0 & 2 & 0 \\\\0 & 0 & 4\\end{bmatrix}$",
+        "correctAnswer": true,
+        "_exercise": [
+            {
+                "id": 25,
+                "exercise": "5",
+                "statement": "Sean $T: \\mathbb R^3 \\rightarrow \\mathbb R^3$ una transformación lineal y sean $T(1,0,2) = 2(1,0,2), T(0,0,1) = 4(0,0,1),T(0,-1,2) = -2(0,-1,2)$. Una matriz diagonal, es:",
+                "answer": "$\\begin{bmatrix}-2 & 0 & 0 \\\\0 & 2 & 0 \\\\0 & 0 & 4\\end{bmatrix}$",
+                "_topic": [
+                    {
+                        "id": 3,
+                        "title": "Transformaciones lineales"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 95,
+        "choice": "$\\begin{bmatrix}1 & 0 & 0 \\\\0 & 0 & -1 \\\\2 & 1 & 2\\end{bmatrix}$",
+        "correctAnswer": false,
+        "_exercise": [
+            {
+                "id": 25,
+                "exercise": "5",
+                "statement": "Sean $T: \\mathbb R^3 \\rightarrow \\mathbb R^3$ una transformación lineal y sean $T(1,0,2) = 2(1,0,2), T(0,0,1) = 4(0,0,1),T(0,-1,2) = -2(0,-1,2)$. Una matriz diagonal, es:",
+                "answer": "$\\begin{bmatrix}-2 & 0 & 0 \\\\0 & 2 & 0 \\\\0 & 0 & 4\\end{bmatrix}$",
+                "_topic": [
+                    {
+                        "id": 3,
+                        "title": "Transformaciones lineales"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 96,
+        "choice": "$\\begin{bmatrix}1 & 0 & 2 \\\\0 & 0 & 1 \\\\0 & -1 & 2\\end{bmatrix}$",
+        "correctAnswer": false,
+        "_exercise": [
+            {
+                "id": 25,
+                "exercise": "5",
+                "statement": "Sean $T: \\mathbb R^3 \\rightarrow \\mathbb R^3$ una transformación lineal y sean $T(1,0,2) = 2(1,0,2), T(0,0,1) = 4(0,0,1),T(0,-1,2) = -2(0,-1,2)$. Una matriz diagonal, es:",
+                "answer": "$\\begin{bmatrix}-2 & 0 & 0 \\\\0 & 2 & 0 \\\\0 & 0 & 4\\end{bmatrix}$",
+                "_topic": [
+                    {
+                        "id": 3,
+                        "title": "Transformaciones lineales"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 97,
+        "choice": "$\\begin{bmatrix}-2 & 0 & 0 \\\\0 & -4 & 0 \\\\0 & 0 & -2\\end{bmatrix}$",
+        "correctAnswer": false,
+        "_exercise": [
+            {
+                "id": 25,
+                "exercise": "5",
+                "statement": "Sean $T: \\mathbb R^3 \\rightarrow \\mathbb R^3$ una transformación lineal y sean $T(1,0,2) = 2(1,0,2), T(0,0,1) = 4(0,0,1),T(0,-1,2) = -2(0,-1,2)$. Una matriz diagonal, es:",
+                "answer": "$\\begin{bmatrix}-2 & 0 & 0 \\\\0 & 2 & 0 \\\\0 & 0 & 4\\end{bmatrix}$",
+                "_topic": [
+                    {
+                        "id": 3,
+                        "title": "Transformaciones lineales"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 98,
+        "choice": "$\\{(\\frac{2}{3}b - \\frac{2}{3}c,b - 2c, -b) \\mid b \\in \\mathbb R\\}$",
+        "correctAnswer": true,
+        "_exercise": [
+            {
+                "id": 26,
+                "exercise": "6",
+                "statement": "Sea la matriz $D = \\begin{bmatrix}2 & 0 & 0 \\\\0 & -1 & 0 \\\\0 & 0 & 0\\end{bmatrix}$, matriz diagonal asociada a $T$, referida a la base de los vectores $\\bar{v_1} = (1,2,-1), \\bar{v_2} = (0,1,1)$ y $\\bar{v_3} = (-1,0,0). La regla de correspondencia de $T$ es:",
+                "answer": "$\\{(\\frac{2}{3}b - \\frac{2}{3}c,b - 2c, -b) \\mid b \\in \\mathbb R\\}$",
+                "_topic": [
+                    {
+                        "id": 3,
+                        "title": "Transformaciones lineales"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 99,
+        "choice": "$\\{(b, 0, b) \\mid b \\in \\mathbb R\\}$",
+        "correctAnswer": false,
+        "_exercise": [
+            {
+                "id": 26,
+                "exercise": "6",
+                "statement": "Sea la matriz $D = \\begin{bmatrix}2 & 0 & 0 \\\\0 & -1 & 0 \\\\0 & 0 & 0\\end{bmatrix}$, matriz diagonal asociada a $T$, referida a la base de los vectores $\\bar{v_1} = (1,2,-1), \\bar{v_2} = (0,1,1)$ y $\\bar{v_3} = (-1,0,0). La regla de correspondencia de $T$ es:",
+                "answer": "$\\{(\\frac{2}{3}b - \\frac{2}{3}c,b - 2c, -b) \\mid b \\in \\mathbb R\\}$",
+                "_topic": [
+                    {
+                        "id": 3,
+                        "title": "Transformaciones lineales"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 100,
+        "choice": "$\\{(\\frac{2}{3}b,\\frac{2}{3}b - \\frac{1}{3}c, c) \\mid b \\in \\mathbb R\\}$",
+        "correctAnswer": false,
+        "_exercise": [
+            {
+                "id": 26,
+                "exercise": "6",
+                "statement": "Sea la matriz $D = \\begin{bmatrix}2 & 0 & 0 \\\\0 & -1 & 0 \\\\0 & 0 & 0\\end{bmatrix}$, matriz diagonal asociada a $T$, referida a la base de los vectores $\\bar{v_1} = (1,2,-1), \\bar{v_2} = (0,1,1)$ y $\\bar{v_3} = (-1,0,0). La regla de correspondencia de $T$ es:",
+                "answer": "$\\{(\\frac{2}{3}b - \\frac{2}{3}c,b - 2c, -b) \\mid b \\in \\mathbb R\\}$",
+                "_topic": [
+                    {
+                        "id": 3,
+                        "title": "Transformaciones lineales"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 101,
+        "choice": "$\\{(0, -b, -b) \\mid b \\in \\mathbb R\\}$",
+        "correctAnswer": false,
+        "_exercise": [
+            {
+                "id": 26,
+                "exercise": "6",
+                "statement": "Sea la matriz $D = \\begin{bmatrix}2 & 0 & 0 \\\\0 & -1 & 0 \\\\0 & 0 & 0\\end{bmatrix}$, matriz diagonal asociada a $T$, referida a la base de los vectores $\\bar{v_1} = (1,2,-1), \\bar{v_2} = (0,1,1)$ y $\\bar{v_3} = (-1,0,0). La regla de correspondencia de $T$ es:",
+                "answer": "$\\{(\\frac{2}{3}b - \\frac{2}{3}c,b - 2c, -b) \\mid b \\in \\mathbb R\\}$",
+                "_topic": [
+                    {
+                        "id": 3,
+                        "title": "Transformaciones lineales"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 102,
+        "choice": "$\\begin{pmatrix}1 & 1 & -1 \\\\0 & -2 & 0 \\\\0 & 0 & 1\\end{pmatrix}$",
+        "correctAnswer": true,
+        "_exercise": [
+            {
+                "id": 27,
+                "exercise": "7",
+                "statement": "Sea $F: \\mathbb R^3 \\rightarrow \\mathbb R^3$ una transformación lineal y sea $F:\\begin{bmatrix}0 & 1 & 1 \\\\0 & -2 & 0 \\\\0 & 0 & -1\\end{bmatrix}$ la matriz asociada a $F$. $$\n$$ Obtener una matriz $P$, tal que $P^{-1}AP = D$, donde $D$ es la matriz diagonal y $P$ la matriz diagonalizadora.",
+                "answer": "$\\begin{pmatrix}1 & 1 & -1 \\\\0 & -2 & 0 \\\\0 & 0 & 1\\end{pmatrix}$",
+                "_topic": [
+                    {
+                        "id": 3,
+                        "title": "Transformaciones lineales"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 103,
+        "choice": "$\\begin{pmatrix}0 & 1 & 0 \\\\0 & 2 & 0 \\\\0 & 1 & 1\\end{pmatrix}$",
+        "correctAnswer": false,
+        "_exercise": [
+            {
+                "id": 27,
+                "exercise": "7",
+                "statement": "Sea $F: \\mathbb R^3 \\rightarrow \\mathbb R^3$ una transformación lineal y sea $F:\\begin{bmatrix}0 & 1 & 1 \\\\0 & -2 & 0 \\\\0 & 0 & -1\\end{bmatrix}$ la matriz asociada a $F$. $$\n$$ Obtener una matriz $P$, tal que $P^{-1}AP = D$, donde $D$ es la matriz diagonal y $P$ la matriz diagonalizadora.",
+                "answer": "$\\begin{pmatrix}1 & 1 & -1 \\\\0 & -2 & 0 \\\\0 & 0 & 1\\end{pmatrix}$",
+                "_topic": [
+                    {
+                        "id": 3,
+                        "title": "Transformaciones lineales"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 104,
+        "choice": "$\\begin{pmatrix}1 & 0 & 0 \\\\0 & 1 & 0 \\\\0 & 0 & 1\\end{pmatrix}$",
+        "correctAnswer": false,
+        "_exercise": [
+            {
+                "id": 27,
+                "exercise": "7",
+                "statement": "Sea $F: \\mathbb R^3 \\rightarrow \\mathbb R^3$ una transformación lineal y sea $F:\\begin{bmatrix}0 & 1 & 1 \\\\0 & -2 & 0 \\\\0 & 0 & -1\\end{bmatrix}$ la matriz asociada a $F$. $$\n$$ Obtener una matriz $P$, tal que $P^{-1}AP = D$, donde $D$ es la matriz diagonal y $P$ la matriz diagonalizadora.",
+                "answer": "$\\begin{pmatrix}1 & 1 & -1 \\\\0 & -2 & 0 \\\\0 & 0 & 1\\end{pmatrix}$",
+                "_topic": [
+                    {
+                        "id": 3,
+                        "title": "Transformaciones lineales"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 105,
+        "choice": "$-\\frac{1}{2}\\begin{pmatrix}-2 & -1 & -2 \\\\0 & 1 & 0 \\\\0 & 0 & -2\\end{pmatrix}$",
+        "correctAnswer": false,
+        "_exercise": [
+            {
+                "id": 27,
+                "exercise": "7",
+                "statement": "Sea $F: \\mathbb R^3 \\rightarrow \\mathbb R^3$ una transformación lineal y sea $F:\\begin{bmatrix}0 & 1 & 1 \\\\0 & -2 & 0 \\\\0 & 0 & -1\\end{bmatrix}$ la matriz asociada a $F$. $$\n$$ Obtener una matriz $P$, tal que $P^{-1}AP = D$, donde $D$ es la matriz diagonal y $P$ la matriz diagonalizadora.",
+                "answer": "$\\begin{pmatrix}1 & 1 & -1 \\\\0 & -2 & 0 \\\\0 & 0 & 1\\end{pmatrix}$",
+                "_topic": [
+                    {
+                        "id": 3,
+                        "title": "Transformaciones lineales"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 106,
+        "choice": "$2x^2 - x - 3$",
+        "correctAnswer": true,
+        "_exercise": [
+            {
+                "id": 28,
+                "exercise": "8",
+                "statement": "Sea $P$ el espacio de los polinomios de grado menor o iagual a dos con coeficientes reales, $M_2$ es el espacio de las matrices simétricas de orden dos con elementos reales, $A = \\{x^2,x,1\\}$ y $B = \\{\\begin{pmatrix}1 & 0 \\\\0 & 0\\end{pmatrix},\\begin{pmatrix}0 & -1 \\\\-1 & 0\\end{pmatrix},\\begin{pmatrix}0 & 0 \\\\0 & -1\\end{pmatrix}\\}$ una base de $M_2$ y $S^{-1}: M_2 \\rightarrow P$ una transformación lineal, si la matriz asociada a $S^{-1}$ está referida a las bases $A$ y $B$ $$M^B_A(S^{-1}) = \\begin{pmatrix}1 & 0 & 0 \\\\0 & -1 & 0 \\\\0 & 0 & 1\\end{pmatrix}$$ La imagen de $S^{-1}\\begin{pmatrix}2 & -1 \\\\3 & 0\\end{pmatrix}$, es:",
+                "answer": "$2x^2 - x - 3$",
+                "_topic": [
+                    {
+                        "id": 3,
+                        "title": "Transformaciones lineales"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 107,
+        "choice": "$-2x^2 + x -3$",
+        "correctAnswer": false,
+        "_exercise": [
+            {
+                "id": 28,
+                "exercise": "8",
+                "statement": "Sea $P$ el espacio de los polinomios de grado menor o iagual a dos con coeficientes reales, $M_2$ es el espacio de las matrices simétricas de orden dos con elementos reales, $A = \\{x^2,x,1\\}$ y $B = \\{\\begin{pmatrix}1 & 0 \\\\0 & 0\\end{pmatrix},\\begin{pmatrix}0 & -1 \\\\-1 & 0\\end{pmatrix},\\begin{pmatrix}0 & 0 \\\\0 & -1\\end{pmatrix}\\}$ una base de $M_2$ y $S^{-1}: M_2 \\rightarrow P$ una transformación lineal, si la matriz asociada a $S^{-1}$ está referida a las bases $A$ y $B$ $$M^B_A(S^{-1}) = \\begin{pmatrix}1 & 0 & 0 \\\\0 & -1 & 0 \\\\0 & 0 & 1\\end{pmatrix}$$ La imagen de $S^{-1}\\begin{pmatrix}2 & -1 \\\\3 & 0\\end{pmatrix}$, es:",
+                "answer": "$2x^2 - x - 3$",
+                "_topic": [
+                    {
+                        "id": 3,
+                        "title": "Transformaciones lineales"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 108,
+        "choice": "$\\begin{pmatrix}-2 & 1 \\\\1 & -3\\end{pmatrix}$",
+        "correctAnswer": false,
+        "_exercise": [
+            {
+                "id": 28,
+                "exercise": "8",
+                "statement": "Sea $P$ el espacio de los polinomios de grado menor o iagual a dos con coeficientes reales, $M_2$ es el espacio de las matrices simétricas de orden dos con elementos reales, $A = \\{x^2,x,1\\}$ y $B = \\{\\begin{pmatrix}1 & 0 \\\\0 & 0\\end{pmatrix},\\begin{pmatrix}0 & -1 \\\\-1 & 0\\end{pmatrix},\\begin{pmatrix}0 & 0 \\\\0 & -1\\end{pmatrix}\\}$ una base de $M_2$ y $S^{-1}: M_2 \\rightarrow P$ una transformación lineal, si la matriz asociada a $S^{-1}$ está referida a las bases $A$ y $B$ $$M^B_A(S^{-1}) = \\begin{pmatrix}1 & 0 & 0 \\\\0 & -1 & 0 \\\\0 & 0 & 1\\end{pmatrix}$$ La imagen de $S^{-1}\\begin{pmatrix}2 & -1 \\\\3 & 0\\end{pmatrix}$, es:",
+                "answer": "$2x^2 - x - 3$",
+                "_topic": [
+                    {
+                        "id": 3,
+                        "title": "Transformaciones lineales"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 109,
+        "choice": "$\\begin{pmatrix}2 & -1 \\\\-1 & -3\\end{pmatrix}$",
+        "correctAnswer": false,
+        "_exercise": [
+            {
+                "id": 28,
+                "exercise": "8",
+                "statement": "Sea $P$ el espacio de los polinomios de grado menor o iagual a dos con coeficientes reales, $M_2$ es el espacio de las matrices simétricas de orden dos con elementos reales, $A = \\{x^2,x,1\\}$ y $B = \\{\\begin{pmatrix}1 & 0 \\\\0 & 0\\end{pmatrix},\\begin{pmatrix}0 & -1 \\\\-1 & 0\\end{pmatrix},\\begin{pmatrix}0 & 0 \\\\0 & -1\\end{pmatrix}\\}$ una base de $M_2$ y $S^{-1}: M_2 \\rightarrow P$ una transformación lineal, si la matriz asociada a $S^{-1}$ está referida a las bases $A$ y $B$ $$M^B_A(S^{-1}) = \\begin{pmatrix}1 & 0 & 0 \\\\0 & -1 & 0 \\\\0 & 0 & 1\\end{pmatrix}$$ La imagen de $S^{-1}\\begin{pmatrix}2 & -1 \\\\3 & 0\\end{pmatrix}$, es:",
+                "answer": "$2x^2 - x - 3$",
+                "_topic": [
+                    {
+                        "id": 3,
+                        "title": "Transformaciones lineales"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 110,
+        "choice": "$\\begin{pmatrix}2 & 1 \\\\3 & 2\\end{pmatrix}$",
+        "correctAnswer": true,
+        "_exercise": [
+            {
+                "id": 29,
+                "exercise": "9",
+                "statement": "Sean $A = \\{\\bar{m},\\bar{n}\\}$ y $B = \\{\\bar{p},\\bar{q}\\}$ dos bases de la transformación lineal $T$. $$T(\\bar{m}) = 2\\bar{p} - 3\\bar{q}, T(\\bar{n}) = -\\bar{p} + 2\\bar{q}$$, $$\n$$ La matriz asociada $M^B_A(T)$, es:",
+                "answer": "$\\begin{pmatrix}2 & 1 \\\\3 & 2\\end{pmatrix}$",
+                "_topic": [
+                    {
+                        "id": 3,
+                        "title": "Transformaciones lineales"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 111,
+        "choice": "$\\begin{pmatrix}2 & -1 \\\\-3 & 2\\end{pmatrix}$",
+        "correctAnswer": false,
+        "_exercise": [
+            {
+                "id": 29,
+                "exercise": "9",
+                "statement": "Sean $A = \\{\\bar{m},\\bar{n}\\}$ y $B = \\{\\bar{p},\\bar{q}\\}$ dos bases de la transformación lineal $T$. $$T(\\bar{m}) = 2\\bar{p} - 3\\bar{q}, T(\\bar{n}) = -\\bar{p} + 2\\bar{q}$$, $$\n$$ La matriz asociada $M^B_A(T)$, es:",
+                "answer": "$\\begin{pmatrix}2 & 1 \\\\3 & 2\\end{pmatrix}$",
+                "_topic": [
+                    {
+                        "id": 3,
+                        "title": "Transformaciones lineales"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 112,
+        "choice": "$\\begin{pmatrix}-2 & 1 \\\\3 & 2\\end{pmatrix}$",
+        "correctAnswer": false,
+        "_exercise": [
+            {
+                "id": 29,
+                "exercise": "9",
+                "statement": "Sean $A = \\{\\bar{m},\\bar{n}\\}$ y $B = \\{\\bar{p},\\bar{q}\\}$ dos bases de la transformación lineal $T$. $$T(\\bar{m}) = 2\\bar{p} - 3\\bar{q}, T(\\bar{n}) = -\\bar{p} + 2\\bar{q}$$, $$\n$$ La matriz asociada $M^B_A(T)$, es:",
+                "answer": "$\\begin{pmatrix}2 & 1 \\\\3 & 2\\end{pmatrix}$",
+                "_topic": [
+                    {
+                        "id": 3,
+                        "title": "Transformaciones lineales"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 113,
+        "choice": "$\\begin{pmatrix}-1 & 2 \\\\-3 & 2\\end{pmatrix}$",
+        "correctAnswer": false,
+        "_exercise": [
+            {
+                "id": 29,
+                "exercise": "9",
+                "statement": "Sean $A = \\{\\bar{m},\\bar{n}\\}$ y $B = \\{\\bar{p},\\bar{q}\\}$ dos bases de la transformación lineal $T$. $$T(\\bar{m}) = 2\\bar{p} - 3\\bar{q}, T(\\bar{n}) = -\\bar{p} + 2\\bar{q}$$, $$\n$$ La matriz asociada $M^B_A(T)$, es:",
+                "answer": "$\\begin{pmatrix}2 & 1 \\\\3 & 2\\end{pmatrix}$",
+                "_topic": [
+                    {
+                        "id": 3,
+                        "title": "Transformaciones lineales"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 114,
+        "choice": "$M(V) = \\{\\begin{pmatrix}a & b \\\\b & c\\end{pmatrix} \\mid a,b,c \\in \\mathbb R\\}$",
+        "correctAnswer": true,
+        "_exercise": [
+            {
+                "id": 30,
+                "exercise": "10",
+                "statement": "Sea el espacio vectorial real $V = \\{\\begin{pmatrix}a & b \\\\b & c\\end{pmatrix} \\mid a,b \\in \\mathbb R\\}$ y el operador lineal $M:V \\rightarrow V$ definido por $$M\\begin{pmatrix}a & b \\\\b & c\\end{pmatrix} = \\begin{pmatrix}a - b & a + b \\\\a + b & 3c\\end{pmatrix}$$ El recorrido de $M$, es:",
+                "answer": "$M(V) = \\{\\begin{pmatrix}a & b \\\\b & c\\end{pmatrix} \\mid a,b,c \\in \\mathbb R\\}$",
+                "_topic": [
+                    {
+                        "id": 3,
+                        "title": "Transformaciones lineales"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 115,
+        "choice": "$M(V) = \\{\\begin{pmatrix}-a & b \\\\c & c\\end{pmatrix} \\mid a,b,c \\in \\mathbb R\\}$",
+        "correctAnswer": false,
+        "_exercise": [
+            {
+                "id": 30,
+                "exercise": "10",
+                "statement": "Sea el espacio vectorial real $V = \\{\\begin{pmatrix}a & b \\\\b & c\\end{pmatrix} \\mid a,b \\in \\mathbb R\\}$ y el operador lineal $M:V \\rightarrow V$ definido por $$M\\begin{pmatrix}a & b \\\\b & c\\end{pmatrix} = \\begin{pmatrix}a - b & a + b \\\\a + b & 3c\\end{pmatrix}$$ El recorrido de $M$, es:",
+                "answer": "$M(V) = \\{\\begin{pmatrix}a & b \\\\b & c\\end{pmatrix} \\mid a,b,c \\in \\mathbb R\\}$",
+                "_topic": [
+                    {
+                        "id": 3,
+                        "title": "Transformaciones lineales"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 116,
+        "choice": "$M(V) = \\{\\begin{pmatrix}a & 0 \\\\0 & c\\end{pmatrix} \\mid a,b,c \\in \\mathbb R\\}$",
+        "correctAnswer": false,
+        "_exercise": [
+            {
+                "id": 30,
+                "exercise": "10",
+                "statement": "Sea el espacio vectorial real $V = \\{\\begin{pmatrix}a & b \\\\b & c\\end{pmatrix} \\mid a,b \\in \\mathbb R\\}$ y el operador lineal $M:V \\rightarrow V$ definido por $$M\\begin{pmatrix}a & b \\\\b & c\\end{pmatrix} = \\begin{pmatrix}a - b & a + b \\\\a + b & 3c\\end{pmatrix}$$ El recorrido de $M$, es:",
+                "answer": "$M(V) = \\{\\begin{pmatrix}a & b \\\\b & c\\end{pmatrix} \\mid a,b,c \\in \\mathbb R\\}$",
+                "_topic": [
+                    {
+                        "id": 3,
+                        "title": "Transformaciones lineales"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 117,
+        "choice": "$M(V) = \\{\\begin{pmatrix}a & 0 \\\\b & c\\end{pmatrix} \\mid a,b,c \\in \\mathbb R\\}$",
+        "correctAnswer": false,
+        "_exercise": [
+            {
+                "id": 30,
+                "exercise": "10",
+                "statement": "Sea el espacio vectorial real $V = \\{\\begin{pmatrix}a & b \\\\b & c\\end{pmatrix} \\mid a,b \\in \\mathbb R\\}$ y el operador lineal $M:V \\rightarrow V$ definido por $$M\\begin{pmatrix}a & b \\\\b & c\\end{pmatrix} = \\begin{pmatrix}a - b & a + b \\\\a + b & 3c\\end{pmatrix}$$ El recorrido de $M$, es:",
+                "answer": "$M(V) = \\{\\begin{pmatrix}a & b \\\\b & c\\end{pmatrix} \\mid a,b,c \\in \\mathbb R\\}$",
+                "_topic": [
+                    {
+                        "id": 3,
+                        "title": "Transformaciones lineales"
+                    }
+                ]
+            }
+        ]
     }
 ]

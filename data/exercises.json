@@ -137,9 +137,9 @@
     {
         "id": 15,
         "exercise": "5",
-        "statement": "Sea  $M^A_B = \\begin{bmatrix}1 & 1 & 0 \\\\-2 & -1 & 0 \\\\0 & 0 & 1\\end{bmatrix}$ la matriz de transición de la base A, a la base B, una base $$ A = \\{(1,i),(0,i),(-1,-1)\\}.$$ \nEl vector de coordenadas de $\\vec{u}$ en la base B es $$[\\vec{u}]_B = \\begin{bmatrix}2 \\\\ -1 \\\\ 0\\end{bmatrix}.$$ \nEl vector $\\vec{u}$, es:",
+        "statement": "Sea  $M^A_B = \\begin{bmatrix}1 & 1 & 0 \\\\-2 & -1 & 0 \\\\0 & 0 & 1\\end{bmatrix}$ la matriz de transición de la base A, a la base B, una base $$ A = \\{(1,i),(0,i),(-1,-1)\\}.$$ \nEl vector de coordenadas de $\\bar{u}$ en la base B es $$[\\bar{u}]_B = \\begin{bmatrix}2 \\\\ -1 \\\\ 0\\end{bmatrix}.$$ \nEl vector $\\bar{u}$, es:",
         "answer": "$(-1,-3-i)",
-        "solution": "$$\\begin{matrix}\\vec{u} = \\alpha\\vec{b_1} + \\beta\\vec{b_2} + \\gamma\\vec{b_3} \\\\ \\vec{u} = 2\\vec{b_1} + -1\\vec{b_2} + 0\\vec{b_3} \\end{matrix}$$ \nPara obtener los vectores $\\{\\vec{b_1},\\vec{b_2},\\vec{b_3}\\}$ de la base $B$, se tiene que: $$\\begin{matrix}\\vec{b_1} = \\alpha\\vec{a_1} + \\beta\\vec{a_2} + \\gamma\\vec{a_3} \\\\ \\vec{b_2} = \\alpha_1\\vec{a_1} + \\beta_1\\vec{a_2} + \\gamma_1\\vec{a_3} \\\\ \\vec{b_3} = \\alpha_2\\vec{a_1} + \\beta_2\\vec{a_2} + \\gamma_2\\vec{a_3}\\end{matrix}$$ \nLa matriz $M^B_A = \\begin{pmatrix}\\alpha & \\alpha_1 & \\alpha_2 \\\\ \\beta & \\beta_1 & \\beta_2 \\\\ \\gamma & \\gamma_1 & \\gamma_2 \\end{pmatrix}$ \nSe obtiene la matriz inversa de $M^A_B$ a través del método de la matriz adjunta $$M^B_A = \\frac{1}{detM^A_B}adj(M^A_B)$$ \nEl determinante de $M^A_B$ se puede calcular como: $$detM^A_BI = M^A_B adj(M^A_B),$$ \n$I$ es la matriz identidad. $$\nadj M^A_B = \\begin{pmatrix}+M_{11} & -M_{21} & +M_{31} \\\\-M_{12} & +M_{22} & -M_{32} \\\\+M_{13} & -M_{23} & +M_{33} \\end{pmatrix}$$ donde $M_{ij}$ son matrices llamadas menores. $$adj M^A_B =$$ $$\\begin{pmatrix}+\\begin{bmatrix}-1 & 0 \\\\ 0 & 1\\end{bmatrix} & -\\begin{bmatrix}1 & 0 \\\\0 & 1\\end{bmatrix} & +\\begin{bmatrix}1 & 0\\\\-1 & 0\\end{bmatrix} \\\\ -\\begin{bmatrix}-2 & 0 \\\\ 0 & 1\\end{bmatrix} & +\\begin{bmatrix}1 & 0 \\\\ 0 & 1\\end{bmatrix} & -\\begin{bmatrix}1 & 0 \\\\ -2 & 0\\end{bmatrix} \\\\ +\\begin{bmatrix}-2 & -1 \\\\ 0 & 0\\end{bmatrix} & -\\begin{bmatrix}1 & 1 \\\\0 & 0\\end{bmatrix} & +\\begin{bmatrix}1 & 1 \\\\-2 & -1\\end{bmatrix}\\end{pmatrix}$$ $$\nadjM^A_B = \\begin{pmatrix}-1 & -1 & 0 \\\\2 & 1 & 0 \\\\0 & 0 & 1\\end{pmatrix}$$ \nPara el cálculo de la determinante, se puede utilizar el Teorema $$\ndetM^A_BI = M^A_B adj(M^A_B),$$ $I$ $es$ $la$ $matriz$ $de$ $identidad.$ $$M^A_B adj(M^A_B) =$$ $$= \\begin{matrix}\\begin{pmatrix}1 & 1 & 0 \\\\-2 & -1 & 0 \\\\0 & 0 & 1\\end{pmatrix}\\begin{pmatrix}-1 & -1 & 0 \\\\2 & 1 & 0 \\\\0 & 0 & 1\\end{pmatrix}\\end{matrix}$$ $$= \\begin{pmatrix}1 & 0 & 0 \\\\0 & 1 & 0\\\\0 & 0 & 1\\end{pmatrix}$$ $$= \\frac{1}{3}$$ \nDonde $$ 1 = detM^A_B$$ $e$ $I_3$ $es$ $la$ $matriz$ $identidad.$ \nQuedando $M^B_A = \\begin{pmatrix}-1 & -1 & 0 \\\\2 & 1 & 0 \\\\0 & 0 & 1\\end{pmatrix}$ \nPor lo que se tienen las coordenadas para el cálculo de los vectores de la base B. $$\\begin{matrix}\\vec{b_1} = -1(1,i) + 2(0,-1) + 0(-1,-1) \\\\ = (-1,-2-i) \\\\ \\vec{b_2} = -1(1,i) + 1(0,-1) + 0(-1,-1) \\\\ = (-1,-1-i) \\\\ \\vec{b_3} = 0(1,i) + 0(0,-1) + 1(-1,-1) \\\\ = (-1,-1)\\end{matrix}$$ \nLa base $$B = \\{(-1,-2-i),(-1,-1-i),(-1,-1)\\}$$ \nEl vector $\\vec{u}$ en la base de b es: $$\\vec{u} = \\alpha\\vec{b_1} + \\beta\\vec{b_2} + \\gamma\\vec{b_3}$$ $$\n\\vec{u} = 2(-1,-2-i) + (-1)(-1,-1-i)$$ $$ + 0(-1,-1)$$ $$\n\\vec{u} = (-2 + 1, -4-2i + 1 + i)$$ $$\n\\vec{u} = (-1,-3-i)$$",
+        "solution": "$$\\begin{matrix}\\bar{u} = \\alpha\\bar{b_1} + \\beta\\bar{b_2} + \\gamma\\bar{b_3} \\\\ \\bar{u} = 2\\bar{b_1} + -1\\bar{b_2} + 0\\bar{b_3} \\end{matrix}$$ \nPara obtener los vectores $\\{\\bar{b_1},\\bar{b_2},\\bar{b_3}\\}$ de la base $B$, se tiene que: $$\\begin{matrix}\\bar{b_1} = \\alpha\\bar{a_1} + \\beta\\bar{a_2} + \\gamma\\bar{a_3} \\\\ \\bar{b_2} = \\alpha_1\\bar{a_1} + \\beta_1\\bar{a_2} + \\gamma_1\\bar{a_3} \\\\ \\bar{b_3} = \\alpha_2\\bar{a_1} + \\beta_2\\bar{a_2} + \\gamma_2\\bar{a_3}\\end{matrix}$$ \nLa matriz $M^B_A = \\begin{pmatrix}\\alpha & \\alpha_1 & \\alpha_2 \\\\ \\beta & \\beta_1 & \\beta_2 \\\\ \\gamma & \\gamma_1 & \\gamma_2 \\end{pmatrix}$ \nSe obtiene la matriz inversa de $M^A_B$ a través del método de la matriz adjunta $$M^B_A = \\frac{1}{detM^A_B}adj(M^A_B)$$ \nEl determinante de $M^A_B$ se puede calcular como: $$detM^A_BI = M^A_B adj(M^A_B),$$ \n$I$ es la matriz identidad. $$\nadj M^A_B = \\begin{pmatrix}+M_{11} & -M_{21} & +M_{31} \\\\-M_{12} & +M_{22} & -M_{32} \\\\+M_{13} & -M_{23} & +M_{33} \\end{pmatrix}$$ donde $M_{ij}$ son matrices llamadas menores. $$adj M^A_B =$$ $$\\begin{pmatrix}+\\begin{bmatrix}-1 & 0 \\\\ 0 & 1\\end{bmatrix} & -\\begin{bmatrix}1 & 0 \\\\0 & 1\\end{bmatrix} & +\\begin{bmatrix}1 & 0\\\\-1 & 0\\end{bmatrix} \\\\ -\\begin{bmatrix}-2 & 0 \\\\ 0 & 1\\end{bmatrix} & +\\begin{bmatrix}1 & 0 \\\\ 0 & 1\\end{bmatrix} & -\\begin{bmatrix}1 & 0 \\\\ -2 & 0\\end{bmatrix} \\\\ +\\begin{bmatrix}-2 & -1 \\\\ 0 & 0\\end{bmatrix} & -\\begin{bmatrix}1 & 1 \\\\0 & 0\\end{bmatrix} & +\\begin{bmatrix}1 & 1 \\\\-2 & -1\\end{bmatrix}\\end{pmatrix}$$ $$\nadjM^A_B = \\begin{pmatrix}-1 & -1 & 0 \\\\2 & 1 & 0 \\\\0 & 0 & 1\\end{pmatrix}$$ \nPara el cálculo de la determinante, se puede utilizar el Teorema $$\ndetM^A_BI = M^A_B adj(M^A_B),$$ $I$ $es$ $la$ $matriz$ $de$ $identidad.$ $$M^A_B adj(M^A_B) =$$ $$= \\begin{matrix}\\begin{pmatrix}1 & 1 & 0 \\\\-2 & -1 & 0 \\\\0 & 0 & 1\\end{pmatrix}\\begin{pmatrix}-1 & -1 & 0 \\\\2 & 1 & 0 \\\\0 & 0 & 1\\end{pmatrix}\\end{matrix}$$ $$= \\begin{pmatrix}1 & 0 & 0 \\\\0 & 1 & 0\\\\0 & 0 & 1\\end{pmatrix}$$ $$= \\frac{1}{3}$$ \nDonde $$ 1 = detM^A_B$$ $e$ $I_3$ $es$ $la$ $matriz$ $identidad.$ \nQuedando $M^B_A = \\begin{pmatrix}-1 & -1 & 0 \\\\2 & 1 & 0 \\\\0 & 0 & 1\\end{pmatrix}$ \nPor lo que se tienen las coordenadas para el cálculo de los vectores de la base B. $$\\begin{matrix}\\bar{b_1} = -1(1,i) + 2(0,-1) + 0(-1,-1) \\\\ = (-1,-2-i) \\\\ \\bar{b_2} = -1(1,i) + 1(0,-1) + 0(-1,-1) \\\\ = (-1,-1-i) \\\\ \\bar{b_3} = 0(1,i) + 0(0,-1) + 1(-1,-1) \\\\ = (-1,-1)\\end{matrix}$$ \nLa base $$B = \\{(-1,-2-i),(-1,-1-i),(-1,-1)\\}$$ \nEl vector $\\bar{u}$ en la base de b es: $$\\bar{u} = \\alpha\\bar{b_1} + \\beta\\bar{b_2} + \\gamma\\bar{b_3}$$ $$\n\\bar{u} = 2(-1,-2-i) + (-1)(-1,-1-i)$$ $$ + 0(-1,-1)$$ $$\n\\bar{u} = (-2 + 1, -4-2i + 1 + i)$$ $$\n\\bar{u} = (-1,-3-i)$$",
         "resolved": false,
         "_topic": [
             {
@@ -152,9 +152,9 @@
     {
         "id": 16,
         "exercise": "6",
-        "statement": "Sean las bases $$A = \\{\\vec{u},\\vec{v},\\vec{w}\\}$$ y $$B = \\{\\vec{a},\\vec{b},\\vec{c}\\}$$ \nSi $$\\vec{u} = -1\\vec{a} + 2\\vec{b} - \\vec{c}$$ y $$\\vec{w} = -\\vec{a} - 2\\vec{b}$$ \nEl vector $\\vec{v}$ en la base A, si $[\\vec{v}]_B = \\begin{bmatrix}1 \\\\0 \\\\2 \\end{bmatrix},$ es:",
+        "statement": "Sean las bases $$A = \\{\\bar{u},\\bar{v},\\bar{w}\\}$$ y $$B = \\{\\bar{a},\\bar{b},\\bar{c}\\}$$ \nSi $$\\bar{u} = -1\\bar{a} + 2\\bar{b} - \\bar{c}$$ y $$\\bar{w} = -\\bar{a} - 2\\bar{b}$$ \nEl vector $\\bar{v}$ en la base A, si $[\\bar{v}]_B = \\begin{bmatrix}1 \\\\0 \\\\2 \\end{bmatrix},$ es:",
         "answer": "$\\begin{pmatrix}0 \\\\2 \\\\-1 \\end{pmatrix}",
-        "solution": "La matriz de transición $$M^A_B = \\begin{bmatrix}-1 & 0 & -1 \\\\2 & -1 & -2 \\\\-1 & 1 & 0\\end{bmatrix}$$ \nObteniendo la matriz de transición $M^B_A$ por el método de matriz adjunta. $$M^B_A = \\frac{1}{detM^A_B}adj(M^A_B)$$ $$adjM^A_B = \\begin{pmatrix}+M_{11} & -M_{21} & +M_{31} \\\\-M_{12} & +M_{22} & -M_{32} \\\\+M_{13} & -M_{23} & +M_{33}\\end{pmatrix}$$ $$\nadjM^A_B = \\begin{pmatrix}+\\begin{bmatrix}-1 & -2 \\\\ 1 & 0\\end{bmatrix} & -\\begin{bmatrix}0 & -1 \\\\1 & 0\\end{bmatrix} & +\\begin{bmatrix}0 & -1 \\\\-1 & -2\\end{bmatrix} \\\\-\\begin{bmatrix}2 & -2 \\\\-1 & 0\\end{bmatrix} & +\\begin{bmatrix}-1 & -1 \\\\-1 & 0\\end{bmatrix} & -\\begin{bmatrix}-1 & -1 \\\\2 & -2\\end{bmatrix} \\\\+\\begin{bmatrix}2 & -1 \\\\-1 & 1\\end{bmatrix} & -\\begin{bmatrix}-1 & 0 \\\\-1 & 1\\end{bmatrix} & +\\begin{bmatrix}-1 & 0 \\\\2 & -1\\end{bmatrix}\\end{pmatrix}$$ $$\nadjM^A_B = \\begin{pmatrix}2 & -1 & -1 \\\\2 & -1 & -4 \\\\1 & 1 & 1\\end{pmatrix}$$ Calculando el determinante de $M^A_B$ utilizando el Teorema: $$detM^A_B = M^A_B adj M^A_B$$ $$\n\\begin{matrix}\\begin{pmatrix}-1 & 0 & -1 \\\\2 & -1 & -2 \\\\-1 & 1 & 0\\end{pmatrix}\\begin{pmatrix}2 & -1 & -1 \\\\2 & -1 & -4 \\\\1 & 1 & 1\\end{pmatrix} \\\\ = \\begin{pmatrix}-3 & 0 & 0 \\\\0 & -3 & 0 \\\\0 & 0 & -3\\end{pmatrix} \\\\ = -3I_3\\end{matrix}$$ $$\ndet M^A_B = -3$$ $$\n\\begin{matrix}[\\vec{v}]_A = M^B_A(\\vec{v})_B \\\\ = -\\frac{1}{3}\\begin{pmatrix}2 & -1 & -1 \\\\2 & -1 & -4 \\\\1 & 1 & 1\\end{pmatrix}\\begin{pmatrix}1 \\\\0 \\\\2 \\end{pmatrix} \\\\ = -\\frac{1}{3}\\begin{pmatrix}0 \\\\-6 \\\\3 \\end{pmatrix} \\\\ = \\begin{pmatrix}0 \\\\2 \\\\-1 \\end{pmatrix}\\end{matrix}$$",
+        "solution": "La matriz de transición $$M^A_B = \\begin{bmatrix}-1 & 0 & -1 \\\\2 & -1 & -2 \\\\-1 & 1 & 0\\end{bmatrix}$$ \nObteniendo la matriz de transición $M^B_A$ por el método de matriz adjunta. $$M^B_A = \\frac{1}{detM^A_B}adj(M^A_B)$$ $$adjM^A_B = \\begin{pmatrix}+M_{11} & -M_{21} & +M_{31} \\\\-M_{12} & +M_{22} & -M_{32} \\\\+M_{13} & -M_{23} & +M_{33}\\end{pmatrix}$$ $$\nadjM^A_B = \\begin{pmatrix}+\\begin{bmatrix}-1 & -2 \\\\ 1 & 0\\end{bmatrix} & -\\begin{bmatrix}0 & -1 \\\\1 & 0\\end{bmatrix} & +\\begin{bmatrix}0 & -1 \\\\-1 & -2\\end{bmatrix} \\\\-\\begin{bmatrix}2 & -2 \\\\-1 & 0\\end{bmatrix} & +\\begin{bmatrix}-1 & -1 \\\\-1 & 0\\end{bmatrix} & -\\begin{bmatrix}-1 & -1 \\\\2 & -2\\end{bmatrix} \\\\+\\begin{bmatrix}2 & -1 \\\\-1 & 1\\end{bmatrix} & -\\begin{bmatrix}-1 & 0 \\\\-1 & 1\\end{bmatrix} & +\\begin{bmatrix}-1 & 0 \\\\2 & -1\\end{bmatrix}\\end{pmatrix}$$ $$\nadjM^A_B = \\begin{pmatrix}2 & -1 & -1 \\\\2 & -1 & -4 \\\\1 & 1 & 1\\end{pmatrix}$$ Calculando el determinante de $M^A_B$ utilizando el Teorema: $$detM^A_B = M^A_B adj M^A_B$$ $$\n\\begin{matrix}\\begin{pmatrix}-1 & 0 & -1 \\\\2 & -1 & -2 \\\\-1 & 1 & 0\\end{pmatrix}\\begin{pmatrix}2 & -1 & -1 \\\\2 & -1 & -4 \\\\1 & 1 & 1\\end{pmatrix} \\\\ = \\begin{pmatrix}-3 & 0 & 0 \\\\0 & -3 & 0 \\\\0 & 0 & -3\\end{pmatrix} \\\\ = -3I_3\\end{matrix}$$ $$\ndet M^A_B = -3$$ $$\n\\begin{matrix}[\\bar{v}]_A = M^B_A(\\bar{v})_B \\\\ = -\\frac{1}{3}\\begin{pmatrix}2 & -1 & -1 \\\\2 & -1 & -4 \\\\1 & 1 & 1\\end{pmatrix}\\begin{pmatrix}1 \\\\0 \\\\2 \\end{pmatrix} \\\\ = -\\frac{1}{3}\\begin{pmatrix}0 \\\\-6 \\\\3 \\end{pmatrix} \\\\ = \\begin{pmatrix}0 \\\\2 \\\\-1 \\end{pmatrix}\\end{matrix}$$",
         "resolved": false,
         "_topic": [
             {
@@ -182,7 +182,7 @@
     {
         "id": 18,
         "exercise": "8",
-        "statement": "El valor de $k \\in \\mathbb C$ para que el vector $\\vec{m} = (1 + 2i,k,3 + i)$ sea combinación lineal de $A = \\{(1,-i,0),(2i,-1,3),(0,0,i)\\},$ es:",
+        "statement": "El valor de $k \\in \\mathbb C$ para que el vector $\\bar{m} = (1 + 2i,k,3 + i)$ sea combinación lineal de $A = \\{(1,-i,0),(2i,-1,3),(0,0,i)\\},$ es:",
         "answer": "$-1-i",
         "solution": "$$(1 + 2i,k,3 + i)$$ $$= \\alpha(1, -i, 0) + \\beta(2i, -1, 3) + \\gamma(0,0,i)$$ $$\n(1 + 2i, k ,3 + i)$$ $$= (\\alpha + 2\\beta i, -\\alpha i - \\beta, 3\\beta + \\gamma i)$$ \nIgualando vectores: $$\\alpha + 2\\beta i = 1 + 2i \\rightarrow \\alpha = 1, \\beta = 1$$ $$\n -\\alpha i - \\beta = k$$ $$\n3\\beta + \\gamma i = 3 + i \\rightarrow 3\\beta = 3, \\beta = 1$$ $$\n \\gamma = 1$$ \nPor lo que: $$ k = -1 -i$$",
         "resolved": false,
@@ -199,7 +199,7 @@
         "exercise": "9",
         "statement": "El conjunto de funciones $A = \\{3lnx^2, 5lnx, lnx^3\\}$ es:",
         "answer": "Linealmente independiente",
-        "solution": "Planteando la ecuación de dependecia lineal $$\\alpha\\vec{a_1} + \\beta\\vec{a_2} + \\gamma\\vec{a_3} = \\vec{0}$$ \n Se aplica la propiedad de logaritmos $$ln r^n = nlnr;$$ $$\n(3(2lnx)\\alpha + (5lnx)\\beta + (3lnx)\\gamma) = 0lnx$$ $$\n((6lnx)\\alpha + (5lnx)\\beta + (3lnx)\\gamma) = 0lnx$$ $$\n(6\\alpha + 5\\beta + 3\\gamma)lnx = 0lnx$$ $$\n6\\alpha + 5\\beta + 3\\gamma = 0$$ \nSe puede despejar $\\alpha$ o $\\beta$ o $\\gamma$. $$3\\gamma = -6\\alpha -5\\beta$$ $$\n\\gamma = \\frac{-6\\alpha-5\\beta}{3}$$ $$\n\\gamma = -2\\alpha-\\frac{5}{3}\\beta,\\alpha,\\beta \\in \\mathbb R$$ \n$\\therefore$ EL conjunto es linealmente dependiente.",
+        "solution": "Planteando la ecuación de dependecia lineal $$\\alpha\\bar{a_1} + \\beta\\bar{a_2} + \\gamma\\bar{a_3} = \\bar{0}$$ \n Se aplica la propiedad de logaritmos $$ln r^n = nlnr;$$ $$\n(3(2lnx)\\alpha + (5lnx)\\beta + (3lnx)\\gamma) = 0lnx$$ $$\n((6lnx)\\alpha + (5lnx)\\beta + (3lnx)\\gamma) = 0lnx$$ $$\n(6\\alpha + 5\\beta + 3\\gamma)lnx = 0lnx$$ $$\n6\\alpha + 5\\beta + 3\\gamma = 0$$ \nSe puede despejar $\\alpha$ o $\\beta$ o $\\gamma$. $$3\\gamma = -6\\alpha -5\\beta$$ $$\n\\gamma = \\frac{-6\\alpha-5\\beta}{3}$$ $$\n\\gamma = -2\\alpha-\\frac{5}{3}\\beta,\\alpha,\\beta \\in \\mathbb R$$ \n$\\therefore$ EL conjunto es linealmente dependiente.",
         "resolved": false,
         "_topic": [
             {
@@ -214,7 +214,7 @@
         "exercise": "10",
         "statement": "El espacio renglón de la matriz $$A = \\begin{bmatrix}1 & 0 & -2 \\\\-4 & 3 & -1 \\\\0 & 6 & -18\\end{bmatrix},$$ \n es el conjunto:",
         "answer": "$L(A) = \\{(a,b,-2a-3b) \\mid a,b \\in \\mathbb R\\}",
-        "solution": "Escalonando la matriz hasta llegar a la matriz canónica escalonada. $$\\begin{matrix}\\begin{pmatrix}1 & 0 & -2 \\\\-4 & 3 & -1 \\\\0 & 6 & -18\\end{pmatrix}\\begin{matrix}R_1(4)+R_2 \\rightarrow R_2 \\\\ \\sim \\end{matrix} \\\\ \\begin{pmatrix}1 & 0 & -2 \\\\0 & 3 & -9 \\\\0 & 6 & -18\\end{pmatrix}\\begin{matrix}R_2(-2)+R_3 \\rightarrow R_3 \\\\ \\sim \\end{matrix}\\end{matrix}$$ $$\n\\begin{matrix}\\begin{pmatrix}1 & 0 & -2 \\\\0 & 3 & -9 \\\\0 & 0 & 0\\end{pmatrix}\\begin{matrix}R_2(\\frac{1}{3}) \\rightarrow R_3 \\\\ \\sim\\end{matrix} \\\\ \\begin{pmatrix}1 & 0 & -2 \\\\0 & 1 & -3 \\\\0 & 0 & 0\\end{pmatrix}\\end{matrix}$$ Un vector genérico es: $$\\vec{x} = a(1,0,-2) + b(0,1,-3)$$ $$\n\\vec{x} = (a,b,-2a-3b)$$ $$\nL(A) = \\{(a,b,-2a-3b) \\mid a,b \\in \\mathbb R\\}$$",
+        "solution": "Escalonando la matriz hasta llegar a la matriz canónica escalonada. $$\\begin{matrix}\\begin{pmatrix}1 & 0 & -2 \\\\-4 & 3 & -1 \\\\0 & 6 & -18\\end{pmatrix}\\begin{matrix}R_1(4)+R_2 \\rightarrow R_2 \\\\ \\sim \\end{matrix} \\\\ \\begin{pmatrix}1 & 0 & -2 \\\\0 & 3 & -9 \\\\0 & 6 & -18\\end{pmatrix}\\begin{matrix}R_2(-2)+R_3 \\rightarrow R_3 \\\\ \\sim \\end{matrix}\\end{matrix}$$ $$\n\\begin{matrix}\\begin{pmatrix}1 & 0 & -2 \\\\0 & 3 & -9 \\\\0 & 0 & 0\\end{pmatrix}\\begin{matrix}R_2(\\frac{1}{3}) \\rightarrow R_3 \\\\ \\sim\\end{matrix} \\\\ \\begin{pmatrix}1 & 0 & -2 \\\\0 & 1 & -3 \\\\0 & 0 & 0\\end{pmatrix}\\end{matrix}$$ Un vector genérico es: $$\\bar{x} = a(1,0,-2) + b(0,1,-3)$$ $$\n\\bar{x} = (a,b,-2a-3b)$$ $$\nL(A) = \\{(a,b,-2a-3b) \\mid a,b \\in \\mathbb R\\}$$",
         "resolved": false,
         "_topic": [
             {
@@ -227,9 +227,9 @@
     {
         "id": 21,
         "exercise": "1",
-        "statement": "",
-        "answer": "",
-        "solution": "",
+        "statement": "Sean los espacios vectoriales $W$ y $M$ sobre un campo $K$, $$T:M \\rightarrow W,$$ $$S:M \\rightarrow M,$$ $$P:M \\rightarrow W,$$ $$R:M \\rightarrow W$$ y $$F:M \\rightarrow M$$ son transformaciones lineales. Las matrices asociadas a dichos espacios son no singulares. La regla de correspondencia de $$T \\circ S + F^{-1} + R +P,$$ es:",
+        "answer": "$M \\rightarrow W$",
+        "solution": "$S: M \\rightarrow M$ $$y$$ $T:M \\rightarrow W;T \\circ S: M \\rightarrow W;$ $$F^{-1}:M \\rightarrow W$$ R y P van de $$M \\rightarrow W$$ Para la operación $T \\circ S + F^{-1} + R + P$ se tiene que la regla de correspondencia va de $$M \\rightarrow W$$",
         "resolved": false,
         "_topic": [
             {
@@ -242,8 +242,8 @@
     {
         "id": 22,
         "exercise": "2",
-        "statement": "",
-        "answer": "",
+        "statement": "Si $A$ y $D$ son dos matrices similares, se cumple siempre que:",
+        "answer": "$detA = detD$",
         "solution": "",
         "resolved": false,
         "_topic": [
@@ -257,9 +257,9 @@
     {
         "id": 23,
         "exercise": "3",
-        "statement": "",
-        "answer": "",
-        "solution": "",
+        "statement": "Sea la transformación lineal $T: \\mathbb R^3 \\rightarrow \\mathbb R^3$ definida por: $$T(x,y,z) = (2x - 4y,x - 4y - z,3x + 3z)$$ La dimensión del recorrido y el núcleo son respectivamente:",
+        "answer": "$\\{\\begin{matrix} 2 \\\\ 1\\end{matrix}$",
+        "solution": "Obteniendo el núcleo de transformación $T$. $$N(T) = \\{\\bar{v} \\in V \\mid T(\\bar{v}) = \\bar{0}w ; w \\in W\\}$$ $$2x - 4y = 0$$ $$x - 4y - z = 0$$ $$3x + 3z = 0$$ Resolviendo el sistema de ecuaciones lineales homogéneo $$\\begin{matrix}\\begin{pmatrix}1 & -4 & -1 \\\\2 & -4 & 0 \\\\3 & 0 & 3\\end{pmatrix}\\begin{matrix}R_1(-2) + R_2 \\rightarrow R_2 \\\\R_1(-3) + R_3 \\rightarrow R_3 \\\\ \\sim \\end{matrix} \\\\ \\begin{pmatrix}1 & -4 & -1 \\\\0 & 4 & 2 \\\\0 & 12 & 6\\end{pmatrix}\\begin{matrix}R_2(-3) + R_3 \\rightarrow R_3 \\\\ \\sim\\end{matrix} \\\\ \\begin{pmatrix}1 & -4 & -1 \\\\0 & 4 & 2 \\\\0 & 0 & 0\\end{pmatrix}\\begin{matrix}R_2(\\frac{1}{4}) \\rightarrow R_2 \\\\ \\sim \\end{matrix} \\\\ \\begin{pmatrix}1 & -4 & -1 \\\\0 & 1 & \\frac{1}{2} \\\\ 0 & 0 & 0\\end{pmatrix}\\begin{matrix}R_2(4) + R_1 \\rightarrow R_1 \\\\ \\sim \\end{matrix} \\\\ \\begin{pmatrix}1 & 0 & 1 \\\\0 & 1 & \\frac{1}{2} \\\\0 & 0 & 0\\end{pmatrix}\\end{matrix}$$ $$x + z = 0 \\rightarrow x = -z$$ $$y + \\frac{1}{2}z = 0 \\rightarrow y = -\\frac{1}{2}z,z \\in \\mathbb R$$ El núcleo de la transformación es un subespacio del dominio, es decir de $\\mathbb R^3$. $$N(T) = \\{(-z,-\\frac{1}{2}z,z) \\mid z \\in \\mathbb R\\}$$ Un vector del dominio $$B_{N(T)} = \\{(-1,-\\frac{1}{2},1)\\}$$ $$dim N(T) = 1$$ El teorema dice $$dim V = dim N(T) + dim T(V)$$ Donde: $$dim V$$ es la dimensión del dominio de $T$. $$dim N(T)$$ es la dimensión del núcleo de la transformación $T$. $$dim T(V)$$ es las dimensión del recorrido de $T$. $$ 3 = 1 + X $$ $$ 3 - 1 = X $$ $$ X = 2 $$ Por lo que la dimensión del recorrido es $2$.",
         "resolved": false,
         "_topic": [
             {
@@ -272,9 +272,9 @@
     {
         "id": 24,
         "exercise": "4",
-        "statement": "",
-        "answer": "",
-        "solution": "",
+        "statement": "Sean las transformaciones lineales $$T: \\mathbb R^3 \\rightarrow \\mathbb R^3$$ definida por: $$T(x,y,z) = (-2x - z, y - z, 4x + y + z)$$ $$S: \\mathbb R^3 \\rightarrow \\mathbb R^3$$ definida por: $$S(x,y,z) = (-x -z, -y - z, 2x - y + z)$$ El recorrido de $T \\circ S$, es:",
+        "answer": "$\\{(a,b,-2a + b) \\mid a,b \\in \\mathbb R\\}$",
+        "solution": "$$(T \\circ S)(x,y,z) =$$ $$ = T(-x - z,-y - z,-2x - y +z)$$ $$(T \\circ S)(x,y,z) =$$ $$ = (-2(-x-z)-(-2x - y + z),$$ $$-y-z-(-2x - y + z),$$ $$4(-x - z) + (-y - z) + (-2x - y - z))$$ $$(T \\circ S)(x,y,z) = $$ $$(2x + 2z + 2x + y - z,$$ $$-y - z + 2x + y - z,$$ $$-4x - 4z - y - z -2x - y + z)$$ $$(T \\circ S)(x,y,z) =$$ $$ = (4x + y + z,2x - 2z, -6x - 2y - 4z)$$ Una base del dominio de $T \\circ S$ es: $$\\{(1,0,0),(0,1,0),(0,0,1)\\}$$ $$T(1,0,0) = (4,2,-6)$$ $$T(0,1,0) = (1,0,-2)$$ $$T(0,0,1) = (1, -2, -4)$$ El conjunto de imagenes es: $$\\{(4,2,-6),(1,0,-2),(1,-2,-4)\\}$$ $$\\begin{matrix}\\begin{pmatrix}4 & 2 & -6 \\\\1 & 0 & -2 \\\\1 & -2 & -4\\end{pmatrix}\\begin{matrix}R_2 \\rightarrow R_1 \\\\ \\sim \\end{matrix} \\\\ \\begin{pmatrix}1 & 0 & -2 \\\\4 & 2 & -6 \\\\1 & -2 & -4\\end{pmatrix}\\begin{matrix}R_1(-4) + R_2 \\rightarrow R_2 \\\\R_1(-1) + R_3 \\rightarrow R_3 \\\\ \\sim \\end{matrix} \\\\ \\begin{pmatrix}1 & 0 & -2 \\\\0 & 2 & 2 \\\\0 & -2 & -2\\end{pmatrix}\\begin{matrix}R_2(1) + R_3 \\rightarrow R_3 \\\\ \\sim \\end{matrix} \\\\ \\begin{pmatrix}1 & 0 & -2 \\\\0 & 2 & 2 \\\\0 & 0 & 0\\end{pmatrix}\\begin{matrix}R_2(\\frac{1}{2}) \\rightarrow R_2 \\\\ \\sim\\end{matrix}\\\\ \\begin{pmatrix}1 & 0 & -2 \\\\ 0 & 1 & 1 \\\\0 & 0 & 0\\end{pmatrix}\\end{matrix}$$ Un vector generico es: $$\\bar{x} = a(1,0,-2) + b(0,1,1)$$ $$\\bar{x} = (a,b,-2a + b)$$ El recorrido de $T \\circ S$, es $$\\{(a,b,-2a + b) \\mid a,b \\in \\mathbb R\\}$$",
         "resolved": false,
         "_topic": [
             {
@@ -287,9 +287,9 @@
     {
         "id": 25,
         "exercise": "5",
-        "statement": "",
-        "answer": "",
-        "solution": "",
+        "statement": "Sean $T: \\mathbb R^3 \\rightarrow \\mathbb R^3$ una transformación lineal y sean $$T(1,0,2) = 2(1,0,2),$$ $$T(0,0,1) = 4(0,0,1),$$ $$T(0,-1,2) = -2(0,-1,2).$$ Una matriz diagonal, es:",
+        "answer": "$\\begin{bmatrix}-2 & 0 & 0 \\\\0 & 2 & 0 \\\\0 & 0 & 4\\end{bmatrix}$",
+        "solution": "Los valores característicos de $T(\\bar{v}) = \\lambda \\bar{v}$, donde $\\lambda$ son los valores caracteristicos y $\\bar{v}$ son los vectores característicos. $$\\lambda_1 = 2$$ $$\\lambda_2 = 4$$ $$\\lambda_3 = -2$$ La matriz diagonal está compuesta en la diagonal por los valores característicos, por lo que: $$D = \\begin{bmatrix}\\lambda_1 & 0 & 0 \\\\0 & \\lambda_2 & 0 \\\\0 & 0 & \\lambda_3\\end{bmatrix}$$ Los valores característicos, se escriben en la diagonal principal, sin embargo, se sugiere ordenarlos de menor a mayor en la diagonal principal. Pero no es una regla.$$\n$$ Una matriz es: $$\\begin{bmatrix}-2 & 0 & 0 \\\\0 & 2 & 0 \\\\0 & 0 & 4\\end{bmatrix}$$",
         "resolved": false,
         "_topic": [
             {
@@ -302,9 +302,9 @@
     {
         "id": 26,
         "exercise": "6",
-        "statement": "",
-        "answer": "",
-        "solution": "",
+        "statement": "Sea la matriz $D = \\begin{bmatrix}2 & 0 & 0 \\\\0 & -1 & 0 \\\\0 & 0 & 0\\end{bmatrix}$, matriz diagonal asociada a $T$, referida a la base de los vectores $\\bar{v_1} = (1,2,-1), \\bar{v_2} = (0,1,1)$ y $\\bar{v_3} = (-1,0,0)$. La regla de correspondencia de $T$ es:",
+        "answer": "$\\{(\\frac{2}{3}b - \\frac{2}{3}c,b - 2c, -b) \\mid b \\in \\mathbb R\\}$",
+        "solution": "La regla de correspondecia de $T: \\mathbb R^3 \\rightarrow \\mathbb R^3$, es: $$T(1,2,-1) = 2(1,2,-1) = (2,4,-2)$$ $$T(0,1,1) = -1(0,1,1) = (0,-1,-1)$$ $$T(-1,0,0) = 0(-1,0,0) = (0,0,0)$$ $$\n$$ Los vectores expresados en su forma canónica $$T(i + 2j - k) = (2i + 4j -2k)...(1)$$ $$T(j + k) = (-j - k)...(2)$$ $$T(-i) = (0i + 0j + 0k) = \\bar{0}...(3)$$ $$\n$$ Sumando $1$ y $2$, sabiendo que $T(i) = \\bar{0}$ y despejando $T(j)$ $$\\begin{matrix}T(i) + 2T(j) - T(k) = 2i + 4j -2k \\\\T(j) + T(k) = -j-k \\end{matrix}$$ $$\n$$ $$3T(j) = 2i + 4j -2k -j - k$$ $$T(j) = \\frac{1}{3}(2i + 3j - 3k)$$ $$T(j) = \\frac{2}{3}i + j -k ...(4)$$ $$\n$$ Ahora $(4)$ sustituyendo en $(2)$ $$T(j) + T(k) = -j -k$$ $$T(k) = -j -k -T(j)$$ $$T(k) = -j - k - (\\frac{2}{3}i + j -k)$$ $$T(k) = -\\frac{2}{3}i - 2j$$ $$\n$$ Expresando la regla de correspondencia como una combinación lineal $$T(\\bar{v}) = aT(i) + bT(j) + cT(k)$$ $$T(\\bar{v}) = a(0,0,0) + b(\\frac{2}{3}i + j - k) +$$ $$c(-\\frac{2}{3}i - 2j + 0k)$$ $$T(\\bar{v}) = (\\frac{2}{3}b - \\frac{2}{3}c)i + (b - 2c)j - bk$$ $$\n$$ En forma analítica: $$T(\\bar{v}) = ((\\frac{2}{3}b - \\frac{2}{3}c),(b - 2c), -b)$$ $$\n$$ Comprobación: $$\\begin{matrix}T(1,2,-1) = ((\\frac{2}{3}(2) - \\frac{2}{3}(-1)),(2 -2(1)), \\\\-2)\\\\T(1,2,-1) = (2, 4, -2)\\end{matrix}$$ $$T(0,1,1) = ((\\frac{2}{3}(1) - \\frac{2}{3}(1)),(1 - 2(1)),-1)$$ $$T(1,2,-1) = (0, -1, -1)$$ $$T(-1,0,0) = ((\\frac{2}{3}(0) - \\frac{2}{3}(0)),(0 - 2(0)),0)$$ $$T(1,2,-1) = (0,0,0)$$",
         "resolved": false,
         "_topic": [
             {
@@ -317,8 +317,8 @@
     {
         "id": 27,
         "exercise": "7",
-        "statement": "",
-        "answer": "",
+        "statement": "Sea $F: \\mathbb R^3 \\rightarrow \\mathbb R^3$ una transformación lineal y sea $F:\\begin{bmatrix}0 & 1 & 1 \\\\0 & -2 & 0 \\\\0 & 0 & -1\\end{bmatrix}$ la matriz asociada a $F$. $$\n$$ Obtener una matriz $P$, tal que $P^{-1}AP = D$, donde $D$ es la matriz diagonal y $P$ la matriz diagonalizadora.",
+        "answer": "$\\begin{pmatrix}1 & 1 & -1 \\\\0 & -2 & 0 \\\\0 & 0 & 1\\end{pmatrix}$",
         "solution": "",
         "resolved": false,
         "_topic": [
@@ -332,8 +332,8 @@
     {
         "id": 28,
         "exercise": "8",
-        "statement": "",
-        "answer": "",
+        "statement": "Sea $P$ el espacio de los polinomios de grado menor o igual a dos con coeficientes reales, $M_2$ es el espacio de las matrices simétricas de orden dos con elementos reales, $A = \\{x^2,x,1\\}$ y $B = \\{\\begin{pmatrix}1 & 0 \\\\0 & 0\\end{pmatrix},\\begin{pmatrix}0 & -1 \\\\-1 & 0\\end{pmatrix},\\begin{pmatrix}0 & 0 \\\\0 & -1\\end{pmatrix}\\}$ una base de $M_2$ y $S^{-1}: M_2 \\rightarrow P$ una transformación lineal, si la matriz asociada a $S^{-1}$ está referida a las bases $A$ y $B$ $$M^B_A(S^{-1}) = \\begin{pmatrix}1 & 0 & 0 \\\\0 & -1 & 0 \\\\0 & 0 & 1\\end{pmatrix}$$ La imagen de $S^{-1}\\begin{pmatrix}2 & -1 \\\\3 & 0\\end{pmatrix}$, es:",
+        "answer": "$2x^2 - x - 3$",
         "solution": "",
         "resolved": false,
         "_topic": [
@@ -347,8 +347,8 @@
     {
         "id": 29,
         "exercise": "9",
-        "statement": "",
-        "answer": "",
+        "statement": "Sean $A = \\{\\bar{m},\\bar{n}\\}$ y $B = \\{\\bar{p},\\bar{q}\\}$ dos bases de la transformación lineal $T$. $$T(\\bar{m}) = 2\\bar{p} - 3\\bar{q}, T(\\bar{n}) = -\\bar{p} + 2\\bar{q},$$ $$\n$$ La matriz asociada $M^B_A(T)$, es:",
+        "answer": "$\\begin{pmatrix}2 & 1 \\\\3 & 2\\end{pmatrix}$",
         "solution": "",
         "resolved": false,
         "_topic": [
@@ -362,8 +362,8 @@
     {
         "id": 30,
         "exercise": "10",
-        "statement": "",
-        "answer": "",
+        "statement": "Sea el espacio vectorial real $V = \\{\\begin{pmatrix}a & b \\\\b & c\\end{pmatrix} \\mid a,b \\in \\mathbb R\\}$ y el operador lineal $M:V \\rightarrow V$ definido por $$M\\begin{pmatrix}a & b \\\\b & c\\end{pmatrix} = \\begin{pmatrix}a - b & a + b \\\\a + b & 3c\\end{pmatrix}$$ El recorrido de $M$, es:",
+        "answer": "$M(V) = \\{\\begin{pmatrix}a & b \\\\b & c\\end{pmatrix} \\mid a,b,c \\in \\mathbb R\\}$",
         "solution": "",
         "resolved": false,
         "_topic": [

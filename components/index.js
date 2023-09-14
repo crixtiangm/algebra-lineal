@@ -13,3 +13,4 @@ export { default as ExerciseSolution } from "./ExerciseSolution/ExerciseSolution
 export { default as NavHeaderTheory } from "./NavHeaderTheory/NavHeaderTheory";
 export { default as TabBottomMenuTheory } from "./TabBottomMenuTheory/TabBottomMenuTheory";
 export { default as CheckBoxAnswer } from "./CheckBoxAnswer/CheckBoxAnswer";
+//export { default as PdfView } from "./PdfView/PdfView";

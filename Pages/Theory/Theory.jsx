@@ -2,7 +2,7 @@ import { SafeAreaProvider, SafeAreaView } from "react-native-safe-area-context";
 import { s } from "./Theory.style";
 import { useRoute } from "@react-navigation/native";
 import { View } from "react-native";
-import { NavHeaderTheory, TabBottomMenuTheory } from "../../components";
+import { NavHeaderTheory, PdfView, TabBottomMenuTheory } from "../../components";
 import { useState } from "react";
 
 const Theory = () => {

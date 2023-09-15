@@ -25,6 +25,18 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "a851dd6e-c7fa-4719-9e85-39a6f08fc282"
+      }
+    },
+    "owner": "cgomezm",
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/a851dd6e-c7fa-4719-9e85-39a6f08fc282"
     }
   }
 }

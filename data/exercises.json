@@ -376,9 +376,9 @@
     },{
         "id": 31,
         "exercise": "1",
-        "statement": "",
-        "answer": "",
-        "solution": "",
+        "statement": "Sea $(\\bar{u} \\mid \\bar{v}) = -i$, al calcular $(\\bar{u}(2 + 5i) \\mid (2 + 5i) \\bar{v})$, se obtiene:",
+        "answer": "$-29i$",
+        "solution": "$(\\alpha \\bar{u} \\mid \\bar{v}) = \\alpha (\\bar{u} \\mid \\bar{v})$ $$(\\bar{u} \\mid \\alpha \\bar{v}) = \\bar{\\alpha} (\\bar{u} \\mid \\bar{v})$$ $$(2 + 5i)(2 -5i)(\\bar{u} \\mid \\bar{v}) =$$ $$= (4 - 10i + 10i -25i^2)(\\bar{u} \\mid \\bar{v})$$ $$ = 29(-i)$$ $$= -29i$$",
         "resolved": false,
         "_topic": [
             {
@@ -391,9 +391,9 @@
     {
         "id": 32,
         "exercise": "2",
-        "statement": "",
-        "answer": "",
-        "solution": "",
+        "statement": "En espacio $\\mathbb R^3$ se define el producto interno $$(\\bar{u} \\mid \\bar{v}) = x_1x_2 + 2y_1y_2 + 3w_1w_2,$$ $$\\forall \\bar{u} = (x_1,y_1,w_1), \\bar{v} = (x_2,y_2,w_2) \\in \\mathbb R^3$$ $$\n$$Obtenga los valores de $a, b$ y $c$ para que la base $A = \\{(a,0,4),(2,b,-1),(c,a,1)\\}$ sea ortogonal.",
+        "answer": "$a = 6, b = \\frac{7}{12}, c = -2$",
+        "solution": "Para $a$ $$(a,0,4) \\mid (2,b,-1) = 0$$ $$2a + 2(0)b + 3(4)(-1) = 0$$ $$\\Rightarrow 2a - 12 = 0$$ $$\\Rightarrow 6c = -12$$ $$\\Rightarrow a = 6$$ $$\n$$ Para $c$ $$(a,0,4) \\mid (c,a,1) = 0$$ $$ac + 2(0)a + (3)(4)(1) = 0$$ $$\\Rightarrow 6c + 0 + 12 = 0$$ $$\\Rightarrow 6c = -12$$ $$\\Rightarrow c = -2$$ $$\n$$ Para $b$ $$\n$$ $$(2,b,-1) \\mid (c,a,1) = 0$$ $$2c + 2ba + 3(-1)(1) = 0$$ $$\\Rightarrow 2c + 2b(6) - 3 = 0$$ $$\\Rightarrow 2(-2) + 12b - 3 = 0$$ $$12b = 7 \\Rightarrow b = \\frac{7}{12}$$",
         "resolved": false,
         "_topic": [
             {
@@ -406,9 +406,9 @@
     {
         "id": 33,
         "exercise": "3",
-        "statement": "",
-        "answer": "",
-        "solution": "",
+        "statement": "En espacio $\\mathbb R^3$ se define el producto interno $$(\\bar{u} \\mid \\bar{v}) = x_1x_2 + 4x_2y_2 + 2x_3y_3,$$ $$\\forall \\bar{u} = (x_1,x_3,x_3), \\bar{v} = (y_1,y_2,y_3) \\in \\mathbb R^3$$ $$\n$$El valor de $a > 0$ para que la distancia entre los vectores $\\bar{u} = (1,0,0)$ y $\\bar{v} = (-2,1,a)$ sea $\\sqrt{15}$, es:",
+        "answer": "$1$",
+        "solution": "$\\bar{u} - \\bar{v} = (1,0,0) - (-2,1,a) = (3, -1, -a)$ $$\n$$ La distancia es $$\\|\\bar{u} - \\bar{v}\\| = \\sqrt{(\\bar{u} - \\bar{v}) \\mid \\bar{u} - \\bar{v}}$$ $$ = \\sqrt{(3,-1,-a) \\mid (3,-1,-a)} = \\sqrt{15}$$ $$ = \\sqrt{(3)(3) + (4)(-1)(-1) + 2(-a)(-a)}$$ $$= \\sqrt{15}$$ $$ = \\sqrt{9 + 4 + 2a^2} = \\sqrt{15}$$ $$ = 13 + 2a^2 = 15$$ $$\\Rightarrow 2a^2 = 15 - 13$$ $$\\Rightarrow 2a^2 = 2$$ $$\\Rightarrow a^2 = 1 ; a = \\pm 1$$ $$\\Rightarrow a = 1$$",
         "resolved": false,
         "_topic": [
             {
@@ -421,9 +421,9 @@
     {
         "id": 34,
         "exercise": "4",
-        "statement": "",
-        "answer": "",
-        "solution": "",
+        "statement": "Sea el espacio vectorial de los polinomios de grado menor o igual a 2, con producto interno $$(p \\mid q) = \\sum_{i = -1}^{1} p(i)q(i);$$ $$\\forall p = ax^2 + bx + c, q = mx^2 + nx + p \\in P$$ $$\n$$ y sea el subespacio $$W = \\{ax^2 + 3bx + a \\mid a,b \\in \\mathbb R\\}$$ $$\n$$ La proyección del polinomio $\\bar{r} = x^2 + x$ sobre el complemento ortogonal, es:",
+        "answer": "$\\frac{1}{9}(10x^2 - 3)$",
+        "solution": "Para el complemento ortogonal se obtiene una base $W$ $$B_w = \\{x^2 + 1, 3x\\}$$ Utilizando la definición de complemento ortogonal $$W^{+} = \\{\\bar{v} \\in V \\mid (\\bar{v} \\mid \\bar{w}) = 0,\\bar{v} \\in V,\\bar{w} \\in W\\}$$ $$(ax^2 + bx + c \\mid x^2 + 1) = 0 \\dotso \\dotso \\dotso(1)$$ $$(ax^2 + bx + c \\mid 3x) = 0 \\dotso \\dotso \\dotso \\dotso (2)$$ $$\n$$ De $(1)$ aplicando al producto interno $$(a(-1)^2 + b(-1) + c)[(-1)^2 + 1]$$ $$+ (a(0)^2 + b(0) + c)[(0)^2 + 1]$$ $$+ (a(1)^2 + b(1) + c)[(1)^2 + 1] = 0$$ $$\n$$ Entonces $$(a - b + c)(2) + c(1) + (a + b + c)(2) = 0$$ $$2a - 2b + 2c + c + 2a + 2b + 2c = 0$$ $$\\Rightarrow 4a + 5c = 0$$ $$\n$$ De $(2)$ tenemos que $$(a(-1)^2 + b(-1) + c)[3(-1)]$$ $$+ (a(0)^2 + b(0) + c)[3(0)]$$ $$+(a(1)^2 + b(1) + c)[3(1)] = 0$$ $$\n$$Entonces $$(a - b + c)(-3) + (a + b + c)(3) = 0$$ $$-3a + 3b - 3c + 3a + 3b +3c = 0$$ $$\\Rightarrow 6b = 0 \\Rightarrow a = -\\frac{5c}{4}$$ $$\n$$Dado que $$\\{ \\begin{matrix}4a + 5c = 0 \\\\b = 0\\end{matrix} \\Rightarrow 4a = -5c \\Rightarrow a = -\\frac{5c}{4}$$ $$\n$$ El complemento ortogonal es: $$W^{+} = \\{-\\frac{5c}{4}x^2 + c \\mid c \\in \\mathbb R\\}$$ $$\n$$ Una base de $W^{+} = \\{-\\frac{5}{4}x^2 + 1\\}$ $$\n$$ La proyección del vector $\\bar{r}$ sobre $W^{+}$ es $$proy_{B_{w^{+}}} \\bar{V} = \\sum_{i=1}^{n} (\\bar{v} \\mid e_{i})e_{i}$$ $$\n$$ Con la base ortogonal de $W^{+}$ obtenemos el vector unitario, donde la norma es $$\\|-\\frac{5}{4}x^2 + 1\\| =$$ $$= \\sqrt{(-\\frac{5}{4}x^2 + 1)\\mid(-\\frac{5}{4}x^2 + 1)}$$ $$=\\sqrt{(-\\frac{5}{4} + 1)(-\\frac{5}{4} + 1) + 1(1) + (-\\frac{5}{4} + 1)}$$ $$(-\\frac{5}{4} + 1)$$ $$= \\sqrt{(\\frac{-1}{4})(\\frac{-1}{4}) + 1 +(\\frac{-1}{4})(\\frac{-1}{4})}$$ $$=\\sqrt{\\frac{1}{16} + 1 + \\frac{1}{16}} = \\sqrt{\\frac{18}{16}} = \\frac{\\sqrt{18}}{4}$$ $$\n$$ La base ortogonal $$B_{w^{+}} = \\begin{Bmatrix}\\frac{1}{\\frac{\\sqrt{18}}{4}}(-\\frac{5}{4}x^2 + 1)\\end{Bmatrix}$$ $$= \\{\\frac{4}{\\sqrt{18}}(-\\frac{5}{4}x^2 + 1)\\}$$ $$= \\{-\\frac{5}{\\sqrt{18}}x^2 + \\frac{4}{\\sqrt{18}}\\}$$ $$\n$$ La proyección es: $$(x^2 + x \\mid -\\frac{5}{\\sqrt{18}}x^2 + \\frac{4}{\\sqrt{18}}) \\cdot $$ $$(-\\frac{5}{\\sqrt{18}}x^2 + \\frac{4}{\\sqrt{18}})$$ $$ = [((-1)^2 + (-1))(-\\frac{5}{\\sqrt{18}}(-1)^2 + \\frac{4}{\\sqrt{18}})$$ $$+ ((0)^2 + (0))(-\\frac{5}{\\sqrt{18}}(0)^2 + \\frac{4}{\\sqrt{18}}$$ $$+((1)^2 + (1))(-\\frac{5}{\\sqrt{18}}(1)^2 + \\frac{4}{\\sqrt{18}})]\\cdot$$ $$(-\\frac{5}{\\sqrt{18}}x^2 + \\frac{4}{\\sqrt{18}})$$ $$= \\frac{-2}{\\sqrt{18}}(-\\frac{5}{\\sqrt{18}}x^2 + \\frac{4}{\\sqrt{18}})$$ $$= (\\frac{10}{\\sqrt{18}\\sqrt{18}}x^2 - \\frac{8}{\\sqrt{18}\\sqrt{18}})$$ $$= \\frac{10}{18}x^2 - \\frac{8}{18}$$ $$= \\frac{5x^2}{9} - \\frac{4}{9}$$",
         "resolved": false,
         "_topic": [
             {
@@ -436,9 +436,9 @@
     {
         "id": 35,
         "exercise": "5",
-        "statement": "",
-        "answer": "",
-        "solution": "",
+        "statement": "Sea $V$ el espacio de matrices simétricas de orden dos con elementos reales y sea $$W = \\begin{Bmatrix}\\begin{pmatrix}a & b \\\\b & -a\\end{pmatrix} \\mid a,b \\in \\mathbb R\\end{Bmatrix}$$ $$\n$$ un subespacio de $V$ con producto interno definido por $$(A \\mid B) = tr(AB^{*}),$$ donde $B^{*}$ es la matriz conjugada-transpuesta de $B$. Las coordenadas del vector $$M = \\begin{pmatrix}1 & 0 \\\\0 & 2\\end{pmatrix}$$ en la base ortogonal natural o canónica de $W$, son:",
+        "answer": "$\\begin{bmatrix}-\\frac{1}{2} \\\\0 \\end{bmatrix}$",
+        "solution": "Obtendremos la base ortogonal de $W$ $$W = \\begin{Bmatrix}\\begin{pmatrix}1 & 0 \\\\0 & -1\\end{pmatrix},\\begin{pmatrix}0 & 1 \\\\1 & 0\\end{pmatrix}\\end{Bmatrix}$$ Verifiquemos si es ortogonal dicha base con el producto interno propuesto $$\\begin{pmatrix}1 & 0 \\\\0 & -1\\end{pmatrix}\\mid\\begin{pmatrix}0 & 1 \\\\1 & 0\\end{pmatrix} = 0$$ $$tr\\begin{pmatrix}1 & 0 \\\\0 & -1\\end{pmatrix}\\begin{pmatrix}0 & 1 \\\\1 & 0\\end{pmatrix} = tr\\begin{pmatrix}0 & 1 \\\\-1 & 0\\end{pmatrix}$$ $$\\Rightarrow 0 + 0 = 0$$ si es una base ortogonal $$\n$$El vector de coordenadas se obtiene mediante la definición $$\n$$Sea $b$ un espacio vectorial $$B = \\{\\bar{v_1},\\bar{v_2},\\bar{v_3},...,\\bar{v_n}\\}$$Además se sabe que un vector en la base B se obtiene como: $$\\bar{a} = \\alpha\\bar{v_1} + \\beta\\bar{v_2} + \\gamma\\bar{v_3} + \\dotsm + \\delta\\bar{v_n}$$ Utilizando el producto interno $$(\\bar{a}\\mid v_i) = \\alpha_{1}(\\bar{v_1}\\mid\\bar{v_i}) + \\alpha_{2}(\\bar{v_2}\\mid\\bar{v_i})$$ $$+ \\alpha_{3}(\\bar{v_3}\\mid\\bar{v_i}) + \\dotsm + \\alpha_{n}(\\bar{v_n}\\mid\\bar{v_i}),$$ $$\n$$donde $v_i$ es un factor de la base ortogonal $$\n$$ En general $$(\\bar{a} \\mid v_i) = \\alpha_{i}(v_i \\mid v_i); \\alpha_{i} = \\frac{(\\bar{a}\\mid v_i)}{(v_i\\mid v_i)}$$ $$[\\bar{a}]_{B} = \\begin{bmatrix}\\frac{(\\bar{a}\\mid v_1)}{(v_1 \\mid v_1)} \\\\ \\frac{(\\bar{a}\\mid v_2)}{(v_2 \\mid v_2)} \\\\ \\frac{(\\bar{a}\\mid v_3)}{(v_3 \\mid v_3)} \\\\ \\vdots \\\\ \\frac{(\\bar{a}\\mid v_n)}{(v_n \\mid v_n)}\\end{bmatrix}$$ $$\\alpha_1 = \\frac{\\begin{pmatrix}\\begin{pmatrix}1 & 0 \\\\0 & 2\\end{pmatrix}\\mid \\begin{pmatrix}1 & 0 \\\\0 & -1\\end{pmatrix}\\end{pmatrix}}{\\begin{pmatrix}\\begin{pmatrix}1 & 0 \\\\0 & -1\\end{pmatrix}\\mid \\begin{pmatrix}1 & 0 \\\\0 & -1\\end{pmatrix}\\end{pmatrix}}$$ $$= \\frac{tr\\begin{pmatrix}1 & 0 \\\\0 & -2\\end{pmatrix}}{tr\\begin{pmatrix}1 & 0 \\\\0 & 1\\end{pmatrix}} = -\\frac{1}{2}$$ $$\\alpha_2 = \\frac{\\begin{pmatrix}\\begin{pmatrix}1 & 0 \\\\0 & 2\\end{pmatrix}\\mid \\begin{pmatrix}0 & 1 \\\\1 & 0\\end{pmatrix}\\end{pmatrix}}{\\begin{pmatrix}\\begin{pmatrix}0 & 1 \\\\1 & 0\\end{pmatrix}\\mid \\begin{pmatrix}0 & 1 \\\\1 & 0\\end{pmatrix}\\end{pmatrix}}$$ $$= \\frac{tr\\begin{pmatrix}0 & 1 \\\\2 & 0\\end{pmatrix}}{tr\\begin{pmatrix}1 & 0 \\\\0 & 1\\end{pmatrix}} = \\frac{0}{2} = 0$$ $$[\\bar{a}]_B = \\begin{bmatrix}-\\frac{1}{2} \\\\0 \\end{bmatrix}$$",
         "resolved": false,
         "_topic": [
             {
@@ -451,9 +451,9 @@
     {
         "id": 36,
         "exercise": "6",
-        "statement": "",
-        "answer": "",
-        "solution": "",
+        "statement": "Sea el espacio vectorial de funciones reales de variable real, continuas e integrables en $x \\in [0,\\pi]$ con producto interno $$(f \\mid g) = \\int_{0}^{\\frac{\\pi}{2}}3f(x)g(x)\\cos{x}dx.$$ La norma de $$f(x) = 2\\sin{x},$$ es:",
+        "answer": "$2$",
+        "solution": "$\\|f(x)\\| = \\sqrt{2\\sin{x} \\mid 2\\sin{x}}$ $$=\\sqrt{12\\int_{0}^{\\frac{\\pi}{2}} \\sin{x}\\sin{x}\\cos{x}dx}$$ $$= \\sqrt{12 \\int_{0}^{\\frac{\\pi}{2}} \\sin^{2}x\\cos{x}dx}$$ $$=\\sqrt{12(\\frac{\\sin^{3}x}{3})}\\mid_{0}^{\\frac{\\pi}{2}} = \\sqrt{4} = 2$$",
         "resolved": false,
         "_topic": [
             {
@@ -466,9 +466,9 @@
     {
         "id": 37,
         "exercise": "7",
-        "statement": "",
-        "answer": "",
-        "solution": "",
+        "statement": "Sea $P = \\{ax^2 + bx + c \\mid a,b,c \\in \\mathbb R\\}$ el espacio vectorial de los polinomios de grado menor o igual a $2$, con producto interno $$(p \\mid q) = \\int_{-1}^{0}p(x)q(x)dx \\forall p,q \\in P.$$ $$\n$$El ángulo entre polinomios $f_{1}(x) = 2x$ y $f_{2}(x) = 2$ es:",
+        "answer": "$\\frac{5}{6}\\pi$",
+        "solution": "$\\cos\\theta = \\frac{(p \\mid q)}{\\|p\\|\\|q\\|}$ $$(p \\mid q) = (f_{1}(x) \\mid f_{2}(x))$$ $$(2x \\mid 2) = \\int_{-1}^{0} (2x)2dx = 4$$ $$=4\\int_{-1}^{0}xdx = \\frac{4x^2}{2} \\mid_{-1}^{0}$$ $$= 2x^2 \\mid_{-1}^{0} = 2(0)^2 - 2(-1)^2 = -2$$ $$\\|p\\| = \\sqrt{f_{1}(x) \\mid f_{1}(x)} = \\sqrt{2x \\mid 2x}$$ $$= \\sqrt{\\int_{-1}^{0}4x^2dx} = \\sqrt{4\\frac{x^3}{3}\\mid_{-1}^{0}}$$ $$= \\sqrt{\\frac{4}{3}(0)^3 - \\frac{4}{3}(-1)^3} = \\sqrt{\\frac{4}{3}} = \\frac{2}{\\sqrt{3}}$$ $$\\|q\\| = \\sqrt{f_{2}x \\mid f_{2}x} = \\sqrt{2 \\mid 2}$$ $$= \\sqrt{\\int_{-1}^{0}2(2)dx}$$ $$= \\sqrt{4\\int_{-1}^{0}dx} = \\sqrt{4x \\mid_{-1}^{0}}$$ $$ = \\sqrt{4(0) - 4(-1)} = \\sqrt{4} = 2$$ $$\\cos\\theta = \\frac{-2}{\\frac{2}{\\sqrt{3}}(2)}$$ $$\\cos\\theta = \\frac{-2\\sqrt{3}}{4} \\Rightarrow \\cos\\theta = -\\frac{\\sqrt{3}}{2}$$ $$ \\Rightarrow \\theta = \\arccos (-\\frac{\\sqrt{3}}{2}) \\Rightarrow \\theta = 150^{\\circ} = \\frac{5\\pi}{6}$$ $$\n$$Recordando que $-1 \\leq \\cos\\theta \\leq 1, 0 \\leq \\theta \\leq \\pi$ ",
         "resolved": false,
         "_topic": [
             {
@@ -481,9 +481,9 @@
     {
         "id": 38,
         "exercise": "8",
-        "statement": "",
-        "answer": "",
-        "solution": "",
+        "statement": "Para el espacio $\\mathbb C^3$ con el producto interno usual en $\\mathbb C$. Una base ortogonal de $\\mathbb C^3$ a partir de la base $\\{(i,0,0),(0,i,i),(2i,i,-i)\\}$ es:",
+        "answer": "$\\{(i,0,0),\\frac{1}{\\sqrt{2}}(0,i,i),\\frac{1}{\\sqrt{2}}(0,i,-i)\\}$",
+        "solution": "El producto interno usual en $\\mathbb C$, es: $$(\\bar{u} \\mid \\bar{v}) = u_1\\bar{v_1} + u_2\\bar{v_2} + u_3\\bar{v_3};$$ $$\\forall \\bar{u} = (u_1,u_2,u_3),$$ $$\\bar{v} = (v_1,v_2,v_3) \\in \\mathbb C^3$$ $$\n$$Verificando si es ortogonal el consjunto con el producto interno $(\\bar{u} \\mid \\bar{v})$ $$(i,0,0)\\mid(0,i,i) = i(0) + 0(-i) + 0(-i)$$ $$= 0$$ $$(i,0,0)\\mid(2i,i,-i) = i(-2i) + 0(i) + 0(i)$$ $$= i(-2i) = 2$$ $$(0,i,i)\\mid(2i,i,-i) = 0(-2i) + i(-i) + i(i)$$ $$= 0 + 1 - 1 = 0$$ $$\n$$No es ortogonal el conjunto. Utilizando el producto interno para obtener una base ortogonal $$\\bar{w_2} = (i,0,0)$$ $$\\bar{w_2} = (0,i,i) - \\frac{(0,i,i)\\mid(i,0,0)}{(i,0,0)\\mid(i,0,0)}(i,0,0)$$ $$\\bar{w_2} = (0,i,i) - \\frac{(i(0) + i(0) + i(0))}{i(-i) + 0(0) + 0(0)}(i,0,0)$$ $$\\bar{w_2} = (0,i,i) - \\frac{0}{i(-i)}(i,0,0); i^2 = -1$$ $$\\bar{w} = (0,i,i) - \\frac{0}{1}(i,0,0)$$ $$\\bar{w_2} = (0,i,i)$$ $$\\bar{w_3} = (2i,i,-i)$$ $$- \\frac{[(2i,i,-i)\\mid(i,0,0)]}{[(i,0,0)\\mid(i,0,0)]} (i,0,0)$$ $$-\\frac{[(2i,i,-i)\\mid(0,i,i)]}{[(0,i,i)\\mid(0,i,i)]} (0,i,i)$$ $$\\bar{w_3} = (2i,i,-i)$$ $$-\\frac{[2i(-i)+i(0)-i(0)]}{[i(-i)+0(0)+0(0)]}(i,0,0)$$ $$-\\frac{[2i(0)+i(i)-i(i)]}{[0(0)+i(-i)+i(-i)]}(0,i,i)$$ $$\\bar{w_3} = (2i,i,-i) - \\frac{2}{1}(i,0,0)$$ $$-(-1+1)(0,i,i)$$ $$\\bar{w_3} = (2i,i,-i)-(2i,0,0) = (0,i,-i)$$ $$\n$$ Obtenemos la norma de cada vector de la base ortogonal $$B_{OR} = \\{(i,0,0),(0,i,i),(0,i,-i)\\}$$ $$\\|(i,0,0)\\| = \\sqrt{(i,0,0)\\mid(i,0,0)}$$ $$=\\sqrt{i(-i) + 0(0) + (0)(0)} = 1$$ $$\\|(0,i,i)\\| = \\sqrt{(0,i,i)\\mid(0,i,i)}$$ $$= \\sqrt{0(0) + i(-i) + i(-i)} = \\sqrt{2}$$ $$\\|(0,i,-i)\\| = \\sqrt{(0,i,-i)\\mid(0,i,-i)}$$ $$=\\sqrt{0(0) + i(-i) + (-i)(i)} = \\sqrt{2}$$ $$\n$$La base ortonormal es: $$b_{ON} = \\{(i,0,0),\\frac{1}{\\sqrt{2}}(0,i,i),\\frac{1}{\\sqrt{2}}(0,i,-i)\\}$$",
         "resolved": false,
         "_topic": [
             {
@@ -496,9 +496,9 @@
     {
         "id": 39,
         "exercise": "9",
-        "statement": "",
-        "answer": "",
-        "solution": "",
+        "statement": "La proyección del vector $\\bar{u} = (2,-1,3)$ sobre el subespacio $$S = \\{(x,y,z)\\mid x + y - z = 0,$$ $$-2x - 2y + 2z = 0, x,y,z \\in \\mathbb R\\}$$ $$\n$$utilizando el producto interno usual en $\\mathbb R^3$, es:",
+        "answer": "$(\\frac{8}{3},-\\frac{1}{3},\\frac{7}{3})$",
+        "solution": "El subespacio $S$ se puede redefinir simplificando el sistema de ecuaciones lineales homogéneo $$\\{\\begin{matrix}x + y - z = 0 \\\\-2x -2y + 2z = 0\\end{matrix}$$ $$\\begin{pmatrix}1 & 1 & -1 \\\\-2 & -2 & 2\\end{pmatrix} \\sim \\begin{pmatrix}1 & 1 & -1 \\\\0 & 0 & 0\\end{pmatrix}$$ $$\n$$De la ecuación $x + y - z = 0$, si despejamos cualquier variable, se obtiene: $$x = -y + z$$ $$\n$$El subespacio definido, es: $$S_1 = \\{(-y + z,y,z) \\mid y,z \\in \\mathbb R\\}$$ $$\n$$Una base es: $\\{(-1,1,0),(1,0,1)\\}$ $$\n$$Verificamos si es ortogonal, bajo el producto interno usual: $$ (-1,1,0)\\mid(1,0,1) = -1 + 0 + 0 = -1$$ $$\n$$No es ortogonal la base. Utilizando el proceso de Gram-Schmidth $$w_1 = (-1,1,0)$$ $$w_2 = (1,0,1)$$ $$- \\frac{[(1,0,1)\\mid(-1,1,0)]}{[(-1,1,0)\\mid(-1,1,0)]}(-1,1,0)$$ $$= (1,0,1) - \\frac{(-1 + 0 + 0)}{[1 + 1]} (-1,1,0)$$ $$=(1,0,1) - (-\\frac{1}{2}) (-1,1,0)$$ $$= (1,0,1) + \\frac{1}{2} (-1,1,0)$$ $$=(\\frac{1}{2},\\frac{1}{2},1)$$ $$\n$$Una base ortogonal a partir de $S$ es $$\\{(-1,1,0),(\\frac{1}{2},\\frac{1}{2},1)\\}$$ $$\n$$La proyección del vector $\\bar{u} = (2,-1,3)$ sobre la base ortogonal, es: $$proy_{B_{OR}}\\bar{u} = \\frac{[(2,-1,3)\\mid(-1,1,0)]}{[(-1,1,0)\\mid(-1,1,0)]}(-1,1,0)$$ $$+ \\frac{[(2,-1,3)\\mid(\\frac{1}{2},\\frac{1}{2},1)]}{[(\\frac{1}{2},\\frac{1}{2},1)\\mid(\\frac{1}{2},\\frac{1}{2},1)]}(\\frac{1}{2},\\frac{1}{2},1)$$ $$= \\begin{bmatrix}\\frac{-2-1+0}{1+1+0}\\end{bmatrix}(-1,1,0) + \\begin{bmatrix}\\frac{1 - \\frac{1}{2} + 3}{\\frac{1}{4}+\\frac{1}{4}+1}\\end{bmatrix}(\\frac{1}{2},\\frac{1}{2},1)$$ $$= -\\frac{3}{2}(-1,1,0) + \\frac{\\frac{7}{2}}{\\frac{6}{4}}(\\frac{1}{2},\\frac{1}{2},1)$$ $$= -\\frac{3}{2}(-1,1,0) + \\frac{7}{3}(\\frac{1}{2},\\frac{1}{2},1)$$ $$= (\\frac{3}{2},-\\frac{3}{2},0) + (\\frac{7}{6},\\frac{7}{6},\\frac{7}{3})$$ $$= (\\frac{16}{6},-\\frac{2}{6},\\frac{7}{3})$$ $$= (\\frac{8}{3},-\\frac{1}{3},\\frac{7}{3})$$",
         "resolved": false,
         "_topic": [
             {
@@ -511,9 +511,9 @@
     {
         "id": 40,
         "exercise": "10",
-        "statement": "",
-        "answer": "",
-        "solution": "",
+        "statement": "Determinar la función lineal de aproximación por mínimos cuadrados para los puntos: $$A(-1,1), B(1,2), C(2,4) y D(3,1)$$",
+        "answer": "$y = \\frac{8}{35}x + \\frac{60}{35}$",
+        "solution": "La función lineal es $y = mx + b$. $$\n$$Para el punto $A(-1,1)$ $$1 = -1m + b$$ $$\n$$Para el punto $B(1,2)$ $$2 = m + b$$ $$\n$$ Para el punto $C(2,4)$ $$4 = 2m + b$$ $$\n$$Para el punto $D(3,1)$ $$1 = 3m + b$$ $$\n$$Quedando un sistema de ecuaciones lineales $$\\begin{matrix}1 = -m + b \\\\2 = m + b \\\\4 = 2m + b \\\\1 = 3m + b\\end{matrix}$$ $$\n$$Un sistema con $2$ incógnitas y $4$ ecuaciones, el cual se puede representar en forma matricial como: $$\\begin{bmatrix}1 \\\\2 \\\\4 \\\\1\\end{bmatrix} = \\begin{bmatrix}-1 & 1 \\\\1 & 1 \\\\2 & 1 \\\\3 & 1\\end{bmatrix} \\begin{bmatrix}m \\\\b \\end{bmatrix}$$ $$\n$$Es la forma $b = AX$, si queremos despejamos a $X = \\begin{bmatrix}m \\\\b \\end{bmatrix}$, sin embargo, se trata de un sistema incompatible. $$\n$$Recordando que podemos obtener una matriz simétrica premultiplicando o posmultiplicando a la matriz A: $$\\begin{matrix}A^{T}A \\\\AA_{T}\\end{matrix}\\} Matriz\\space simétrica$$ $$\n$$A la ecuación $b = AX$ la premultiplicamos por $A^{T}$ $$A^{T}b = A^{T}AX$$ $$\n$$Despejando a $X$ $$(A^{T}A)^{-1} A^{T}b = X$$ $$\n$$Ahora trabajamos con $(A^{T}A)^{-1}$ $$\\begin{bmatrix}\\begin{bmatrix}-1 & 1 & 2 & 3 \\\\1 & 1 & 1 & 1\\end{bmatrix}\\begin{bmatrix}-1 & 1 \\\\1 & 1 \\\\2 & 1 \\\\3 & 1\\end{bmatrix}\\end{bmatrix}^{-1} =$$ $$= \\begin{bmatrix}15 & 5 \\\\5 & 4\\end{bmatrix}^{-1} = \\frac{1}{35}\\begin{bmatrix}4 & -5 \\\\-5 & 15\\end{bmatrix}$$ $$\n$$Ahora procedemos con $(A^{T}A)^{-1}A^{T}$ $$\\frac{1}{35}\\begin{bmatrix}4 & -5 \\\\-5 & 15\\end{bmatrix}\\begin{bmatrix}-1 & 1 & 2 & 3 \\\\1 & 1 & 1 & 1\\end{bmatrix}$$ $$=\\frac{1}{35}\\begin{bmatrix}-9 & -1 & 3 & 7 \\\\20 & 10 & 5 & 0\\end{bmatrix}$$ $$\n$$Ahora $(A^{}A)^{-1}A^{T}b = X$ $$\\frac{1}{35}\\begin{bmatrix}-9 & -1 & 3 & 7 \\\\20 & 10 & 5 & 0\\end{bmatrix}\\begin{bmatrix}1 \\\\2 \\\\4 \\\\1\\end{bmatrix} = \\frac{1}{35}\\begin{bmatrix}8 \\\\60\\end{bmatrix}$$ $$X = \\frac{1}{35}\\begin{bmatrix}8 \\\\60 \\end{bmatrix}$$ $$\n$$Entonces $$y = \\frac{8}{35}x + \\frac{60}{35}$$",
         "resolved": false,
         "_topic": [
             {
@@ -526,9 +526,9 @@
     {
         "id": 41,
         "exercise": "1",
-        "statement": "",
-        "answer": "",
-        "solution": "",
+        "statement": "Sea $T:P_2 \\rightarrow P_2$ el operador lineal cuya regla de correspondencia es: $$T(ax^2 + bx + c) = (a+b)x^2$$ $$+ (-a - b)x + b - c$$ $$\n$$ y sabiendo que $B = \\{x^2,x,1\\}$ es una base ortonormal de $P_2$ con producto interno: $$(a_0x^2 + b_0x + c_0\\mid a_1x^2 + b_1x + c_1) =$$ $$= a_0a_1 + b_0b_1 + c_0c_1$$ $$\n$$El operador adjunto de $T$, es:",
+        "answer": "$(m - n)x^2 + (m - n + p)x - p$",
+        "solution": "Obteniendo el operador adjunto: $$(T(\\bar{u})\\mid\\bar{v}) = (\\bar{u}\\mid T*(\\bar{v}))$$ $$[(a + b)x^2 + (-a - b)x + b - c$$ $$\\mid mx^2 +nx + p] = $$ $$[(ax^2 + bx + c) \\mid (\\alpha m + \\beta n + \\gamma p)x^2$$ $$+ (\\alpha_1m + \\beta_1n + \\gamma_1p)x$$ $$+(\\alpha_2m + \\beta_2n + \\gamma_2p)]$$ $$(a+b)m + (-a - b)n + (b - c)p =$$ $$a(\\alpha m + \\beta n + \\gamma p)$$ $$+ b(\\alpha_1m + \\beta_1n + \\gamma_1p)$$ $$+ c(\\alpha_2m + \\beta_2n + \\gamma_2p)$$ $$am + bm - an -bn + bp - cp =$$ $$a\\alpha m + a\\beta n + a\\gamma p$$ $$+b\\alpha_1m + b\\beta_1n + b\\gamma_1p$$ $$+ c\\alpha_2m + c\\beta_2n + c\\gamma_2p$$ $$\n$$Igualando terminos semejantes: $$am = a\\alpha m \\Rightarrow \\alpha = 1$$ $$-an = a\\beta n \\Rightarrow \\beta = -1$$ $$0ap = a\\gamma p \\Rightarrow \\gamma = 0$$ $$bm = b\\alpha_1m \\Rightarrow \\alpha_1 = 1$$ $$-bn = b\\beta_1n \\Rightarrow \\beta_1 = -1$$ $$bp = b\\gamma_1p \\Rightarrow \\gamma_1 = 1$$ $$0cm = c\\alpha_2m \\Rightarrow \\alpha_2 = 0$$ $$0cn = c\\beta_2n \\Rightarrow \\beta_2 = 0$$ $$-cp = c\\gamma_2p \\Rightarrow \\gamma_2 = -1$$ $$T^{*}(mx^2 + nx + p) =$$ $$(m - n)x^2 + (m - n + p)x - p$$",
         "resolved": false,
         "_topic": [
             {
@@ -541,9 +541,9 @@
     {
         "id": 42,
         "exercise": "2",
-        "statement": "",
-        "answer": "",
-        "solution": "",
+        "statement": "Sea el operador lineal $T: \\mathbb C^2 \\rightarrow \\mathbb C^2$ sobre el campo $\\mathbb C$, definido por:$$T(z_1,z_2) = (z_1 - iz_2, iz_1)$$ $$\n$$y sabiendo que $$B = \\{(1,0),(0,1)\\}$$ es una base ortonormal de $\\mathbb C^2$ con el producto interno usual entre complejos $$(\\bar{v}\\mid\\bar{w}) = v_1\\bar{w_1} + v_2\\bar{w_2}$$ $$\n$$ El operador $T$ es:",
+        "answer": "Hermitiano",
+        "solution": "El adjunto del operador $T$ se obtiene con la expresión $$(T(\\bar{v})\\mid \\bar{w}) = (\\bar{v}\\mid T^{*}(\\bar{w}))$$ $$\n$$EL operador adjunto se plantea como: $$T^{*}(w_1,w_2) = (\\alpha w_1 + \\beta w_2, \\gamma w_1 + \\delta w_2)$$ $$(z_1 - iz_2, iz_1)\\mid ((w_1,w_2)) = $$ $$(z_1,z_2)\\mid(\\bar{\\alpha}\\bar{w_1} + \\bar{\\beta}\\bar{w_2}, \\bar{\\gamma}\\bar{w_2} + \\bar{\\delta}\\bar{w_2})$$ $$(z_1 - iz_2)\\bar{w_1} + iz_1\\bar{w_2} =$$ $$(z_1)(\\overline{\\alpha w_1 + \\beta w_2}) + (z_2)(\\overline{\\gamma w_1 + \\delta w_2})$$ $$z_1\\bar{w_1} - iz_2\\bar{w_1} + iz_1\\bar{w_2} =$$ $$z_1\\bar{\\alpha}\\bar{w_1} + z_1\\bar{\\beta}\\bar{w_2} + z_2\\bar{\\gamma}\\bar{w_1} + z_2\\bar{\\delta}\\bar{w_2}$$ $$\n$$Igualando términos semejantes: $$z_1\\bar{w_1} = z_1 \\bar{\\alpha}\\bar{w_1} \\Rightarrow \\bar{\\alpha} = 1 \\Rightarrow \\bar{\\alpha} = 1 \\Rightarrow \\alpha = 1$$ $$-iz_2\\bar{w_1} = z_2\\bar{\\gamma}\\bar{w_1} \\Rightarrow \\bar{\\gamma} = -i \\Rightarrow \\gamma = i$$ $$iz_1\\bar{w_2} = z_1\\bar{\\beta}\\bar{w_2} \\Rightarrow \\bar{\\beta} = i \\Rightarrow \\beta = -i$$ $$0z_2\\bar{w_2} = z_2\\bar{\\delta}\\bar{w_2} \\Rightarrow \\bar{\\delta} = 0 \\Rightarrow \\delta = 0$$ $$\n$$Sustituyendo los valores $$T^{*}(w_1,w_2) = (1w_1 - iw_2, iw_1)$$ $$\n$$Como $T = T^{*}$ es un operador hermitiano, sus valores característicos deben ser reales. Verificando: $$\n$$La matriz asociada de $T$ es: $$M(T) = \\begin{pmatrix}1 & i \\\\-i & 0\\end{pmatrix}$$ $$M(T) - \\lambda I = \\begin{pmatrix}1 - \\lambda & i \\\\-i & -\\lambda\\end{pmatrix}$$ $$(1 - \\lambda)(-\\lambda) + i^2 = \\lambda^2 - \\lambda -1$$ $$\\lambda^2 - \\lambda - 1 = 0$$ $$\\lambda_1 = \\frac{1 + \\sqrt{5}}{2}, \\lambda_2 = \\frac{1 - \\sqrt{5}}{2}$$ $$\n$$Los valores característicos son reales $$\n$$Se concluye que es operador hermitiano.",
         "resolved": false,
         "_topic": [
             {
@@ -556,9 +556,9 @@
     {
         "id": 43,
         "exercise": "3",
-        "statement": "",
-        "answer": "",
-        "solution": "",
+        "statement": "Sea $V$ el espacio vectorial de los polinomios de grado menor o igual a 2 con producto interno $$(f \\mid g) = \\int_{0}^{2}f(x)g(x)dx, \\forall f,g \\in V.$$ El operador $T:V \\rightarrow V$ definido como $$T(f(x)) = 2f(x), \\forall f(x) \\in V,$$ $$\n$$ es:",
+        "answer": "Hermitiano",
+        "solution": "$(T(\\bar{u})\\mid \\bar{v}) = (\\bar{u} \\mid T^{*}(\\bar{v}))$ $$[2f(x) \\mid g(x)] = [(f(x) \\mid \\alpha g(x))]$$ $$2 \\int_{0}^{2}f(x)g(x)dx = \\alpha \\int_{0}^{2}f(x)g(x)dx$$ $$\\alpha = 2$$ $$\n$$Como $$T^{*}(g(x)) = 2g(x) \\Rightarrow T = T^{*}$$ $$\n$$ $\\therefore$ es hermitiano.",
         "resolved": false,
         "_topic": [
             {
@@ -571,9 +571,9 @@
     {
         "id": 44,
         "exercise": "4",
-        "statement": "",
-        "answer": "",
-        "solution": "",
+        "statement": "Sea el operador lineal $T: \\mathbb C^2 \\rightarrow \\mathbb C^2$ sobre el campo $\\mathbb C$, definido por: $$T(z_1,z_2) = (iz_1 + (1 + i)z_2,$$ $$(-1 + i)z_1 - iz_2)$$ y sabiendo que $$B = \\{(1,0),(0,1)\\}$$ $$\n$$es una base ortonormal de $\\mathbb C^2$ con el producto interno usual $(\\bar{v}\\mid\\bar{w})$ entre complejos: $$\n$$El operador $T$ es:",
+        "answer": "Antihermitiano",
+        "solution": "EL adjunto del operador $T$ se obtiene con la expresión $$(T(\\bar{v})\\mid\\bar{w}) = (\\bar{v}\\mid T^{*}(\\bar{w})$$ $$T^{*}(w_1,w_2) = (\\alpha w_1 + \\beta w_2, \\gamma w_1 + \\delta w_2)$$ $$[iz_1 + (1 + i)z_2,(-1 + i)z_1 - iz_2\\mid(w_1,w_2)]$$ $$= [(z_1,z_2)\\mid(\\bar{\\alpha}w_1 + \\bar{\\beta}w_2, \\bar{\\gamma}w_1) + \\bar{\\delta}w_2)]$$ $$(iz_1 + (1 + i)z_2)\\bar{w_1} + ((-1 + i)z_1 - iz_2)\\bar{w_2}$$ $$= (z_1)(\\overline{\\alpha w_1 + \\beta w_2}) + (z_2)(\\overline{\\gamma w_1 + \\delta w_2})$$ $$iz_1\\bar{w_1} + (1 + i)z_2\\bar{w_1} + (-1 + i)z_1\\bar{w_2} - iz_2\\bar{w_2} - iz_2\\bar{w_2}$$ $$= z_1\\bar{\\alpha}\\bar{w_1} + z_1\\bar{\\beta}\\bar{w_2} + z_2\\bar{\\gamma}\\bar{w_1} + z_2\\bar{\\delta}\\bar{w_2}$$ $$\n$$Igualando términos semejantes $$iz_1\\bar{w_1} = z_1\\bar{\\alpha}\\bar{w_1} \\Rightarrow \\bar{\\alpha} = i \\Rightarrow$$ $$\\alpha = -i$$ $$(1 + i)z_2\\bar{w_1} = z_2\\bar{\\gamma}\\bar{w_1} \\Rightarrow \\bar{\\gamma} = 1 + i \\Rightarrow$$ $$\\gamma = 1 - i$$ $$(-1 + i)z_1\\bar{w_2} = z_1\\bar{\\beta}\\bar{w_2} \\Rightarrow \\bar{\\beta} = -1 + i \\Rightarrow$$ $$\\beta = -1 - i$$ $$-iz_2\\bar{w_2} = z_2\\bar{\\delta}\\bar{w_2} \\Rightarrow \\bar{\\delta} = -i \\Rightarrow $$ $$\\delta = i$$ $$T^{*}(w_1,w_2) = (1w_1 - iw_2, iw_1)$$ $$\n$$Es un operador antihermitiano. Los valores característicos son imaginarios puros. $$\n$$Verificando, en la matriz asociada de $T$, es una matriz antihermitiana. $$M(T) = \\begin{pmatrix}i & 1 + i \\\\-1 + i & -i\\end{pmatrix}$$ $$\n$$Obteniendo los valores propios del operador $T$, se tiene: $$M(T) - \\lambda I = \\begin{pmatrix}i - \\lambda & 1 + i \\\\-1 + i & -i - \\lambda\\end{pmatrix}$$ $$((i - \\lambda)(-i - \\lambda)) - ((1 + i)(-1 + i)) =$$ $$1 - i\\lambda + i\\lambda + \\lambda^2 - (-1 + i - i - 1)$$ $$\\lambda^2 + 1 + 2 = 0$$ $$\\lambda^2 = -3$$ $$\\lambda_1 = \\sqrt{3}i, \\lambda_2 = -\\sqrt{3}i$$ $$\n$$Los valores característicos son imaginarios puros $$\n$$ $\\therefore$ es antihermitiano",
         "resolved": false,
         "_topic": [
             {
@@ -586,9 +586,9 @@
     {
         "id": 45,
         "exercise": "5",
-        "statement": "",
-        "answer": "",
-        "solution": "",
+        "statement": "Sea el operador ortogonal $T: \\mathbb R^3 \\rightarrow \\mathbb R^3$ definido por $$T(x,y,z) = (\\frac{1}{2}x - \\frac{\\sqrt{3}}{2}y, \\frac{\\sqrt{3}}{2}x + \\frac{1}{2}y, z)$$ $$\n$$sobre el campo $\\mathbb R$ y sabiendo que $A = \\{i,j,k\\}$ es una badse ortogonal con el producto interno usual en $\\mathbb R$. $$\n$$El operador $T$ es:",
+        "answer": "Ortogonal",
+        "solution": "Obteniendo el operador adjunto: $$(T(\\bar{v})\\mid \\bar{w}) = (\\bar{v} \\mid T^{*}(\\bar{w}))$$ $$\\begin{pmatrix}\\begin{pmatrix}\\frac{1}{2}x - \\frac{\\sqrt{3}}{2}y,\\frac{\\sqrt{3}}{2}x + \\frac{1}{2}y,z\\end{pmatrix}\\mid (m,n,p)\\end{pmatrix}$$ $$= ((x,y,z)\\mid(\\alpha m + \\beta n + \\gamma p,$$ $$\\alpha_1m + \\beta_1n + \\gamma_1p,$$ $$\\alpha_2m + \\beta_2n + \\gamma_2pz))$$ $$\\Rightarrow (\\frac{1}{2}xm - \\frac{\\sqrt{3}}{2}ym + \\frac{\\sqrt{3}}{2}xn + \\frac{1}{2}yn + zp)$$ $$=(\\alpha mx + \\beta nx + \\gamma px$$ $$+ \\alpha_1my + \\beta_1ny + \\gamma_1pz$$ $$+ \\alpha_2mz + \\beta_2nz + \\gamma_2pz)$$ $$\n$$Igualando términos semejantes: $$\\frac{1}{2}xm = \\alpha mx \\Rightarrow \\alpha = \\frac{1}{2}$$ $$\\frac{\\sqrt{3}}{2}nx = \\beta nx \\Rightarrow \\beta = \\frac{\\sqrt{3}}{2}$$ $$0px = \\gamma px \\Rightarrow \\gamma = 0$$ $$-\\frac{\\sqrt{3}}{2}my = \\alpha_1my \\Rightarrow \\alpha_1 = -\\frac{\\sqrt{3}}{2}$$ $$\\frac{1}{2}ny = \\beta_1ny \\Rightarrow \\beta_1 = \\frac{1}{2}$$ $$1pz = \\gamma_1pz \\Rightarrow \\gamma_1 = 1$$ $$0mz = \\alpha_2mz \\Rightarrow \\alpha_2 = 0$$ $$0nz = \\beta_2nz \\Rightarrow \\beta_2 = 0$$ $$1pz = \\gamma_2pz \\Rightarrow \\gamma_2 = 1$$ $$\n$$El operador adjunto $$T^{*}(m,n,p)=$$ $$\\begin{pmatrix}\\frac{1}{2}m + \\frac{\\sqrt{3}}{2}n, -\\frac{\\sqrt{3}}{2}m + \\frac{1}{2}n,p\\end{pmatrix}$$ $$\n$$ $T$ es un operador ortogonal, debido que $T^{-1} = T^{*}$ $$\n$$La matriz asociada de $T$ es: $$M(T) = \\begin{pmatrix}\\frac{1}{2} & -\\frac{\\sqrt{3}}{2} & 0 \\\\ \\frac{\\sqrt{3}}{2} & \\frac{1}{2} & 0 \\\\0 & 0 & 1\\end{pmatrix}$$ $$\n$$La matriz asociada del operador adjunto, $T^{*}$ es: $$M(T^{*}) = \\begin{pmatrix}\\frac{1}{2} & \\frac{\\sqrt{3}}{2} & 0 \\\\-\\frac{\\sqrt{3}}{2} & \\frac{1}{2} & 0 \\\\0 & 0 & 1 \\end{pmatrix}$$ $$\n$$Al ser ortogonal $$M(T)M(T^{*}) = \\begin{pmatrix}1 & 0 & 0 \\\\0 & 1 & 0 \\\\0 & 0 & 1\\end{pmatrix}$$ $$\n$$Comprobación: $$(T(\\bar{v})\\mid T(\\bar{w})) = (\\bar{v}\\mid\\bar{w})$$ $$(T(\\bar{v})\\mid T^{*}(\\bar{w})) = $$ $$(\\begin{pmatrix}\\frac{1}{2}x - \\frac{\\sqrt{3}}{2}y, \\frac{\\sqrt{3}}{2}x + \\frac{1}{2}y, z\\end{pmatrix} \\mid$$ $$\\begin{pmatrix}\\frac{1}{2}a - \\frac{\\sqrt{3}}{2}b, \\frac{\\sqrt{3}}{2}a + \\frac{1}{2}b, c\\end{pmatrix})$$ $$= \\begin{pmatrix}\\frac{1}{2}x - \\frac{\\sqrt{3}}{2}y\\end{pmatrix}\\begin{pmatrix}\\frac{1}{2}a - \\frac{\\sqrt{3}}{2}b\\end{pmatrix}$$ $$+ \\begin{pmatrix}\\frac{\\sqrt{3}}{2}x + \\frac{1}{2}y\\end{pmatrix}\\begin{pmatrix}\\frac{\\sqrt{3}}{2}a + \\frac{1}{2}b\\end{pmatrix} + zc$$ $$= \\frac{1}{4}xa - \\frac{\\sqrt{3}}{4}xb - \\frac{\\sqrt{3}}{4}ya$$ $$+ \\frac{3}{4}yb + \\frac{3}{4}xa + \\frac{\\sqrt{3}}{4}xb$$ $$+ \\frac{\\sqrt{3}}{4}ya + \\frac{1}{4}yb + zp$$ $$= \\frac{4}{4}xa + \\frac{4}{4}yb + zp$$ $$= xa + yb + zp = (\\bar{v}\\mid\\bar{w})$$",
         "resolved": false,
         "_topic": [
             {
@@ -601,9 +601,9 @@
     {
         "id": 46,
         "exercise": "6",
-        "statement": "",
-        "answer": "",
-        "solution": "",
+        "statement": "El módulo de un valor característico del operador unitario $T(x,y) = (iy, -ix)$ sabiendo que $B = \\{(1,0),(0,1)\\}$ es una base ortonormal de $\\mathbb C^2$ con producto interno usual en $\\mathbb C^2$ es:",
+        "answer": "$1$",
+        "solution": "La matriz asociada de $T$ $$M(T) = \\begin{pmatrix}0 & i \\\\-i & 0\\end{pmatrix}$$ $$M(T) - \\lambda I = \\begin{pmatrix}-\\lambda & i \\\\-i & -\\lambda\\end{pmatrix}$$ $$\\lambda^2 + i^2 = 0$$ $$\\lambda^2 = -1$$ $$\\lambda_1 = i, \\lambda_2 = -i$$ $$\\|i\\| = \\sqrt{i\\mid i} = -i^2 = 1$$ $$\\|-i\\| = \\sqrt{-i\\mid-i} = -i^2 = 1$$ $$\n$$El valor es $1$",
         "resolved": false,
         "_topic": [
             {
@@ -616,9 +616,9 @@
     {
         "id": 47,
         "exercise": "7",
-        "statement": "",
-        "answer": "",
-        "solution": "",
+        "statement": "Sea $S: \\mathbb R^2 \\rightarrow \\mathbb R^2$ un operador lineal definido por $$S(x,y) = (14x + 4y,4x + 8y)$$ $$\n$$con producto interno usual en $\\mathbb R^2$. La descomposición espectral del operador $S$, es:",
+        "answer": "$S:16(\\frac{4x + 2y}{5},\\frac{2x + y}{5}) + 6(\\frac{x - 2y}{5},\\frac{-2x + 4y}{5})$",
+        "solution": "La matriz asociada es: $$M(S) = \\begin{pmatrix}14 & 4 \\\\4 & 8\\end{pmatrix}$$ $$\n$$Se obtienen los valores y vectores propios: $$M(S) - \\lambda I = \\begin{pmatrix}14 - \\lambda & 4 \\\\4 & 8 - \\lambda\\end{pmatrix}$$ $$((14 - \\lambda)(8 - \\lambda)) - 16 =$$ $$112 -14\\lambda - 8\\lambda + \\lambda^2 -16$$ $$112 - 14\\lambda - 8\\lambda + \\lambda^2 - 16 = 0$$ $$\\lambda^2 -22\\lambda + 96 = 0$$ $$(\\lambda - 16)(\\lambda - 6) = 0$$ $$\\lambda_1 = 16, \\lambda_2 = 6$$ $$\n$$La descomposición espectral: $$S:\\lambda_1P_1 + \\lambda_2P_2$$ $$S:16P_1 + 6P_2$$ $$\n$$Ahora los vectores propios para cada espacio. $$\n$$Para $\\lambda = 16$ $$M(S) = -\\lambda I =\\begin{pmatrix}14 - \\lambda & 4 \\\\4 & 8 - \\lambda\\end{pmatrix}$$ $$M(S) - \\lambda I = \\begin{pmatrix}14 -16 & 4 \\\\4 & 8 - 16\\end{pmatrix}$$ $$\\begin{pmatrix}-2 & 4 \\\\4 & -8\\end{pmatrix}\\sim \\begin{pmatrix}-2 & 4 \\\\0 & 0\\end{pmatrix}$$ $$\n$$El espacio característico es: $$[M(S) - \\lambda I](\\bar{v}_A) = 0$$ $$\n$$ $(\\bar{v}_A)$ es el vector de coordenadas referido a la base ortonormal de $\\mathbb R^2$ $$\\begin{pmatrix}-2 & 4 \\\\0 & 0\\end{pmatrix}\\begin{pmatrix}x \\\\y \\end{pmatrix} = \\begin{pmatrix}0 \\\\0 \\end{pmatrix} \\Rightarrow  \\begin{matrix}-2x + 4y = 0 \\\\-2x = -4y \\\\x = 2y\\end{matrix}$$ $$E(\\lambda = 16) = \\{(2y,y) \\mid y \\in \\mathbb R\\}$$ $$\n$$Un vector propio es: $\\{(2,1)\\}$ $$\n$$Para $\\lambda = 6$ $$M(S) -\\lambda I = \\begin{pmatrix}14 - \\lambda & 4 \\\\4 & 8 - \\lambda\\end{pmatrix}$$ $$M(S) - \\lambda I = \\begin{pmatrix}14 - 6 & 4 \\\\4 & 8 -6\\end{pmatrix}$$ $$\\begin{pmatrix}8 & 4 \\\\4 & 2\\end{pmatrix} \\sim \\begin{pmatrix}4 & 2 \\\\4 & 2\\end{pmatrix} \\sim \\begin{pmatrix}4 & 2 \\\\0 & 0\\end{pmatrix}$$ $$\\begin{pmatrix}4 & 2 \\\\0 & 0\\end{pmatrix}\\begin{pmatrix}x \\\\y \\end{pmatrix} = \\begin{pmatrix}0 \\\\0 \\end{pmatrix} \\Rightarrow \\begin{matrix}4x + 2y = 0 \\\\4x = - 2y \\\\y = - 2x\\end{matrix}$$ $$E(\\lambda = 6) = \\{(x,-2x) \\mid x \\in \\mathbb R\\}$$ $$\n$$Un vector propio es: $\\{(1,-2)\\}$ $$\n$$Los operadores proyección son: $$P_1(x,y) = \\frac{[(x,y)\\mid(2,1)]}{[(2,1)\\mid(2,1)]}(2,1) =$$ $$\\frac{(2x + y)(2,1)}{5} = $$ $$\\begin{pmatrix}\\frac{4x + 2y}{5},\\frac{2x + y}{5}\\end{pmatrix}$$ $$P_2(x,y) = \\frac{[(x,y)\\mid(1,-2)]}{(1,-2)\\mid(1,-2)}(1,-2) = $$ $$\\begin{pmatrix}\\frac{x - 2y}{5},\\frac{-2x + 4y}{5}\\end{pmatrix}$$ $$\n$$La descomposición espectral es: $$S:16\\begin{pmatrix}\\frac{4x + 2y}{5},\\frac{2x + y}{5}\\end{pmatrix} + 6\\begin{pmatrix}\\frac{x - 2y}{5},\\frac{-2x + 4y}{5}\\end{pmatrix}$$",
         "resolved": false,
         "_topic": [
             {
@@ -631,9 +631,9 @@
     {
         "id": 48,
         "exercise": "8",
-        "statement": "",
-        "answer": "",
-        "solution": "",
+        "statement": "Al descomponer espectralmente la matriz $$A = \\begin{pmatrix}-1 & 0 & 0 \\\\0 & 6 & -2 \\\\0 & -2 & 9\\end{pmatrix},$$ $$\n$$se obtiene: $$\n$$Nota: utilice el producto interno usual en $\\mathbb R^3$",
+        "answer": "$-1\\begin{bmatrix}1 & 0 & 0 \\\\0 & 0 & 0 \\\\0 & 0 & 0\\end{bmatrix} + 10 \\begin{bmatrix}0 & 0 & 0 \\\\0 & \\frac{1}{5} & -\\frac{2}{5} \\\\0 & -\\frac{2}{5} & \\frac{4}{5}\\end{bmatrix} + 5 \\begin{bmatrix}0 & 0 & 0 \\\\0 & \\frac{4}{5} & \\frac{2}{5} \\\\ 0 & \\frac{2}{5} & \\frac{1}{5}\\end{bmatrix}$",
+        "solution": "$$A = \\lambda_1P_1 + \\lambda_2P_2$$ $$\n$$ $\\lambda_1$ y $\\lambda_2$ son valores propios, $P_1$ y $P_2$ con operadores proyección $$ A - \\lambda I = \\begin{bmatrix}-1 - \\lambda & 0 & 0 \\\\0 & 6 - \\lambda & -2 \\\\0 & -3 & 9 - \\lambda\\end{bmatrix}$$ $$\\begin{bmatrix}-1 - \\lambda & 0 & 0 \\\\ 0 & 6 -\\lambda & -2 \\\\0 & -2 & 9 - \\lambda\\end{bmatrix}$$ $$\n$$Resolviendo el pseudodeterminante $$(-1 - \\lambda)\\begin{vmatrix}6 - \\lambda & -2 \\\\-2 & 9 - \\lambda\\end{vmatrix}$$ $$(-1 - \\lambda)\\begin{vmatrix}6 - \\lambda & -2 \\\\-2 & 9 - \\lambda\\end{vmatrix} =$$ $$(-1 - \\lambda)((6 - \\lambda)(9 - \\lambda) - 4)$$ $$= (-1 - \\lambda)(54 - 6\\lambda - 9\\lambda - 9\\lambda + \\lambda^2 - 4)$$ $$= (-1 - \\lambda)(50 - 15\\lambda + \\lambda^2)$$ $$= (-1 - \\lambda)(-5 + \\lambda)(-5 + \\lambda)$$ $$\\lambda_1 = -1, \\lambda_2 = 5, \\lambda_3 = 10$$ $$\n$$Ahora obtendremos los valores propios, los espacios característicos y los vectores propios para cada valor característico. $$\n$$ Para $\\lambda_1 = -1$ $$\\begin{pmatrix}-1-(-1) & 0 & 0 \\\\0 & 6-(-1) & -2 \\\\0 & -2 & 9 - (-1)\\end{pmatrix} \\sim$$ $$\\begin{pmatrix}0 & 0 & 0 \\\\0 & 7 & -2 \\\\0 & -2 & 10\\end{pmatrix} \\sim \\begin{pmatrix}0 & 0 & 0 \\\\0 & -2 & 10 \\\\0 & 7 & -2\\end{pmatrix}$$ $$\n$$ $$\\begin{pmatrix}0 & 0 & 0 \\\\0 & 1 & -5 \\\\0 & 7 & -2\\end{pmatrix} \\sim\\begin{pmatrix}0 & 0 & 0 \\\\0 & 1 & -5 \\\\0 & 0 & 33\\end{pmatrix} \\sim$$ $$\\begin{pmatrix}0 & 0 & 0 \\\\0 & 1 & 0 \\\\0 & 0 &1\\end{pmatrix}$$ $$(A - \\lambda I)(\\bar{v})_A = 0$$ $$\\begin{pmatrix}0 & 0 & 0 \\\\0 & 1 & 0 \\\\0 & 0 & 1\\end{pmatrix}\\begin{pmatrix}x \\\\y \\\\z\\end{pmatrix} = \\begin{pmatrix}0 \\\\y \\\\z\\end{pmatrix} = \\begin{pmatrix}0 \\\\0 \\\\0\\end{pmatrix} \\Rightarrow$$ $$y = 0, z = 0$$ $$\n$$El espacio característico $$E(\\lambda_1 = -1) = \\{(x,0,0) \\mid x \\in \\mathbb R\\}$$ $$\n$$Una base es $\\{(1,0,0)\\}$ $$\n$$Ahora, para $\\lambda_1 = 5$ $$\\begin{pmatrix}-1-(-5) & 0 & 0 \\\\0 & 6 - (5) & -2 \\\\0 & -2 & 9 -(5)\\end{pmatrix} \\sim$$ $$\\begin{pmatrix}-6 & 0 & 0 \\\\0 & 1 & -2 \\\\0 & -2 & 4\\end{pmatrix} \\sim \\begin{pmatrix}1 & 0 & 0 \\\\0 & 1 & -2 \\\\0 & 0 & 0\\end{pmatrix}$$ $$\\begin{pmatrix}1 & 0 & 0 \\\\0 & 1 & -2 \\\\0 & 0 & 0\\end{pmatrix}\\begin{pmatrix}x \\\\y \\\\z\\end{pmatrix} = \\begin{pmatrix}x \\\\y - 2z \\\\0\\end{pmatrix} =$$ $$\\begin{pmatrix}0 \\\\0 \\\\0\\end{pmatrix} \\Rightarrow x = 0, y - 2z = 0 \\Rightarrow y = 2z$$ $$\n$$El espacio característico $$E(\\lambda_2 = 5) = \\{(0,2z,z) \\mid z \\in \\mathbb R\\}$$ $$\n$$Una base es $\\{(0,2,1)\\}$ $$\n$$Para $\\lambda_3 = 10$ $$\\begin{pmatrix}-1 -(10) & 0 & 0 \\\\0 & 6 - (10) & -2 \\\\0 & -2 & 9 - (10)\\end{pmatrix} \\sim$$ $$\\begin{pmatrix}-11 & 0 & 0 \\\\0 & -4 & -2 \\\\0 & -2 & -1\\end{pmatrix} \\sim \\begin{pmatrix}1 & 0 & 0 \\\\0 & -4 & -2 \\\\0 & -2 & -1\\end{pmatrix} \\sim$$ $$\\begin{pmatrix}1 & 0 & 0 \\\\0 & -2 & -1 \\\\0 & -4 & -2\\end{pmatrix} \\sim \\begin{pmatrix}1 & 0 & 0 \\\\0 & -2 & -1 \\\\ 0 & 0 & 0\\end{pmatrix}$$ $$\\begin{pmatrix}1 & 0 & 0 \\\\0 & -2 & -1 \\\\0 & 0 & 0\\end{pmatrix}\\begin{pmatrix}x \\\\y \\\\z\\end{pmatrix} = \\begin{pmatrix}x \\\\-2y - z \\\\0\\end{pmatrix} = $$ $$\\begin{pmatrix}0 \\\\0 \\\\0 \\end{pmatrix} \\Rightarrow x = 0, -2y - z = 0 \\Rightarrow z = -2y$$ $$\n$$El espacio característico $$E(\\lambda_3 = 10) = \\{(0,y,-2y) \\mid z \\in \\mathbb R\\}$$ $$\n$$Una base es $\\{(0,1,-2)\\}$ $$\n$$La unión de las bases es: $$\\{(1,0,0)(0,2,1)(0,1,-2)\\}$$ $$\n$$Utilizando el producto interno usual para calcular la norma. $$\\|(1,0,0)\\| = \\sqrt{(1,0,0) \\mid (1,0,0)}$$ $$= \\sqrt{1 + 0 + 0} = 1$$ $$\\|(0,2,1)\\| = \\sqrt{(0,2,1)(0,2,1)}$$ $$= \\sqrt{0 + 2^2 + 1^2} = \\sqrt{5}$$ $$\\|(0,1,-2)\\| = \\sqrt{(0,1,-2)(0,1,-2)}$$ $$= \\sqrt{0 + 1^2 + (-2)^2} = \\sqrt{5}$$ $$\n$$Una base ortonormal es: $$B = \\{(1,0,0), \\frac{1}{\\sqrt{5}}(0,2,1),\\frac{1}{\\sqrt{5}}(0,1,-2)\\}$$ $$\n$$Una matriz diagonalizable es: $$P = \\begin{bmatrix}1 & 0 & 0 \\\\0 & \\frac{1}{\\sqrt{5}} & \\frac{2}{\\sqrt{5}} \\\\0 & -\\frac{2}{\\sqrt{5}} & \\frac{1}{\\sqrt{5}}\\end{bmatrix}$$ $$\n$$Dicha matriz es ortogonal, el determinante es igual a 1. Si $A = PDP^{T}$ la descomposición espectral es: $$A = -1u_1u_{1}^{T} + 10u_{2}u_{2}^{T} + 5u_3u_{3}^{T}$$ $$u_{1}u_{1}^{T} = \\begin{bmatrix}1 \\\\0 \\\\0\\end{bmatrix}\\begin{bmatrix}1 & 0 & 0\\end{bmatrix}$$ $$= \\begin{bmatrix}1 & 0 & 0 \\\\0 & 0 & 0 \\\\0 & 0 & 0\\end{bmatrix}$$ $$u_{2}u_{2}^{T} = \\begin{bmatrix}0 \\\\ \\frac{1}{\\sqrt{5}} \\\\-\\frac{2}{\\sqrt{5}}\\end{bmatrix}\\begin{bmatrix}0 & \\frac{1}{\\sqrt{5}} & -\\frac{2}{\\sqrt{5}}\\end{bmatrix}$$ $$= \\begin{bmatrix}0 & 0 & 0 \\\\0 & \\frac{1}{5} & -\\frac{2}{5} \\\\0 & -\\frac{2}{5} & \\frac{4}{5}\\end{bmatrix}$$ $$u_{3}u_{3}^{T} = \\begin{bmatrix}0 \\\\ \\frac{2}{\\sqrt{5}} \\\\ \\frac{1}{\\sqrt{5}}\\end{bmatrix}\\begin{bmatrix}o & \\frac{2}{\\sqrt{5}} & \\frac{1}{\\sqrt{5}}\\end{bmatrix}$$ $$= \\begin{bmatrix}0 & 0 & 0 \\\\0 & \\frac{4}{5} & \\frac{2}{5} \\\\0 & \\frac{2}{5} & \\frac{1}{5}\\end{bmatrix}$$ $$\n$$Sustituyendo en $$A = -1u_{1}u_{1}^{T} + 10u_{2}u_{2}^{T} + 5u_{3}u_{3}^{T}$$ $$A = -1\\begin{bmatrix}1 & 0 & 0 \\\\0 & 0 & 0 \\\\0 & 0 & 0\\end{bmatrix} + 10\\begin{bmatrix}0 & 0 & 0 \\\\0 & \\frac{1}{5} & -\\frac{2}{5} \\\\0 & -\\frac{2}{5} & \\frac{4}{5}\\end{bmatrix}$$ $$+5\\begin{bmatrix}0 & 0 & 0 \\\\0 & \\frac{4}{5} & \\frac{2}{5} \\\\0 & \\frac{2}{5} & \\frac{1}{5}\\end{bmatrix}$$ $$= \\begin{bmatrix}-1 & 0 & 0 \\\\0 & 6 & -2 \\\\0 & -2 & 9\\end{bmatrix}$$",
         "resolved": false,
         "_topic": [
             {
@@ -646,9 +646,9 @@
     {
         "id": 49,
         "exercise": "9",
-        "statement": "",
-        "answer": "",
-        "solution": "",
+        "statement": "La curva $16x^2 + 4xy + 6y^2 = 1$ se identifica como:",
+        "answer": "Elipse",
+        "solution": "La curva $16x + 4xy + 6y^2 = 1$ se puede representar como: $$Ax^2 + Bxy + Cy^2 = 1$$ $$(x^{'} y^{'}) = \\begin{pmatrix}A & \\frac{B}{2} \\\\ \\frac{B}{2} & C\\end{pmatrix}\\begin{pmatrix}x \\\\y\\end{pmatrix}$$ $$= Ax^2 + \\frac{B}{2}xy + \\frac{B}{2}xy + Cy^2$$ $$\n$$La matriz asociada es: $$M(T) = \\begin{pmatrix}A & \\frac{B}{2} \\\\ \\frac{B}{2} & C\\end{pmatrix}$$ $$M(T) = \\begin{pmatrix}6 & 2 \\\\2 & 6\\end{pmatrix}$$ $$\n$$Los valores característicos del operador lineal se calculan como sigue: $$M(T) - \\lambda I = \\begin{pmatrix}6 - \\lambda & 2 \\\\2 & 6 - \\lambda\\end{pmatrix}$$ $$((6 - \\lambda)(6 - \\lambda))- 4 = (6 - \\lambda)^2 - 4$$ $$(6 - \\lambda + 2)(6 - \\lambda - 2) = 0$$ $$(8 - \\lambda)(4 - \\lambda) = 0$$ $$\\lambda_1 = 8, \\lambda_2 = 4$$ $$\n$$La cónica es $$\\lambda_1x^{'2} + \\lambda_2y^{'2} = 1 \\Rightarrow 8x^{'2} + 4y^{'2} = 1$$ $$\n$$ $\\therefore$ es una elipse.",
         "resolved": false,
         "_topic": [
             {
@@ -661,9 +661,9 @@
     {
         "id": 50,
         "exercise": "10",
-        "statement": "",
-        "answer": "",
-        "solution": "",
+        "statement": "Sea la curva $C$ de ecuación $$4x^2 + 4y^2 + 4xy - 4x + 4y - 4 =0.$$ $$\n$$Al identificar la curva $C$ se tiene que es una:",
+        "answer": "Elipse",
+        "solution": "La cónica es de la forma $$Ax^2 + Bxy + Cy^2 + Dx + Ey + F = 0,$$ $$\n$$si $B \\neq 0,$ $$\n$$ los ejes coordenados $xy$ están rotados. Ahora se forma la matriz $A$ como: $$M = \\begin{bmatrix}0 & \\frac{b}{2} \\\\ \\frac{b}{2} & 0\\end{bmatrix}$$ $$\n$$quedando $M = \\begin{bmatrix}4 & 2 \\\\2 & 4\\end{bmatrix}$ $$\n$$Ahora se determinan los vectores característicos o valores propios de la siguiente manera: $$M - \\lambda I = \\begin{bmatrix}4 - \\lambda & 2 \\\\2 & 4 - \\lambda\\end{bmatrix}$$ $$= (4 - \\lambda)^2 - 4 = 0$$ $$(4 - \\lambda + 2)(4 - \\lambda - 2) = 0$$ $$(6 - \\lambda)(2 - \\lambda) = 0$$ $$\\lambda_1 = 6, \\lambda_2 = 2$$ $$\n$$Obteniendo los vectores característicos se procede a normalizarlos utilizando $(M - \\lambda I)(\\bar{v})_A = 0$ $$(\\bar{v})_A = \\begin{bmatrix}x \\\\y \\end{bmatrix}$$ $$\n$$Debido a que $A$ es la base canónica de $\\mathbb R^2$ y es ortonormal bajo el producto interno usual. $$\n$$Buscamos el espacio característico para $\\lambda = 6$, sustituimos en $M - \\lambda I$ $$\\begin{pmatrix}4 - 6 & 2 \\\\2 & 4 - 6\\end{pmatrix} \\sim \\begin{pmatrix}-2 & 2 \\\\ 2 & -2\\end{pmatrix} \\sim$$ $$\\begin{pmatrix}-2 & 2 \\\\0 & 0\\end{pmatrix} \\sim \\begin{pmatrix}-1 & 1 \\\\0 & 0\\end{pmatrix}$$ $$\n$$Ahora utilizamos $(M - \\lambda I)(\\bar{v})_A = 0$ $$\\begin{pmatrix}-1 & 1 \\\\ 0 & 0\\end{pmatrix}\\begin{pmatrix}x \\\\y \\end{pmatrix} = \\begin{pmatrix}0 \\\\0 \\end{pmatrix} \\Rightarrow \\begin{matrix}-x + y = 0 \\\\y = x\\end{matrix}$$ $$E(\\lambda = 6) = \\{(x,x) \\mid x \\in \\mathbb R\\}$$ $$\n$$Un vector característico es $\\{(1,1)\\}$. Si normalizamos el vector utilizando el producto interno usual se obtiene: $$\\|(1,1)\\| = \\sqrt{(1,1)\\mid(1,1)} = \\sqrt{1 + 1} = \\sqrt{2}$$ $$\n$$El vector normalizado es: $\\begin{Bmatrix}(\\frac{1}{\\sqrt{2}},\\frac{1}{\\sqrt{2}})\\end{Bmatrix}$ $$\n$$Para $\\lambda = 2$ obtenemos el espacio característico $$\\begin{pmatrix}4 - 2 & 2 \\\\2 & 4 -2\\end{pmatrix} \\sim \\begin{pmatrix}2 & 2 \\\\2 & 2\\end{pmatrix}$$ $$\\sim \\begin{pmatrix}2 & 2 \\\\0 & 0\\end{pmatrix} \\sim \\begin{pmatrix}1 & 1 \\\\0 & 0\\end{pmatrix}$$ $$\\begin{pmatrix}1 & 1 \\\\0 & 0\\end{pmatrix}\\begin{pmatrix}x \\\\y \\end{pmatrix} = \\begin{pmatrix}0 \\\\0 \\end{pmatrix} \\Rightarrow \\begin{matrix}x + y = 0 \\\\y = -x\\end{matrix}$$ $$E(\\lambda = 2) = \\{(x, -x)\\mid \\in \\mathbb R\\}$$ $$\n$$Un vector característico es $\\{(1,-1)\\}$. Si normalizamos el vector utilizando el producto interno usual se obtiene: $$\\|(1,-1)\\| = \\sqrt{(1,-1)\\mid(1,1)}$$ $$= \\sqrt{1 + 1} = \\sqrt{2}$$ $$\n$$El vector normalizado es: $$\\begin{Bmatrix}\\begin{pmatrix}\\frac{1}{\\sqrt{2}},-\\frac{1}{\\sqrt{2}}\\end{pmatrix}\\end{Bmatrix}$$ $$\n$$La unión de las bases es: $$\\begin{Bmatrix}\\begin{pmatrix}\\frac{1}{\\sqrt{2}},\\frac{1}{\\sqrt{2}}\\end{pmatrix},\\begin{pmatrix}\\frac{1}{\\sqrt{2}},-\\frac{1}{\\sqrt{2}}\\end{pmatrix}\\end{Bmatrix}$$ $$\n$$Formando la matriz $P$ se escriben como columnas a los vectores característicos: $$P = \\begin{bmatrix}\\frac{1}{\\sqrt{2}} & -\\frac{1}{\\sqrt{2}} \\\\ \\frac{1}{\\sqrt{2}} & \\frac{1}{\\sqrt{2}}\\end{bmatrix}$$ $$\n$$ $P$, es una matriz ortogonal por lo que se satisface que: $$P = \\begin{bmatrix}cos\\theta & -sin\\theta \\\\sin\\theta & cos\\theta\\end{bmatrix}, \\space |P| = 1$$ $$\n$$Además, $P^{-1} = P^T$ $$\n$$Recordando $D = P^{T}AP$ es diagonal; $X^{\\prime} = \\begin{bmatrix}x^{\\prime} \\\\y^{\\prime}\\end{bmatrix}$ $$\n$$Entonces $\\theta$ indica el ángulo de rotación de la curva. La ecuación canónica será: $$\\lambda_1(x^{\\prime})^2 + \\lambda_2(y^{\\prime})^2 + [d\\space e]PX + f = 0$$ $$6(x^{\\prime})^2 + 2(y^{\\prime})^2$$ $$+ \\begin{bmatrix}-4 & 4\\end{bmatrix}\\begin{bmatrix}\\frac{1}{\\sqrt{2}} & -\\frac{1}{\\sqrt{2}} \\\\ \\frac{1}{\\sqrt{2}} & \\frac{1}{\\sqrt{2}}\\end{bmatrix}\\begin{bmatrix}x^{\\prime} \\\\y^{\\prime}\\end{bmatrix} - 4 =$$ $$\n$$Por lo que $$\\begin{bmatrix}-4 & 4\\end{bmatrix}\\begin{bmatrix}\\frac{1}{\\sqrt{2}} & -\\frac{1}{\\sqrt{2}} \\\\ \\frac{1}{\\sqrt{2}} & \\frac{1}{\\sqrt{2}}\\end{bmatrix}\\begin{bmatrix}x^{\\prime} \\\\y^{\\prime}\\end{bmatrix} = $$ $$\\begin{bmatrix}\\frac{-4}{\\sqrt{2}} + \\frac{4}{\\sqrt{2}} & \\frac{4}{\\sqrt{2}} + \\frac{4}{\\sqrt{2}}\\end{bmatrix}\\begin{bmatrix}x^{\\prime} \\\\y^{\\prime}\\end{bmatrix}$$ $$\\begin{bmatrix}0x^{\\prime} + \\frac{8}{\\sqrt{2}}y^{\\prime}\\end{bmatrix} \\Rightarrow \\begin{bmatrix}\\frac{8}{\\sqrt{2}}y^{\\prime}\\end{bmatrix} = \\begin{bmatrix}\\frac{8\\sqrt{2}}{\\sqrt{2}}y^{\\prime}\\end{bmatrix} \\Rightarrow$$ $$[4\\sqrt{2}y^{\\prime}]$$ $$6(x^{\\prime})^2 + 2(y^{\\prime})^2 + 4\\sqrt{2}y^{\\prime} - 4 = 0$$ $$6(x^{\\prime})^2 + 2[(y^{\\prime})^2 + 2\\sqrt{2}y^{\\prime} + 2 - 2] = 4$$ $$6(x^{\\prime})^2 + 2[(y^{\\prime})^2 + 2\\sqrt{2}y^{\\prime} + 2] = 4 + 4$$ $$6(x^{\\prime})^2 + 2(y^{\\prime} + \\sqrt{2})^2 = 8$$ $$\\frac{6(x^{\\prime})}{8} + \\frac{2(y^{\\prime} + \\sqrt{2})^2}{8}  = 1$$ $$\\frac{(x^{\\prime})^2}{\\frac{4}{3}} + \\frac{(y^{\\prime} + \\sqrt{2})^2}{4} = 1$$ $$\n$$ $\\therefore$ Es una elipse.",
         "resolved": false,
         "_topic": [
             {

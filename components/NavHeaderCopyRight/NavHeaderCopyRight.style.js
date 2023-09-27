@@ -16,8 +16,8 @@ export const s = StyleSheet.create({
         color: "#ABABAB",
         textAlign: "center",
     },
-    copyRight_img : {
-        width: 40,
+    home_img: {
+        width:40,
         height: 40
     },
     info_img: {

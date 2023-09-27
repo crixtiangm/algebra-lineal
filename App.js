@@ -1,14 +1,20 @@
-import { Exercise, Home, Question, Solution, Theory } from "./Pages";
+import { CopyRight, Exercise, Home, Question, Solution, Theory } from "./Pages";
 import { NavigationContainer } from "@react-navigation/native";
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
 import Dialog from "react-native-dialog";
 import { useState } from "react";
+import { useFonts } from "expo-font";
 const Stack = createNativeStackNavigator();
 
 export default function App() {
   
   const [isHelpDialogDisplay, setIsHelpDialogDisplay] = useState(false);
   const [isHelpDialogQuestionDisplay, setIsHelpDialogQuestionDisplay] = useState(false);
+  const [isInfoDialogDisplay, setIsInfoDialogDisplay] = useState(false);
+
+  const [isFontLoaded] = useFonts({
+    "Alata-Regular": require("./assets/fonts/Alata-Regular.ttf"),
+  })
 
   //Diálogo de ayuda para selección de ejercicios
   const renderHelpDialog = () => {
@@ -32,6 +38,17 @@ export default function App() {
     );
   };
 
+  //Diálogo que muestra la versión 
+  const renderInfoDialog = () => {
+    return(
+      <Dialog.Container visible={isInfoDialogDisplay} onBackdropPress={() => setIsInfoDialogDisplay(false)} >
+        <Dialog.Title >Información de App</Dialog.Title>
+        <Dialog.Description>Versión 1.0</Dialog.Description>
+        <Dialog.Button label="Aceptar" onPress={() => setIsInfoDialogDisplay(false)} />
+      </Dialog.Container>
+    );
+  };
+
   return (
     <>
       <NavigationContainer>
@@ -40,7 +57,9 @@ export default function App() {
           }} 
           initialRouteName="Home"
         >
-          <Stack.Screen name="Home" component={Home} />
+          <Stack.Screen name="Home">
+            {() => <Home onPressInfo={() => setIsInfoDialogDisplay(true)}/>}
+          </Stack.Screen>
           <Stack.Screen name="Exercise" >
             {() => <Exercise onPressHelp={() => setIsHelpDialogDisplay(true)} />}
           </Stack.Screen>
@@ -49,10 +68,14 @@ export default function App() {
           </Stack.Screen>
           <Stack.Screen name="Solution" component={Solution} />
           <Stack.Screen name="Theory" component={Theory} />
+          <Stack.Screen name="CopyRight">
+            {() => <CopyRight onPressInfo={() => setIsInfoDialogDisplay(true)} />}
+          </Stack.Screen>
         </Stack.Navigator>
       </NavigationContainer>
       {renderHelpDialog()}
       {renderHelpDialogQuestion()}
+      {renderInfoDialog()}
     </>
   );
 }

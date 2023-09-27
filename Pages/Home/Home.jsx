@@ -10,7 +10,7 @@ import { useNavigation } from "@react-navigation/native";
 let isFirstRender = true; //Bandera para controlar la carga de los datos
 let isLoadUpdate = false; //Bandera para controlar cuando se actualizan los datos y guardarlo
 
-const Home = () => {
+const Home = ({ onPressInfo }) => {
     const nav = useNavigation();
 
     //hook para inicializar la data de los temas 
@@ -98,7 +98,9 @@ const Home = () => {
             <SafeAreaProvider>
                 <SafeAreaView style={s.home} >
                     <View style={s.header}>
-                        <Header />
+                        <Header 
+                            onPress={onPressInfo}
+                        />
                     </View>
                     <View style={s.body} >
                         <ScrollView>{renderTopicList()}</ScrollView>

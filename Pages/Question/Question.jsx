@@ -1,14 +1,13 @@
 import { SafeAreaProvider, SafeAreaView } from "react-native-safe-area-context";
 import { s } from "./Question.style";
-import { ScrollView, Text, TouchableOpacity, View} from "react-native";
-import { Ask, CardAnswer, CheckBoxAnswer, NavHeaderQuestion, TabBottomMenuAnswer } from "../../components";
+import { ScrollView, View} from "react-native";
+import { Ask, CheckBoxAnswer, NavHeaderQuestion, TabBottomMenuAnswer } from "../../components";
 import optionData from "../../data/options.json";
 import { useNavigation, useRoute } from "@react-navigation/native";
-import CheckBox from "expo-checkbox";
 import { useEffect, useState } from "react";
 import Dialog from "react-native-dialog";
 
-// Arrego donde se agregaran las respuestas de forma aleatoría del ejercicio seleccionado
+// Arreglo donde se agregaran las respuestas de forma aleatoría del ejercicio seleccionado
 let options = [
     {option: "a)",isChecked: false, viewAnswer: false},
     {option: "b)",isChecked: false, viewAnswer: false},
@@ -48,7 +47,7 @@ const Question = ({onPressHelp}) => {
 
     // Datos del ejercicio seleccionado que se pasan mediante nav en param 
     const { params } = useRoute();
-    //console.log(params)
+    
     // Hook para inicializar la lista de respuestas opcionales
     const [answerList, setAnswerList] = useState([]);
 

@@ -16,4 +16,3 @@ export { default as CheckBoxAnswer } from "./CheckBoxAnswer/CheckBoxAnswer";
 export { default as NavHeaderCopyRight } from "./NavHeaderCopyRight/NavHeaderCopyRight";
 export { default as Txt } from "./Txt/Txt";
 export { default as TopicTheory } from "./TopicTheory/TopicTheory";
-//export { default as PdfView } from "./PdfView/PdfView";

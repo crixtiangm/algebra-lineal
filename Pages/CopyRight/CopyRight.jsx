@@ -1,4 +1,4 @@
-import { Text, View } from "react-native";
+import { View } from "react-native";
 import { s } from "./CopyRight.style";
 import { SafeAreaProvider, SafeAreaView } from "react-native-safe-area-context";
 import { NavHeaderCopyRight, Txt } from "../../components";

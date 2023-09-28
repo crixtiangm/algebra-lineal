@@ -1,6 +1,5 @@
-import { Text, View } from "react-native";
+import { View } from "react-native";
 import { s } from "./Ask.style";
-import { MathText } from 'react-native-math-view';
 import MathJax from "react-native-mathjax";
 
 const mmlOptions = {
@@ -35,12 +34,6 @@ const Ask = ({ exerciseNum, statement }) => {
                 mathJaxOptions={mmlOptions}
                 html={`<font size=4>${exerciseNum}.- ${statement}</font>`}
             />
-            {/*
-            <MathText
-                value={`${exerciseNum}.- ${statement}`}
-                CellRendererComponent={<Text style={s.statement} />}
-            />
-            */}
         </View>
     );
 };

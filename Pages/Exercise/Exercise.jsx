@@ -21,7 +21,7 @@ const Exercise = ({onPressHelp}) => {
     const [ filterExerciseList, setFilterExerciseList ] = useState([]);
 
     // Inicializamos siempre el tab en "all" mediante un hook useState
-    const [ selectedTabName, setSelectedTabName ] =  useState("all");
+    const [ selectedTabName, setSelectedTabName ] =  useState("inProgress");
 
     // Cargar los datos guardados cuando se inicia la aplicación
     useEffect(() => {

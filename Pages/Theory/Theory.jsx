@@ -1,8 +1,8 @@
 import { SafeAreaProvider, SafeAreaView } from "react-native-safe-area-context";
 import { s } from "./Theory.style";
 import { useRoute } from "@react-navigation/native";
-import { View } from "react-native";
-import { NavHeaderTheory, PdfView, TabBottomMenuTheory } from "../../components";
+import { ScrollView, View } from "react-native";
+import { NavHeaderTheory, TabBottomMenuTheory, TopicTheory } from "../../components";
 import { useState } from "react";
 
 const Theory = () => {
@@ -17,6 +17,11 @@ const Theory = () => {
                 <SafeAreaView style={s.root} >
                     <View style={s.nav_header} >
                         <NavHeaderTheory title={params.title} />
+                    </View>
+                    <View style={s.body}>
+                        <ScrollView>
+                            <TopicTheory theory={params.theory}/>
+                        </ScrollView>
                     </View>
                 </SafeAreaView>
             </SafeAreaProvider>

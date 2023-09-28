@@ -218,6 +218,7 @@ const Question = ({onPressHelp}) => {
                     onPress={setSelectedTabName} 
                     exerciseNum={params.exercise}
                     title={params._topic[0].title}
+                    theory={params.theory}
                 />
             </View>
             {renderCorrectAnswerDialog()}

@@ -23,7 +23,7 @@ const CopyRight = ({onPressInfo}) => {
                         <Txt>Aldo Jiménez Arteaga</Txt>
                         <Txt>Diseño y programación de App</Txt>
                         <Txt>Cristian Rodolfo Gómez Mares</Txt>
-                        <Txt>Captura de ejercicios</Txt>
+                        <Txt>Captura de ejercicios y solución</Txt>
                         <Txt>Cristian Rodolfo Gómez Mares</Txt>
                     </View>
                 </SafeAreaView>

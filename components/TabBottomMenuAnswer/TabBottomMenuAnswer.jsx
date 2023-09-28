@@ -2,7 +2,7 @@ import { Text, TouchableOpacity, View } from "react-native";
 import { s } from "./TabBottomMenuAnswer.style";
 import { useNavigation } from "@react-navigation/native";
 
-const TabBottomMenuAnswer = ({selectedTabName, onPress, exerciseNum, title}) => {
+const TabBottomMenuAnswer = ({selectedTabName, onPress, exerciseNum, title, theory}) => {
 
     const nav = useNavigation();
 
@@ -19,7 +19,7 @@ const TabBottomMenuAnswer = ({selectedTabName, onPress, exerciseNum, title}) => 
             <TouchableOpacity onPress={() => onPress("Exercise")} >
                 <Text style={getTabName("Exercise")}>Ejercicio {exerciseNum}</Text>
             </TouchableOpacity>
-            <TouchableOpacity onPress={() => nav.navigate("Theory",{exerciseNum, title})} >
+            <TouchableOpacity onPress={() => nav.navigate("Theory",{exerciseNum, title, theory})} >
                 <Text style={getTabName("Theory")} >Teoría</Text>
             </TouchableOpacity>
         </View>

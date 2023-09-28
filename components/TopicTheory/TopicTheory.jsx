@@ -1,5 +1,5 @@
 import { View } from "react-native";
-import { s } from "./ExerciseSolution.style";
+import { s } from "./TopicTheory.style";
 import MathJax from "react-native-mathjax";
 
 const mmlOptions = {
@@ -25,17 +25,17 @@ const mmlOptions = {
         "noUndefined.js",
       ],
     },
-  };
+};
 
-const ExerciseSolution = ({ solution }) => {
+const TopicTheory = ({ theory }) => {
     return(
-        <View style={ s.container }>
-            <MathJax
+        <View style={s.container}>
+            <MathJax 
                 mathJaxOptions={mmlOptions}
-                html={`<font size=4> ${ solution } </font>`}
+                html={`<font size=4> ${ theory } </font>`}
             />
         </View>
     );
 };
 
-export default ExerciseSolution;
+export default TopicTheory;

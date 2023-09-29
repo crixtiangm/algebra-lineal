@@ -101,11 +101,11 @@ const Question = ({onPressHelp}) => {
     // Función que renderiza las lista de respuestas dependiendo del ejercicio seleccionado, funciona para android
     const renderAnswerList = () => {
         return answerList.map((answer, index) =>
-            {<MathJax 
+            <MathJax 
                 key={index}
                 mathJaxOptions={mmlOptions}
                 html={`<font size=4>${answer.option} ${answer.statement}</font>`}
-            />}
+            />
         )
     }
 

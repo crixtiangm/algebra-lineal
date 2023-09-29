@@ -1,0 +1,852 @@
+[
+    {
+        "id": 1,
+        "explanation": "",
+        "_exercise": [
+            {
+                "id": 1,
+                "exercise": "1",
+                "statement": "Si G es un grupo de orden par, demostrar que el número de sus elementos de orden 2 es impar.",
+                "_topic": [
+                    { 
+                        "id": 1, 
+                        "title": "Grupos y Campos"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "explanation": "",
+        "_exercise": [
+            {
+                "id": 1,
+                "exercise": "2",
+                "statement": "",
+                "_topic": [
+                    { 
+                        "id": 1, 
+                        "title": "Grupos y Campos"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "explanation": "",
+        "_exercise": [
+            {
+                "id": 3,
+                "exercise": "3",
+                "statement": "",
+                "_topic": [
+                    { 
+                        "id": 1, 
+                        "title": "Grupos y Campos"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "explanation": "",
+        "_exercise": [
+            {
+                "id": 4,
+                "exercise": "4",
+                "statement": "",
+                "_topic": [
+                    { 
+                        "id": 1, 
+                        "title": "Grupos y Campos"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "explanation": "",
+        "_exercise": [
+            {
+                "id": 5,
+                "exercise": "5",
+                "statement": "",
+                "_topic": [
+                    { 
+                        "id": 1, 
+                        "title": "Grupos y Campos"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "explanation": "",
+        "_exercise": [
+            {
+                "id": 6,
+                "exercise": "6",
+                "statement": "",
+                "_topic": [
+                    { 
+                        "id": 1, 
+                        "title": "Grupos y Campos"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "explanation": "",
+        "_exercise": [
+            {
+                "id": 7,
+                "exercise": "7",
+                "statement": "",
+                "_topic": [
+                    { 
+                        "id": 1, 
+                        "title": "Grupos y Campos"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 8,
+        "explanation": "",
+        "_exercise": [
+            {
+                "id": 8,
+                "exercise": "8",
+                "statement": "",
+                "_topic": [
+                    { 
+                        "id": 1, 
+                        "title": "Grupos y Campos"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 9,
+        "explanation": "",
+        "_exercise": [
+            {
+                "id": 9,
+                "exercise": "9",
+                "statement": "",
+                "_topic": [
+                    { 
+                        "id": 1, 
+                        "title": "Grupos y Campos"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 10,
+        "explanation": "",
+        "_exercise": [
+            {
+                "id": 10,
+                "exercise": "10",
+                "statement": "",
+                "_topic": [
+                    { 
+                        "id": 1, 
+                        "title": "Grupos y Campos"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 11,
+        "explanation": "Teoremas $$\n$$ $1.-$Sea $V$ un conjunto no vacío y sea $(k, +, \\bullet)$ un campo. Se dice que $V$ es un espacio vectorial sobre $k$ si están definidas dos leyes de composición, llamadas adición y multiplicación por una escalar, tales que: $$\n$$ $i)$La adición asigna a cada pareja ordenada $(\\bar{u},\\bar{v})$ de elementos de $V$ un único elemento $\\bar{u} + \\bar{v} \\in V$, llamado la suma de $\\bar{u}$ y $\\bar{v}$ $$\n$$ $ii) \\forall \\bar{u}, \\bar{v}, \\bar{w} \\in V :$ $$\\bar{u} + (\\bar{v} + \\bar{w}) = (\\bar{u} + \\bar{v}) + \\bar{w}$$ $$\n$$ $iii)\\exists \\space \\bar{0} \\in V$ tal que $\\bar{0} + \\bar{v} = \\bar{v}, \\forall \\space \\bar{v} \\in v$ $$\n$$ $iv)\\forall \\space \\bar{v} \\in \\space V - \\bar{v} \\in \\space V$ tal que $-\\bar{v} + \\bar{v} = 0$ $$\n$$ $v)\\forall \\space \\bar{u}, \\bar{v} \\in V \\space : \\space \\bar{u} + \\bar{v} = \\bar{v} + \\bar{u}$ $$\n$$ $vi)$La multiplicación por un escalar asigna a cada pareja asignada $(\\alpha, \\bar{v})$ de elementos $\\alpha \\space \\in \\space k$ y $\\bar{v} \\space \\in \\space V$ un único elemento $\\alpha\\bar{v} \\space \\in \\space V$, llamado el producto de $\\alpha$ por $\\bar{v}$ $$\n$$ $vii) \\forall \\space \\alpha \\in K : \\bar{v} \\in \\space V : \\alpha(\\bar{u} + \\bar{v}) = \\alpha \\bar{u} + \\alpha \\bar{v}$ $$\n$$ $viii) \\forall \\alpha, \\beta \\in K ; \\bar{v} \\in V : (\\alpha + \\beta)\\bar{v} = \\alpha\\bar{v} + \\beta\\bar{v}$ $$\n$$ $ix)\\forall \\space \\alpha, \\beta \\in K; \\bar{v} \\in V: \\space \\alpha(\\beta\\bar{v}) = (\\alpha\\beta)\\bar{v}$ $$\n$$ $x)$Si $1$ es la unidad de $K: \\space 1\\bar{v} = \\bar{v}, \\forall \\space \\bar{v} \\in V$ $$\n$$A los elementos de $V$ se les llama vectores y a los de $K$ escalares. $$\n$$ $2.-$Si $V$ es un espacio vectorial sobre $K$, entonces $$\n$$ $i)\\forall \\space \\bar{u}, \\bar{v}, \\bar{w} \\in V \\space : \\bar{u} + \\bar{v} = \\bar{u} + \\bar{w} \\Rightarrow \\bar{v} = \\bar{w}$ $$\n$$ $ii)$El vector $\\bar{0}$ es único y es tal que $$\\bar{v} + \\bar{0} = \\bar{v}, \\forall \\space \\bar{v} \\in V$$ $$\n$$ $iii)$El vector $-\\bar{v}$ es único y es tal que $$\\bar{v} + (-\\bar{v}) = \\bar{0}$$ $$\n$$ $iv)$La ecuación $\\bar{u} + \\bar{x} = \\bar{v}$ tiene solución única en $V$. $$\n$$ $v)\\forall \\space \\bar{v} \\in V: -(-\\bar{v}) = \\bar{v}$ $$\n$$ $vi)\\forall\\bar{u}, \\space \\bar{v} \\in V: -(\\bar{u} + \\bar{v}) = -\\bar{u} + (-\\bar{v})$ $$\n$$ $3.-$Sea $V$ un espacio vectorial sobre $K$: $$\n$$ $i) \\space \\forall \\alpha \\in K: \\alpha\\bar{0} = \\bar{0}$ $$\n$$ $ii)\\space \\forall \\bar{v} \\in V: 0\\bar{v} = \\bar{0}$, donde $0$ es el cero de $K$ $$\n$$ $iii)\\space \\forall \\alpha \\in K, \\bar{v} \\in V: (-\\alpha)\\bar{v} =$ $$-(\\alpha\\bar{v}) = \\alpha(-\\bar{v})$$ $$\n$$ $iv)\\forall \\alpha \\in K, \\bar{v} \\in V: \\alpha\\bar{v} = \\bar{0} \\Rightarrow \\alpha = 0$ o $\\bar{v} = \\bar{0}$ $$\n$$ $v) \\forall \\alpha \\in K, \\bar{u}, \\bar{v} \\in V : \\alpha\\bar{u} = \\alpha\\bar{v}$ y $\\alpha \\neq 0 \\Rightarrow \\bar{u} = \\bar{v}$ $$\n$$ $vi)\\space \\forall \\alpha \\in K, \\bar{u}, \\bar{v} \\in V : \\alpha\\bar{v} = \\beta \\bar{v}$ y $\\bar{v} \\neq 0 \\Rightarrow \\alpha = \\beta$ $$\n$$ $4.-$Si $V$ es un espacio vectorial sobre $K$, entonces $$\\bar{u} - \\bar{v} = \\bar{u} + (-\\bar{v}); \\forall \\space \\bar{u}, \\bar{v} \\in V$$ $$\n$$Al vector $\\bar{u} - \\bar{v}$ se le llama la diferencia $\\bar{u}$ menos $\\bar{v}$ $$\n$$ $5.-$Sea $V$ un espacio vectorial sobre $K$ y sea $S$ un subconjunto de $V$. $S$ es un subespacio de $V$ si es un espacio vectorial sobre $K$ respecto a la adición y la multiplicación por un escalar definidas en $V$. $$\n$$ $6.-$Sea $V$ un espacio vectorial sobre $K$ y sea $S$ un subconjunto de $V$. $$\n$$ $S$ es un subespacio de $V$ si y solo si $$\n$$ $i)\\space \\forall \\bar{u}, \\bar{v} \\in S:\\bar{u} + \\bar{v} \\in S$ $$\n$$ $ii)\\space \\forall \\alpha \\in K, \\bar{v} \\in S : \\alpha\\bar{v} \\in S$ $$\n$$ $7.-$Un vector $\\bar{w}$ es una combinación lineal de los vectores $\\bar{v_1},\\bar{v_2},...,\\bar{v_n}$ si puede ser expresado en la forma $$\\bar{w} = \\alpha_1\\bar{v_1} + \\alpha_2\\bar{v_2} + ... + \\alpha_n\\bar{v_n}$$ $$\n$$ Donde $\\alpha_1,\\alpha_2,...,\\alpha_n$ son escalares. $$\n$$ $9.-$Sea $S = \\{\\bar{v_1},\\bar{v_2},...,\\bar{v_n}\\}$ un conjunto de vectores: $$\n$$ $i) S$ es linealmente dependiente si existen escalares $\\alpha_1,\\alpha_2,...,\\alpha_n$, no todos iguales a cero, tales que $$\\alpha_1\\bar{v_1} + \\alpha_\\bar{v_2} + ... + \\alpha_n\\bar{v_n} = \\bar{0}$$ $$\n$$ $ii) S$ es linealmente independiente si la igualdad $\\alpha_1\\bar{v_1} + \\alpha_2\\bar{v_2} + ... + \\alpha_n\\bar{v_n} = \\bar{0}$ solo se satisface con $$\\alpha_1 = \\alpha_2 = ... = \\alpha_n = 0$$ $$\n$$ $10.-$Todo conjunto que contiene al vector $\\bar{0}$ es linealmente dependiente $$\n$$ $11.-$Si $S$ es un conjunto linealmente independiente entonces en cualquier subconjunto de $S$ es linealmente independiente. $$\n$$ $12.-$Sea $V$ un espacio vectorial sobre $K$, y sea $G = \\{\\bar{v_1},\\bar{v_2},...,\\bar{v_m}\\}$, un conjunto de vectores de $V$. Se dice que $G$ es un generador de $V$ si para todo vector $\\bar{x} \\in V$ existen escalares $\\alpha_1,\\alpha_2,...,\\alpha_m$ tales que $\\bar{x} = \\alpha_1\\bar{v_1} + \\alpha_2\\bar{v_2} + ... + \\alpha_m\\bar{v_m}$ $$\n$$ $13.-$Sea $V$ un espacio vectorial sobre $K$ y sea $G$ un subconjunto de $V$, $G$ es un generador de $V$ si y solo si $V = L(G)$ $$\n$$ $14.-$Se llama base de espacio vectorial $V$ a un conjunto generador de $V$ que es linealmente independiente. $$\n$$ $15.-$Sea $V$ un espacio vectorial sobre $K$. Si $B = \\{\\bar{v_1},\\bar{v_2},...,\\bar{v_n}\\}$ es una base de $V$, entonces cualquier conjunto de vectores de $V$ con más de $n$ elementos es linealmente dependiente. $$\n$$ $16.-$Sea $V$ un espacio vectorial sobre $K$. Si $B = \\{\\bar{v_1},\\bar{v_2},...,\\bar{v_n}\\}$ es una base de $V$, entonces cualquier otra base de dicho espacio está formada por $n$ vectores. $$\n$$ $17.-$Sea $V$ un espacio vectorial sobre $K$. Si $B = \\{\\bar{v_1},\\bar{v_2},...,\\bar{v_n}\\}$ es una base de $V$ se dice que $V$ es de dimensión n, lo cual se denota con $dim V = n$ $$\n$$ En particular, si $V = \\{\\bar{0}\\}, dim V = 0$ $$\n$$ $18.-$Si $V$ es un espacio vectorial de dimensión $n$, cualquier conjunto linealmente independiente formado por $n$ vectores de $V$ es una base de dicho espacio. $$\n$$ $19.-$Si $V$ es un espacio vectorial de dimensión $n$ y $W$ es un subespacio de $V$, entonces $$dim \\space W \\leq n$$ $$\n$$En particular, si $dim \\space W = n$ entonces $W = V$ $$\n$$ $20.-$Sea $B = \\{\\bar{v_1},\\bar{v_2},...,\\bar{v_n}\\}$ una base de un espacio vectorial $V$ sobre $K$, y sea $\\bar{x} \\in V$. Si $$\\bar{x} = \\alpha_1\\bar{v_1} + \\alpha_2\\bar{v_2} + ... + \\alpha_n\\bar{v_n}$$ $$\n$$ los escalares $\\alpha_1,\\alpha_2,...,\\alpha_n$ se llaman coordenadas de $\\bar{x}$ en la base de $B$; y el vector de $K^n$ $$(\\bar{x})_B = (\\alpha_1,\\alpha_2,...,\\alpha_n)^T$$ $$\n$$Se llama vector de coordenadas de $\\bar{x}$ en la base $B$ $$\n$$ $21.-$Sea $b = \\{\\bar{v_1},\\bar{v_2},...,\\bar{v_n}\\}$ una base de un espacio vectorial $V$ sobre $K$. Para cualquier $\\bar{x} \\in V$ el vector $(\\bar{x})_B$ es único. $$\n$$ $22.-$Sea $A = \\begin{bmatrix}a_{ij}\\end{bmatrix}$ una matriz de $mxn$ con elementos en un coampo $K$, y sea $\\bar{r_i} = (a_{i1},a_{i2},...,a_{in})$ el i-ésimo renglón de $A$. si $A_r = (\\bar{r_2},\\bar{r_2},...,\\bar{r_m})$, el conjunto $L(A_r)$ se llama espacio renglón de A. $$\n$$ $23.-$Dos matrices $A$ y $B$ son equivalentes(por renglones), lo cual se denota mediante $A \\square B$, si alguna de ellas puede obtenerse a partir de la otra mediante una sucesión finita de transformaciones elementales(por renglón). $$\n$$ $24.-$Dos matrices equivalentes tienen el mismo espacio renglón $$\n$$ $25.-$Sea $A = \\begin{bmatrix}a_{ij}\\end{bmatrix}$ una matriz de $m$x$n$ con elementos en un campo $K$, y sea $\\bar{c_i} = (a_{1i},a_{2i},...,a_{mi})^T$ la i-ésima columna de $A$. Si $A_c = \\{\\bar{c_1},\\bar{c_2},...,\\bar{c_n}\\}$, el conjunto de $L(A_c)$ se llama espacio columna de $A$. $$\n$$ $26.-$Para cualquier matriz $A$ se tiene que $dim \\space L(A_r) = dim \\space L(A_c)$ $$\n$$ $27.-$Se llama rango de una matriz $A$, y se denota con $R(A)$, al número $R(A) = dim \\space L(A_r) = dim \\space L(A_c)$ $$\n$$ $28.-$Si $A$ es una matriz de $n$x$n$, los siguientes enunciados son equivalentes $$\n$$ $i)\\space R(A) = n$ $$\n$$ $ii) A \\square I_n$ $$\n$$ $iii)\\space \\exists A^{-1}$ $$\n$$ $iv)\\space dim A \\neq 0$ $$\n$$ $v)$Los renglones de $A$ son linealmente independientes $$\n$$ $vi)$Las columnas de $A$ son linealmente independientes $$\n$$ $29.-$El sistema de ecuaciones lineales $A\\bar{x} = \\bar{b}$ es compatible si y solo si $R(A) = R(A,\\bar{b})$ $$\n$$ $30.-$Sea $A\\bar{x} = \\bar{b}$ un sistema compatible de $m$ ecuaciones lineales con $n$ incógnitas: si $R(A) = n$ el sistema es determinado y si $R(A) < n$ el sistema es indeterminado $$\n$$ $31.-$Sea $F$ el conjunto de todas las funciones reales de variable real, y sean $f, g \\in F$. Se dice que $f$ y $g$ son iguales, lo cual se denota mediante $f = g$, cuando $f(x) = g(x), \\forall \\space x \\in R$ $$\n$$ $32.-$Sea $F$ el conjunto de funciones reales de variable real, y sean $f, g \\in F; \\alpha \\in R:$ $$\n$$ $i)$La suma de $f$ y $g$ es una función $f + g$ definida por $$(f + g)(x) = f(x) + g(x), \\forall x \\in R$$ $$\n$$ $ii)$El producto de $\\alpha$ y $f$ es una funcion $\\alpha f$ definida por $$(\\alpha f) = \\alpha \\bullet f(x), \\forall x \\in R$$ $$\n$$ $33.-$Sea $\\{f_1,f_2,...,f_n\\}$ un conjunto de $n$ funciones reales de variable real. Si existen $n$ valores $x_1,x_2,...,x_n \\in R$ tales que el sistema $$\\begin{matrix}\\alpha_1f_1(x_1) + \\alpha_2f_2(x_1) + ... + \\alpha_nf_n(x_1) = 0 \\\\ \\alpha_1f_1(x_2) + \\alpha_2f_2(x_2) + ... + \\alpha_nf_n(x_2) = 0 \\\\. . . . . . . . . . . . . \\\\. . . . . . . . . . . . . \\\\ \\alpha_nf_n(x_n) + \\alpha_nf_n(x_n) + ... + \\alpha_nf_n(x_n) = 0 \\end{matrix}$$ $$\n$$Solo admite la solución trivial, entonces el conjunto de funciones es linealmente independiente $$\n$$ $34.-$Sea $f = \\{f_1,f_2,...,f_n\\}$ un conjunto de $n$ funciones reales de variable real, derivables al menos $n-1$ veces en el intervalo $(a,b)$ y sea $$W(x) =$$ $$\\begin{vmatrix}f_1(x) & f_2(x) & \\dotsm & f_n(x) \\\\f_1(x) & f_2(x) & \\dotsm & f_n(x) \\\\ \\vdots & \\vdots & \\vdots & \\vdots \\\\f_{1}^{(n - 1)}(x) & f_{2}^{(n - 1)}(x) & \\dotsm & f_{n}^{(n - 1)}(x)\\end{vmatrix}$$ $$\n$$Si $W(x_0) \\neq 0$ para algún $x_0 \\in (a,b)$, entonces el conjunto de funciones es linealmente independiente en dicho intervalo. $$\n$$ $\\textbf{Bibliografía}$ $$\n$$ $[1]$ Solar González E. y Speziale de Guzmán L. (1985). $\\textit{Apuntes de Álgebra Lineal}$http://132.248.52.100:8080/xmlui/handle/132.248.52.100/866",
+        "_exercise": [
+            {
+                "id": 11,
+                "exercise": "1",
+                "statement": "Sea el espacio vectorial $$M = \\begin{Bmatrix}\\begin{bmatrix}m & 0\\\\ n & 2p \\end{bmatrix} \\mid m,n,p\\in \\mathbb R \\end{Bmatrix}$$ Una base de M es:",
+                "_topic": [
+                    { 
+                        "id": 2, 
+                        "title": "Espacios vectoriales"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 12,
+        "explanation": "Teoremas $$\n$$ $1.-$Sea $V$ un conjunto no vacío y sea $(k, +, \\bullet)$ un campo. Se dice que $V$ es un espacio vectorial sobre $k$ si están definidas dos leyes de composición, llamadas adición y multiplicación por una escalar, tales que: $$\n$$ $i)$La adición asigna a cada pareja ordenada $(\\bar{u},\\bar{v})$ de elementos de $V$ un único elemento $\\bar{u} + \\bar{v} \\in V$, llamado la suma de $\\bar{u}$ y $\\bar{v}$ $$\n$$ $ii) \\forall \\bar{u}, \\bar{v}, \\bar{w} \\in V :$ $$\\bar{u} + (\\bar{v} + \\bar{w}) = (\\bar{u} + \\bar{v}) + \\bar{w}$$ $$\n$$ $iii)\\exists \\space \\bar{0} \\in V$ tal que $\\bar{0} + \\bar{v} = \\bar{v}, \\forall \\space \\bar{v} \\in v$ $$\n$$ $iv)\\forall \\space \\bar{v} \\in \\space V - \\bar{v} \\in \\space V$ tal que $-\\bar{v} + \\bar{v} = 0$ $$\n$$ $v)\\forall \\space \\bar{u}, \\bar{v} \\in V \\space : \\space \\bar{u} + \\bar{v} = \\bar{v} + \\bar{u}$ $$\n$$ $vi)$La multiplicación por un escalar asigna a cada pareja asignada $(\\alpha, \\bar{v})$ de elementos $\\alpha \\space \\in \\space k$ y $\\bar{v} \\space \\in \\space V$ un único elemento $\\alpha\\bar{v} \\space \\in \\space V$, llamado el producto de $\\alpha$ por $\\bar{v}$ $$\n$$ $vii) \\forall \\space \\alpha \\in K : \\bar{v} \\in \\space V : \\alpha(\\bar{u} + \\bar{v}) = \\alpha \\bar{u} + \\alpha \\bar{v}$ $$\n$$ $viii) \\forall \\alpha, \\beta \\in K ; \\bar{v} \\in V : (\\alpha + \\beta)\\bar{v} = \\alpha\\bar{v} + \\beta\\bar{v}$ $$\n$$ $ix)\\forall \\space \\alpha, \\beta \\in K; \\bar{v} \\in V: \\space \\alpha(\\beta\\bar{v}) = (\\alpha\\beta)\\bar{v}$ $$\n$$ $x)$Si $1$ es la unidad de $K: \\space 1\\bar{v} = \\bar{v}, \\forall \\space \\bar{v} \\in V$ $$\n$$A los elementos de $V$ se les llama vectores y a los de $K$ escalares. $$\n$$ $2.-$Si $V$ es un espacio vectorial sobre $K$, entonces $$\n$$ $i)\\forall \\space \\bar{u}, \\bar{v}, \\bar{w} \\in V \\space : \\bar{u} + \\bar{v} = \\bar{u} + \\bar{w} \\Rightarrow \\bar{v} = \\bar{w}$ $$\n$$ $ii)$El vector $\\bar{0}$ es único y es tal que $$\\bar{v} + \\bar{0} = \\bar{v}, \\forall \\space \\bar{v} \\in V$$ $$\n$$ $iii)$El vector $-\\bar{v}$ es único y es tal que $$\\bar{v} + (-\\bar{v}) = \\bar{0}$$ $$\n$$ $iv)$La ecuación $\\bar{u} + \\bar{x} = \\bar{v}$ tiene solución única en $V$. $$\n$$ $v)\\forall \\space \\bar{v} \\in V: -(-\\bar{v}) = \\bar{v}$ $$\n$$ $vi)\\forall\\bar{u}, \\space \\bar{v} \\in V: -(\\bar{u} + \\bar{v}) = -\\bar{u} + (-\\bar{v})$ $$\n$$ $3.-$Sea $V$ un espacio vectorial sobre $K$: $$\n$$ $i) \\space \\forall \\alpha \\in K: \\alpha\\bar{0} = \\bar{0}$ $$\n$$ $ii)\\space \\forall \\bar{v} \\in V: 0\\bar{v} = \\bar{0}$, donde $0$ es el cero de $K$ $$\n$$ $iii)\\space \\forall \\alpha \\in K, \\bar{v} \\in V: (-\\alpha)\\bar{v} =$ $$-(\\alpha\\bar{v}) = \\alpha(-\\bar{v})$$ $$\n$$ $iv)\\forall \\alpha \\in K, \\bar{v} \\in V: \\alpha\\bar{v} = \\bar{0} \\Rightarrow \\alpha = 0$ o $\\bar{v} = \\bar{0}$ $$\n$$ $v) \\forall \\alpha \\in K, \\bar{u}, \\bar{v} \\in V : \\alpha\\bar{u} = \\alpha\\bar{v}$ y $\\alpha \\neq 0 \\Rightarrow \\bar{u} = \\bar{v}$ $$\n$$ $vi)\\space \\forall \\alpha \\in K, \\bar{u}, \\bar{v} \\in V : \\alpha\\bar{v} = \\beta \\bar{v}$ y $\\bar{v} \\neq 0 \\Rightarrow \\alpha = \\beta$ $$\n$$ $4.-$Si $V$ es un espacio vectorial sobre $K$, entonces $$\\bar{u} - \\bar{v} = \\bar{u} + (-\\bar{v}); \\forall \\space \\bar{u}, \\bar{v} \\in V$$ $$\n$$Al vector $\\bar{u} - \\bar{v}$ se le llama la diferencia $\\bar{u}$ menos $\\bar{v}$ $$\n$$ $5.-$Sea $V$ un espacio vectorial sobre $K$ y sea $S$ un subconjunto de $V$. $S$ es un subespacio de $V$ si es un espacio vectorial sobre $K$ respecto a la adición y la multiplicación por un escalar definidas en $V$. $$\n$$ $6.-$Sea $V$ un espacio vectorial sobre $K$ y sea $S$ un subconjunto de $V$. $$\n$$ $S$ es un subespacio de $V$ si y solo si $$\n$$ $i)\\space \\forall \\bar{u}, \\bar{v} \\in S:\\bar{u} + \\bar{v} \\in S$ $$\n$$ $ii)\\space \\forall \\alpha \\in K, \\bar{v} \\in S : \\alpha\\bar{v} \\in S$ $$\n$$ $7.-$Un vector $\\bar{w}$ es una combinación lineal de los vectores $\\bar{v_1},\\bar{v_2},...,\\bar{v_n}$ si puede ser expresado en la forma $$\\bar{w} = \\alpha_1\\bar{v_1} + \\alpha_2\\bar{v_2} + ... + \\alpha_n\\bar{v_n}$$ $$\n$$ Donde $\\alpha_1,\\alpha_2,...,\\alpha_n$ son escalares. $$\n$$ $9.-$Sea $S = \\{\\bar{v_1},\\bar{v_2},...,\\bar{v_n}\\}$ un conjunto de vectores: $$\n$$ $i) S$ es linealmente dependiente si existen escalares $\\alpha_1,\\alpha_2,...,\\alpha_n$, no todos iguales a cero, tales que $$\\alpha_1\\bar{v_1} + \\alpha_\\bar{v_2} + ... + \\alpha_n\\bar{v_n} = \\bar{0}$$ $$\n$$ $ii) S$ es linealmente independiente si la igualdad $\\alpha_1\\bar{v_1} + \\alpha_2\\bar{v_2} + ... + \\alpha_n\\bar{v_n} = \\bar{0}$ solo se satisface con $$\\alpha_1 = \\alpha_2 = ... = \\alpha_n = 0$$ $$\n$$ $10.-$Todo conjunto que contiene al vector $\\bar{0}$ es linealmente dependiente $$\n$$ $11.-$Si $S$ es un conjunto linealmente independiente entonces en cualquier subconjunto de $S$ es linealmente independiente. $$\n$$ $12.-$Sea $V$ un espacio vectorial sobre $K$, y sea $G = \\{\\bar{v_1},\\bar{v_2},...,\\bar{v_m}\\}$, un conjunto de vectores de $V$. Se dice que $G$ es un generador de $V$ si para todo vector $\\bar{x} \\in V$ existen escalares $\\alpha_1,\\alpha_2,...,\\alpha_m$ tales que $\\bar{x} = \\alpha_1\\bar{v_1} + \\alpha_2\\bar{v_2} + ... + \\alpha_m\\bar{v_m}$ $$\n$$ $13.-$Sea $V$ un espacio vectorial sobre $K$ y sea $G$ un subconjunto de $V$, $G$ es un generador de $V$ si y solo si $V = L(G)$ $$\n$$ $14.-$Se llama base de espacio vectorial $V$ a un conjunto generador de $V$ que es linealmente independiente. $$\n$$ $15.-$Sea $V$ un espacio vectorial sobre $K$. Si $B = \\{\\bar{v_1},\\bar{v_2},...,\\bar{v_n}\\}$ es una base de $V$, entonces cualquier conjunto de vectores de $V$ con más de $n$ elementos es linealmente dependiente. $$\n$$ $16.-$Sea $V$ un espacio vectorial sobre $K$. Si $B = \\{\\bar{v_1},\\bar{v_2},...,\\bar{v_n}\\}$ es una base de $V$, entonces cualquier otra base de dicho espacio está formada por $n$ vectores. $$\n$$ $17.-$Sea $V$ un espacio vectorial sobre $K$. Si $B = \\{\\bar{v_1},\\bar{v_2},...,\\bar{v_n}\\}$ es una base de $V$ se dice que $V$ es de dimensión n, lo cual se denota con $dim V = n$ $$\n$$ En particular, si $V = \\{\\bar{0}\\}, dim V = 0$ $$\n$$ $18.-$Si $V$ es un espacio vectorial de dimensión $n$, cualquier conjunto linealmente independiente formado por $n$ vectores de $V$ es una base de dicho espacio. $$\n$$ $19.-$Si $V$ es un espacio vectorial de dimensión $n$ y $W$ es un subespacio de $V$, entonces $$dim \\space W \\leq n$$ $$\n$$En particular, si $dim \\space W = n$ entonces $W = V$ $$\n$$ $20.-$Sea $B = \\{\\bar{v_1},\\bar{v_2},...,\\bar{v_n}\\}$ una base de un espacio vectorial $V$ sobre $K$, y sea $\\bar{x} \\in V$. Si $$\\bar{x} = \\alpha_1\\bar{v_1} + \\alpha_2\\bar{v_2} + ... + \\alpha_n\\bar{v_n}$$ $$\n$$ los escalares $\\alpha_1,\\alpha_2,...,\\alpha_n$ se llaman coordenadas de $\\bar{x}$ en la base de $B$; y el vector de $K^n$ $$(\\bar{x})_B = (\\alpha_1,\\alpha_2,...,\\alpha_n)^T$$ $$\n$$Se llama vector de coordenadas de $\\bar{x}$ en la base $B$ $$\n$$ $21.-$Sea $b = \\{\\bar{v_1},\\bar{v_2},...,\\bar{v_n}\\}$ una base de un espacio vectorial $V$ sobre $K$. Para cualquier $\\bar{x} \\in V$ el vector $(\\bar{x})_B$ es único. $$\n$$ $22.-$Sea $A = \\begin{bmatrix}a_{ij}\\end{bmatrix}$ una matriz de $mxn$ con elementos en un coampo $K$, y sea $\\bar{r_i} = (a_{i1},a_{i2},...,a_{in})$ el i-ésimo renglón de $A$. si $A_r = (\\bar{r_2},\\bar{r_2},...,\\bar{r_m})$, el conjunto $L(A_r)$ se llama espacio renglón de A. $$\n$$ $23.-$Dos matrices $A$ y $B$ son equivalentes(por renglones), lo cual se denota mediante $A \\square B$, si alguna de ellas puede obtenerse a partir de la otra mediante una sucesión finita de transformaciones elementales(por renglón). $$\n$$ $24.-$Dos matrices equivalentes tienen el mismo espacio renglón $$\n$$ $25.-$Sea $A = \\begin{bmatrix}a_{ij}\\end{bmatrix}$ una matriz de $m$x$n$ con elementos en un campo $K$, y sea $\\bar{c_i} = (a_{1i},a_{2i},...,a_{mi})^T$ la i-ésima columna de $A$. Si $A_c = \\{\\bar{c_1},\\bar{c_2},...,\\bar{c_n}\\}$, el conjunto de $L(A_c)$ se llama espacio columna de $A$. $$\n$$ $26.-$Para cualquier matriz $A$ se tiene que $dim \\space L(A_r) = dim \\space L(A_c)$ $$\n$$ $27.-$Se llama rango de una matriz $A$, y se denota con $R(A)$, al número $R(A) = dim \\space L(A_r) = dim \\space L(A_c)$ $$\n$$ $28.-$Si $A$ es una matriz de $n$x$n$, los siguientes enunciados son equivalentes $$\n$$ $i)\\space R(A) = n$ $$\n$$ $ii) A \\square I_n$ $$\n$$ $iii)\\space \\exists A^{-1}$ $$\n$$ $iv)\\space dim A \\neq 0$ $$\n$$ $v)$Los renglones de $A$ son linealmente independientes $$\n$$ $vi)$Las columnas de $A$ son linealmente independientes $$\n$$ $29.-$El sistema de ecuaciones lineales $A\\bar{x} = \\bar{b}$ es compatible si y solo si $R(A) = R(A,\\bar{b})$ $$\n$$ $30.-$Sea $A\\bar{x} = \\bar{b}$ un sistema compatible de $m$ ecuaciones lineales con $n$ incógnitas: si $R(A) = n$ el sistema es determinado y si $R(A) < n$ el sistema es indeterminado $$\n$$ $31.-$Sea $F$ el conjunto de todas las funciones reales de variable real, y sean $f, g \\in F$. Se dice que $f$ y $g$ son iguales, lo cual se denota mediante $f = g$, cuando $f(x) = g(x), \\forall \\space x \\in R$ $$\n$$ $32.-$Sea $F$ el conjunto de funciones reales de variable real, y sean $f, g \\in F; \\alpha \\in R:$ $$\n$$ $i)$La suma de $f$ y $g$ es una función $f + g$ definida por $$(f + g)(x) = f(x) + g(x), \\forall x \\in R$$ $$\n$$ $ii)$El producto de $\\alpha$ y $f$ es una funcion $\\alpha f$ definida por $$(\\alpha f) = \\alpha \\bullet f(x), \\forall x \\in R$$ $$\n$$ $33.-$Sea $\\{f_1,f_2,...,f_n\\}$ un conjunto de $n$ funciones reales de variable real. Si existen $n$ valores $x_1,x_2,...,x_n \\in R$ tales que el sistema $$\\begin{matrix}\\alpha_1f_1(x_1) + \\alpha_2f_2(x_1) + ... + \\alpha_nf_n(x_1) = 0 \\\\ \\alpha_1f_1(x_2) + \\alpha_2f_2(x_2) + ... + \\alpha_nf_n(x_2) = 0 \\\\. . . . . . . . . . . . . \\\\. . . . . . . . . . . . . \\\\ \\alpha_nf_n(x_n) + \\alpha_nf_n(x_n) + ... + \\alpha_nf_n(x_n) = 0 \\end{matrix}$$ $$\n$$Solo admite la solución trivial, entonces el conjunto de funciones es linealmente independiente $$\n$$ $34.-$Sea $f = \\{f_1,f_2,...,f_n\\}$ un conjunto de $n$ funciones reales de variable real, derivables al menos $n-1$ veces en el intervalo $(a,b)$ y sea $$W(x) =$$ $$\\begin{vmatrix}f_1(x) & f_2(x) & \\dotsm & f_n(x) \\\\f_1(x) & f_2(x) & \\dotsm & f_n(x) \\\\ \\vdots & \\vdots & \\vdots & \\vdots \\\\f_{1}^{(n - 1)}(x) & f_{2}^{(n - 1)}(x) & \\dotsm & f_{n}^{(n - 1)}(x)\\end{vmatrix}$$ $$\n$$Si $W(x_0) \\neq 0$ para algún $x_0 \\in (a,b)$, entonces el conjunto de funciones es linealmente independiente en dicho intervalo. $$\n$$ $\\textbf{Bibliografía}$ $$\n$$ $[1]$ Solar González E. y Speziale de Guzmán L. (1985). $\\textit{Apuntes de Álgebra Lineal}$http://132.248.52.100:8080/xmlui/handle/132.248.52.100/866",
+        "_exercise": [
+            {
+                "id": 12,
+                "exercise": "2",
+                "statement": "La dimensión del espacio $$M = \\begin{Bmatrix}\\begin{bmatrix}-z_1 & z_1\\\\ z_2 & 0 \\end{bmatrix} \\mid z_,z_2\\in \\mathbb C \\end{Bmatrix}$$ definido sobre el campo de los números reales, es:",
+                "_topic": [
+                    { 
+                        "id": 2, 
+                        "title": "Espacios vectoriales"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 13,
+        "explanation": "Teoremas $$\n$$ $1.-$Sea $V$ un conjunto no vacío y sea $(k, +, \\bullet)$ un campo. Se dice que $V$ es un espacio vectorial sobre $k$ si están definidas dos leyes de composición, llamadas adición y multiplicación por una escalar, tales que: $$\n$$ $i)$La adición asigna a cada pareja ordenada $(\\bar{u},\\bar{v})$ de elementos de $V$ un único elemento $\\bar{u} + \\bar{v} \\in V$, llamado la suma de $\\bar{u}$ y $\\bar{v}$ $$\n$$ $ii) \\forall \\bar{u}, \\bar{v}, \\bar{w} \\in V :$ $$\\bar{u} + (\\bar{v} + \\bar{w}) = (\\bar{u} + \\bar{v}) + \\bar{w}$$ $$\n$$ $iii)\\exists \\space \\bar{0} \\in V$ tal que $\\bar{0} + \\bar{v} = \\bar{v}, \\forall \\space \\bar{v} \\in v$ $$\n$$ $iv)\\forall \\space \\bar{v} \\in \\space V - \\bar{v} \\in \\space V$ tal que $-\\bar{v} + \\bar{v} = 0$ $$\n$$ $v)\\forall \\space \\bar{u}, \\bar{v} \\in V \\space : \\space \\bar{u} + \\bar{v} = \\bar{v} + \\bar{u}$ $$\n$$ $vi)$La multiplicación por un escalar asigna a cada pareja asignada $(\\alpha, \\bar{v})$ de elementos $\\alpha \\space \\in \\space k$ y $\\bar{v} \\space \\in \\space V$ un único elemento $\\alpha\\bar{v} \\space \\in \\space V$, llamado el producto de $\\alpha$ por $\\bar{v}$ $$\n$$ $vii) \\forall \\space \\alpha \\in K : \\bar{v} \\in \\space V : \\alpha(\\bar{u} + \\bar{v}) = \\alpha \\bar{u} + \\alpha \\bar{v}$ $$\n$$ $viii) \\forall \\alpha, \\beta \\in K ; \\bar{v} \\in V : (\\alpha + \\beta)\\bar{v} = \\alpha\\bar{v} + \\beta\\bar{v}$ $$\n$$ $ix)\\forall \\space \\alpha, \\beta \\in K; \\bar{v} \\in V: \\space \\alpha(\\beta\\bar{v}) = (\\alpha\\beta)\\bar{v}$ $$\n$$ $x)$Si $1$ es la unidad de $K: \\space 1\\bar{v} = \\bar{v}, \\forall \\space \\bar{v} \\in V$ $$\n$$A los elementos de $V$ se les llama vectores y a los de $K$ escalares. $$\n$$ $2.-$Si $V$ es un espacio vectorial sobre $K$, entonces $$\n$$ $i)\\forall \\space \\bar{u}, \\bar{v}, \\bar{w} \\in V \\space : \\bar{u} + \\bar{v} = \\bar{u} + \\bar{w} \\Rightarrow \\bar{v} = \\bar{w}$ $$\n$$ $ii)$El vector $\\bar{0}$ es único y es tal que $$\\bar{v} + \\bar{0} = \\bar{v}, \\forall \\space \\bar{v} \\in V$$ $$\n$$ $iii)$El vector $-\\bar{v}$ es único y es tal que $$\\bar{v} + (-\\bar{v}) = \\bar{0}$$ $$\n$$ $iv)$La ecuación $\\bar{u} + \\bar{x} = \\bar{v}$ tiene solución única en $V$. $$\n$$ $v)\\forall \\space \\bar{v} \\in V: -(-\\bar{v}) = \\bar{v}$ $$\n$$ $vi)\\forall\\bar{u}, \\space \\bar{v} \\in V: -(\\bar{u} + \\bar{v}) = -\\bar{u} + (-\\bar{v})$ $$\n$$ $3.-$Sea $V$ un espacio vectorial sobre $K$: $$\n$$ $i) \\space \\forall \\alpha \\in K: \\alpha\\bar{0} = \\bar{0}$ $$\n$$ $ii)\\space \\forall \\bar{v} \\in V: 0\\bar{v} = \\bar{0}$, donde $0$ es el cero de $K$ $$\n$$ $iii)\\space \\forall \\alpha \\in K, \\bar{v} \\in V: (-\\alpha)\\bar{v} =$ $$-(\\alpha\\bar{v}) = \\alpha(-\\bar{v})$$ $$\n$$ $iv)\\forall \\alpha \\in K, \\bar{v} \\in V: \\alpha\\bar{v} = \\bar{0} \\Rightarrow \\alpha = 0$ o $\\bar{v} = \\bar{0}$ $$\n$$ $v) \\forall \\alpha \\in K, \\bar{u}, \\bar{v} \\in V : \\alpha\\bar{u} = \\alpha\\bar{v}$ y $\\alpha \\neq 0 \\Rightarrow \\bar{u} = \\bar{v}$ $$\n$$ $vi)\\space \\forall \\alpha \\in K, \\bar{u}, \\bar{v} \\in V : \\alpha\\bar{v} = \\beta \\bar{v}$ y $\\bar{v} \\neq 0 \\Rightarrow \\alpha = \\beta$ $$\n$$ $4.-$Si $V$ es un espacio vectorial sobre $K$, entonces $$\\bar{u} - \\bar{v} = \\bar{u} + (-\\bar{v}); \\forall \\space \\bar{u}, \\bar{v} \\in V$$ $$\n$$Al vector $\\bar{u} - \\bar{v}$ se le llama la diferencia $\\bar{u}$ menos $\\bar{v}$ $$\n$$ $5.-$Sea $V$ un espacio vectorial sobre $K$ y sea $S$ un subconjunto de $V$. $S$ es un subespacio de $V$ si es un espacio vectorial sobre $K$ respecto a la adición y la multiplicación por un escalar definidas en $V$. $$\n$$ $6.-$Sea $V$ un espacio vectorial sobre $K$ y sea $S$ un subconjunto de $V$. $$\n$$ $S$ es un subespacio de $V$ si y solo si $$\n$$ $i)\\space \\forall \\bar{u}, \\bar{v} \\in S:\\bar{u} + \\bar{v} \\in S$ $$\n$$ $ii)\\space \\forall \\alpha \\in K, \\bar{v} \\in S : \\alpha\\bar{v} \\in S$ $$\n$$ $7.-$Un vector $\\bar{w}$ es una combinación lineal de los vectores $\\bar{v_1},\\bar{v_2},...,\\bar{v_n}$ si puede ser expresado en la forma $$\\bar{w} = \\alpha_1\\bar{v_1} + \\alpha_2\\bar{v_2} + ... + \\alpha_n\\bar{v_n}$$ $$\n$$ Donde $\\alpha_1,\\alpha_2,...,\\alpha_n$ son escalares. $$\n$$ $9.-$Sea $S = \\{\\bar{v_1},\\bar{v_2},...,\\bar{v_n}\\}$ un conjunto de vectores: $$\n$$ $i) S$ es linealmente dependiente si existen escalares $\\alpha_1,\\alpha_2,...,\\alpha_n$, no todos iguales a cero, tales que $$\\alpha_1\\bar{v_1} + \\alpha_\\bar{v_2} + ... + \\alpha_n\\bar{v_n} = \\bar{0}$$ $$\n$$ $ii) S$ es linealmente independiente si la igualdad $\\alpha_1\\bar{v_1} + \\alpha_2\\bar{v_2} + ... + \\alpha_n\\bar{v_n} = \\bar{0}$ solo se satisface con $$\\alpha_1 = \\alpha_2 = ... = \\alpha_n = 0$$ $$\n$$ $10.-$Todo conjunto que contiene al vector $\\bar{0}$ es linealmente dependiente $$\n$$ $11.-$Si $S$ es un conjunto linealmente independiente entonces en cualquier subconjunto de $S$ es linealmente independiente. $$\n$$ $12.-$Sea $V$ un espacio vectorial sobre $K$, y sea $G = \\{\\bar{v_1},\\bar{v_2},...,\\bar{v_m}\\}$, un conjunto de vectores de $V$. Se dice que $G$ es un generador de $V$ si para todo vector $\\bar{x} \\in V$ existen escalares $\\alpha_1,\\alpha_2,...,\\alpha_m$ tales que $\\bar{x} = \\alpha_1\\bar{v_1} + \\alpha_2\\bar{v_2} + ... + \\alpha_m\\bar{v_m}$ $$\n$$ $13.-$Sea $V$ un espacio vectorial sobre $K$ y sea $G$ un subconjunto de $V$, $G$ es un generador de $V$ si y solo si $V = L(G)$ $$\n$$ $14.-$Se llama base de espacio vectorial $V$ a un conjunto generador de $V$ que es linealmente independiente. $$\n$$ $15.-$Sea $V$ un espacio vectorial sobre $K$. Si $B = \\{\\bar{v_1},\\bar{v_2},...,\\bar{v_n}\\}$ es una base de $V$, entonces cualquier conjunto de vectores de $V$ con más de $n$ elementos es linealmente dependiente. $$\n$$ $16.-$Sea $V$ un espacio vectorial sobre $K$. Si $B = \\{\\bar{v_1},\\bar{v_2},...,\\bar{v_n}\\}$ es una base de $V$, entonces cualquier otra base de dicho espacio está formada por $n$ vectores. $$\n$$ $17.-$Sea $V$ un espacio vectorial sobre $K$. Si $B = \\{\\bar{v_1},\\bar{v_2},...,\\bar{v_n}\\}$ es una base de $V$ se dice que $V$ es de dimensión n, lo cual se denota con $dim V = n$ $$\n$$ En particular, si $V = \\{\\bar{0}\\}, dim V = 0$ $$\n$$ $18.-$Si $V$ es un espacio vectorial de dimensión $n$, cualquier conjunto linealmente independiente formado por $n$ vectores de $V$ es una base de dicho espacio. $$\n$$ $19.-$Si $V$ es un espacio vectorial de dimensión $n$ y $W$ es un subespacio de $V$, entonces $$dim \\space W \\leq n$$ $$\n$$En particular, si $dim \\space W = n$ entonces $W = V$ $$\n$$ $20.-$Sea $B = \\{\\bar{v_1},\\bar{v_2},...,\\bar{v_n}\\}$ una base de un espacio vectorial $V$ sobre $K$, y sea $\\bar{x} \\in V$. Si $$\\bar{x} = \\alpha_1\\bar{v_1} + \\alpha_2\\bar{v_2} + ... + \\alpha_n\\bar{v_n}$$ $$\n$$ los escalares $\\alpha_1,\\alpha_2,...,\\alpha_n$ se llaman coordenadas de $\\bar{x}$ en la base de $B$; y el vector de $K^n$ $$(\\bar{x})_B = (\\alpha_1,\\alpha_2,...,\\alpha_n)^T$$ $$\n$$Se llama vector de coordenadas de $\\bar{x}$ en la base $B$ $$\n$$ $21.-$Sea $b = \\{\\bar{v_1},\\bar{v_2},...,\\bar{v_n}\\}$ una base de un espacio vectorial $V$ sobre $K$. Para cualquier $\\bar{x} \\in V$ el vector $(\\bar{x})_B$ es único. $$\n$$ $22.-$Sea $A = \\begin{bmatrix}a_{ij}\\end{bmatrix}$ una matriz de $mxn$ con elementos en un coampo $K$, y sea $\\bar{r_i} = (a_{i1},a_{i2},...,a_{in})$ el i-ésimo renglón de $A$. si $A_r = (\\bar{r_2},\\bar{r_2},...,\\bar{r_m})$, el conjunto $L(A_r)$ se llama espacio renglón de A. $$\n$$ $23.-$Dos matrices $A$ y $B$ son equivalentes(por renglones), lo cual se denota mediante $A \\square B$, si alguna de ellas puede obtenerse a partir de la otra mediante una sucesión finita de transformaciones elementales(por renglón). $$\n$$ $24.-$Dos matrices equivalentes tienen el mismo espacio renglón $$\n$$ $25.-$Sea $A = \\begin{bmatrix}a_{ij}\\end{bmatrix}$ una matriz de $m$x$n$ con elementos en un campo $K$, y sea $\\bar{c_i} = (a_{1i},a_{2i},...,a_{mi})^T$ la i-ésima columna de $A$. Si $A_c = \\{\\bar{c_1},\\bar{c_2},...,\\bar{c_n}\\}$, el conjunto de $L(A_c)$ se llama espacio columna de $A$. $$\n$$ $26.-$Para cualquier matriz $A$ se tiene que $dim \\space L(A_r) = dim \\space L(A_c)$ $$\n$$ $27.-$Se llama rango de una matriz $A$, y se denota con $R(A)$, al número $R(A) = dim \\space L(A_r) = dim \\space L(A_c)$ $$\n$$ $28.-$Si $A$ es una matriz de $n$x$n$, los siguientes enunciados son equivalentes $$\n$$ $i)\\space R(A) = n$ $$\n$$ $ii) A \\square I_n$ $$\n$$ $iii)\\space \\exists A^{-1}$ $$\n$$ $iv)\\space dim A \\neq 0$ $$\n$$ $v)$Los renglones de $A$ son linealmente independientes $$\n$$ $vi)$Las columnas de $A$ son linealmente independientes $$\n$$ $29.-$El sistema de ecuaciones lineales $A\\bar{x} = \\bar{b}$ es compatible si y solo si $R(A) = R(A,\\bar{b})$ $$\n$$ $30.-$Sea $A\\bar{x} = \\bar{b}$ un sistema compatible de $m$ ecuaciones lineales con $n$ incógnitas: si $R(A) = n$ el sistema es determinado y si $R(A) < n$ el sistema es indeterminado $$\n$$ $31.-$Sea $F$ el conjunto de todas las funciones reales de variable real, y sean $f, g \\in F$. Se dice que $f$ y $g$ son iguales, lo cual se denota mediante $f = g$, cuando $f(x) = g(x), \\forall \\space x \\in R$ $$\n$$ $32.-$Sea $F$ el conjunto de funciones reales de variable real, y sean $f, g \\in F; \\alpha \\in R:$ $$\n$$ $i)$La suma de $f$ y $g$ es una función $f + g$ definida por $$(f + g)(x) = f(x) + g(x), \\forall x \\in R$$ $$\n$$ $ii)$El producto de $\\alpha$ y $f$ es una funcion $\\alpha f$ definida por $$(\\alpha f) = \\alpha \\bullet f(x), \\forall x \\in R$$ $$\n$$ $33.-$Sea $\\{f_1,f_2,...,f_n\\}$ un conjunto de $n$ funciones reales de variable real. Si existen $n$ valores $x_1,x_2,...,x_n \\in R$ tales que el sistema $$\\begin{matrix}\\alpha_1f_1(x_1) + \\alpha_2f_2(x_1) + ... + \\alpha_nf_n(x_1) = 0 \\\\ \\alpha_1f_1(x_2) + \\alpha_2f_2(x_2) + ... + \\alpha_nf_n(x_2) = 0 \\\\. . . . . . . . . . . . . \\\\. . . . . . . . . . . . . \\\\ \\alpha_nf_n(x_n) + \\alpha_nf_n(x_n) + ... + \\alpha_nf_n(x_n) = 0 \\end{matrix}$$ $$\n$$Solo admite la solución trivial, entonces el conjunto de funciones es linealmente independiente $$\n$$ $34.-$Sea $f = \\{f_1,f_2,...,f_n\\}$ un conjunto de $n$ funciones reales de variable real, derivables al menos $n-1$ veces en el intervalo $(a,b)$ y sea $$W(x) =$$ $$\\begin{vmatrix}f_1(x) & f_2(x) & \\dotsm & f_n(x) \\\\f_1(x) & f_2(x) & \\dotsm & f_n(x) \\\\ \\vdots & \\vdots & \\vdots & \\vdots \\\\f_{1}^{(n - 1)}(x) & f_{2}^{(n - 1)}(x) & \\dotsm & f_{n}^{(n - 1)}(x)\\end{vmatrix}$$ $$\n$$Si $W(x_0) \\neq 0$ para algún $x_0 \\in (a,b)$, entonces el conjunto de funciones es linealmente independiente en dicho intervalo. $$\n$$ $\\textbf{Bibliografía}$ $$\n$$ $[1]$ Solar González E. y Speziale de Guzmán L. (1985). $\\textit{Apuntes de Álgebra Lineal}$http://132.248.52.100:8080/xmlui/handle/132.248.52.100/866",
+        "_exercise": [
+            {
+                "id": 13,
+                "exercise": "3",
+                "statement": "Sea el conjunto $$A = \\{ x^2 + x + 3, x^2 - 2x + 7, 1, -x^2 + 1\\}$$ El espacio generado por A, sobre el campo real, es:",
+                "_topic": [
+                    { 
+                        "id": 2, 
+                        "title": "Espacios vectoriales"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 14,
+        "explanation": "Teoremas $$\n$$ $1.-$Sea $V$ un conjunto no vacío y sea $(k, +, \\bullet)$ un campo. Se dice que $V$ es un espacio vectorial sobre $k$ si están definidas dos leyes de composición, llamadas adición y multiplicación por una escalar, tales que: $$\n$$ $i)$La adición asigna a cada pareja ordenada $(\\bar{u},\\bar{v})$ de elementos de $V$ un único elemento $\\bar{u} + \\bar{v} \\in V$, llamado la suma de $\\bar{u}$ y $\\bar{v}$ $$\n$$ $ii) \\forall \\bar{u}, \\bar{v}, \\bar{w} \\in V :$ $$\\bar{u} + (\\bar{v} + \\bar{w}) = (\\bar{u} + \\bar{v}) + \\bar{w}$$ $$\n$$ $iii)\\exists \\space \\bar{0} \\in V$ tal que $\\bar{0} + \\bar{v} = \\bar{v}, \\forall \\space \\bar{v} \\in v$ $$\n$$ $iv)\\forall \\space \\bar{v} \\in \\space V - \\bar{v} \\in \\space V$ tal que $-\\bar{v} + \\bar{v} = 0$ $$\n$$ $v)\\forall \\space \\bar{u}, \\bar{v} \\in V \\space : \\space \\bar{u} + \\bar{v} = \\bar{v} + \\bar{u}$ $$\n$$ $vi)$La multiplicación por un escalar asigna a cada pareja asignada $(\\alpha, \\bar{v})$ de elementos $\\alpha \\space \\in \\space k$ y $\\bar{v} \\space \\in \\space V$ un único elemento $\\alpha\\bar{v} \\space \\in \\space V$, llamado el producto de $\\alpha$ por $\\bar{v}$ $$\n$$ $vii) \\forall \\space \\alpha \\in K : \\bar{v} \\in \\space V : \\alpha(\\bar{u} + \\bar{v}) = \\alpha \\bar{u} + \\alpha \\bar{v}$ $$\n$$ $viii) \\forall \\alpha, \\beta \\in K ; \\bar{v} \\in V : (\\alpha + \\beta)\\bar{v} = \\alpha\\bar{v} + \\beta\\bar{v}$ $$\n$$ $ix)\\forall \\space \\alpha, \\beta \\in K; \\bar{v} \\in V: \\space \\alpha(\\beta\\bar{v}) = (\\alpha\\beta)\\bar{v}$ $$\n$$ $x)$Si $1$ es la unidad de $K: \\space 1\\bar{v} = \\bar{v}, \\forall \\space \\bar{v} \\in V$ $$\n$$A los elementos de $V$ se les llama vectores y a los de $K$ escalares. $$\n$$ $2.-$Si $V$ es un espacio vectorial sobre $K$, entonces $$\n$$ $i)\\forall \\space \\bar{u}, \\bar{v}, \\bar{w} \\in V \\space : \\bar{u} + \\bar{v} = \\bar{u} + \\bar{w} \\Rightarrow \\bar{v} = \\bar{w}$ $$\n$$ $ii)$El vector $\\bar{0}$ es único y es tal que $$\\bar{v} + \\bar{0} = \\bar{v}, \\forall \\space \\bar{v} \\in V$$ $$\n$$ $iii)$El vector $-\\bar{v}$ es único y es tal que $$\\bar{v} + (-\\bar{v}) = \\bar{0}$$ $$\n$$ $iv)$La ecuación $\\bar{u} + \\bar{x} = \\bar{v}$ tiene solución única en $V$. $$\n$$ $v)\\forall \\space \\bar{v} \\in V: -(-\\bar{v}) = \\bar{v}$ $$\n$$ $vi)\\forall\\bar{u}, \\space \\bar{v} \\in V: -(\\bar{u} + \\bar{v}) = -\\bar{u} + (-\\bar{v})$ $$\n$$ $3.-$Sea $V$ un espacio vectorial sobre $K$: $$\n$$ $i) \\space \\forall \\alpha \\in K: \\alpha\\bar{0} = \\bar{0}$ $$\n$$ $ii)\\space \\forall \\bar{v} \\in V: 0\\bar{v} = \\bar{0}$, donde $0$ es el cero de $K$ $$\n$$ $iii)\\space \\forall \\alpha \\in K, \\bar{v} \\in V: (-\\alpha)\\bar{v} =$ $$-(\\alpha\\bar{v}) = \\alpha(-\\bar{v})$$ $$\n$$ $iv)\\forall \\alpha \\in K, \\bar{v} \\in V: \\alpha\\bar{v} = \\bar{0} \\Rightarrow \\alpha = 0$ o $\\bar{v} = \\bar{0}$ $$\n$$ $v) \\forall \\alpha \\in K, \\bar{u}, \\bar{v} \\in V : \\alpha\\bar{u} = \\alpha\\bar{v}$ y $\\alpha \\neq 0 \\Rightarrow \\bar{u} = \\bar{v}$ $$\n$$ $vi)\\space \\forall \\alpha \\in K, \\bar{u}, \\bar{v} \\in V : \\alpha\\bar{v} = \\beta \\bar{v}$ y $\\bar{v} \\neq 0 \\Rightarrow \\alpha = \\beta$ $$\n$$ $4.-$Si $V$ es un espacio vectorial sobre $K$, entonces $$\\bar{u} - \\bar{v} = \\bar{u} + (-\\bar{v}); \\forall \\space \\bar{u}, \\bar{v} \\in V$$ $$\n$$Al vector $\\bar{u} - \\bar{v}$ se le llama la diferencia $\\bar{u}$ menos $\\bar{v}$ $$\n$$ $5.-$Sea $V$ un espacio vectorial sobre $K$ y sea $S$ un subconjunto de $V$. $S$ es un subespacio de $V$ si es un espacio vectorial sobre $K$ respecto a la adición y la multiplicación por un escalar definidas en $V$. $$\n$$ $6.-$Sea $V$ un espacio vectorial sobre $K$ y sea $S$ un subconjunto de $V$. $$\n$$ $S$ es un subespacio de $V$ si y solo si $$\n$$ $i)\\space \\forall \\bar{u}, \\bar{v} \\in S:\\bar{u} + \\bar{v} \\in S$ $$\n$$ $ii)\\space \\forall \\alpha \\in K, \\bar{v} \\in S : \\alpha\\bar{v} \\in S$ $$\n$$ $7.-$Un vector $\\bar{w}$ es una combinación lineal de los vectores $\\bar{v_1},\\bar{v_2},...,\\bar{v_n}$ si puede ser expresado en la forma $$\\bar{w} = \\alpha_1\\bar{v_1} + \\alpha_2\\bar{v_2} + ... + \\alpha_n\\bar{v_n}$$ $$\n$$ Donde $\\alpha_1,\\alpha_2,...,\\alpha_n$ son escalares. $$\n$$ $9.-$Sea $S = \\{\\bar{v_1},\\bar{v_2},...,\\bar{v_n}\\}$ un conjunto de vectores: $$\n$$ $i) S$ es linealmente dependiente si existen escalares $\\alpha_1,\\alpha_2,...,\\alpha_n$, no todos iguales a cero, tales que $$\\alpha_1\\bar{v_1} + \\alpha_\\bar{v_2} + ... + \\alpha_n\\bar{v_n} = \\bar{0}$$ $$\n$$ $ii) S$ es linealmente independiente si la igualdad $\\alpha_1\\bar{v_1} + \\alpha_2\\bar{v_2} + ... + \\alpha_n\\bar{v_n} = \\bar{0}$ solo se satisface con $$\\alpha_1 = \\alpha_2 = ... = \\alpha_n = 0$$ $$\n$$ $10.-$Todo conjunto que contiene al vector $\\bar{0}$ es linealmente dependiente $$\n$$ $11.-$Si $S$ es un conjunto linealmente independiente entonces en cualquier subconjunto de $S$ es linealmente independiente. $$\n$$ $12.-$Sea $V$ un espacio vectorial sobre $K$, y sea $G = \\{\\bar{v_1},\\bar{v_2},...,\\bar{v_m}\\}$, un conjunto de vectores de $V$. Se dice que $G$ es un generador de $V$ si para todo vector $\\bar{x} \\in V$ existen escalares $\\alpha_1,\\alpha_2,...,\\alpha_m$ tales que $\\bar{x} = \\alpha_1\\bar{v_1} + \\alpha_2\\bar{v_2} + ... + \\alpha_m\\bar{v_m}$ $$\n$$ $13.-$Sea $V$ un espacio vectorial sobre $K$ y sea $G$ un subconjunto de $V$, $G$ es un generador de $V$ si y solo si $V = L(G)$ $$\n$$ $14.-$Se llama base de espacio vectorial $V$ a un conjunto generador de $V$ que es linealmente independiente. $$\n$$ $15.-$Sea $V$ un espacio vectorial sobre $K$. Si $B = \\{\\bar{v_1},\\bar{v_2},...,\\bar{v_n}\\}$ es una base de $V$, entonces cualquier conjunto de vectores de $V$ con más de $n$ elementos es linealmente dependiente. $$\n$$ $16.-$Sea $V$ un espacio vectorial sobre $K$. Si $B = \\{\\bar{v_1},\\bar{v_2},...,\\bar{v_n}\\}$ es una base de $V$, entonces cualquier otra base de dicho espacio está formada por $n$ vectores. $$\n$$ $17.-$Sea $V$ un espacio vectorial sobre $K$. Si $B = \\{\\bar{v_1},\\bar{v_2},...,\\bar{v_n}\\}$ es una base de $V$ se dice que $V$ es de dimensión n, lo cual se denota con $dim V = n$ $$\n$$ En particular, si $V = \\{\\bar{0}\\}, dim V = 0$ $$\n$$ $18.-$Si $V$ es un espacio vectorial de dimensión $n$, cualquier conjunto linealmente independiente formado por $n$ vectores de $V$ es una base de dicho espacio. $$\n$$ $19.-$Si $V$ es un espacio vectorial de dimensión $n$ y $W$ es un subespacio de $V$, entonces $$dim \\space W \\leq n$$ $$\n$$En particular, si $dim \\space W = n$ entonces $W = V$ $$\n$$ $20.-$Sea $B = \\{\\bar{v_1},\\bar{v_2},...,\\bar{v_n}\\}$ una base de un espacio vectorial $V$ sobre $K$, y sea $\\bar{x} \\in V$. Si $$\\bar{x} = \\alpha_1\\bar{v_1} + \\alpha_2\\bar{v_2} + ... + \\alpha_n\\bar{v_n}$$ $$\n$$ los escalares $\\alpha_1,\\alpha_2,...,\\alpha_n$ se llaman coordenadas de $\\bar{x}$ en la base de $B$; y el vector de $K^n$ $$(\\bar{x})_B = (\\alpha_1,\\alpha_2,...,\\alpha_n)^T$$ $$\n$$Se llama vector de coordenadas de $\\bar{x}$ en la base $B$ $$\n$$ $21.-$Sea $b = \\{\\bar{v_1},\\bar{v_2},...,\\bar{v_n}\\}$ una base de un espacio vectorial $V$ sobre $K$. Para cualquier $\\bar{x} \\in V$ el vector $(\\bar{x})_B$ es único. $$\n$$ $22.-$Sea $A = \\begin{bmatrix}a_{ij}\\end{bmatrix}$ una matriz de $mxn$ con elementos en un coampo $K$, y sea $\\bar{r_i} = (a_{i1},a_{i2},...,a_{in})$ el i-ésimo renglón de $A$. si $A_r = (\\bar{r_2},\\bar{r_2},...,\\bar{r_m})$, el conjunto $L(A_r)$ se llama espacio renglón de A. $$\n$$ $23.-$Dos matrices $A$ y $B$ son equivalentes(por renglones), lo cual se denota mediante $A \\square B$, si alguna de ellas puede obtenerse a partir de la otra mediante una sucesión finita de transformaciones elementales(por renglón). $$\n$$ $24.-$Dos matrices equivalentes tienen el mismo espacio renglón $$\n$$ $25.-$Sea $A = \\begin{bmatrix}a_{ij}\\end{bmatrix}$ una matriz de $m$x$n$ con elementos en un campo $K$, y sea $\\bar{c_i} = (a_{1i},a_{2i},...,a_{mi})^T$ la i-ésima columna de $A$. Si $A_c = \\{\\bar{c_1},\\bar{c_2},...,\\bar{c_n}\\}$, el conjunto de $L(A_c)$ se llama espacio columna de $A$. $$\n$$ $26.-$Para cualquier matriz $A$ se tiene que $dim \\space L(A_r) = dim \\space L(A_c)$ $$\n$$ $27.-$Se llama rango de una matriz $A$, y se denota con $R(A)$, al número $R(A) = dim \\space L(A_r) = dim \\space L(A_c)$ $$\n$$ $28.-$Si $A$ es una matriz de $n$x$n$, los siguientes enunciados son equivalentes $$\n$$ $i)\\space R(A) = n$ $$\n$$ $ii) A \\square I_n$ $$\n$$ $iii)\\space \\exists A^{-1}$ $$\n$$ $iv)\\space dim A \\neq 0$ $$\n$$ $v)$Los renglones de $A$ son linealmente independientes $$\n$$ $vi)$Las columnas de $A$ son linealmente independientes $$\n$$ $29.-$El sistema de ecuaciones lineales $A\\bar{x} = \\bar{b}$ es compatible si y solo si $R(A) = R(A,\\bar{b})$ $$\n$$ $30.-$Sea $A\\bar{x} = \\bar{b}$ un sistema compatible de $m$ ecuaciones lineales con $n$ incógnitas: si $R(A) = n$ el sistema es determinado y si $R(A) < n$ el sistema es indeterminado $$\n$$ $31.-$Sea $F$ el conjunto de todas las funciones reales de variable real, y sean $f, g \\in F$. Se dice que $f$ y $g$ son iguales, lo cual se denota mediante $f = g$, cuando $f(x) = g(x), \\forall \\space x \\in R$ $$\n$$ $32.-$Sea $F$ el conjunto de funciones reales de variable real, y sean $f, g \\in F; \\alpha \\in R:$ $$\n$$ $i)$La suma de $f$ y $g$ es una función $f + g$ definida por $$(f + g)(x) = f(x) + g(x), \\forall x \\in R$$ $$\n$$ $ii)$El producto de $\\alpha$ y $f$ es una funcion $\\alpha f$ definida por $$(\\alpha f) = \\alpha \\bullet f(x), \\forall x \\in R$$ $$\n$$ $33.-$Sea $\\{f_1,f_2,...,f_n\\}$ un conjunto de $n$ funciones reales de variable real. Si existen $n$ valores $x_1,x_2,...,x_n \\in R$ tales que el sistema $$\\begin{matrix}\\alpha_1f_1(x_1) + \\alpha_2f_2(x_1) + ... + \\alpha_nf_n(x_1) = 0 \\\\ \\alpha_1f_1(x_2) + \\alpha_2f_2(x_2) + ... + \\alpha_nf_n(x_2) = 0 \\\\. . . . . . . . . . . . . \\\\. . . . . . . . . . . . . \\\\ \\alpha_nf_n(x_n) + \\alpha_nf_n(x_n) + ... + \\alpha_nf_n(x_n) = 0 \\end{matrix}$$ $$\n$$Solo admite la solución trivial, entonces el conjunto de funciones es linealmente independiente $$\n$$ $34.-$Sea $f = \\{f_1,f_2,...,f_n\\}$ un conjunto de $n$ funciones reales de variable real, derivables al menos $n-1$ veces en el intervalo $(a,b)$ y sea $$W(x) =$$ $$\\begin{vmatrix}f_1(x) & f_2(x) & \\dotsm & f_n(x) \\\\f_1(x) & f_2(x) & \\dotsm & f_n(x) \\\\ \\vdots & \\vdots & \\vdots & \\vdots \\\\f_{1}^{(n - 1)}(x) & f_{2}^{(n - 1)}(x) & \\dotsm & f_{n}^{(n - 1)}(x)\\end{vmatrix}$$ $$\n$$Si $W(x_0) \\neq 0$ para algún $x_0 \\in (a,b)$, entonces el conjunto de funciones es linealmente independiente en dicho intervalo. $$\n$$ $\\textbf{Bibliografía}$ $$\n$$ $[1]$ Solar González E. y Speziale de Guzmán L. (1985). $\\textit{Apuntes de Álgebra Lineal}$http://132.248.52.100:8080/xmlui/handle/132.248.52.100/866",
+        "_exercise": [
+            {
+                "id": 14,
+                "exercise": "4",
+                "statement": "Sea el sistema de ecuaciones lineales $$\\begin{matrix}x + 3y -z = 0 \\\\x - 4y + 4z = 0\\\\3x + 2y + 2z = 0 \\end{matrix}$$ \nEl espacio solución y la dimensión de dicho espacio, es:",
+                "_topic": [
+                    { 
+                        "id": 2, 
+                        "title": "Espacios vectoriales"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 15,
+        "explanation": "Teoremas $$\n$$ $1.-$Sea $V$ un conjunto no vacío y sea $(k, +, \\bullet)$ un campo. Se dice que $V$ es un espacio vectorial sobre $k$ si están definidas dos leyes de composición, llamadas adición y multiplicación por una escalar, tales que: $$\n$$ $i)$La adición asigna a cada pareja ordenada $(\\bar{u},\\bar{v})$ de elementos de $V$ un único elemento $\\bar{u} + \\bar{v} \\in V$, llamado la suma de $\\bar{u}$ y $\\bar{v}$ $$\n$$ $ii) \\forall \\bar{u}, \\bar{v}, \\bar{w} \\in V :$ $$\\bar{u} + (\\bar{v} + \\bar{w}) = (\\bar{u} + \\bar{v}) + \\bar{w}$$ $$\n$$ $iii)\\exists \\space \\bar{0} \\in V$ tal que $\\bar{0} + \\bar{v} = \\bar{v}, \\forall \\space \\bar{v} \\in v$ $$\n$$ $iv)\\forall \\space \\bar{v} \\in \\space V - \\bar{v} \\in \\space V$ tal que $-\\bar{v} + \\bar{v} = 0$ $$\n$$ $v)\\forall \\space \\bar{u}, \\bar{v} \\in V \\space : \\space \\bar{u} + \\bar{v} = \\bar{v} + \\bar{u}$ $$\n$$ $vi)$La multiplicación por un escalar asigna a cada pareja asignada $(\\alpha, \\bar{v})$ de elementos $\\alpha \\space \\in \\space k$ y $\\bar{v} \\space \\in \\space V$ un único elemento $\\alpha\\bar{v} \\space \\in \\space V$, llamado el producto de $\\alpha$ por $\\bar{v}$ $$\n$$ $vii) \\forall \\space \\alpha \\in K : \\bar{v} \\in \\space V : \\alpha(\\bar{u} + \\bar{v}) = \\alpha \\bar{u} + \\alpha \\bar{v}$ $$\n$$ $viii) \\forall \\alpha, \\beta \\in K ; \\bar{v} \\in V : (\\alpha + \\beta)\\bar{v} = \\alpha\\bar{v} + \\beta\\bar{v}$ $$\n$$ $ix)\\forall \\space \\alpha, \\beta \\in K; \\bar{v} \\in V: \\space \\alpha(\\beta\\bar{v}) = (\\alpha\\beta)\\bar{v}$ $$\n$$ $x)$Si $1$ es la unidad de $K: \\space 1\\bar{v} = \\bar{v}, \\forall \\space \\bar{v} \\in V$ $$\n$$A los elementos de $V$ se les llama vectores y a los de $K$ escalares. $$\n$$ $2.-$Si $V$ es un espacio vectorial sobre $K$, entonces $$\n$$ $i)\\forall \\space \\bar{u}, \\bar{v}, \\bar{w} \\in V \\space : \\bar{u} + \\bar{v} = \\bar{u} + \\bar{w} \\Rightarrow \\bar{v} = \\bar{w}$ $$\n$$ $ii)$El vector $\\bar{0}$ es único y es tal que $$\\bar{v} + \\bar{0} = \\bar{v}, \\forall \\space \\bar{v} \\in V$$ $$\n$$ $iii)$El vector $-\\bar{v}$ es único y es tal que $$\\bar{v} + (-\\bar{v}) = \\bar{0}$$ $$\n$$ $iv)$La ecuación $\\bar{u} + \\bar{x} = \\bar{v}$ tiene solución única en $V$. $$\n$$ $v)\\forall \\space \\bar{v} \\in V: -(-\\bar{v}) = \\bar{v}$ $$\n$$ $vi)\\forall\\bar{u}, \\space \\bar{v} \\in V: -(\\bar{u} + \\bar{v}) = -\\bar{u} + (-\\bar{v})$ $$\n$$ $3.-$Sea $V$ un espacio vectorial sobre $K$: $$\n$$ $i) \\space \\forall \\alpha \\in K: \\alpha\\bar{0} = \\bar{0}$ $$\n$$ $ii)\\space \\forall \\bar{v} \\in V: 0\\bar{v} = \\bar{0}$, donde $0$ es el cero de $K$ $$\n$$ $iii)\\space \\forall \\alpha \\in K, \\bar{v} \\in V: (-\\alpha)\\bar{v} =$ $$-(\\alpha\\bar{v}) = \\alpha(-\\bar{v})$$ $$\n$$ $iv)\\forall \\alpha \\in K, \\bar{v} \\in V: \\alpha\\bar{v} = \\bar{0} \\Rightarrow \\alpha = 0$ o $\\bar{v} = \\bar{0}$ $$\n$$ $v) \\forall \\alpha \\in K, \\bar{u}, \\bar{v} \\in V : \\alpha\\bar{u} = \\alpha\\bar{v}$ y $\\alpha \\neq 0 \\Rightarrow \\bar{u} = \\bar{v}$ $$\n$$ $vi)\\space \\forall \\alpha \\in K, \\bar{u}, \\bar{v} \\in V : \\alpha\\bar{v} = \\beta \\bar{v}$ y $\\bar{v} \\neq 0 \\Rightarrow \\alpha = \\beta$ $$\n$$ $4.-$Si $V$ es un espacio vectorial sobre $K$, entonces $$\\bar{u} - \\bar{v} = \\bar{u} + (-\\bar{v}); \\forall \\space \\bar{u}, \\bar{v} \\in V$$ $$\n$$Al vector $\\bar{u} - \\bar{v}$ se le llama la diferencia $\\bar{u}$ menos $\\bar{v}$ $$\n$$ $5.-$Sea $V$ un espacio vectorial sobre $K$ y sea $S$ un subconjunto de $V$. $S$ es un subespacio de $V$ si es un espacio vectorial sobre $K$ respecto a la adición y la multiplicación por un escalar definidas en $V$. $$\n$$ $6.-$Sea $V$ un espacio vectorial sobre $K$ y sea $S$ un subconjunto de $V$. $$\n$$ $S$ es un subespacio de $V$ si y solo si $$\n$$ $i)\\space \\forall \\bar{u}, \\bar{v} \\in S:\\bar{u} + \\bar{v} \\in S$ $$\n$$ $ii)\\space \\forall \\alpha \\in K, \\bar{v} \\in S : \\alpha\\bar{v} \\in S$ $$\n$$ $7.-$Un vector $\\bar{w}$ es una combinación lineal de los vectores $\\bar{v_1},\\bar{v_2},...,\\bar{v_n}$ si puede ser expresado en la forma $$\\bar{w} = \\alpha_1\\bar{v_1} + \\alpha_2\\bar{v_2} + ... + \\alpha_n\\bar{v_n}$$ $$\n$$ Donde $\\alpha_1,\\alpha_2,...,\\alpha_n$ son escalares. $$\n$$ $9.-$Sea $S = \\{\\bar{v_1},\\bar{v_2},...,\\bar{v_n}\\}$ un conjunto de vectores: $$\n$$ $i) S$ es linealmente dependiente si existen escalares $\\alpha_1,\\alpha_2,...,\\alpha_n$, no todos iguales a cero, tales que $$\\alpha_1\\bar{v_1} + \\alpha_\\bar{v_2} + ... + \\alpha_n\\bar{v_n} = \\bar{0}$$ $$\n$$ $ii) S$ es linealmente independiente si la igualdad $\\alpha_1\\bar{v_1} + \\alpha_2\\bar{v_2} + ... + \\alpha_n\\bar{v_n} = \\bar{0}$ solo se satisface con $$\\alpha_1 = \\alpha_2 = ... = \\alpha_n = 0$$ $$\n$$ $10.-$Todo conjunto que contiene al vector $\\bar{0}$ es linealmente dependiente $$\n$$ $11.-$Si $S$ es un conjunto linealmente independiente entonces en cualquier subconjunto de $S$ es linealmente independiente. $$\n$$ $12.-$Sea $V$ un espacio vectorial sobre $K$, y sea $G = \\{\\bar{v_1},\\bar{v_2},...,\\bar{v_m}\\}$, un conjunto de vectores de $V$. Se dice que $G$ es un generador de $V$ si para todo vector $\\bar{x} \\in V$ existen escalares $\\alpha_1,\\alpha_2,...,\\alpha_m$ tales que $\\bar{x} = \\alpha_1\\bar{v_1} + \\alpha_2\\bar{v_2} + ... + \\alpha_m\\bar{v_m}$ $$\n$$ $13.-$Sea $V$ un espacio vectorial sobre $K$ y sea $G$ un subconjunto de $V$, $G$ es un generador de $V$ si y solo si $V = L(G)$ $$\n$$ $14.-$Se llama base de espacio vectorial $V$ a un conjunto generador de $V$ que es linealmente independiente. $$\n$$ $15.-$Sea $V$ un espacio vectorial sobre $K$. Si $B = \\{\\bar{v_1},\\bar{v_2},...,\\bar{v_n}\\}$ es una base de $V$, entonces cualquier conjunto de vectores de $V$ con más de $n$ elementos es linealmente dependiente. $$\n$$ $16.-$Sea $V$ un espacio vectorial sobre $K$. Si $B = \\{\\bar{v_1},\\bar{v_2},...,\\bar{v_n}\\}$ es una base de $V$, entonces cualquier otra base de dicho espacio está formada por $n$ vectores. $$\n$$ $17.-$Sea $V$ un espacio vectorial sobre $K$. Si $B = \\{\\bar{v_1},\\bar{v_2},...,\\bar{v_n}\\}$ es una base de $V$ se dice que $V$ es de dimensión n, lo cual se denota con $dim V = n$ $$\n$$ En particular, si $V = \\{\\bar{0}\\}, dim V = 0$ $$\n$$ $18.-$Si $V$ es un espacio vectorial de dimensión $n$, cualquier conjunto linealmente independiente formado por $n$ vectores de $V$ es una base de dicho espacio. $$\n$$ $19.-$Si $V$ es un espacio vectorial de dimensión $n$ y $W$ es un subespacio de $V$, entonces $$dim \\space W \\leq n$$ $$\n$$En particular, si $dim \\space W = n$ entonces $W = V$ $$\n$$ $20.-$Sea $B = \\{\\bar{v_1},\\bar{v_2},...,\\bar{v_n}\\}$ una base de un espacio vectorial $V$ sobre $K$, y sea $\\bar{x} \\in V$. Si $$\\bar{x} = \\alpha_1\\bar{v_1} + \\alpha_2\\bar{v_2} + ... + \\alpha_n\\bar{v_n}$$ $$\n$$ los escalares $\\alpha_1,\\alpha_2,...,\\alpha_n$ se llaman coordenadas de $\\bar{x}$ en la base de $B$; y el vector de $K^n$ $$(\\bar{x})_B = (\\alpha_1,\\alpha_2,...,\\alpha_n)^T$$ $$\n$$Se llama vector de coordenadas de $\\bar{x}$ en la base $B$ $$\n$$ $21.-$Sea $b = \\{\\bar{v_1},\\bar{v_2},...,\\bar{v_n}\\}$ una base de un espacio vectorial $V$ sobre $K$. Para cualquier $\\bar{x} \\in V$ el vector $(\\bar{x})_B$ es único. $$\n$$ $22.-$Sea $A = \\begin{bmatrix}a_{ij}\\end{bmatrix}$ una matriz de $mxn$ con elementos en un coampo $K$, y sea $\\bar{r_i} = (a_{i1},a_{i2},...,a_{in})$ el i-ésimo renglón de $A$. si $A_r = (\\bar{r_2},\\bar{r_2},...,\\bar{r_m})$, el conjunto $L(A_r)$ se llama espacio renglón de A. $$\n$$ $23.-$Dos matrices $A$ y $B$ son equivalentes(por renglones), lo cual se denota mediante $A \\square B$, si alguna de ellas puede obtenerse a partir de la otra mediante una sucesión finita de transformaciones elementales(por renglón). $$\n$$ $24.-$Dos matrices equivalentes tienen el mismo espacio renglón $$\n$$ $25.-$Sea $A = \\begin{bmatrix}a_{ij}\\end{bmatrix}$ una matriz de $m$x$n$ con elementos en un campo $K$, y sea $\\bar{c_i} = (a_{1i},a_{2i},...,a_{mi})^T$ la i-ésima columna de $A$. Si $A_c = \\{\\bar{c_1},\\bar{c_2},...,\\bar{c_n}\\}$, el conjunto de $L(A_c)$ se llama espacio columna de $A$. $$\n$$ $26.-$Para cualquier matriz $A$ se tiene que $dim \\space L(A_r) = dim \\space L(A_c)$ $$\n$$ $27.-$Se llama rango de una matriz $A$, y se denota con $R(A)$, al número $R(A) = dim \\space L(A_r) = dim \\space L(A_c)$ $$\n$$ $28.-$Si $A$ es una matriz de $n$x$n$, los siguientes enunciados son equivalentes $$\n$$ $i)\\space R(A) = n$ $$\n$$ $ii) A \\square I_n$ $$\n$$ $iii)\\space \\exists A^{-1}$ $$\n$$ $iv)\\space dim A \\neq 0$ $$\n$$ $v)$Los renglones de $A$ son linealmente independientes $$\n$$ $vi)$Las columnas de $A$ son linealmente independientes $$\n$$ $29.-$El sistema de ecuaciones lineales $A\\bar{x} = \\bar{b}$ es compatible si y solo si $R(A) = R(A,\\bar{b})$ $$\n$$ $30.-$Sea $A\\bar{x} = \\bar{b}$ un sistema compatible de $m$ ecuaciones lineales con $n$ incógnitas: si $R(A) = n$ el sistema es determinado y si $R(A) < n$ el sistema es indeterminado $$\n$$ $31.-$Sea $F$ el conjunto de todas las funciones reales de variable real, y sean $f, g \\in F$. Se dice que $f$ y $g$ son iguales, lo cual se denota mediante $f = g$, cuando $f(x) = g(x), \\forall \\space x \\in R$ $$\n$$ $32.-$Sea $F$ el conjunto de funciones reales de variable real, y sean $f, g \\in F; \\alpha \\in R:$ $$\n$$ $i)$La suma de $f$ y $g$ es una función $f + g$ definida por $$(f + g)(x) = f(x) + g(x), \\forall x \\in R$$ $$\n$$ $ii)$El producto de $\\alpha$ y $f$ es una funcion $\\alpha f$ definida por $$(\\alpha f) = \\alpha \\bullet f(x), \\forall x \\in R$$ $$\n$$ $33.-$Sea $\\{f_1,f_2,...,f_n\\}$ un conjunto de $n$ funciones reales de variable real. Si existen $n$ valores $x_1,x_2,...,x_n \\in R$ tales que el sistema $$\\begin{matrix}\\alpha_1f_1(x_1) + \\alpha_2f_2(x_1) + ... + \\alpha_nf_n(x_1) = 0 \\\\ \\alpha_1f_1(x_2) + \\alpha_2f_2(x_2) + ... + \\alpha_nf_n(x_2) = 0 \\\\. . . . . . . . . . . . . \\\\. . . . . . . . . . . . . \\\\ \\alpha_nf_n(x_n) + \\alpha_nf_n(x_n) + ... + \\alpha_nf_n(x_n) = 0 \\end{matrix}$$ $$\n$$Solo admite la solución trivial, entonces el conjunto de funciones es linealmente independiente $$\n$$ $34.-$Sea $f = \\{f_1,f_2,...,f_n\\}$ un conjunto de $n$ funciones reales de variable real, derivables al menos $n-1$ veces en el intervalo $(a,b)$ y sea $$W(x) =$$ $$\\begin{vmatrix}f_1(x) & f_2(x) & \\dotsm & f_n(x) \\\\f_1(x) & f_2(x) & \\dotsm & f_n(x) \\\\ \\vdots & \\vdots & \\vdots & \\vdots \\\\f_{1}^{(n - 1)}(x) & f_{2}^{(n - 1)}(x) & \\dotsm & f_{n}^{(n - 1)}(x)\\end{vmatrix}$$ $$\n$$Si $W(x_0) \\neq 0$ para algún $x_0 \\in (a,b)$, entonces el conjunto de funciones es linealmente independiente en dicho intervalo. $$\n$$ $\\textbf{Bibliografía}$ $$\n$$ $[1]$ Solar González E. y Speziale de Guzmán L. (1985). $\\textit{Apuntes de Álgebra Lineal}$http://132.248.52.100:8080/xmlui/handle/132.248.52.100/866",
+        "_exercise": [
+            {
+                "id": 15,
+                "exercise": "5",
+                "statement": "Sea  $M^A_B = \\begin{bmatrix}1 & 1 & 0 \\\\-2 & -1 & 0 \\\\0 & 0 & 1\\end{bmatrix}$ la matriz de transición de la base A, a la base B, una base $$ A = \\{(1,i),(0,i),(-1,-1)\\}.$$ \nEl vector de coordenadas de $\\bar{u}$ en la base B es $$[\\bar{u}]_B = \\begin{bmatrix}2 \\\\ -1 \\\\ 0\\end{bmatrix}.$$ \nEl vector $\\bar{u}$, es:",
+                "_topic": [
+                    { 
+                        "id": 2, 
+                        "title": "Espacios vectoriales"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 16,
+        "explanation": "Teoremas $$\n$$ $1.-$Sea $V$ un conjunto no vacío y sea $(k, +, \\bullet)$ un campo. Se dice que $V$ es un espacio vectorial sobre $k$ si están definidas dos leyes de composición, llamadas adición y multiplicación por una escalar, tales que: $$\n$$ $i)$La adición asigna a cada pareja ordenada $(\\bar{u},\\bar{v})$ de elementos de $V$ un único elemento $\\bar{u} + \\bar{v} \\in V$, llamado la suma de $\\bar{u}$ y $\\bar{v}$ $$\n$$ $ii) \\forall \\bar{u}, \\bar{v}, \\bar{w} \\in V :$ $$\\bar{u} + (\\bar{v} + \\bar{w}) = (\\bar{u} + \\bar{v}) + \\bar{w}$$ $$\n$$ $iii)\\exists \\space \\bar{0} \\in V$ tal que $\\bar{0} + \\bar{v} = \\bar{v}, \\forall \\space \\bar{v} \\in v$ $$\n$$ $iv)\\forall \\space \\bar{v} \\in \\space V - \\bar{v} \\in \\space V$ tal que $-\\bar{v} + \\bar{v} = 0$ $$\n$$ $v)\\forall \\space \\bar{u}, \\bar{v} \\in V \\space : \\space \\bar{u} + \\bar{v} = \\bar{v} + \\bar{u}$ $$\n$$ $vi)$La multiplicación por un escalar asigna a cada pareja asignada $(\\alpha, \\bar{v})$ de elementos $\\alpha \\space \\in \\space k$ y $\\bar{v} \\space \\in \\space V$ un único elemento $\\alpha\\bar{v} \\space \\in \\space V$, llamado el producto de $\\alpha$ por $\\bar{v}$ $$\n$$ $vii) \\forall \\space \\alpha \\in K : \\bar{v} \\in \\space V : \\alpha(\\bar{u} + \\bar{v}) = \\alpha \\bar{u} + \\alpha \\bar{v}$ $$\n$$ $viii) \\forall \\alpha, \\beta \\in K ; \\bar{v} \\in V : (\\alpha + \\beta)\\bar{v} = \\alpha\\bar{v} + \\beta\\bar{v}$ $$\n$$ $ix)\\forall \\space \\alpha, \\beta \\in K; \\bar{v} \\in V: \\space \\alpha(\\beta\\bar{v}) = (\\alpha\\beta)\\bar{v}$ $$\n$$ $x)$Si $1$ es la unidad de $K: \\space 1\\bar{v} = \\bar{v}, \\forall \\space \\bar{v} \\in V$ $$\n$$A los elementos de $V$ se les llama vectores y a los de $K$ escalares. $$\n$$ $2.-$Si $V$ es un espacio vectorial sobre $K$, entonces $$\n$$ $i)\\forall \\space \\bar{u}, \\bar{v}, \\bar{w} \\in V \\space : \\bar{u} + \\bar{v} = \\bar{u} + \\bar{w} \\Rightarrow \\bar{v} = \\bar{w}$ $$\n$$ $ii)$El vector $\\bar{0}$ es único y es tal que $$\\bar{v} + \\bar{0} = \\bar{v}, \\forall \\space \\bar{v} \\in V$$ $$\n$$ $iii)$El vector $-\\bar{v}$ es único y es tal que $$\\bar{v} + (-\\bar{v}) = \\bar{0}$$ $$\n$$ $iv)$La ecuación $\\bar{u} + \\bar{x} = \\bar{v}$ tiene solución única en $V$. $$\n$$ $v)\\forall \\space \\bar{v} \\in V: -(-\\bar{v}) = \\bar{v}$ $$\n$$ $vi)\\forall\\bar{u}, \\space \\bar{v} \\in V: -(\\bar{u} + \\bar{v}) = -\\bar{u} + (-\\bar{v})$ $$\n$$ $3.-$Sea $V$ un espacio vectorial sobre $K$: $$\n$$ $i) \\space \\forall \\alpha \\in K: \\alpha\\bar{0} = \\bar{0}$ $$\n$$ $ii)\\space \\forall \\bar{v} \\in V: 0\\bar{v} = \\bar{0}$, donde $0$ es el cero de $K$ $$\n$$ $iii)\\space \\forall \\alpha \\in K, \\bar{v} \\in V: (-\\alpha)\\bar{v} =$ $$-(\\alpha\\bar{v}) = \\alpha(-\\bar{v})$$ $$\n$$ $iv)\\forall \\alpha \\in K, \\bar{v} \\in V: \\alpha\\bar{v} = \\bar{0} \\Rightarrow \\alpha = 0$ o $\\bar{v} = \\bar{0}$ $$\n$$ $v) \\forall \\alpha \\in K, \\bar{u}, \\bar{v} \\in V : \\alpha\\bar{u} = \\alpha\\bar{v}$ y $\\alpha \\neq 0 \\Rightarrow \\bar{u} = \\bar{v}$ $$\n$$ $vi)\\space \\forall \\alpha \\in K, \\bar{u}, \\bar{v} \\in V : \\alpha\\bar{v} = \\beta \\bar{v}$ y $\\bar{v} \\neq 0 \\Rightarrow \\alpha = \\beta$ $$\n$$ $4.-$Si $V$ es un espacio vectorial sobre $K$, entonces $$\\bar{u} - \\bar{v} = \\bar{u} + (-\\bar{v}); \\forall \\space \\bar{u}, \\bar{v} \\in V$$ $$\n$$Al vector $\\bar{u} - \\bar{v}$ se le llama la diferencia $\\bar{u}$ menos $\\bar{v}$ $$\n$$ $5.-$Sea $V$ un espacio vectorial sobre $K$ y sea $S$ un subconjunto de $V$. $S$ es un subespacio de $V$ si es un espacio vectorial sobre $K$ respecto a la adición y la multiplicación por un escalar definidas en $V$. $$\n$$ $6.-$Sea $V$ un espacio vectorial sobre $K$ y sea $S$ un subconjunto de $V$. $$\n$$ $S$ es un subespacio de $V$ si y solo si $$\n$$ $i)\\space \\forall \\bar{u}, \\bar{v} \\in S:\\bar{u} + \\bar{v} \\in S$ $$\n$$ $ii)\\space \\forall \\alpha \\in K, \\bar{v} \\in S : \\alpha\\bar{v} \\in S$ $$\n$$ $7.-$Un vector $\\bar{w}$ es una combinación lineal de los vectores $\\bar{v_1},\\bar{v_2},...,\\bar{v_n}$ si puede ser expresado en la forma $$\\bar{w} = \\alpha_1\\bar{v_1} + \\alpha_2\\bar{v_2} + ... + \\alpha_n\\bar{v_n}$$ $$\n$$ Donde $\\alpha_1,\\alpha_2,...,\\alpha_n$ son escalares. $$\n$$ $9.-$Sea $S = \\{\\bar{v_1},\\bar{v_2},...,\\bar{v_n}\\}$ un conjunto de vectores: $$\n$$ $i) S$ es linealmente dependiente si existen escalares $\\alpha_1,\\alpha_2,...,\\alpha_n$, no todos iguales a cero, tales que $$\\alpha_1\\bar{v_1} + \\alpha_\\bar{v_2} + ... + \\alpha_n\\bar{v_n} = \\bar{0}$$ $$\n$$ $ii) S$ es linealmente independiente si la igualdad $\\alpha_1\\bar{v_1} + \\alpha_2\\bar{v_2} + ... + \\alpha_n\\bar{v_n} = \\bar{0}$ solo se satisface con $$\\alpha_1 = \\alpha_2 = ... = \\alpha_n = 0$$ $$\n$$ $10.-$Todo conjunto que contiene al vector $\\bar{0}$ es linealmente dependiente $$\n$$ $11.-$Si $S$ es un conjunto linealmente independiente entonces en cualquier subconjunto de $S$ es linealmente independiente. $$\n$$ $12.-$Sea $V$ un espacio vectorial sobre $K$, y sea $G = \\{\\bar{v_1},\\bar{v_2},...,\\bar{v_m}\\}$, un conjunto de vectores de $V$. Se dice que $G$ es un generador de $V$ si para todo vector $\\bar{x} \\in V$ existen escalares $\\alpha_1,\\alpha_2,...,\\alpha_m$ tales que $\\bar{x} = \\alpha_1\\bar{v_1} + \\alpha_2\\bar{v_2} + ... + \\alpha_m\\bar{v_m}$ $$\n$$ $13.-$Sea $V$ un espacio vectorial sobre $K$ y sea $G$ un subconjunto de $V$, $G$ es un generador de $V$ si y solo si $V = L(G)$ $$\n$$ $14.-$Se llama base de espacio vectorial $V$ a un conjunto generador de $V$ que es linealmente independiente. $$\n$$ $15.-$Sea $V$ un espacio vectorial sobre $K$. Si $B = \\{\\bar{v_1},\\bar{v_2},...,\\bar{v_n}\\}$ es una base de $V$, entonces cualquier conjunto de vectores de $V$ con más de $n$ elementos es linealmente dependiente. $$\n$$ $16.-$Sea $V$ un espacio vectorial sobre $K$. Si $B = \\{\\bar{v_1},\\bar{v_2},...,\\bar{v_n}\\}$ es una base de $V$, entonces cualquier otra base de dicho espacio está formada por $n$ vectores. $$\n$$ $17.-$Sea $V$ un espacio vectorial sobre $K$. Si $B = \\{\\bar{v_1},\\bar{v_2},...,\\bar{v_n}\\}$ es una base de $V$ se dice que $V$ es de dimensión n, lo cual se denota con $dim V = n$ $$\n$$ En particular, si $V = \\{\\bar{0}\\}, dim V = 0$ $$\n$$ $18.-$Si $V$ es un espacio vectorial de dimensión $n$, cualquier conjunto linealmente independiente formado por $n$ vectores de $V$ es una base de dicho espacio. $$\n$$ $19.-$Si $V$ es un espacio vectorial de dimensión $n$ y $W$ es un subespacio de $V$, entonces $$dim \\space W \\leq n$$ $$\n$$En particular, si $dim \\space W = n$ entonces $W = V$ $$\n$$ $20.-$Sea $B = \\{\\bar{v_1},\\bar{v_2},...,\\bar{v_n}\\}$ una base de un espacio vectorial $V$ sobre $K$, y sea $\\bar{x} \\in V$. Si $$\\bar{x} = \\alpha_1\\bar{v_1} + \\alpha_2\\bar{v_2} + ... + \\alpha_n\\bar{v_n}$$ $$\n$$ los escalares $\\alpha_1,\\alpha_2,...,\\alpha_n$ se llaman coordenadas de $\\bar{x}$ en la base de $B$; y el vector de $K^n$ $$(\\bar{x})_B = (\\alpha_1,\\alpha_2,...,\\alpha_n)^T$$ $$\n$$Se llama vector de coordenadas de $\\bar{x}$ en la base $B$ $$\n$$ $21.-$Sea $b = \\{\\bar{v_1},\\bar{v_2},...,\\bar{v_n}\\}$ una base de un espacio vectorial $V$ sobre $K$. Para cualquier $\\bar{x} \\in V$ el vector $(\\bar{x})_B$ es único. $$\n$$ $22.-$Sea $A = \\begin{bmatrix}a_{ij}\\end{bmatrix}$ una matriz de $mxn$ con elementos en un coampo $K$, y sea $\\bar{r_i} = (a_{i1},a_{i2},...,a_{in})$ el i-ésimo renglón de $A$. si $A_r = (\\bar{r_2},\\bar{r_2},...,\\bar{r_m})$, el conjunto $L(A_r)$ se llama espacio renglón de A. $$\n$$ $23.-$Dos matrices $A$ y $B$ son equivalentes(por renglones), lo cual se denota mediante $A \\square B$, si alguna de ellas puede obtenerse a partir de la otra mediante una sucesión finita de transformaciones elementales(por renglón). $$\n$$ $24.-$Dos matrices equivalentes tienen el mismo espacio renglón $$\n$$ $25.-$Sea $A = \\begin{bmatrix}a_{ij}\\end{bmatrix}$ una matriz de $m$x$n$ con elementos en un campo $K$, y sea $\\bar{c_i} = (a_{1i},a_{2i},...,a_{mi})^T$ la i-ésima columna de $A$. Si $A_c = \\{\\bar{c_1},\\bar{c_2},...,\\bar{c_n}\\}$, el conjunto de $L(A_c)$ se llama espacio columna de $A$. $$\n$$ $26.-$Para cualquier matriz $A$ se tiene que $dim \\space L(A_r) = dim \\space L(A_c)$ $$\n$$ $27.-$Se llama rango de una matriz $A$, y se denota con $R(A)$, al número $R(A) = dim \\space L(A_r) = dim \\space L(A_c)$ $$\n$$ $28.-$Si $A$ es una matriz de $n$x$n$, los siguientes enunciados son equivalentes $$\n$$ $i)\\space R(A) = n$ $$\n$$ $ii) A \\square I_n$ $$\n$$ $iii)\\space \\exists A^{-1}$ $$\n$$ $iv)\\space dim A \\neq 0$ $$\n$$ $v)$Los renglones de $A$ son linealmente independientes $$\n$$ $vi)$Las columnas de $A$ son linealmente independientes $$\n$$ $29.-$El sistema de ecuaciones lineales $A\\bar{x} = \\bar{b}$ es compatible si y solo si $R(A) = R(A,\\bar{b})$ $$\n$$ $30.-$Sea $A\\bar{x} = \\bar{b}$ un sistema compatible de $m$ ecuaciones lineales con $n$ incógnitas: si $R(A) = n$ el sistema es determinado y si $R(A) < n$ el sistema es indeterminado $$\n$$ $31.-$Sea $F$ el conjunto de todas las funciones reales de variable real, y sean $f, g \\in F$. Se dice que $f$ y $g$ son iguales, lo cual se denota mediante $f = g$, cuando $f(x) = g(x), \\forall \\space x \\in R$ $$\n$$ $32.-$Sea $F$ el conjunto de funciones reales de variable real, y sean $f, g \\in F; \\alpha \\in R:$ $$\n$$ $i)$La suma de $f$ y $g$ es una función $f + g$ definida por $$(f + g)(x) = f(x) + g(x), \\forall x \\in R$$ $$\n$$ $ii)$El producto de $\\alpha$ y $f$ es una funcion $\\alpha f$ definida por $$(\\alpha f) = \\alpha \\bullet f(x), \\forall x \\in R$$ $$\n$$ $33.-$Sea $\\{f_1,f_2,...,f_n\\}$ un conjunto de $n$ funciones reales de variable real. Si existen $n$ valores $x_1,x_2,...,x_n \\in R$ tales que el sistema $$\\begin{matrix}\\alpha_1f_1(x_1) + \\alpha_2f_2(x_1) + ... + \\alpha_nf_n(x_1) = 0 \\\\ \\alpha_1f_1(x_2) + \\alpha_2f_2(x_2) + ... + \\alpha_nf_n(x_2) = 0 \\\\. . . . . . . . . . . . . \\\\. . . . . . . . . . . . . \\\\ \\alpha_nf_n(x_n) + \\alpha_nf_n(x_n) + ... + \\alpha_nf_n(x_n) = 0 \\end{matrix}$$ $$\n$$Solo admite la solución trivial, entonces el conjunto de funciones es linealmente independiente $$\n$$ $34.-$Sea $f = \\{f_1,f_2,...,f_n\\}$ un conjunto de $n$ funciones reales de variable real, derivables al menos $n-1$ veces en el intervalo $(a,b)$ y sea $$W(x) =$$ $$\\begin{vmatrix}f_1(x) & f_2(x) & \\dotsm & f_n(x) \\\\f_1(x) & f_2(x) & \\dotsm & f_n(x) \\\\ \\vdots & \\vdots & \\vdots & \\vdots \\\\f_{1}^{(n - 1)}(x) & f_{2}^{(n - 1)}(x) & \\dotsm & f_{n}^{(n - 1)}(x)\\end{vmatrix}$$ $$\n$$Si $W(x_0) \\neq 0$ para algún $x_0 \\in (a,b)$, entonces el conjunto de funciones es linealmente independiente en dicho intervalo. $$\n$$ $\\textbf{Bibliografía}$ $$\n$$ $[1]$ Solar González E. y Speziale de Guzmán L. (1985). $\\textit{Apuntes de Álgebra Lineal}$http://132.248.52.100:8080/xmlui/handle/132.248.52.100/866",
+        "_exercise": [
+            {
+                "id": 16,
+                "exercise": "6",
+                "statement": "Sean las bases $$A = \\{\\bar{u},\\bar{v},\\bar{w}\\}$$ y $$B = \\{\\bar{a},\\bar{b},\\bar{c}\\}$$ \nSi $$\\bar{u} = -1\\bar{a} + 2\\bar{b} - \\bar{c}$$ y $$\\bar{w} = -\\bar{a} - 2\\bar{b}$$ \nEl vector $\\bar{v}$ en la base A, si $[\\bar{v}]_B = \\begin{bmatrix}1 \\\\0 \\\\2 \\end{bmatrix},$ es:",
+                "_topic": [
+                    { 
+                        "id": 2, 
+                        "title": "Espacios vectoriales"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 17,
+        "explanation": "Teoremas $$\n$$ $1.-$Sea $V$ un conjunto no vacío y sea $(k, +, \\bullet)$ un campo. Se dice que $V$ es un espacio vectorial sobre $k$ si están definidas dos leyes de composición, llamadas adición y multiplicación por una escalar, tales que: $$\n$$ $i)$La adición asigna a cada pareja ordenada $(\\bar{u},\\bar{v})$ de elementos de $V$ un único elemento $\\bar{u} + \\bar{v} \\in V$, llamado la suma de $\\bar{u}$ y $\\bar{v}$ $$\n$$ $ii) \\forall \\bar{u}, \\bar{v}, \\bar{w} \\in V :$ $$\\bar{u} + (\\bar{v} + \\bar{w}) = (\\bar{u} + \\bar{v}) + \\bar{w}$$ $$\n$$ $iii)\\exists \\space \\bar{0} \\in V$ tal que $\\bar{0} + \\bar{v} = \\bar{v}, \\forall \\space \\bar{v} \\in v$ $$\n$$ $iv)\\forall \\space \\bar{v} \\in \\space V - \\bar{v} \\in \\space V$ tal que $-\\bar{v} + \\bar{v} = 0$ $$\n$$ $v)\\forall \\space \\bar{u}, \\bar{v} \\in V \\space : \\space \\bar{u} + \\bar{v} = \\bar{v} + \\bar{u}$ $$\n$$ $vi)$La multiplicación por un escalar asigna a cada pareja asignada $(\\alpha, \\bar{v})$ de elementos $\\alpha \\space \\in \\space k$ y $\\bar{v} \\space \\in \\space V$ un único elemento $\\alpha\\bar{v} \\space \\in \\space V$, llamado el producto de $\\alpha$ por $\\bar{v}$ $$\n$$ $vii) \\forall \\space \\alpha \\in K : \\bar{v} \\in \\space V : \\alpha(\\bar{u} + \\bar{v}) = \\alpha \\bar{u} + \\alpha \\bar{v}$ $$\n$$ $viii) \\forall \\alpha, \\beta \\in K ; \\bar{v} \\in V : (\\alpha + \\beta)\\bar{v} = \\alpha\\bar{v} + \\beta\\bar{v}$ $$\n$$ $ix)\\forall \\space \\alpha, \\beta \\in K; \\bar{v} \\in V: \\space \\alpha(\\beta\\bar{v}) = (\\alpha\\beta)\\bar{v}$ $$\n$$ $x)$Si $1$ es la unidad de $K: \\space 1\\bar{v} = \\bar{v}, \\forall \\space \\bar{v} \\in V$ $$\n$$A los elementos de $V$ se les llama vectores y a los de $K$ escalares. $$\n$$ $2.-$Si $V$ es un espacio vectorial sobre $K$, entonces $$\n$$ $i)\\forall \\space \\bar{u}, \\bar{v}, \\bar{w} \\in V \\space : \\bar{u} + \\bar{v} = \\bar{u} + \\bar{w} \\Rightarrow \\bar{v} = \\bar{w}$ $$\n$$ $ii)$El vector $\\bar{0}$ es único y es tal que $$\\bar{v} + \\bar{0} = \\bar{v}, \\forall \\space \\bar{v} \\in V$$ $$\n$$ $iii)$El vector $-\\bar{v}$ es único y es tal que $$\\bar{v} + (-\\bar{v}) = \\bar{0}$$ $$\n$$ $iv)$La ecuación $\\bar{u} + \\bar{x} = \\bar{v}$ tiene solución única en $V$. $$\n$$ $v)\\forall \\space \\bar{v} \\in V: -(-\\bar{v}) = \\bar{v}$ $$\n$$ $vi)\\forall\\bar{u}, \\space \\bar{v} \\in V: -(\\bar{u} + \\bar{v}) = -\\bar{u} + (-\\bar{v})$ $$\n$$ $3.-$Sea $V$ un espacio vectorial sobre $K$: $$\n$$ $i) \\space \\forall \\alpha \\in K: \\alpha\\bar{0} = \\bar{0}$ $$\n$$ $ii)\\space \\forall \\bar{v} \\in V: 0\\bar{v} = \\bar{0}$, donde $0$ es el cero de $K$ $$\n$$ $iii)\\space \\forall \\alpha \\in K, \\bar{v} \\in V: (-\\alpha)\\bar{v} =$ $$-(\\alpha\\bar{v}) = \\alpha(-\\bar{v})$$ $$\n$$ $iv)\\forall \\alpha \\in K, \\bar{v} \\in V: \\alpha\\bar{v} = \\bar{0} \\Rightarrow \\alpha = 0$ o $\\bar{v} = \\bar{0}$ $$\n$$ $v) \\forall \\alpha \\in K, \\bar{u}, \\bar{v} \\in V : \\alpha\\bar{u} = \\alpha\\bar{v}$ y $\\alpha \\neq 0 \\Rightarrow \\bar{u} = \\bar{v}$ $$\n$$ $vi)\\space \\forall \\alpha \\in K, \\bar{u}, \\bar{v} \\in V : \\alpha\\bar{v} = \\beta \\bar{v}$ y $\\bar{v} \\neq 0 \\Rightarrow \\alpha = \\beta$ $$\n$$ $4.-$Si $V$ es un espacio vectorial sobre $K$, entonces $$\\bar{u} - \\bar{v} = \\bar{u} + (-\\bar{v}); \\forall \\space \\bar{u}, \\bar{v} \\in V$$ $$\n$$Al vector $\\bar{u} - \\bar{v}$ se le llama la diferencia $\\bar{u}$ menos $\\bar{v}$ $$\n$$ $5.-$Sea $V$ un espacio vectorial sobre $K$ y sea $S$ un subconjunto de $V$. $S$ es un subespacio de $V$ si es un espacio vectorial sobre $K$ respecto a la adición y la multiplicación por un escalar definidas en $V$. $$\n$$ $6.-$Sea $V$ un espacio vectorial sobre $K$ y sea $S$ un subconjunto de $V$. $$\n$$ $S$ es un subespacio de $V$ si y solo si $$\n$$ $i)\\space \\forall \\bar{u}, \\bar{v} \\in S:\\bar{u} + \\bar{v} \\in S$ $$\n$$ $ii)\\space \\forall \\alpha \\in K, \\bar{v} \\in S : \\alpha\\bar{v} \\in S$ $$\n$$ $7.-$Un vector $\\bar{w}$ es una combinación lineal de los vectores $\\bar{v_1},\\bar{v_2},...,\\bar{v_n}$ si puede ser expresado en la forma $$\\bar{w} = \\alpha_1\\bar{v_1} + \\alpha_2\\bar{v_2} + ... + \\alpha_n\\bar{v_n}$$ $$\n$$ Donde $\\alpha_1,\\alpha_2,...,\\alpha_n$ son escalares. $$\n$$ $9.-$Sea $S = \\{\\bar{v_1},\\bar{v_2},...,\\bar{v_n}\\}$ un conjunto de vectores: $$\n$$ $i) S$ es linealmente dependiente si existen escalares $\\alpha_1,\\alpha_2,...,\\alpha_n$, no todos iguales a cero, tales que $$\\alpha_1\\bar{v_1} + \\alpha_\\bar{v_2} + ... + \\alpha_n\\bar{v_n} = \\bar{0}$$ $$\n$$ $ii) S$ es linealmente independiente si la igualdad $\\alpha_1\\bar{v_1} + \\alpha_2\\bar{v_2} + ... + \\alpha_n\\bar{v_n} = \\bar{0}$ solo se satisface con $$\\alpha_1 = \\alpha_2 = ... = \\alpha_n = 0$$ $$\n$$ $10.-$Todo conjunto que contiene al vector $\\bar{0}$ es linealmente dependiente $$\n$$ $11.-$Si $S$ es un conjunto linealmente independiente entonces en cualquier subconjunto de $S$ es linealmente independiente. $$\n$$ $12.-$Sea $V$ un espacio vectorial sobre $K$, y sea $G = \\{\\bar{v_1},\\bar{v_2},...,\\bar{v_m}\\}$, un conjunto de vectores de $V$. Se dice que $G$ es un generador de $V$ si para todo vector $\\bar{x} \\in V$ existen escalares $\\alpha_1,\\alpha_2,...,\\alpha_m$ tales que $\\bar{x} = \\alpha_1\\bar{v_1} + \\alpha_2\\bar{v_2} + ... + \\alpha_m\\bar{v_m}$ $$\n$$ $13.-$Sea $V$ un espacio vectorial sobre $K$ y sea $G$ un subconjunto de $V$, $G$ es un generador de $V$ si y solo si $V = L(G)$ $$\n$$ $14.-$Se llama base de espacio vectorial $V$ a un conjunto generador de $V$ que es linealmente independiente. $$\n$$ $15.-$Sea $V$ un espacio vectorial sobre $K$. Si $B = \\{\\bar{v_1},\\bar{v_2},...,\\bar{v_n}\\}$ es una base de $V$, entonces cualquier conjunto de vectores de $V$ con más de $n$ elementos es linealmente dependiente. $$\n$$ $16.-$Sea $V$ un espacio vectorial sobre $K$. Si $B = \\{\\bar{v_1},\\bar{v_2},...,\\bar{v_n}\\}$ es una base de $V$, entonces cualquier otra base de dicho espacio está formada por $n$ vectores. $$\n$$ $17.-$Sea $V$ un espacio vectorial sobre $K$. Si $B = \\{\\bar{v_1},\\bar{v_2},...,\\bar{v_n}\\}$ es una base de $V$ se dice que $V$ es de dimensión n, lo cual se denota con $dim V = n$ $$\n$$ En particular, si $V = \\{\\bar{0}\\}, dim V = 0$ $$\n$$ $18.-$Si $V$ es un espacio vectorial de dimensión $n$, cualquier conjunto linealmente independiente formado por $n$ vectores de $V$ es una base de dicho espacio. $$\n$$ $19.-$Si $V$ es un espacio vectorial de dimensión $n$ y $W$ es un subespacio de $V$, entonces $$dim \\space W \\leq n$$ $$\n$$En particular, si $dim \\space W = n$ entonces $W = V$ $$\n$$ $20.-$Sea $B = \\{\\bar{v_1},\\bar{v_2},...,\\bar{v_n}\\}$ una base de un espacio vectorial $V$ sobre $K$, y sea $\\bar{x} \\in V$. Si $$\\bar{x} = \\alpha_1\\bar{v_1} + \\alpha_2\\bar{v_2} + ... + \\alpha_n\\bar{v_n}$$ $$\n$$ los escalares $\\alpha_1,\\alpha_2,...,\\alpha_n$ se llaman coordenadas de $\\bar{x}$ en la base de $B$; y el vector de $K^n$ $$(\\bar{x})_B = (\\alpha_1,\\alpha_2,...,\\alpha_n)^T$$ $$\n$$Se llama vector de coordenadas de $\\bar{x}$ en la base $B$ $$\n$$ $21.-$Sea $b = \\{\\bar{v_1},\\bar{v_2},...,\\bar{v_n}\\}$ una base de un espacio vectorial $V$ sobre $K$. Para cualquier $\\bar{x} \\in V$ el vector $(\\bar{x})_B$ es único. $$\n$$ $22.-$Sea $A = \\begin{bmatrix}a_{ij}\\end{bmatrix}$ una matriz de $mxn$ con elementos en un coampo $K$, y sea $\\bar{r_i} = (a_{i1},a_{i2},...,a_{in})$ el i-ésimo renglón de $A$. si $A_r = (\\bar{r_2},\\bar{r_2},...,\\bar{r_m})$, el conjunto $L(A_r)$ se llama espacio renglón de A. $$\n$$ $23.-$Dos matrices $A$ y $B$ son equivalentes(por renglones), lo cual se denota mediante $A \\square B$, si alguna de ellas puede obtenerse a partir de la otra mediante una sucesión finita de transformaciones elementales(por renglón). $$\n$$ $24.-$Dos matrices equivalentes tienen el mismo espacio renglón $$\n$$ $25.-$Sea $A = \\begin{bmatrix}a_{ij}\\end{bmatrix}$ una matriz de $m$x$n$ con elementos en un campo $K$, y sea $\\bar{c_i} = (a_{1i},a_{2i},...,a_{mi})^T$ la i-ésima columna de $A$. Si $A_c = \\{\\bar{c_1},\\bar{c_2},...,\\bar{c_n}\\}$, el conjunto de $L(A_c)$ se llama espacio columna de $A$. $$\n$$ $26.-$Para cualquier matriz $A$ se tiene que $dim \\space L(A_r) = dim \\space L(A_c)$ $$\n$$ $27.-$Se llama rango de una matriz $A$, y se denota con $R(A)$, al número $R(A) = dim \\space L(A_r) = dim \\space L(A_c)$ $$\n$$ $28.-$Si $A$ es una matriz de $n$x$n$, los siguientes enunciados son equivalentes $$\n$$ $i)\\space R(A) = n$ $$\n$$ $ii) A \\square I_n$ $$\n$$ $iii)\\space \\exists A^{-1}$ $$\n$$ $iv)\\space dim A \\neq 0$ $$\n$$ $v)$Los renglones de $A$ son linealmente independientes $$\n$$ $vi)$Las columnas de $A$ son linealmente independientes $$\n$$ $29.-$El sistema de ecuaciones lineales $A\\bar{x} = \\bar{b}$ es compatible si y solo si $R(A) = R(A,\\bar{b})$ $$\n$$ $30.-$Sea $A\\bar{x} = \\bar{b}$ un sistema compatible de $m$ ecuaciones lineales con $n$ incógnitas: si $R(A) = n$ el sistema es determinado y si $R(A) < n$ el sistema es indeterminado $$\n$$ $31.-$Sea $F$ el conjunto de todas las funciones reales de variable real, y sean $f, g \\in F$. Se dice que $f$ y $g$ son iguales, lo cual se denota mediante $f = g$, cuando $f(x) = g(x), \\forall \\space x \\in R$ $$\n$$ $32.-$Sea $F$ el conjunto de funciones reales de variable real, y sean $f, g \\in F; \\alpha \\in R:$ $$\n$$ $i)$La suma de $f$ y $g$ es una función $f + g$ definida por $$(f + g)(x) = f(x) + g(x), \\forall x \\in R$$ $$\n$$ $ii)$El producto de $\\alpha$ y $f$ es una funcion $\\alpha f$ definida por $$(\\alpha f) = \\alpha \\bullet f(x), \\forall x \\in R$$ $$\n$$ $33.-$Sea $\\{f_1,f_2,...,f_n\\}$ un conjunto de $n$ funciones reales de variable real. Si existen $n$ valores $x_1,x_2,...,x_n \\in R$ tales que el sistema $$\\begin{matrix}\\alpha_1f_1(x_1) + \\alpha_2f_2(x_1) + ... + \\alpha_nf_n(x_1) = 0 \\\\ \\alpha_1f_1(x_2) + \\alpha_2f_2(x_2) + ... + \\alpha_nf_n(x_2) = 0 \\\\. . . . . . . . . . . . . \\\\. . . . . . . . . . . . . \\\\ \\alpha_nf_n(x_n) + \\alpha_nf_n(x_n) + ... + \\alpha_nf_n(x_n) = 0 \\end{matrix}$$ $$\n$$Solo admite la solución trivial, entonces el conjunto de funciones es linealmente independiente $$\n$$ $34.-$Sea $f = \\{f_1,f_2,...,f_n\\}$ un conjunto de $n$ funciones reales de variable real, derivables al menos $n-1$ veces en el intervalo $(a,b)$ y sea $$W(x) =$$ $$\\begin{vmatrix}f_1(x) & f_2(x) & \\dotsm & f_n(x) \\\\f_1(x) & f_2(x) & \\dotsm & f_n(x) \\\\ \\vdots & \\vdots & \\vdots & \\vdots \\\\f_{1}^{(n - 1)}(x) & f_{2}^{(n - 1)}(x) & \\dotsm & f_{n}^{(n - 1)}(x)\\end{vmatrix}$$ $$\n$$Si $W(x_0) \\neq 0$ para algún $x_0 \\in (a,b)$, entonces el conjunto de funciones es linealmente independiente en dicho intervalo. $$\n$$ $\\textbf{Bibliografía}$ $$\n$$ $[1]$ Solar González E. y Speziale de Guzmán L. (1985). $\\textit{Apuntes de Álgebra Lineal}$http://132.248.52.100:8080/xmlui/handle/132.248.52.100/866",
+        "_exercise": [
+            {
+                "id": 17,
+                "exercise": "7",
+                "statement": "El espacio de los polinomios de grado 4 sobre el campo $\\mathbb R$ es isomorfo al espacio, de:",
+                "_topic": [
+                    { 
+                        "id": 2, 
+                        "title": "Espacios vectoriales"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 18,
+        "explanation": "Teoremas $$\n$$ $1.-$Sea $V$ un conjunto no vacío y sea $(k, +, \\bullet)$ un campo. Se dice que $V$ es un espacio vectorial sobre $k$ si están definidas dos leyes de composición, llamadas adición y multiplicación por una escalar, tales que: $$\n$$ $i)$La adición asigna a cada pareja ordenada $(\\bar{u},\\bar{v})$ de elementos de $V$ un único elemento $\\bar{u} + \\bar{v} \\in V$, llamado la suma de $\\bar{u}$ y $\\bar{v}$ $$\n$$ $ii) \\forall \\bar{u}, \\bar{v}, \\bar{w} \\in V :$ $$\\bar{u} + (\\bar{v} + \\bar{w}) = (\\bar{u} + \\bar{v}) + \\bar{w}$$ $$\n$$ $iii)\\exists \\space \\bar{0} \\in V$ tal que $\\bar{0} + \\bar{v} = \\bar{v}, \\forall \\space \\bar{v} \\in v$ $$\n$$ $iv)\\forall \\space \\bar{v} \\in \\space V - \\bar{v} \\in \\space V$ tal que $-\\bar{v} + \\bar{v} = 0$ $$\n$$ $v)\\forall \\space \\bar{u}, \\bar{v} \\in V \\space : \\space \\bar{u} + \\bar{v} = \\bar{v} + \\bar{u}$ $$\n$$ $vi)$La multiplicación por un escalar asigna a cada pareja asignada $(\\alpha, \\bar{v})$ de elementos $\\alpha \\space \\in \\space k$ y $\\bar{v} \\space \\in \\space V$ un único elemento $\\alpha\\bar{v} \\space \\in \\space V$, llamado el producto de $\\alpha$ por $\\bar{v}$ $$\n$$ $vii) \\forall \\space \\alpha \\in K : \\bar{v} \\in \\space V : \\alpha(\\bar{u} + \\bar{v}) = \\alpha \\bar{u} + \\alpha \\bar{v}$ $$\n$$ $viii) \\forall \\alpha, \\beta \\in K ; \\bar{v} \\in V : (\\alpha + \\beta)\\bar{v} = \\alpha\\bar{v} + \\beta\\bar{v}$ $$\n$$ $ix)\\forall \\space \\alpha, \\beta \\in K; \\bar{v} \\in V: \\space \\alpha(\\beta\\bar{v}) = (\\alpha\\beta)\\bar{v}$ $$\n$$ $x)$Si $1$ es la unidad de $K: \\space 1\\bar{v} = \\bar{v}, \\forall \\space \\bar{v} \\in V$ $$\n$$A los elementos de $V$ se les llama vectores y a los de $K$ escalares. $$\n$$ $2.-$Si $V$ es un espacio vectorial sobre $K$, entonces $$\n$$ $i)\\forall \\space \\bar{u}, \\bar{v}, \\bar{w} \\in V \\space : \\bar{u} + \\bar{v} = \\bar{u} + \\bar{w} \\Rightarrow \\bar{v} = \\bar{w}$ $$\n$$ $ii)$El vector $\\bar{0}$ es único y es tal que $$\\bar{v} + \\bar{0} = \\bar{v}, \\forall \\space \\bar{v} \\in V$$ $$\n$$ $iii)$El vector $-\\bar{v}$ es único y es tal que $$\\bar{v} + (-\\bar{v}) = \\bar{0}$$ $$\n$$ $iv)$La ecuación $\\bar{u} + \\bar{x} = \\bar{v}$ tiene solución única en $V$. $$\n$$ $v)\\forall \\space \\bar{v} \\in V: -(-\\bar{v}) = \\bar{v}$ $$\n$$ $vi)\\forall\\bar{u}, \\space \\bar{v} \\in V: -(\\bar{u} + \\bar{v}) = -\\bar{u} + (-\\bar{v})$ $$\n$$ $3.-$Sea $V$ un espacio vectorial sobre $K$: $$\n$$ $i) \\space \\forall \\alpha \\in K: \\alpha\\bar{0} = \\bar{0}$ $$\n$$ $ii)\\space \\forall \\bar{v} \\in V: 0\\bar{v} = \\bar{0}$, donde $0$ es el cero de $K$ $$\n$$ $iii)\\space \\forall \\alpha \\in K, \\bar{v} \\in V: (-\\alpha)\\bar{v} =$ $$-(\\alpha\\bar{v}) = \\alpha(-\\bar{v})$$ $$\n$$ $iv)\\forall \\alpha \\in K, \\bar{v} \\in V: \\alpha\\bar{v} = \\bar{0} \\Rightarrow \\alpha = 0$ o $\\bar{v} = \\bar{0}$ $$\n$$ $v) \\forall \\alpha \\in K, \\bar{u}, \\bar{v} \\in V : \\alpha\\bar{u} = \\alpha\\bar{v}$ y $\\alpha \\neq 0 \\Rightarrow \\bar{u} = \\bar{v}$ $$\n$$ $vi)\\space \\forall \\alpha \\in K, \\bar{u}, \\bar{v} \\in V : \\alpha\\bar{v} = \\beta \\bar{v}$ y $\\bar{v} \\neq 0 \\Rightarrow \\alpha = \\beta$ $$\n$$ $4.-$Si $V$ es un espacio vectorial sobre $K$, entonces $$\\bar{u} - \\bar{v} = \\bar{u} + (-\\bar{v}); \\forall \\space \\bar{u}, \\bar{v} \\in V$$ $$\n$$Al vector $\\bar{u} - \\bar{v}$ se le llama la diferencia $\\bar{u}$ menos $\\bar{v}$ $$\n$$ $5.-$Sea $V$ un espacio vectorial sobre $K$ y sea $S$ un subconjunto de $V$. $S$ es un subespacio de $V$ si es un espacio vectorial sobre $K$ respecto a la adición y la multiplicación por un escalar definidas en $V$. $$\n$$ $6.-$Sea $V$ un espacio vectorial sobre $K$ y sea $S$ un subconjunto de $V$. $$\n$$ $S$ es un subespacio de $V$ si y solo si $$\n$$ $i)\\space \\forall \\bar{u}, \\bar{v} \\in S:\\bar{u} + \\bar{v} \\in S$ $$\n$$ $ii)\\space \\forall \\alpha \\in K, \\bar{v} \\in S : \\alpha\\bar{v} \\in S$ $$\n$$ $7.-$Un vector $\\bar{w}$ es una combinación lineal de los vectores $\\bar{v_1},\\bar{v_2},...,\\bar{v_n}$ si puede ser expresado en la forma $$\\bar{w} = \\alpha_1\\bar{v_1} + \\alpha_2\\bar{v_2} + ... + \\alpha_n\\bar{v_n}$$ $$\n$$ Donde $\\alpha_1,\\alpha_2,...,\\alpha_n$ son escalares. $$\n$$ $9.-$Sea $S = \\{\\bar{v_1},\\bar{v_2},...,\\bar{v_n}\\}$ un conjunto de vectores: $$\n$$ $i) S$ es linealmente dependiente si existen escalares $\\alpha_1,\\alpha_2,...,\\alpha_n$, no todos iguales a cero, tales que $$\\alpha_1\\bar{v_1} + \\alpha_\\bar{v_2} + ... + \\alpha_n\\bar{v_n} = \\bar{0}$$ $$\n$$ $ii) S$ es linealmente independiente si la igualdad $\\alpha_1\\bar{v_1} + \\alpha_2\\bar{v_2} + ... + \\alpha_n\\bar{v_n} = \\bar{0}$ solo se satisface con $$\\alpha_1 = \\alpha_2 = ... = \\alpha_n = 0$$ $$\n$$ $10.-$Todo conjunto que contiene al vector $\\bar{0}$ es linealmente dependiente $$\n$$ $11.-$Si $S$ es un conjunto linealmente independiente entonces en cualquier subconjunto de $S$ es linealmente independiente. $$\n$$ $12.-$Sea $V$ un espacio vectorial sobre $K$, y sea $G = \\{\\bar{v_1},\\bar{v_2},...,\\bar{v_m}\\}$, un conjunto de vectores de $V$. Se dice que $G$ es un generador de $V$ si para todo vector $\\bar{x} \\in V$ existen escalares $\\alpha_1,\\alpha_2,...,\\alpha_m$ tales que $\\bar{x} = \\alpha_1\\bar{v_1} + \\alpha_2\\bar{v_2} + ... + \\alpha_m\\bar{v_m}$ $$\n$$ $13.-$Sea $V$ un espacio vectorial sobre $K$ y sea $G$ un subconjunto de $V$, $G$ es un generador de $V$ si y solo si $V = L(G)$ $$\n$$ $14.-$Se llama base de espacio vectorial $V$ a un conjunto generador de $V$ que es linealmente independiente. $$\n$$ $15.-$Sea $V$ un espacio vectorial sobre $K$. Si $B = \\{\\bar{v_1},\\bar{v_2},...,\\bar{v_n}\\}$ es una base de $V$, entonces cualquier conjunto de vectores de $V$ con más de $n$ elementos es linealmente dependiente. $$\n$$ $16.-$Sea $V$ un espacio vectorial sobre $K$. Si $B = \\{\\bar{v_1},\\bar{v_2},...,\\bar{v_n}\\}$ es una base de $V$, entonces cualquier otra base de dicho espacio está formada por $n$ vectores. $$\n$$ $17.-$Sea $V$ un espacio vectorial sobre $K$. Si $B = \\{\\bar{v_1},\\bar{v_2},...,\\bar{v_n}\\}$ es una base de $V$ se dice que $V$ es de dimensión n, lo cual se denota con $dim V = n$ $$\n$$ En particular, si $V = \\{\\bar{0}\\}, dim V = 0$ $$\n$$ $18.-$Si $V$ es un espacio vectorial de dimensión $n$, cualquier conjunto linealmente independiente formado por $n$ vectores de $V$ es una base de dicho espacio. $$\n$$ $19.-$Si $V$ es un espacio vectorial de dimensión $n$ y $W$ es un subespacio de $V$, entonces $$dim \\space W \\leq n$$ $$\n$$En particular, si $dim \\space W = n$ entonces $W = V$ $$\n$$ $20.-$Sea $B = \\{\\bar{v_1},\\bar{v_2},...,\\bar{v_n}\\}$ una base de un espacio vectorial $V$ sobre $K$, y sea $\\bar{x} \\in V$. Si $$\\bar{x} = \\alpha_1\\bar{v_1} + \\alpha_2\\bar{v_2} + ... + \\alpha_n\\bar{v_n}$$ $$\n$$ los escalares $\\alpha_1,\\alpha_2,...,\\alpha_n$ se llaman coordenadas de $\\bar{x}$ en la base de $B$; y el vector de $K^n$ $$(\\bar{x})_B = (\\alpha_1,\\alpha_2,...,\\alpha_n)^T$$ $$\n$$Se llama vector de coordenadas de $\\bar{x}$ en la base $B$ $$\n$$ $21.-$Sea $b = \\{\\bar{v_1},\\bar{v_2},...,\\bar{v_n}\\}$ una base de un espacio vectorial $V$ sobre $K$. Para cualquier $\\bar{x} \\in V$ el vector $(\\bar{x})_B$ es único. $$\n$$ $22.-$Sea $A = \\begin{bmatrix}a_{ij}\\end{bmatrix}$ una matriz de $mxn$ con elementos en un coampo $K$, y sea $\\bar{r_i} = (a_{i1},a_{i2},...,a_{in})$ el i-ésimo renglón de $A$. si $A_r = (\\bar{r_2},\\bar{r_2},...,\\bar{r_m})$, el conjunto $L(A_r)$ se llama espacio renglón de A. $$\n$$ $23.-$Dos matrices $A$ y $B$ son equivalentes(por renglones), lo cual se denota mediante $A \\square B$, si alguna de ellas puede obtenerse a partir de la otra mediante una sucesión finita de transformaciones elementales(por renglón). $$\n$$ $24.-$Dos matrices equivalentes tienen el mismo espacio renglón $$\n$$ $25.-$Sea $A = \\begin{bmatrix}a_{ij}\\end{bmatrix}$ una matriz de $m$x$n$ con elementos en un campo $K$, y sea $\\bar{c_i} = (a_{1i},a_{2i},...,a_{mi})^T$ la i-ésima columna de $A$. Si $A_c = \\{\\bar{c_1},\\bar{c_2},...,\\bar{c_n}\\}$, el conjunto de $L(A_c)$ se llama espacio columna de $A$. $$\n$$ $26.-$Para cualquier matriz $A$ se tiene que $dim \\space L(A_r) = dim \\space L(A_c)$ $$\n$$ $27.-$Se llama rango de una matriz $A$, y se denota con $R(A)$, al número $R(A) = dim \\space L(A_r) = dim \\space L(A_c)$ $$\n$$ $28.-$Si $A$ es una matriz de $n$x$n$, los siguientes enunciados son equivalentes $$\n$$ $i)\\space R(A) = n$ $$\n$$ $ii) A \\square I_n$ $$\n$$ $iii)\\space \\exists A^{-1}$ $$\n$$ $iv)\\space dim A \\neq 0$ $$\n$$ $v)$Los renglones de $A$ son linealmente independientes $$\n$$ $vi)$Las columnas de $A$ son linealmente independientes $$\n$$ $29.-$El sistema de ecuaciones lineales $A\\bar{x} = \\bar{b}$ es compatible si y solo si $R(A) = R(A,\\bar{b})$ $$\n$$ $30.-$Sea $A\\bar{x} = \\bar{b}$ un sistema compatible de $m$ ecuaciones lineales con $n$ incógnitas: si $R(A) = n$ el sistema es determinado y si $R(A) < n$ el sistema es indeterminado $$\n$$ $31.-$Sea $F$ el conjunto de todas las funciones reales de variable real, y sean $f, g \\in F$. Se dice que $f$ y $g$ son iguales, lo cual se denota mediante $f = g$, cuando $f(x) = g(x), \\forall \\space x \\in R$ $$\n$$ $32.-$Sea $F$ el conjunto de funciones reales de variable real, y sean $f, g \\in F; \\alpha \\in R:$ $$\n$$ $i)$La suma de $f$ y $g$ es una función $f + g$ definida por $$(f + g)(x) = f(x) + g(x), \\forall x \\in R$$ $$\n$$ $ii)$El producto de $\\alpha$ y $f$ es una funcion $\\alpha f$ definida por $$(\\alpha f) = \\alpha \\bullet f(x), \\forall x \\in R$$ $$\n$$ $33.-$Sea $\\{f_1,f_2,...,f_n\\}$ un conjunto de $n$ funciones reales de variable real. Si existen $n$ valores $x_1,x_2,...,x_n \\in R$ tales que el sistema $$\\begin{matrix}\\alpha_1f_1(x_1) + \\alpha_2f_2(x_1) + ... + \\alpha_nf_n(x_1) = 0 \\\\ \\alpha_1f_1(x_2) + \\alpha_2f_2(x_2) + ... + \\alpha_nf_n(x_2) = 0 \\\\. . . . . . . . . . . . . \\\\. . . . . . . . . . . . . \\\\ \\alpha_nf_n(x_n) + \\alpha_nf_n(x_n) + ... + \\alpha_nf_n(x_n) = 0 \\end{matrix}$$ $$\n$$Solo admite la solución trivial, entonces el conjunto de funciones es linealmente independiente $$\n$$ $34.-$Sea $f = \\{f_1,f_2,...,f_n\\}$ un conjunto de $n$ funciones reales de variable real, derivables al menos $n-1$ veces en el intervalo $(a,b)$ y sea $$W(x) =$$ $$\\begin{vmatrix}f_1(x) & f_2(x) & \\dotsm & f_n(x) \\\\f_1(x) & f_2(x) & \\dotsm & f_n(x) \\\\ \\vdots & \\vdots & \\vdots & \\vdots \\\\f_{1}^{(n - 1)}(x) & f_{2}^{(n - 1)}(x) & \\dotsm & f_{n}^{(n - 1)}(x)\\end{vmatrix}$$ $$\n$$Si $W(x_0) \\neq 0$ para algún $x_0 \\in (a,b)$, entonces el conjunto de funciones es linealmente independiente en dicho intervalo. $$\n$$ $\\textbf{Bibliografía}$ $$\n$$ $[1]$ Solar González E. y Speziale de Guzmán L. (1985). $\\textit{Apuntes de Álgebra Lineal}$http://132.248.52.100:8080/xmlui/handle/132.248.52.100/866",
+        "_exercise": [
+            {
+                "id": 18,
+                "exercise": "8",
+                "statement": "El valor de $k \\in \\mathbb C$ para que el vector $\\bar{m} = (1 + 2i,k,3 + i)$ sea combinación lineal de $A = \\{(1,-i,0),(2i,-1,3),(0,0,i)\\},$ es:",
+                "_topic": [
+                    { 
+                        "id": 2, 
+                        "title": "Espacios vectoriales"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 19,
+        "explanation": "Teoremas $$\n$$ $1.-$Sea $V$ un conjunto no vacío y sea $(k, +, \\bullet)$ un campo. Se dice que $V$ es un espacio vectorial sobre $k$ si están definidas dos leyes de composición, llamadas adición y multiplicación por una escalar, tales que: $$\n$$ $i)$La adición asigna a cada pareja ordenada $(\\bar{u},\\bar{v})$ de elementos de $V$ un único elemento $\\bar{u} + \\bar{v} \\in V$, llamado la suma de $\\bar{u}$ y $\\bar{v}$ $$\n$$ $ii) \\forall \\bar{u}, \\bar{v}, \\bar{w} \\in V :$ $$\\bar{u} + (\\bar{v} + \\bar{w}) = (\\bar{u} + \\bar{v}) + \\bar{w}$$ $$\n$$ $iii)\\exists \\space \\bar{0} \\in V$ tal que $\\bar{0} + \\bar{v} = \\bar{v}, \\forall \\space \\bar{v} \\in v$ $$\n$$ $iv)\\forall \\space \\bar{v} \\in \\space V - \\bar{v} \\in \\space V$ tal que $-\\bar{v} + \\bar{v} = 0$ $$\n$$ $v)\\forall \\space \\bar{u}, \\bar{v} \\in V \\space : \\space \\bar{u} + \\bar{v} = \\bar{v} + \\bar{u}$ $$\n$$ $vi)$La multiplicación por un escalar asigna a cada pareja asignada $(\\alpha, \\bar{v})$ de elementos $\\alpha \\space \\in \\space k$ y $\\bar{v} \\space \\in \\space V$ un único elemento $\\alpha\\bar{v} \\space \\in \\space V$, llamado el producto de $\\alpha$ por $\\bar{v}$ $$\n$$ $vii) \\forall \\space \\alpha \\in K : \\bar{v} \\in \\space V : \\alpha(\\bar{u} + \\bar{v}) = \\alpha \\bar{u} + \\alpha \\bar{v}$ $$\n$$ $viii) \\forall \\alpha, \\beta \\in K ; \\bar{v} \\in V : (\\alpha + \\beta)\\bar{v} = \\alpha\\bar{v} + \\beta\\bar{v}$ $$\n$$ $ix)\\forall \\space \\alpha, \\beta \\in K; \\bar{v} \\in V: \\space \\alpha(\\beta\\bar{v}) = (\\alpha\\beta)\\bar{v}$ $$\n$$ $x)$Si $1$ es la unidad de $K: \\space 1\\bar{v} = \\bar{v}, \\forall \\space \\bar{v} \\in V$ $$\n$$A los elementos de $V$ se les llama vectores y a los de $K$ escalares. $$\n$$ $2.-$Si $V$ es un espacio vectorial sobre $K$, entonces $$\n$$ $i)\\forall \\space \\bar{u}, \\bar{v}, \\bar{w} \\in V \\space : \\bar{u} + \\bar{v} = \\bar{u} + \\bar{w} \\Rightarrow \\bar{v} = \\bar{w}$ $$\n$$ $ii)$El vector $\\bar{0}$ es único y es tal que $$\\bar{v} + \\bar{0} = \\bar{v}, \\forall \\space \\bar{v} \\in V$$ $$\n$$ $iii)$El vector $-\\bar{v}$ es único y es tal que $$\\bar{v} + (-\\bar{v}) = \\bar{0}$$ $$\n$$ $iv)$La ecuación $\\bar{u} + \\bar{x} = \\bar{v}$ tiene solución única en $V$. $$\n$$ $v)\\forall \\space \\bar{v} \\in V: -(-\\bar{v}) = \\bar{v}$ $$\n$$ $vi)\\forall\\bar{u}, \\space \\bar{v} \\in V: -(\\bar{u} + \\bar{v}) = -\\bar{u} + (-\\bar{v})$ $$\n$$ $3.-$Sea $V$ un espacio vectorial sobre $K$: $$\n$$ $i) \\space \\forall \\alpha \\in K: \\alpha\\bar{0} = \\bar{0}$ $$\n$$ $ii)\\space \\forall \\bar{v} \\in V: 0\\bar{v} = \\bar{0}$, donde $0$ es el cero de $K$ $$\n$$ $iii)\\space \\forall \\alpha \\in K, \\bar{v} \\in V: (-\\alpha)\\bar{v} =$ $$-(\\alpha\\bar{v}) = \\alpha(-\\bar{v})$$ $$\n$$ $iv)\\forall \\alpha \\in K, \\bar{v} \\in V: \\alpha\\bar{v} = \\bar{0} \\Rightarrow \\alpha = 0$ o $\\bar{v} = \\bar{0}$ $$\n$$ $v) \\forall \\alpha \\in K, \\bar{u}, \\bar{v} \\in V : \\alpha\\bar{u} = \\alpha\\bar{v}$ y $\\alpha \\neq 0 \\Rightarrow \\bar{u} = \\bar{v}$ $$\n$$ $vi)\\space \\forall \\alpha \\in K, \\bar{u}, \\bar{v} \\in V : \\alpha\\bar{v} = \\beta \\bar{v}$ y $\\bar{v} \\neq 0 \\Rightarrow \\alpha = \\beta$ $$\n$$ $4.-$Si $V$ es un espacio vectorial sobre $K$, entonces $$\\bar{u} - \\bar{v} = \\bar{u} + (-\\bar{v}); \\forall \\space \\bar{u}, \\bar{v} \\in V$$ $$\n$$Al vector $\\bar{u} - \\bar{v}$ se le llama la diferencia $\\bar{u}$ menos $\\bar{v}$ $$\n$$ $5.-$Sea $V$ un espacio vectorial sobre $K$ y sea $S$ un subconjunto de $V$. $S$ es un subespacio de $V$ si es un espacio vectorial sobre $K$ respecto a la adición y la multiplicación por un escalar definidas en $V$. $$\n$$ $6.-$Sea $V$ un espacio vectorial sobre $K$ y sea $S$ un subconjunto de $V$. $$\n$$ $S$ es un subespacio de $V$ si y solo si $$\n$$ $i)\\space \\forall \\bar{u}, \\bar{v} \\in S:\\bar{u} + \\bar{v} \\in S$ $$\n$$ $ii)\\space \\forall \\alpha \\in K, \\bar{v} \\in S : \\alpha\\bar{v} \\in S$ $$\n$$ $7.-$Un vector $\\bar{w}$ es una combinación lineal de los vectores $\\bar{v_1},\\bar{v_2},...,\\bar{v_n}$ si puede ser expresado en la forma $$\\bar{w} = \\alpha_1\\bar{v_1} + \\alpha_2\\bar{v_2} + ... + \\alpha_n\\bar{v_n}$$ $$\n$$ Donde $\\alpha_1,\\alpha_2,...,\\alpha_n$ son escalares. $$\n$$ $9.-$Sea $S = \\{\\bar{v_1},\\bar{v_2},...,\\bar{v_n}\\}$ un conjunto de vectores: $$\n$$ $i) S$ es linealmente dependiente si existen escalares $\\alpha_1,\\alpha_2,...,\\alpha_n$, no todos iguales a cero, tales que $$\\alpha_1\\bar{v_1} + \\alpha_\\bar{v_2} + ... + \\alpha_n\\bar{v_n} = \\bar{0}$$ $$\n$$ $ii) S$ es linealmente independiente si la igualdad $\\alpha_1\\bar{v_1} + \\alpha_2\\bar{v_2} + ... + \\alpha_n\\bar{v_n} = \\bar{0}$ solo se satisface con $$\\alpha_1 = \\alpha_2 = ... = \\alpha_n = 0$$ $$\n$$ $10.-$Todo conjunto que contiene al vector $\\bar{0}$ es linealmente dependiente $$\n$$ $11.-$Si $S$ es un conjunto linealmente independiente entonces en cualquier subconjunto de $S$ es linealmente independiente. $$\n$$ $12.-$Sea $V$ un espacio vectorial sobre $K$, y sea $G = \\{\\bar{v_1},\\bar{v_2},...,\\bar{v_m}\\}$, un conjunto de vectores de $V$. Se dice que $G$ es un generador de $V$ si para todo vector $\\bar{x} \\in V$ existen escalares $\\alpha_1,\\alpha_2,...,\\alpha_m$ tales que $\\bar{x} = \\alpha_1\\bar{v_1} + \\alpha_2\\bar{v_2} + ... + \\alpha_m\\bar{v_m}$ $$\n$$ $13.-$Sea $V$ un espacio vectorial sobre $K$ y sea $G$ un subconjunto de $V$, $G$ es un generador de $V$ si y solo si $V = L(G)$ $$\n$$ $14.-$Se llama base de espacio vectorial $V$ a un conjunto generador de $V$ que es linealmente independiente. $$\n$$ $15.-$Sea $V$ un espacio vectorial sobre $K$. Si $B = \\{\\bar{v_1},\\bar{v_2},...,\\bar{v_n}\\}$ es una base de $V$, entonces cualquier conjunto de vectores de $V$ con más de $n$ elementos es linealmente dependiente. $$\n$$ $16.-$Sea $V$ un espacio vectorial sobre $K$. Si $B = \\{\\bar{v_1},\\bar{v_2},...,\\bar{v_n}\\}$ es una base de $V$, entonces cualquier otra base de dicho espacio está formada por $n$ vectores. $$\n$$ $17.-$Sea $V$ un espacio vectorial sobre $K$. Si $B = \\{\\bar{v_1},\\bar{v_2},...,\\bar{v_n}\\}$ es una base de $V$ se dice que $V$ es de dimensión n, lo cual se denota con $dim V = n$ $$\n$$ En particular, si $V = \\{\\bar{0}\\}, dim V = 0$ $$\n$$ $18.-$Si $V$ es un espacio vectorial de dimensión $n$, cualquier conjunto linealmente independiente formado por $n$ vectores de $V$ es una base de dicho espacio. $$\n$$ $19.-$Si $V$ es un espacio vectorial de dimensión $n$ y $W$ es un subespacio de $V$, entonces $$dim \\space W \\leq n$$ $$\n$$En particular, si $dim \\space W = n$ entonces $W = V$ $$\n$$ $20.-$Sea $B = \\{\\bar{v_1},\\bar{v_2},...,\\bar{v_n}\\}$ una base de un espacio vectorial $V$ sobre $K$, y sea $\\bar{x} \\in V$. Si $$\\bar{x} = \\alpha_1\\bar{v_1} + \\alpha_2\\bar{v_2} + ... + \\alpha_n\\bar{v_n}$$ $$\n$$ los escalares $\\alpha_1,\\alpha_2,...,\\alpha_n$ se llaman coordenadas de $\\bar{x}$ en la base de $B$; y el vector de $K^n$ $$(\\bar{x})_B = (\\alpha_1,\\alpha_2,...,\\alpha_n)^T$$ $$\n$$Se llama vector de coordenadas de $\\bar{x}$ en la base $B$ $$\n$$ $21.-$Sea $b = \\{\\bar{v_1},\\bar{v_2},...,\\bar{v_n}\\}$ una base de un espacio vectorial $V$ sobre $K$. Para cualquier $\\bar{x} \\in V$ el vector $(\\bar{x})_B$ es único. $$\n$$ $22.-$Sea $A = \\begin{bmatrix}a_{ij}\\end{bmatrix}$ una matriz de $mxn$ con elementos en un coampo $K$, y sea $\\bar{r_i} = (a_{i1},a_{i2},...,a_{in})$ el i-ésimo renglón de $A$. si $A_r = (\\bar{r_2},\\bar{r_2},...,\\bar{r_m})$, el conjunto $L(A_r)$ se llama espacio renglón de A. $$\n$$ $23.-$Dos matrices $A$ y $B$ son equivalentes(por renglones), lo cual se denota mediante $A \\square B$, si alguna de ellas puede obtenerse a partir de la otra mediante una sucesión finita de transformaciones elementales(por renglón). $$\n$$ $24.-$Dos matrices equivalentes tienen el mismo espacio renglón $$\n$$ $25.-$Sea $A = \\begin{bmatrix}a_{ij}\\end{bmatrix}$ una matriz de $m$x$n$ con elementos en un campo $K$, y sea $\\bar{c_i} = (a_{1i},a_{2i},...,a_{mi})^T$ la i-ésima columna de $A$. Si $A_c = \\{\\bar{c_1},\\bar{c_2},...,\\bar{c_n}\\}$, el conjunto de $L(A_c)$ se llama espacio columna de $A$. $$\n$$ $26.-$Para cualquier matriz $A$ se tiene que $dim \\space L(A_r) = dim \\space L(A_c)$ $$\n$$ $27.-$Se llama rango de una matriz $A$, y se denota con $R(A)$, al número $R(A) = dim \\space L(A_r) = dim \\space L(A_c)$ $$\n$$ $28.-$Si $A$ es una matriz de $n$x$n$, los siguientes enunciados son equivalentes $$\n$$ $i)\\space R(A) = n$ $$\n$$ $ii) A \\square I_n$ $$\n$$ $iii)\\space \\exists A^{-1}$ $$\n$$ $iv)\\space dim A \\neq 0$ $$\n$$ $v)$Los renglones de $A$ son linealmente independientes $$\n$$ $vi)$Las columnas de $A$ son linealmente independientes $$\n$$ $29.-$El sistema de ecuaciones lineales $A\\bar{x} = \\bar{b}$ es compatible si y solo si $R(A) = R(A,\\bar{b})$ $$\n$$ $30.-$Sea $A\\bar{x} = \\bar{b}$ un sistema compatible de $m$ ecuaciones lineales con $n$ incógnitas: si $R(A) = n$ el sistema es determinado y si $R(A) < n$ el sistema es indeterminado $$\n$$ $31.-$Sea $F$ el conjunto de todas las funciones reales de variable real, y sean $f, g \\in F$. Se dice que $f$ y $g$ son iguales, lo cual se denota mediante $f = g$, cuando $f(x) = g(x), \\forall \\space x \\in R$ $$\n$$ $32.-$Sea $F$ el conjunto de funciones reales de variable real, y sean $f, g \\in F; \\alpha \\in R:$ $$\n$$ $i)$La suma de $f$ y $g$ es una función $f + g$ definida por $$(f + g)(x) = f(x) + g(x), \\forall x \\in R$$ $$\n$$ $ii)$El producto de $\\alpha$ y $f$ es una funcion $\\alpha f$ definida por $$(\\alpha f) = \\alpha \\bullet f(x), \\forall x \\in R$$ $$\n$$ $33.-$Sea $\\{f_1,f_2,...,f_n\\}$ un conjunto de $n$ funciones reales de variable real. Si existen $n$ valores $x_1,x_2,...,x_n \\in R$ tales que el sistema $$\\begin{matrix}\\alpha_1f_1(x_1) + \\alpha_2f_2(x_1) + ... + \\alpha_nf_n(x_1) = 0 \\\\ \\alpha_1f_1(x_2) + \\alpha_2f_2(x_2) + ... + \\alpha_nf_n(x_2) = 0 \\\\. . . . . . . . . . . . . \\\\. . . . . . . . . . . . . \\\\ \\alpha_nf_n(x_n) + \\alpha_nf_n(x_n) + ... + \\alpha_nf_n(x_n) = 0 \\end{matrix}$$ $$\n$$Solo admite la solución trivial, entonces el conjunto de funciones es linealmente independiente $$\n$$ $34.-$Sea $f = \\{f_1,f_2,...,f_n\\}$ un conjunto de $n$ funciones reales de variable real, derivables al menos $n-1$ veces en el intervalo $(a,b)$ y sea $$W(x) =$$ $$\\begin{vmatrix}f_1(x) & f_2(x) & \\dotsm & f_n(x) \\\\f_1(x) & f_2(x) & \\dotsm & f_n(x) \\\\ \\vdots & \\vdots & \\vdots & \\vdots \\\\f_{1}^{(n - 1)}(x) & f_{2}^{(n - 1)}(x) & \\dotsm & f_{n}^{(n - 1)}(x)\\end{vmatrix}$$ $$\n$$Si $W(x_0) \\neq 0$ para algún $x_0 \\in (a,b)$, entonces el conjunto de funciones es linealmente independiente en dicho intervalo. $$\n$$ $\\textbf{Bibliografía}$ $$\n$$ $[1]$ Solar González E. y Speziale de Guzmán L. (1985). $\\textit{Apuntes de Álgebra Lineal}$http://132.248.52.100:8080/xmlui/handle/132.248.52.100/866",
+        "_exercise": [
+            {
+                "id": 19,
+                "exercise": "9",
+                "statement": "El conjunto de funciones $A = \\{3lnx^2, 5lnx, lnx^3\\}$ es:",
+                "_topic": [
+                    { 
+                        "id": 2, 
+                        "title": "Espacios vectoriales"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 20,
+        "explanation": "Teoremas $$\n$$ $1.-$Sea $V$ un conjunto no vacío y sea $(k, +, \\bullet)$ un campo. Se dice que $V$ es un espacio vectorial sobre $k$ si están definidas dos leyes de composición, llamadas adición y multiplicación por una escalar, tales que: $$\n$$ $i)$La adición asigna a cada pareja ordenada $(\\bar{u},\\bar{v})$ de elementos de $V$ un único elemento $\\bar{u} + \\bar{v} \\in V$, llamado la suma de $\\bar{u}$ y $\\bar{v}$ $$\n$$ $ii) \\forall \\bar{u}, \\bar{v}, \\bar{w} \\in V :$ $$\\bar{u} + (\\bar{v} + \\bar{w}) = (\\bar{u} + \\bar{v}) + \\bar{w}$$ $$\n$$ $iii)\\exists \\space \\bar{0} \\in V$ tal que $\\bar{0} + \\bar{v} = \\bar{v}, \\forall \\space \\bar{v} \\in v$ $$\n$$ $iv)\\forall \\space \\bar{v} \\in \\space V - \\bar{v} \\in \\space V$ tal que $-\\bar{v} + \\bar{v} = 0$ $$\n$$ $v)\\forall \\space \\bar{u}, \\bar{v} \\in V \\space : \\space \\bar{u} + \\bar{v} = \\bar{v} + \\bar{u}$ $$\n$$ $vi)$La multiplicación por un escalar asigna a cada pareja asignada $(\\alpha, \\bar{v})$ de elementos $\\alpha \\space \\in \\space k$ y $\\bar{v} \\space \\in \\space V$ un único elemento $\\alpha\\bar{v} \\space \\in \\space V$, llamado el producto de $\\alpha$ por $\\bar{v}$ $$\n$$ $vii) \\forall \\space \\alpha \\in K : \\bar{v} \\in \\space V : \\alpha(\\bar{u} + \\bar{v}) = \\alpha \\bar{u} + \\alpha \\bar{v}$ $$\n$$ $viii) \\forall \\alpha, \\beta \\in K ; \\bar{v} \\in V : (\\alpha + \\beta)\\bar{v} = \\alpha\\bar{v} + \\beta\\bar{v}$ $$\n$$ $ix)\\forall \\space \\alpha, \\beta \\in K; \\bar{v} \\in V: \\space \\alpha(\\beta\\bar{v}) = (\\alpha\\beta)\\bar{v}$ $$\n$$ $x)$Si $1$ es la unidad de $K: \\space 1\\bar{v} = \\bar{v}, \\forall \\space \\bar{v} \\in V$ $$\n$$A los elementos de $V$ se les llama vectores y a los de $K$ escalares. $$\n$$ $2.-$Si $V$ es un espacio vectorial sobre $K$, entonces $$\n$$ $i)\\forall \\space \\bar{u}, \\bar{v}, \\bar{w} \\in V \\space : \\bar{u} + \\bar{v} = \\bar{u} + \\bar{w} \\Rightarrow \\bar{v} = \\bar{w}$ $$\n$$ $ii)$El vector $\\bar{0}$ es único y es tal que $$\\bar{v} + \\bar{0} = \\bar{v}, \\forall \\space \\bar{v} \\in V$$ $$\n$$ $iii)$El vector $-\\bar{v}$ es único y es tal que $$\\bar{v} + (-\\bar{v}) = \\bar{0}$$ $$\n$$ $iv)$La ecuación $\\bar{u} + \\bar{x} = \\bar{v}$ tiene solución única en $V$. $$\n$$ $v)\\forall \\space \\bar{v} \\in V: -(-\\bar{v}) = \\bar{v}$ $$\n$$ $vi)\\forall\\bar{u}, \\space \\bar{v} \\in V: -(\\bar{u} + \\bar{v}) = -\\bar{u} + (-\\bar{v})$ $$\n$$ $3.-$Sea $V$ un espacio vectorial sobre $K$: $$\n$$ $i) \\space \\forall \\alpha \\in K: \\alpha\\bar{0} = \\bar{0}$ $$\n$$ $ii)\\space \\forall \\bar{v} \\in V: 0\\bar{v} = \\bar{0}$, donde $0$ es el cero de $K$ $$\n$$ $iii)\\space \\forall \\alpha \\in K, \\bar{v} \\in V: (-\\alpha)\\bar{v} =$ $$-(\\alpha\\bar{v}) = \\alpha(-\\bar{v})$$ $$\n$$ $iv)\\forall \\alpha \\in K, \\bar{v} \\in V: \\alpha\\bar{v} = \\bar{0} \\Rightarrow \\alpha = 0$ o $\\bar{v} = \\bar{0}$ $$\n$$ $v) \\forall \\alpha \\in K, \\bar{u}, \\bar{v} \\in V : \\alpha\\bar{u} = \\alpha\\bar{v}$ y $\\alpha \\neq 0 \\Rightarrow \\bar{u} = \\bar{v}$ $$\n$$ $vi)\\space \\forall \\alpha \\in K, \\bar{u}, \\bar{v} \\in V : \\alpha\\bar{v} = \\beta \\bar{v}$ y $\\bar{v} \\neq 0 \\Rightarrow \\alpha = \\beta$ $$\n$$ $4.-$Si $V$ es un espacio vectorial sobre $K$, entonces $$\\bar{u} - \\bar{v} = \\bar{u} + (-\\bar{v}); \\forall \\space \\bar{u}, \\bar{v} \\in V$$ $$\n$$Al vector $\\bar{u} - \\bar{v}$ se le llama la diferencia $\\bar{u}$ menos $\\bar{v}$ $$\n$$ $5.-$Sea $V$ un espacio vectorial sobre $K$ y sea $S$ un subconjunto de $V$. $S$ es un subespacio de $V$ si es un espacio vectorial sobre $K$ respecto a la adición y la multiplicación por un escalar definidas en $V$. $$\n$$ $6.-$Sea $V$ un espacio vectorial sobre $K$ y sea $S$ un subconjunto de $V$. $$\n$$ $S$ es un subespacio de $V$ si y solo si $$\n$$ $i)\\space \\forall \\bar{u}, \\bar{v} \\in S:\\bar{u} + \\bar{v} \\in S$ $$\n$$ $ii)\\space \\forall \\alpha \\in K, \\bar{v} \\in S : \\alpha\\bar{v} \\in S$ $$\n$$ $7.-$Un vector $\\bar{w}$ es una combinación lineal de los vectores $\\bar{v_1},\\bar{v_2},...,\\bar{v_n}$ si puede ser expresado en la forma $$\\bar{w} = \\alpha_1\\bar{v_1} + \\alpha_2\\bar{v_2} + ... + \\alpha_n\\bar{v_n}$$ $$\n$$ Donde $\\alpha_1,\\alpha_2,...,\\alpha_n$ son escalares. $$\n$$ $9.-$Sea $S = \\{\\bar{v_1},\\bar{v_2},...,\\bar{v_n}\\}$ un conjunto de vectores: $$\n$$ $i) S$ es linealmente dependiente si existen escalares $\\alpha_1,\\alpha_2,...,\\alpha_n$, no todos iguales a cero, tales que $$\\alpha_1\\bar{v_1} + \\alpha_\\bar{v_2} + ... + \\alpha_n\\bar{v_n} = \\bar{0}$$ $$\n$$ $ii) S$ es linealmente independiente si la igualdad $\\alpha_1\\bar{v_1} + \\alpha_2\\bar{v_2} + ... + \\alpha_n\\bar{v_n} = \\bar{0}$ solo se satisface con $$\\alpha_1 = \\alpha_2 = ... = \\alpha_n = 0$$ $$\n$$ $10.-$Todo conjunto que contiene al vector $\\bar{0}$ es linealmente dependiente $$\n$$ $11.-$Si $S$ es un conjunto linealmente independiente entonces en cualquier subconjunto de $S$ es linealmente independiente. $$\n$$ $12.-$Sea $V$ un espacio vectorial sobre $K$, y sea $G = \\{\\bar{v_1},\\bar{v_2},...,\\bar{v_m}\\}$, un conjunto de vectores de $V$. Se dice que $G$ es un generador de $V$ si para todo vector $\\bar{x} \\in V$ existen escalares $\\alpha_1,\\alpha_2,...,\\alpha_m$ tales que $\\bar{x} = \\alpha_1\\bar{v_1} + \\alpha_2\\bar{v_2} + ... + \\alpha_m\\bar{v_m}$ $$\n$$ $13.-$Sea $V$ un espacio vectorial sobre $K$ y sea $G$ un subconjunto de $V$, $G$ es un generador de $V$ si y solo si $V = L(G)$ $$\n$$ $14.-$Se llama base de espacio vectorial $V$ a un conjunto generador de $V$ que es linealmente independiente. $$\n$$ $15.-$Sea $V$ un espacio vectorial sobre $K$. Si $B = \\{\\bar{v_1},\\bar{v_2},...,\\bar{v_n}\\}$ es una base de $V$, entonces cualquier conjunto de vectores de $V$ con más de $n$ elementos es linealmente dependiente. $$\n$$ $16.-$Sea $V$ un espacio vectorial sobre $K$. Si $B = \\{\\bar{v_1},\\bar{v_2},...,\\bar{v_n}\\}$ es una base de $V$, entonces cualquier otra base de dicho espacio está formada por $n$ vectores. $$\n$$ $17.-$Sea $V$ un espacio vectorial sobre $K$. Si $B = \\{\\bar{v_1},\\bar{v_2},...,\\bar{v_n}\\}$ es una base de $V$ se dice que $V$ es de dimensión n, lo cual se denota con $dim V = n$ $$\n$$ En particular, si $V = \\{\\bar{0}\\}, dim V = 0$ $$\n$$ $18.-$Si $V$ es un espacio vectorial de dimensión $n$, cualquier conjunto linealmente independiente formado por $n$ vectores de $V$ es una base de dicho espacio. $$\n$$ $19.-$Si $V$ es un espacio vectorial de dimensión $n$ y $W$ es un subespacio de $V$, entonces $$dim \\space W \\leq n$$ $$\n$$En particular, si $dim \\space W = n$ entonces $W = V$ $$\n$$ $20.-$Sea $B = \\{\\bar{v_1},\\bar{v_2},...,\\bar{v_n}\\}$ una base de un espacio vectorial $V$ sobre $K$, y sea $\\bar{x} \\in V$. Si $$\\bar{x} = \\alpha_1\\bar{v_1} + \\alpha_2\\bar{v_2} + ... + \\alpha_n\\bar{v_n}$$ $$\n$$ los escalares $\\alpha_1,\\alpha_2,...,\\alpha_n$ se llaman coordenadas de $\\bar{x}$ en la base de $B$; y el vector de $K^n$ $$(\\bar{x})_B = (\\alpha_1,\\alpha_2,...,\\alpha_n)^T$$ $$\n$$Se llama vector de coordenadas de $\\bar{x}$ en la base $B$ $$\n$$ $21.-$Sea $b = \\{\\bar{v_1},\\bar{v_2},...,\\bar{v_n}\\}$ una base de un espacio vectorial $V$ sobre $K$. Para cualquier $\\bar{x} \\in V$ el vector $(\\bar{x})_B$ es único. $$\n$$ $22.-$Sea $A = \\begin{bmatrix}a_{ij}\\end{bmatrix}$ una matriz de $mxn$ con elementos en un coampo $K$, y sea $\\bar{r_i} = (a_{i1},a_{i2},...,a_{in})$ el i-ésimo renglón de $A$. si $A_r = (\\bar{r_2},\\bar{r_2},...,\\bar{r_m})$, el conjunto $L(A_r)$ se llama espacio renglón de A. $$\n$$ $23.-$Dos matrices $A$ y $B$ son equivalentes(por renglones), lo cual se denota mediante $A \\square B$, si alguna de ellas puede obtenerse a partir de la otra mediante una sucesión finita de transformaciones elementales(por renglón). $$\n$$ $24.-$Dos matrices equivalentes tienen el mismo espacio renglón $$\n$$ $25.-$Sea $A = \\begin{bmatrix}a_{ij}\\end{bmatrix}$ una matriz de $m$x$n$ con elementos en un campo $K$, y sea $\\bar{c_i} = (a_{1i},a_{2i},...,a_{mi})^T$ la i-ésima columna de $A$. Si $A_c = \\{\\bar{c_1},\\bar{c_2},...,\\bar{c_n}\\}$, el conjunto de $L(A_c)$ se llama espacio columna de $A$. $$\n$$ $26.-$Para cualquier matriz $A$ se tiene que $dim \\space L(A_r) = dim \\space L(A_c)$ $$\n$$ $27.-$Se llama rango de una matriz $A$, y se denota con $R(A)$, al número $R(A) = dim \\space L(A_r) = dim \\space L(A_c)$ $$\n$$ $28.-$Si $A$ es una matriz de $n$x$n$, los siguientes enunciados son equivalentes $$\n$$ $i)\\space R(A) = n$ $$\n$$ $ii) A \\square I_n$ $$\n$$ $iii)\\space \\exists A^{-1}$ $$\n$$ $iv)\\space dim A \\neq 0$ $$\n$$ $v)$Los renglones de $A$ son linealmente independientes $$\n$$ $vi)$Las columnas de $A$ son linealmente independientes $$\n$$ $29.-$El sistema de ecuaciones lineales $A\\bar{x} = \\bar{b}$ es compatible si y solo si $R(A) = R(A,\\bar{b})$ $$\n$$ $30.-$Sea $A\\bar{x} = \\bar{b}$ un sistema compatible de $m$ ecuaciones lineales con $n$ incógnitas: si $R(A) = n$ el sistema es determinado y si $R(A) < n$ el sistema es indeterminado $$\n$$ $31.-$Sea $F$ el conjunto de todas las funciones reales de variable real, y sean $f, g \\in F$. Se dice que $f$ y $g$ son iguales, lo cual se denota mediante $f = g$, cuando $f(x) = g(x), \\forall \\space x \\in R$ $$\n$$ $32.-$Sea $F$ el conjunto de funciones reales de variable real, y sean $f, g \\in F; \\alpha \\in R:$ $$\n$$ $i)$La suma de $f$ y $g$ es una función $f + g$ definida por $$(f + g)(x) = f(x) + g(x), \\forall x \\in R$$ $$\n$$ $ii)$El producto de $\\alpha$ y $f$ es una funcion $\\alpha f$ definida por $$(\\alpha f) = \\alpha \\bullet f(x), \\forall x \\in R$$ $$\n$$ $33.-$Sea $\\{f_1,f_2,...,f_n\\}$ un conjunto de $n$ funciones reales de variable real. Si existen $n$ valores $x_1,x_2,...,x_n \\in R$ tales que el sistema $$\\begin{matrix}\\alpha_1f_1(x_1) + \\alpha_2f_2(x_1) + ... + \\alpha_nf_n(x_1) = 0 \\\\ \\alpha_1f_1(x_2) + \\alpha_2f_2(x_2) + ... + \\alpha_nf_n(x_2) = 0 \\\\. . . . . . . . . . . . . \\\\. . . . . . . . . . . . . \\\\ \\alpha_nf_n(x_n) + \\alpha_nf_n(x_n) + ... + \\alpha_nf_n(x_n) = 0 \\end{matrix}$$ $$\n$$Solo admite la solución trivial, entonces el conjunto de funciones es linealmente independiente $$\n$$ $34.-$Sea $f = \\{f_1,f_2,...,f_n\\}$ un conjunto de $n$ funciones reales de variable real, derivables al menos $n-1$ veces en el intervalo $(a,b)$ y sea $$W(x) =$$ $$\\begin{vmatrix}f_1(x) & f_2(x) & \\dotsm & f_n(x) \\\\f_1(x) & f_2(x) & \\dotsm & f_n(x) \\\\ \\vdots & \\vdots & \\vdots & \\vdots \\\\f_{1}^{(n - 1)}(x) & f_{2}^{(n - 1)}(x) & \\dotsm & f_{n}^{(n - 1)}(x)\\end{vmatrix}$$ $$\n$$Si $W(x_0) \\neq 0$ para algún $x_0 \\in (a,b)$, entonces el conjunto de funciones es linealmente independiente en dicho intervalo. $$\n$$ $\\textbf{Bibliografía}$ $$\n$$ $[1]$ Solar González E. y Speziale de Guzmán L. (1985). $\\textit{Apuntes de Álgebra Lineal}$http://132.248.52.100:8080/xmlui/handle/132.248.52.100/866",
+        "_exercise": [
+            {
+                "id": 20,
+                "exercise": "10",
+                "statement": "El espacio renglón de la matriz $$A = \\begin{bmatrix}1 & 0 & -2 \\\\-4 & 3 & -1 \\\\0 & 6 & -18\\end{bmatrix},$$ \n es el conjunto:",
+                "_topic": [
+                    { 
+                        "id": 2, 
+                        "title": "Espacios vectoriales"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 21,
+        "explanation": "",
+        "_exercise": [
+            {
+                "id": 21,
+                "exercise": "1",
+                "statement": "Sean los espacios vectoriales $W$ y $M$ sobre un campo $K$, $$T:M \\rightarrow W,$$ $$S:M \\rightarrow M,$$ $$P:M \\rightarrow W,$$ $$R:M \\rightarrow W$$ y $$F:M \\rightarrow M$$ son transformaciones lineales. Las matrices asociadas a dichos espacios son no singulares. La regla de correspondencia de $$T \\circ S + F^{-1} + R +P,$$ es:",
+                "_topic": [
+                    { 
+                        "id": 2, 
+                        "title": "Espacios vectoriales"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 22,
+        "explanation": "",
+        "_exercise": [
+            {
+                "id": 22,
+                "exercise": "2",
+                "statement": "Si $A$ y $D$ son dos matrices similares, se cumple siempre que:",
+                "_topic": [
+                    { 
+                        "id": 2, 
+                        "title": "Espacios vectoriales"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 23,
+        "explanation": "",
+        "_exercise": [
+            {
+                "id": 23,
+                "exercise": "3",
+                "statement": "Sea la transformación lineal $T: \\mathbb R^3 \\rightarrow \\mathbb R^3$ definida por: $$T(x,y,z) = (2x - 4y,x - 4y - z,3x + 3z)$$ La dimensión del recorrido y el núcleo son respectivamente:",
+                "_topic": [
+                    { 
+                        "id": 2, 
+                        "title": "Espacios vectoriales"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 24,
+        "explanation": "",
+        "_exercise": [
+            {
+                "id": 24,
+                "exercise": "4",
+                "statement": "Sean las transformaciones lineales $$T: \\mathbb R^3 \\rightarrow \\mathbb R^3$$ definida por: $$T(x,y,z) = (-2x - z, y - z, 4x + y + z)$$ $$S: \\mathbb R^3 \\rightarrow \\mathbb R^3$$ definida por: $$S(x,y,z) = (-x -z, -y - z, 2x - y + z)$$ El recorrido de $T \\circ S$, es:",
+                "_topic": [
+                    { 
+                        "id": 2, 
+                        "title": "Espacios vectoriales"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 25,
+        "explanation": "",
+        "_exercise": [
+            {
+                "id": 25,
+                "exercise": "5",
+                "statement": "Sean $T: \\mathbb R^3 \\rightarrow \\mathbb R^3$ una transformación lineal y sean $$T(1,0,2) = 2(1,0,2),$$ $$T(0,0,1) = 4(0,0,1),$$ $$T(0,-1,2) = -2(0,-1,2).$$ Una matriz diagonal, es:",
+                "_topic": [
+                    { 
+                        "id": 2, 
+                        "title": "Espacios vectoriales"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 26,
+        "explanation": "",
+        "_exercise": [
+            {
+                "id": 26,
+                "exercise": "6",
+                "statement": "Sea la matriz $D = \\begin{bmatrix}2 & 0 & 0 \\\\0 & -1 & 0 \\\\0 & 0 & 0\\end{bmatrix}$, matriz diagonal asociada a $T$, referida a la base de los vectores $\\bar{v_1} = (1,2,-1), \\bar{v_2} = (0,1,1)$ y $\\bar{v_3} = (-1,0,0)$. La regla de correspondencia de $T$ es:",
+                "_topic": [
+                    { 
+                        "id": 2, 
+                        "title": "Espacios vectoriales"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 27,
+        "explanation": "",
+        "_exercise": [
+            {
+                "id": 27,
+                "exercise": "7",
+                "statement": "Sea $F: \\mathbb R^3 \\rightarrow \\mathbb R^3$ una transformación lineal y sea $F:\\begin{bmatrix}0 & 1 & 1 \\\\0 & -2 & 0 \\\\0 & 0 & -1\\end{bmatrix}$ la matriz asociada a $F$. $$\n$$ Obtener una matriz $P$, tal que $P^{-1}AP = D$, donde $D$ es la matriz diagonal y $P$ la matriz diagonalizadora.",
+                "_topic": [
+                    { 
+                        "id": 2, 
+                        "title": "Espacios vectoriales"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 28,
+        "explanation": "",
+        "_exercise": [
+            {
+                "id": 28,
+                "exercise": "8",
+                "statement": "Sea $P$ el espacio de los polinomios de grado menor o igual a dos con coeficientes reales, $M_2$ es el espacio de las matrices simétricas de orden dos con elementos reales, $A = \\{x^2,x,1\\}$ y $B = \\{\\begin{pmatrix}1 & 0 \\\\0 & 0\\end{pmatrix},\\begin{pmatrix}0 & -1 \\\\-1 & 0\\end{pmatrix},\\begin{pmatrix}0 & 0 \\\\0 & -1\\end{pmatrix}\\}$ una base de $M_2$ y $S^{-1}: M_2 \\rightarrow P$ una transformación lineal, si la matriz asociada a $S^{-1}$ está referida a las bases $A$ y $B$ $$M^B_A(S^{-1}) = \\begin{pmatrix}1 & 0 & 0 \\\\0 & -1 & 0 \\\\0 & 0 & 1\\end{pmatrix}$$ La imagen de $S^{-1}\\begin{pmatrix}2 & -1 \\\\3 & 0\\end{pmatrix}$, es:",
+                "_topic": [
+                    { 
+                        "id": 2, 
+                        "title": "Espacios vectoriales"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 29,
+        "explanation": "",
+        "_exercise": [
+            {
+                "id": 29,
+                "exercise": "9",
+                "statement": "Sean $A = \\{\\bar{m},\\bar{n}\\}$ y $B = \\{\\bar{p},\\bar{q}\\}$ dos bases de la transformación lineal $T$. $$T(\\bar{m}) = 2\\bar{p} - 3\\bar{q}, T(\\bar{n}) = -\\bar{p} + 2\\bar{q},$$ $$\n$$ La matriz asociada $M^B_A(T)$, es:",
+                "_topic": [
+                    { 
+                        "id": 2, 
+                        "title": "Espacios vectoriales"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 30,
+        "explanation": "",
+        "_exercise": [
+            {
+                "id": 30,
+                "exercise": "10",
+                "statement": "Sea el espacio vectorial real $V = \\{\\begin{pmatrix}a & b \\\\b & c\\end{pmatrix} \\mid a,b \\in \\mathbb R\\}$ y el operador lineal $M:V \\rightarrow V$ definido por $$M\\begin{pmatrix}a & b \\\\b & c\\end{pmatrix} = \\begin{pmatrix}a - b & a + b \\\\a + b & 3c\\end{pmatrix}$$ El recorrido de $M$, es:",
+                "_topic": [
+                    { 
+                        "id": 2, 
+                        "title": "Espacios vectoriales"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 31,
+        "explanation": "",
+        "_exercise": [
+            {
+                "id": 31,
+                "exercise": "1",
+                "statement": "Sea $(\\bar{u} \\mid \\bar{v}) = -i$, al calcular $(\\bar{u}(2 + 5i) \\mid (2 + 5i) \\bar{v})$, se obtiene:",
+                "_topic": [
+                    { 
+                        "id": 2, 
+                        "title": "Espacios vectoriales"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 32,
+        "explanation": "",
+        "_exercise": [
+            {
+                "id": 32,
+                "exercise": "2",
+                "statement": "En espacio $\\mathbb R^3$ se define el producto interno $$(\\bar{u} \\mid \\bar{v}) = x_1x_2 + 2y_1y_2 + 3w_1w_2,$$ $$\\forall \\bar{u} = (x_1,y_1,w_1), \\bar{v} = (x_2,y_2,w_2) \\in \\mathbb R^3$$ $$\n$$Obtenga los valores de $a, b$ y $c$ para que la base $A = \\{(a,0,4),(2,b,-1),(c,a,1)\\}$ sea ortogonal.",
+                "_topic": [
+                    { 
+                        "id": 2, 
+                        "title": "Espacios vectoriales"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 33,
+        "explanation": "",
+        "_exercise": [
+            {
+                "id": 33,
+                "exercise": "3",
+                "statement": "En espacio $\\mathbb R^3$ se define el producto interno $$(\\bar{u} \\mid \\bar{v}) = x_1x_2 + 4x_2y_2 + 2x_3y_3,$$ $$\\forall \\bar{u} = (x_1,x_3,x_3), \\bar{v} = (y_1,y_2,y_3) \\in \\mathbb R^3$$ $$\n$$El valor de $a > 0$ para que la distancia entre los vectores $\\bar{u} = (1,0,0)$ y $\\bar{v} = (-2,1,a)$ sea $\\sqrt{15}$, es:",
+                "_topic": [
+                    { 
+                        "id": 2, 
+                        "title": "Espacios vectoriales"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 34,
+        "explanation": "",
+        "_exercise": [
+            {
+                "id": 34,
+                "exercise": "4",
+                "statement": "Sea el espacio vectorial de los polinomios de grado menor o igual a 2, con producto interno $$(p \\mid q) = \\sum_{i = -1}^{1} p(i)q(i);$$ $$\\forall p = ax^2 + bx + c, q = mx^2 + nx + p \\in P$$ $$\n$$ y sea el subespacio $$W = \\{ax^2 + 3bx + a \\mid a,b \\in \\mathbb R\\}$$ $$\n$$ La proyección del polinomio $\\bar{r} = x^2 + x$ sobre el complemento ortogonal, es:",
+                "_topic": [
+                    { 
+                        "id": 2, 
+                        "title": "Espacios vectoriales"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 35,
+        "explanation": "",
+        "_exercise": [
+            {
+                "id": 35,
+                "exercise": "5",
+                "statement": "Sea $V$ el espacio de matrices simétricas de orden dos con elementos reales y sea $$W = \\begin{Bmatrix}\\begin{pmatrix}a & b \\\\b & -a\\end{pmatrix} \\mid a,b \\in \\mathbb R\\end{Bmatrix}$$ $$\n$$ un subespacio de $V$ con producto interno definido por $$(A \\mid B) = tr(AB^{*}),$$ donde $B^{*}$ es la matriz conjugada-transpuesta de $B$. Las coordenadas del vector $$M = \\begin{pmatrix}1 & 0 \\\\0 & 2\\end{pmatrix}$$ en la base ortogonal natural o canónica de $W$, son:",
+                "_topic": [
+                    { 
+                        "id": 2, 
+                        "title": "Espacios vectoriales"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 36,
+        "explanation": "",
+        "_exercise": [
+            {
+                "id": 36,
+                "exercise": "6",
+                "statement": "Sea el espacio vectorial de funciones reales de variable real, continuas e integrables en $x \\in [0,\\pi]$ con producto interno $$(f \\mid g) = \\int_{0}^{\\frac{\\pi}{2}}3f(x)g(x)\\cos{x}dx.$$ La norma de $$f(x) = 2\\sin{x},$$ es:",
+                "_topic": [
+                    { 
+                        "id": 2, 
+                        "title": "Espacios vectoriales"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 37,
+        "explanation": "",
+        "_exercise": [
+            {
+                "id": 37,
+                "exercise": "7",
+                "statement": "Sea $P = \\{ax^2 + bx + c \\mid a,b,c \\in \\mathbb R\\}$ el espacio vectorial de los polinomios de grado menor o igual a $2$, con producto interno $$(p \\mid q) = \\int_{-1}^{0}p(x)q(x)dx \\forall p,q \\in P.$$ $$\n$$El ángulo entre polinomios $f_{1}(x) = 2x$ y $f_{2}(x) = 2$ es:",
+                "_topic": [
+                    { 
+                        "id": 2, 
+                        "title": "Espacios vectoriales"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 38,
+        "explanation": "",
+        "_exercise": [
+            {
+                "id": 38,
+                "exercise": "8",
+                "statement": "Para el espacio $\\mathbb C^3$ con el producto interno usual en $\\mathbb C$. Una base ortogonal de $\\mathbb C^3$ a partir de la base $\\{(i,0,0),(0,i,i),(2i,i,-i)\\}$ es:",
+                "_topic": [
+                    { 
+                        "id": 2, 
+                        "title": "Espacios vectoriales"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 39,
+        "explanation": "",
+        "_exercise": [
+            {
+                "id": 39,
+                "exercise": "9",
+                "statement": "La proyección del vector $\\bar{u} = (2,-1,3)$ sobre el subespacio $$S = \\{(x,y,z)\\mid x + y - z = 0,$$ $$-2x - 2y + 2z = 0, x,y,z \\in \\mathbb R\\}$$ $$\n$$utilizando el producto interno usual en $\\mathbb R^3$, es:",
+                "_topic": [
+                    { 
+                        "id": 2, 
+                        "title": "Espacios vectoriales"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 40,
+        "explanation": "",
+        "_exercise": [
+            {
+                "id": 40,
+                "exercise": "10",
+                "statement": "Determinar la función lineal de aproximación por mínimos cuadrados para los puntos: $$A(-1,1), B(1,2), C(2,4) y D(3,1)$$",
+                "_topic": [
+                    { 
+                        "id": 2, 
+                        "title": "Espacios vectoriales"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 41,
+        "explanation": "",
+        "_exercise": [
+            {
+                "id": 41,
+                "exercise": "1",
+                "statement": "Sea $T:P_2 \\rightarrow P_2$ el operador lineal cuya regla de correspondencia es: $$T(ax^2 + bx + c) = (a+b)x^2$$ $$+ (-a - b)x + b - c$$ $$\n$$ y sabiendo que $B = \\{x^2,x,1\\}$ es una base ortonormal de $P_2$ con producto interno: $$(a_0x^2 + b_0x + c_0\\mid a_1x^2 + b_1x + c_1) =$$ $$= a_0a_1 + b_0b_1 + c_0c_1$$ $$\n$$El operador adjunto de $T$, es:",
+                "_topic": [
+                    { 
+                        "id": 2, 
+                        "title": "Espacios vectoriales"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 42,
+        "explanation": "",
+        "_exercise": [
+            {
+                "id": 42,
+                "exercise": "2",
+                "statement": "Sea el operador lineal $T: \\mathbb C^2 \\rightarrow \\mathbb C^2$ sobre el campo $\\mathbb C$, definido por:$$T(z_1,z_2) = (z_1 - iz_2, iz_1)$$ $$\n$$y sabiendo que $$B = \\{(1,0),(0,1)\\}$$ es una base ortonormal de $\\mathbb C^2$ con el producto interno usual entre complejos $$(\\bar{v}\\mid\\bar{w}) = v_1\\bar{w_1} + v_2\\bar{w_2}$$ $$\n$$ El operador $T$ es:",
+                "_topic": [
+                    { 
+                        "id": 2, 
+                        "title": "Espacios vectoriales"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 43,
+        "explanation": "",
+        "_exercise": [
+            {
+                "id": 43,
+                "exercise": "3",
+                "statement": "Sea $V$ el espacio vectorial de los polinomios de grado menor o igual a 2 con producto interno $$(f \\mid g) = \\int_{0}^{2}f(x)g(x)dx, \\forall f,g \\in V.$$ El operador $T:V \\rightarrow V$ definido como $$T(f(x)) = 2f(x), \\forall f(x) \\in V,$$ $$\n$$ es:",
+                "_topic": [
+                    { 
+                        "id": 2, 
+                        "title": "Espacios vectoriales"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 44,
+        "explanation": "",
+        "_exercise": [
+            {
+                "id": 44,
+                "exercise": "4",
+                "statement": "Sea el operador lineal $T: \\mathbb C^2 \\rightarrow \\mathbb C^2$ sobre el campo $\\mathbb C$, definido por: $$T(z_1,z_2) = (iz_1 + (1 + i)z_2,$$ $$(-1 + i)z_1 - iz_2)$$ y sabiendo que $$B = \\{(1,0),(0,1)\\}$$ $$\n$$es una base ortonormal de $\\mathbb C^2$ con el producto interno usual $(\\bar{v}\\mid\\bar{w})$ entre complejos: $$\n$$El operador $T$ es:",
+                "_topic": [
+                    { 
+                        "id": 2, 
+                        "title": "Espacios vectoriales"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 45,
+        "explanation": "",
+        "_exercise": [
+            {
+                "id": 45,
+                "exercise": "5",
+                "statement": "Sea el operador ortogonal $T: \\mathbb R^3 \\rightarrow \\mathbb R^3$ definido por $$T(x,y,z) = (\\frac{1}{2}x - \\frac{\\sqrt{3}}{2}y, \\frac{\\sqrt{3}}{2}x + \\frac{1}{2}y, z)$$ $$\n$$sobre el campo $\\mathbb R$ y sabiendo que $A = \\{i,j,k\\}$ es una badse ortogonal con el producto interno usual en $\\mathbb R$. $$\n$$El operador $T$ es:",
+                "_topic": [
+                    { 
+                        "id": 2, 
+                        "title": "Espacios vectoriales"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 46,
+        "explanation": "",
+        "_exercise": [
+            {
+                "id": 46,
+                "exercise": "6",
+                "statement": "El módulo de un valor característico del operador unitario $T(x,y) = (iy, -ix)$ sabiendo que $B = \\{(1,0),(0,1)\\}$ es una base ortonormal de $\\mathbb C^2$ con producto interno usual en $\\mathbb C^2$ es:",
+                "_topic": [
+                    { 
+                        "id": 2, 
+                        "title": "Espacios vectoriales"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 47,
+        "explanation": "",
+        "_exercise": [
+            {
+                "id": 47,
+                "exercise": "7",
+                "statement": "Sea $S: \\mathbb R^2 \\rightarrow \\mathbb R^2$ un operador lineal definido por $$S(x,y) = (14x + 4y,4x + 8y)$$ $$\n$$con producto interno usual en $\\mathbb R^2$. La descomposición espectral del operador $S$, es:",
+                "_topic": [
+                    { 
+                        "id": 2, 
+                        "title": "Espacios vectoriales"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 48,
+        "explanation": "",
+        "_exercise": [
+            {
+                "id": 48,
+                "exercise": "8",
+                "statement": "Al descomponer espectralmente la matriz $$A = \\begin{pmatrix}-1 & 0 & 0 \\\\0 & 6 & -2 \\\\0 & -2 & 9\\end{pmatrix},$$ $$\n$$se obtiene: $$\n$$Nota: utilice el producto interno usual en $\\mathbb R^3$",
+                "_topic": [
+                    { 
+                        "id": 2, 
+                        "title": "Espacios vectoriales"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 49,
+        "explanation": "",
+        "_exercise": [
+            {
+                "id": 49,
+                "exercise": "9",
+                "statement": "La curva $16x^2 + 4xy + 6y^2 = 1$ se identifica como:",
+                "_topic": [
+                    { 
+                        "id": 2, 
+                        "title": "Espacios vectoriales"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 50,
+        "explanation": "",
+        "_exercise": [
+            {
+                "id": 50,
+                "exercise": "10",
+                "statement": "Sea la curva $C$ de ecuación $$4x^2 + 4y^2 + 4xy - 4x + 4y - 4 =0.$$ $$\n$$Al identificar la curva $C$ se tiene que es una:",
+                "_topic": [
+                    { 
+                        "id": 2, 
+                        "title": "Espacios vectoriales"
+                    }
+                ]
+            }
+        ]
+    }
+]

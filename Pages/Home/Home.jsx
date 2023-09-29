@@ -35,7 +35,7 @@ const Home = ({ onPressInfo }) => {
 
     //Función que se encarga de pasar los datos de string a un objeto de JSON y así poder cargarlos de inicio
     const loadTopicList = async () => {
-        console.log("LOAD");
+        //console.log("LOAD");
         try {
             const topicListString = await AsyncStorage.getItem("@topicList");
             const parsedTopicList = JSON.parse(topicListString);

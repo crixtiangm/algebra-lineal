@@ -83,7 +83,7 @@ const Question = ({onPressHelp}) => {
 
     // Función que se encarga de cargar la lista de respuestas opcionales
     const loadAnswerList = () => {
-        console.log("LOAD ANSWERS")
+        //console.log("LOAD ANSWERS")
         try {
             const listFilterAnswers = listFilteredAnswers(params.id);
             const orderedOptions = orderRandomOptions(listFilterAnswers);
@@ -216,8 +216,7 @@ const Question = ({onPressHelp}) => {
                     selectedTabName={selectedTabName} 
                     onPress={setSelectedTabName} 
                     exerciseNum={params.exercise}
-                    title={params._topic[0].title}
-                    theory={params.theory}
+                    exerciseId ={params.id}
                 />
             </View>
             {renderCorrectAnswerDialog()}

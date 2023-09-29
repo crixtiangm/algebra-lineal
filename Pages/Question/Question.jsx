@@ -97,29 +97,15 @@ const Question = ({onPressHelp}) => {
             alert(error);
         };
     };
-    /*
-    Esta función la ocupamos para IOS
-    // Función que renderiza las lista de respuestas dependiendo del ejercicio seleccionado
-    const renderAnswerList = () => {
-        return answerList.map((answer, index) =>
-            <View key={index} style={s.cardItem} >
-                <CardAnswer 
-                    answer = {answer}
-                    onPress = {updateAnswer}
-                />
-            </View>
-        )
-    }
-    */
 
     // Función que renderiza las lista de respuestas dependiendo del ejercicio seleccionado, funciona para android
     const renderAnswerList = () => {
         return answerList.map((answer, index) =>
-            <MathJax 
+            {<MathJax 
                 key={index}
                 mathJaxOptions={mmlOptions}
                 html={`<font size=4>${answer.option} ${answer.statement}</font>`}
-            />
+            />}
         )
     }
 

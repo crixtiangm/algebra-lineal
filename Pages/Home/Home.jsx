@@ -52,7 +52,7 @@ const Home = ({ onPressInfo }) => {
 
     //Función que guarda los cambios que el usuario va realizando en la aplicación ej: cuando se actualiza el boolean isComplete 
     const saveTopicList = async () => {
-        console.log("SAVE")
+        //console.log("SAVE")
         try {
             await AsyncStorage.setItem("@topicList", JSON.stringify(topicList));
         } catch (error) {

@@ -381,7 +381,7 @@
     },
     {
         "id": 57,
-        "choice": "$(-1,-3-i)$",
+        "choice": "$(-1, 2i)$",
         "correctAnswer": true,
         "_exercise": [
             {

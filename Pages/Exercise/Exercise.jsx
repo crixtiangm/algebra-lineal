@@ -73,7 +73,7 @@ const Exercise = ({onPressHelp}) => {
 
     //Función que guarda los cambios que el usuario va realizando en la aplicación ej: cuando se actualiza el boolean resolved
     const saveExerciseList = async () => {
-        console.log("SAVE");
+        //console.log("SAVE");
         try {
             await AsyncStorage.setItem("@exerciseList", JSON.stringify(exerciseList));
         } catch (error) {

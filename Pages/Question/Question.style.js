@@ -4,7 +4,7 @@ export const s = StyleSheet.create({
     root: {
         flex: 1,
         backgroundColor: "#F9F9F9",
-        padding: 15,
+        paddingHorizontal: 10,
     },
     nav_header: {
         flex: 1,
@@ -15,7 +15,7 @@ export const s = StyleSheet.create({
     },
     body: {
         flex: 5,
-        padding: 15
+        padding: 10,
     },
     footer: {
         height: 80,
@@ -24,7 +24,7 @@ export const s = StyleSheet.create({
     check_option: {
         flexDirection: "row",
         justifyContent: "space-around",
-        paddingTop: 50,
+        paddingVertical: 40,
     }
 });
 

@@ -4,10 +4,12 @@ export const s = StyleSheet.create({
     root: {
         flex: 1,
         backgroundColor: "#F9F9F9",
-        padding: 15,
+        paddingHorizontal: 10,
     },
     cardItem:{
         marginBottom: 15,
+        alignItems: "center",
+        paddingTop: 5,
     },
     nav_header: {
         flex: 1,

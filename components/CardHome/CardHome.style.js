@@ -3,6 +3,7 @@ import { StyleSheet } from "react-native";
 export const s = StyleSheet.create({
     card: {
         backgroundColor: "white",
+        width: "97%",
         height: 115,
         shadowColor: "#000",
         shadowOffset: {
@@ -16,7 +17,7 @@ export const s = StyleSheet.create({
         flexDirection: "row",
         alignItems: "center",
         justifyContent: "space-around",
-        paddingHorizontal: 20,
+        paddingHorizontal: 20
     },
     topic: {
         fontSize: 25,

@@ -3,6 +3,7 @@ import { StyleSheet } from "react-native";
 export const s = StyleSheet.create({
     card: {
         backgroundColor: "white",
+        width: "97%",
         height: 115,
         shadowColor: "#000",
         shadowOffset: {

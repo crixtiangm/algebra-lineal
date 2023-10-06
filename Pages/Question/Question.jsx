@@ -4,7 +4,7 @@ import { ScrollView, View} from "react-native";
 import { Ask, CheckBoxAnswer, NavHeaderQuestion, TabBottomMenuAnswer } from "../../components";
 import optionData from "../../data/options.json";
 import { useNavigation, useRoute } from "@react-navigation/native";
-import { useEffect, useState } from "react";
+import { useEffect, useState, React } from "react";
 import Dialog from "react-native-dialog";
 
 // Arreglo donde se agregaran las respuestas de forma aleatoría del ejercicio seleccionado
@@ -186,7 +186,7 @@ const Question = ({onPressHelp}) => {
                         />
                     </View>
                     <View style={s.body} >
-                        <ScrollView>
+                        <ScrollView >
                             <Ask exerciseNum={params.exercise} statement={params.statement} />
                             {renderAnswerList()}
                             <View style={s.check_option}>
@@ -194,7 +194,6 @@ const Question = ({onPressHelp}) => {
                             </View>
                         </ScrollView>
                     </View>
-                    
                 </SafeAreaView>
             </SafeAreaProvider>
             <View style={s.footer} >

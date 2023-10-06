@@ -46,14 +46,14 @@ const Exercise = ({onPressHelp}) => {
     };
 
     //Eliminar datos que se tienen almacenados
-    const removeData = async () => {
+    /* const removeData = async () => {
         console.log("REMOVE");
         try {
             await AsyncStorage.removeItem("@exerciseList");
         } catch (error) {
             alert(error);
         };
-    }
+    } */
 
     //Función que se encarga de pasar los datos de string a un objeto de JSON y así poder cargarlos de inicio
     const loadExerciseList = async () => {
@@ -65,7 +65,7 @@ const Exercise = ({onPressHelp}) => {
             isLoadUpdate = true;
             parsedExerciseList === null || parsedExerciseList.length === 0 ? setExerciseList(exerciseData): setExerciseList(parsedExerciseList);
             setFilterExerciseList(listFiltered);
-            removeData();   
+            //removeData();   
         } catch (error) {
             alert(error);
         };

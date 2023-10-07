@@ -8,11 +8,11 @@ export const s = StyleSheet.create({
     },
     nav_header: {
         flex: 1,
-        marginBottom: 25
+        paddingBottom: 25
     },
     body: {
         flex: 5,
-        padding: 10,
+        paddingHorizontal: 5
     },
     footer: {
         height: 80,

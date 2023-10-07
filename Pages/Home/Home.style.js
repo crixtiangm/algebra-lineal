@@ -3,8 +3,7 @@ import { StyleSheet } from "react-native";
 export const s = StyleSheet.create({
     home:{
         flex: 1,
-        backgroundColor: "#F9F9F9",
-        paddingHorizontal: 10,
+        backgroundColor: "#F9F9F9"
     },
     cardItem: {
         marginBottom: 15,
@@ -15,7 +14,7 @@ export const s = StyleSheet.create({
         flex: 1,
     },
     body: {
-        flex: 5,
+        flex: 5
     },
     footer: {
         height: 80,

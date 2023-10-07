@@ -5,6 +5,7 @@ export const s = StyleSheet.create({
         flexDirection: "row",
         alignItems: "center",
         justifyContent: "space-between",
+        paddingHorizontal: 15
     },
     img: {
         width: 170,

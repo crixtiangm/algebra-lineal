@@ -104,7 +104,7 @@ const Question = ({onPressHelp}) => {
             <MathJax 
                 key={index}
                 mathJaxOptions={mmlOptions}
-                html={`<font size=4>${answer.option} ${answer.statement}</font>`}
+                html={`<font size=2>${answer.option} ${answer.statement}</font>`}
             />
         )
     }

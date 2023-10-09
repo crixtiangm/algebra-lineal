@@ -12,6 +12,7 @@ export const s = StyleSheet.create({
     },
     header: {
         flex: 1,
+        paddingHorizontal: 10,
     },
     body: {
         flex: 5

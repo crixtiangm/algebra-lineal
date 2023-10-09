@@ -8,9 +8,11 @@ export const s = StyleSheet.create({
     },
     nav_HeaderCopyRight: {
         flex: 1,
-        marginBottom: 25
+        marginBottom: 25,
+        paddingHorizontal: 10
     },
     body: {
         flex: 5,
+        paddingHorizontal: 15
     },
 });

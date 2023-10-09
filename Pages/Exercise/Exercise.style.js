@@ -13,7 +13,7 @@ export const s = StyleSheet.create({
     nav_header: {
         flex: 1,
         paddingBottom: 25,
-        paddingHorizontal: 10,
+        paddingHorizontal: 10
     },
     body: {
         flex: 5

@@ -15,7 +15,7 @@ export const s = StyleSheet.create({
     },
     body: {
         flex: 5,
-        paddingHorizontal: 10
+        paddingHorizontal: 15
     },
     footer: {
         height: 80,

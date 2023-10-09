@@ -16,6 +16,7 @@ export const s = StyleSheet.create({
         fontSize:25,
         color: "#ABABAB",
         textAlign: "center",
+        paddingHorizontal: 15
     },
     back_img: {
         width: 40,

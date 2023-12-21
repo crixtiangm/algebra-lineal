@@ -13,7 +13,7 @@ export const s = StyleSheet.create({
     },
     subtitle: {
         marginTop: -20,
-        fontSize:25,
+        fontSize: 25,
         color: "#ABABAB",
         textAlign: "center",
         paddingHorizontal: 15

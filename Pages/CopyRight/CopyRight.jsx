@@ -15,12 +15,15 @@ const CopyRight = ({onPressInfo}) => {
                         />
                     </View>
                     <View style={s.body}>
+                        <Txt>Coordinación de Matemáticas</Txt>
+                        <Txt>Rocío Ávila Núñes</Txt>
                         <Txt>Ejercicios</Txt>
                         <Txt>Rosalba Rodríguez Chávez</Txt>
-                        <Txt>Coordinación</Txt>
-                        <Txt>María del Rocío Avila Núñez</Txt>
                         <Txt>Revisión</Txt>
                         <Txt>Aldo Jiménez Arteaga</Txt>
+                        <Txt>Teoría tema 4 y 5</Txt>
+                        <Txt>Autora M.F. Alicia Pineda Ramírez</Txt>
+                        <Txt>Revisora: M.F. Alicia Pineda Ramírez</Txt>
                         <Txt>Diseño y programación de App</Txt>
                         <Txt>Cristian Rodolfo Gómez Mares</Txt>
                         <Txt>Captura de ejercicios y solución</Txt>

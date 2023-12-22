@@ -21,7 +21,6 @@
       "bundleIdentifier": "com.cgomezm.algebralineal"
     },
     "android": {
-      "heapSize": 512,
       "adaptiveIcon": {
         "foregroundImage": "./assets/icon-algebra-lineal.png",
         "backgroundColor": "#ffffff"

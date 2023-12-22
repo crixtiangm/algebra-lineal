@@ -26,7 +26,7 @@ const CopyRight = ({onPressInfo}) => {
                         <Txt>Revisora: M.F. Alicia Pineda Ramírez</Txt>
                         <Txt>Diseño y programación de App</Txt>
                         <Txt>Cristian Rodolfo Gómez Mares</Txt>
-                        <Txt>Captura de ejercicios y solución</Txt>
+                        <Txt>Captura de ejercicios, solución y teoría</Txt>
                         <Txt>Cristian Rodolfo Gómez Mares</Txt>
                     </View>
                 </SafeAreaView>

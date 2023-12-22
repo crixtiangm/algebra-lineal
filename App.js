@@ -42,8 +42,8 @@ export default function App() {
   const renderInfoDialog = () => {
     return(
       <Dialog.Container visible={isInfoDialogDisplay} onBackdropPress={() => setIsInfoDialogDisplay(false)} >
-        <Dialog.Title >Información de App</Dialog.Title>
-        <Dialog.Description>Versión 1.0</Dialog.Description>
+        <Dialog.Title >Última actualización</Dialog.Title>
+        <Dialog.Description>Diciembre 2023</Dialog.Description>
         <Dialog.Button label="Aceptar" onPress={() => setIsInfoDialogDisplay(false)} />
       </Dialog.Container>
     );

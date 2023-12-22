@@ -4,7 +4,7 @@ export const s =  StyleSheet.create({
     card: {
         flexDirection: "row",
         alignItems: "center",
-        backgroundColor: "white",
+        backgroundColor: "#6495ED",
         height: "auto",
         shadowColor: "#000",
         shadowOffset: {
@@ -18,11 +18,13 @@ export const s =  StyleSheet.create({
         padding: 10,
     },
     checkbox: {
+        backgroundColor: "white",
         width: 25,
         height: 25,
         margin: 8,
     },
     txtAnswer: {
+        color: "white",
         fontSize: 20,
     }
 });

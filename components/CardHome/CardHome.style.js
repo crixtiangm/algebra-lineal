@@ -2,7 +2,7 @@ import { StyleSheet } from "react-native";
 
 export const s = StyleSheet.create({
     card: {
-        backgroundColor: "white",
+        backgroundColor: "#87CEFA",
         width: "90%",
         height: 115,
         shadowColor: "#000",
@@ -20,6 +20,7 @@ export const s = StyleSheet.create({
         paddingHorizontal: 20
     },
     topic: {
+        color: "white",
         fontSize: 25,
         textAlign: "center" 
     },

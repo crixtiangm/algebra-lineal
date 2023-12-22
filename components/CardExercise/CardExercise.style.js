@@ -2,7 +2,7 @@ import { StyleSheet } from "react-native";
 
 export const s = StyleSheet.create({
     card: {
-        backgroundColor: "white",
+        backgroundColor: "#6495ED",
         width: "90%",
         height: 115,
         shadowColor: "#000",
@@ -20,6 +20,7 @@ export const s = StyleSheet.create({
         paddingHorizontal: 20,
     },
     exercise: {
+        color: "white",
         fontSize: 25,
         textAlign: "center",
     },

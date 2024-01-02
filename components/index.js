@@ -6,7 +6,6 @@ export { default as CardExercise } from "./CardExercise/CardExercise";
 export { default as TabBottomMenuExercise } from "./TabBottomMenuExercise/TabBottomMenuExercise";
 export { default as NavHeaderQuestion } from "./NavHeaderQuestion/NavHeaderQuestion";
 export { default as Ask } from "./Ask/Ask";
-export { default as CardAnswer } from "./CardAnswer/CardAnswer";
 export { default as TabBottomMenuAnswer } from "./TabBottomMenuAnswer/TabBottomMenuAnswer";
 export { default as NavHeaderSolution } from "./NavHeaderSolution/NavHeaderSolution";
 export { default as ExerciseSolution } from "./ExerciseSolution/ExerciseSolution";

@@ -10,6 +10,7 @@ export default function App() {
   
   const [isHelpDialogDisplay, setIsHelpDialogDisplay] = useState(false);
   const [isHelpDialogQuestionDisplay, setIsHelpDialogQuestionDisplay] = useState(false);
+  const [isHelpDialogTeoryDisplay, setIsHelpDialogTeoryDisplay] = useState(false);
   const [isInfoDialogDisplay, setIsInfoDialogDisplay] = useState(false);
 
   const [isFontLoaded] = useFonts({
@@ -34,6 +35,17 @@ export default function App() {
         <Dialog.Title >Instrucciones</Dialog.Title>
         <Dialog.Description>Resuelve el ejercicio y elige la respuesta correcta entre los incisios mostrados</Dialog.Description>
         <Dialog.Button label="Aceptar" onPress={() => setIsHelpDialogQuestionDisplay(false)}/>
+      </Dialog.Container>
+    );
+  };
+
+  //Diálogo de ayuda en la sección de teoría
+  const renderHelpDialogTeory = () => {
+    return(
+      <Dialog.Container visible={isHelpDialogTeoryDisplay} onBackdropPress={() => setIsHelpDialogTeoryDisplay(false)} >
+        <Dialog.Title >Instrucciones</Dialog.Title>
+        <Dialog.Description>En esta sección encontraras la teoría asociada al tema seleccionado</Dialog.Description>
+        <Dialog.Button label="Aceptar" onPress={() => setIsHelpDialogTeoryDisplay(false)} />
       </Dialog.Container>
     );
   };
@@ -66,7 +78,9 @@ export default function App() {
             {() => <Question onPressHelp={() => setIsHelpDialogQuestionDisplay(true)} />}
           </Stack.Screen>
           <Stack.Screen name="Solution" component={Solution} />
-          <Stack.Screen name="Theory" component={Theory} />
+          <Stack.Screen name="Theory">
+            {() => <Theory onPressHelp={() => setIsHelpDialogTeoryDisplay(true)} />}
+          </Stack.Screen>
           <Stack.Screen name="CopyRight">
             {() => <CopyRight onPressInfo={() => setIsInfoDialogDisplay(true)} />}
           </Stack.Screen>
@@ -74,6 +88,7 @@ export default function App() {
       </NavigationContainer>
       {renderHelpDialog()}
       {renderHelpDialogQuestion()}
+      {renderHelpDialogTeory()}
       {renderInfoDialog()}
     </>
   );

@@ -24,7 +24,7 @@ const CopyRight = ({onPressInfo}) => {
                         <Txt>Teoría tema 4 y 5</Txt>
                         <Txt>Autora M.F. Alicia Pineda Ramírez</Txt>
                         <Txt>Revisora: M.F. Alicia Pineda Ramírez</Txt>
-                        <Txt>Diseño y programación de App</Txt>
+                        <Txt>Diseño y codificación de aplicación</Txt>
                         <Txt>Cristian Rodolfo Gómez Mares</Txt>
                         <Txt>Captura de ejercicios, solución y teoría</Txt>
                         <Txt>Cristian Rodolfo Gómez Mares</Txt>

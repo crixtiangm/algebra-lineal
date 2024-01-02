@@ -6,7 +6,7 @@ import { NavHeaderTheory, TabBottomMenuTheory, TopicTheory } from "../../compone
 import { useEffect, useState } from "react";
 import theoryData from "../../data/theory.json";
 
-const Theory = () => {
+const Theory = ({onPressHelp}) => {
     const { params } = useRoute();
 
     // Hook para inicializar el tab en Theory
@@ -46,11 +46,14 @@ const Theory = () => {
             <SafeAreaProvider>
                 <SafeAreaView style={s.root} >
                     <View style={s.nav_header} >
-                        <NavHeaderTheory title={topicTitle} />
+                        <NavHeaderTheory 
+                            title={topicTitle}
+                            onPress={onPressHelp}
+                        />
                     </View>
                     <View style={s.body}>
                         <ScrollView>
-                            <TopicTheory theory={theorySelected}/>
+                            <TopicTheory theory={theorySelected} />
                         </ScrollView>
                     </View>
                 </SafeAreaView>

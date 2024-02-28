@@ -547,7 +547,7 @@
     {
         "id": 45,
         "exercise": "5",
-        "statement": "Sea el operador ortogonal $T: \\mathbb R^3 \\rightarrow \\mathbb R^3$ definido por $$T(x,y,z) = (\\frac{1}{2}x - \\frac{\\sqrt{3}}{2}y, \\frac{\\sqrt{3}}{2}x + \\frac{1}{2}y, z)$$ $$\n$$sobre el campo $\\mathbb R$ y sabiendo que $A = \\{i,j,k\\}$ es una badse ortogonal con el producto interno usual en $\\mathbb R$. $$\n$$El operador $T$ es:",
+        "statement": "Sea el operador $T: \\mathbb R^3 \\rightarrow \\mathbb R^3$ definido por $$T(x,y,z) = (\\frac{1}{2}x - \\frac{\\sqrt{3}}{2}y, \\frac{\\sqrt{3}}{2}x + \\frac{1}{2}y, z)$$ $$\n$$sobre el campo $\\mathbb R$ y sabiendo que $A = \\{i,j,k\\}$ es una base ortogonal con el producto interno usual en $\\mathbb R$. $$\n$$El operador $T$ es:",
         "answer": "Ortogonal",
         "resolved": false,
         "_topic": [

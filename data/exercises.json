@@ -212,7 +212,7 @@
     {
         "id": 21,
         "exercise": "1",
-        "statement": "Sean los espacios vectoriales $W$ y $M$ sobre un campo $K$, $$T:M \\rightarrow W,$$ $$S:M \\rightarrow M,$$ $$P:M \\rightarrow W,$$ $$R:M \\rightarrow W$$ y $$F:M \\rightarrow M$$ son transformaciones lineales. Las matrices asociadas a dichos espacios son no singulares. La regla de correspondencia de $$T \\circ S + F^{-1} + R +P,$$ es:",
+        "statement": "Sean los espacios vectoriales $W$ y $M$ sobre un campo $K$, $$T:M \\rightarrow W,$$ $$S:M \\rightarrow M,$$ $$P:M \\rightarrow W,$$ $$R:M \\rightarrow W$$ y $$F:W \\rightarrow M$$ son transformaciones lineales. Las matrices asociadas a dichos espacios son no singulares y del orden. La regla de correspondencia de $$T \\circ S + F^{-1} + R +P,$$ es:",
         "answer": "$M \\rightarrow W$",
         "resolved": false,
         "_topic": [
@@ -379,7 +379,7 @@
     {
         "id": 33,
         "exercise": "3",
-        "statement": "En espacio $\\mathbb R^3$ se define el producto interno $$(\\bar{u} \\mid \\bar{v}) = x_1x_2 + 4x_2y_2 + 2x_3y_3,$$ $$\\forall \\bar{u} = (x_1,x_3,x_3), \\bar{v} = (y_1,y_2,y_3) \\in \\mathbb R^3$$ $$\n$$El valor de $a > 0$ para que la distancia entre los vectores $\\bar{u} = (1,0,0)$ y $\\bar{v} = (-2,1,a)$ sea $\\sqrt{15}$, es:",
+        "statement": "En espacio $\\mathbb R^3$ se define el producto interno $$(\\bar{u} \\mid \\bar{v}) = x_1y_1 + 4x_2y_2 + 2x_3y_3,$$ $$\\forall \\bar{u} = (x_1,x_2,x_3), \\bar{v} = (y_1,y_2,y_3) \\in \\mathbb R^3$$ $$\n$$El valor de $a > 0$ para que la distancia entre los vectores $\\bar{u} = (1,0,0)$ y $\\bar{v} = (-2,1,a)$ sea $\\sqrt{15}$, es:",
         "answer": "$1$",
         "resolved": false,
         "_topic": [
@@ -393,7 +393,7 @@
     {
         "id": 34,
         "exercise": "4",
-        "statement": "Sea el espacio vectorial de los polinomios de grado menor o igual a 2, con producto interno $$(p \\mid q) = \\sum_{i = -1}^{1} p(i)q(i);$$ $$\\forall p = ax^2 + bx + c, q = mx^2 + nx + p \\in P$$ $$\n$$ y sea el subespacio $$W = \\{ax^2 + 3bx + a \\mid a,b \\in \\mathbb R\\}$$ $$\n$$ La proyección del polinomio $\\bar{r} = x^2 + x$ sobre el complemento ortogonal, es:",
+        "statement": "Sea el espacio vectorial de los polinomios de grado menor o igual a 2, con producto interno $$(p \\mid q) = \\sum_{i = -1}^{1} p(i)q(i);$$ $$\\forall p = ax^2 + bx + c, q = mx^2 + nx + p \\in P$$ $$\n$$ y sea el subespacio de W $$W = \\{ax^2 + 3bx + a \\mid a,b \\in \\mathbb R\\}$$ $$\n$$ La proyección del polinomio $\\bar{r} = x^2 + x$ sobre el complemento ortogonal es:",
         "answer": "$\\frac{1}{9}(10x^2 - 3)$",
         "resolved": false,
         "_topic": [
@@ -449,7 +449,7 @@
     {
         "id": 38,
         "exercise": "8",
-        "statement": "Para el espacio $\\mathbb C^3$ con el producto interno usual en $\\mathbb C$. Una base ortogonal de $\\mathbb C^3$ a partir de la base $\\{(i,0,0),(0,i,i),(2i,i,-i)\\}$ es:",
+        "statement": "Para el espacio $\\mathbb C^3$ con el producto interno usual en $\\mathbb C$. Una base ortonormal de $\\mathbb C^3$ a partir de la base $\\{(i,0,0),(0,i,i),(2i,i,-i)\\}$ es:",
         "answer": "$\\{(i,0,0),\\frac{1}{\\sqrt{2}}(0,i,i),\\frac{1}{\\sqrt{2}}(0,i,-i)\\}$",
         "resolved": false,
         "_topic": [

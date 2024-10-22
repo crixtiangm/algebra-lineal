@@ -358,7 +358,7 @@
     },
     {
         "id": 22,
-        "explanation": "",
+        "explanation": "Las matrices asociadas a una transformación lineal en dos bases cualesquiera, pertenecen a un cierto tipo de matrices cuadradas llamadas similares. $$$$ La forma en que se relacionan las matrices asociadas a una transformación lineal esta dada por el siguiente teorema:$$$$ Sea $T: V \\rightarrow V$ una transformación lineal sobre un espacio vectorial $V$ de dimensión finita. Si $M$ es la matriz asociada a $T$ referida a la base $A$ y $N$ es la matriz asociada a $T$ respecto a la base $B$, entonces $N = P^{-1}MP$, donde $P$ es la matriz de transición de $B$ a $A$. $$M = M_A^{A}(T)$$ $$N = M_B^{B}(T)$$ $$P = M_A^{B}$$ $N =  P^{-1}MP$ ecuación de similaridad.$$$$ $Propiedades:$ $$$$- Si $A$ y $B$ son matrices similares entonces Det$A = $Det $B$ $$$$- Dos matrices similares tienen el mismo polinomio característico y por lo tanto, los mismos valores característicos.",
         "_exercise": [
             {
                 "id": 22,

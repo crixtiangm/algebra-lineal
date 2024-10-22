@@ -55,7 +55,7 @@ export default function App() {
     return(
       <Dialog.Container visible={isInfoDialogDisplay} onBackdropPress={() => setIsInfoDialogDisplay(false)} >
         <Dialog.Title >Última actualización</Dialog.Title>
-        <Dialog.Description>Febrero 2024</Dialog.Description>
+        <Dialog.Description>Octubre 2024</Dialog.Description>
         <Dialog.Button label="Aceptar" onPress={() => setIsInfoDialogDisplay(false)} />
       </Dialog.Container>
     );

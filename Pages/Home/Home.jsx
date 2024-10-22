@@ -81,7 +81,7 @@ const Home = ({ onPressInfo }) => {
         );
     };
 
-    //Función que actualiza la bandera isCompleted despues de presioonar la card por mas de tres segundos
+    //Función que actualiza la bandera isCompleted despues de presionar la card por mas de tres segundos
     const updateTopic = (topic) => {
         const updatedTopic = { 
             ...topic, 

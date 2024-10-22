@@ -20,13 +20,15 @@ const CopyRight = ({onPressInfo}) => {
                         <Txt>Diseño y Programación</Txt>
                         <Txt>Cristian Rodolfo Gómez Mares</Txt>
                         <Txt/>
+                        <Txt>Directora del trabajo</Txt>
+                        <Txt>Rosalba Rodríguez Chávez</Txt>
+                        <Txt/>
                         <Txt>Ejercicios y resolución</Txt>
                         <Txt>Rosalba Rodríguez Chávez</Txt>
                         <Txt/>
-                        <Txt>Teoría y revisión tema 4 y 5</Txt>
-                        <Txt>Alicia Pineda Ramírez</Txt>
                         <Txt/>
                         <Txt>Revisión</Txt>
+                        <Txt>Alicia Pineda Ramírez</Txt>
                         <Txt>Aldo Jiménez Arteaga</Txt>
                         <Txt/>
                         <Txt>Coordinación</Txt>

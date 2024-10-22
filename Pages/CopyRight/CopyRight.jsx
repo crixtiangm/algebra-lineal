@@ -26,7 +26,6 @@ const CopyRight = ({onPressInfo}) => {
                         <Txt>Ejercicios y resolución</Txt>
                         <Txt>Rosalba Rodríguez Chávez</Txt>
                         <Txt/>
-                        <Txt/>
                         <Txt>Revisión</Txt>
                         <Txt>Alicia Pineda Ramírez</Txt>
                         <Txt>Aldo Jiménez Arteaga</Txt>

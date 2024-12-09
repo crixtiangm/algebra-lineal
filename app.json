@@ -3,6 +3,7 @@
     "jsEngine": "hermes",
     "name": "ÁlgebraLinealApp",
     "slug": "algebra-lineal",
+    "newArchEnabled": true,
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon-algebra-lineal.png",
@@ -41,6 +42,9 @@
     },
     "updates": {
       "url": "https://u.expo.dev/a851dd6e-c7fa-4719-9e85-39a6f08fc282"
-    }
+    },
+    "plugins": [
+      "expo-font"
+    ]
   }
 }
